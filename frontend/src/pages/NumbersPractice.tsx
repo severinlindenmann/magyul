@@ -55,8 +55,8 @@ const NumbersPractice: React.FC<Props> = ({ language, onBack }) => {
   const translations = {
     en: {
       title: 'Numbers Practice',
-      translate: 'Translate this number:',
-      translateReverse: 'Write in Hungarian:',
+      translate: 'Write this number in Hungarian:',
+      translateReverse: 'Translate to English:',
       yourAnswer: 'Your answer',
       check: 'Check',
       next: 'Next',
@@ -72,8 +72,8 @@ const NumbersPractice: React.FC<Props> = ({ language, onBack }) => {
     },
     de: {
       title: 'Zahlen Übung',
-      translate: 'Übersetze diese Zahl:',
-      translateReverse: 'Schreibe auf Ungarisch:',
+      translate: 'Schreibe diese Zahl auf Ungarisch:',
+      translateReverse: 'Übersetze auf Deutsch:',
       yourAnswer: 'Deine Antwort',
       check: 'Prüfen',
       next: 'Weiter',
@@ -129,18 +129,20 @@ const NumbersPractice: React.FC<Props> = ({ language, onBack }) => {
     let normalizedCorrect: string;
     
     if (reverseMode) {
-      correctWord = currentNumber.word_hu;
-      normalizedAnswer = normalizeHungarian(answer);
-      normalizedCorrect = normalizeHungarian(correctWord);
-    } else {
+      // Reverse mode: Hungarian -> EN/DE
       correctWord = currentLanguage === 'en' ? currentNumber.word_en : currentNumber.word_de;
       if (currentLanguage === 'de') {
         normalizedAnswer = normalizeGerman(answer);
         normalizedCorrect = normalizeGerman(correctWord);
       } else {
-        normalizedAnswer = normalizeHungarian(answer);
-        normalizedCorrect = normalizeHungarian(correctWord);
+        normalizedAnswer = answer.toLowerCase().trim();
+        normalizedCorrect = correctWord.toLowerCase().trim();
       }
+    } else {
+      // Normal mode: Number -> Hungarian
+      correctWord = currentNumber.word_hu;
+      normalizedAnswer = normalizeHungarian(answer);
+      normalizedCorrect = normalizeHungarian(correctWord);
     }
     
     const result = normalizedAnswer === normalizedCorrect;
@@ -296,13 +298,13 @@ const NumbersPractice: React.FC<Props> = ({ language, onBack }) => {
               textAlign: 'center'
             }}>
               {reverseMode 
-                ? (currentLanguage === 'en' ? currentNumber.word_en : currentNumber.word_de)
+                ? currentNumber.word_hu
                 : currentNumber.number
               }
             </Typography>
-            {!reverseMode && (
+            {reverseMode && (
               <Typography variant="h6" sx={{ textAlign: 'center', color: 'text.secondary', fontStyle: 'italic' }}>
-                {currentNumber.word_hu}
+                ({currentNumber.number})
               </Typography>
             )}
           </Box>
@@ -324,8 +326,8 @@ const NumbersPractice: React.FC<Props> = ({ language, onBack }) => {
                 <Typography variant="body2">
                   {t.correctAnswer} <strong>
                     {reverseMode 
-                      ? currentNumber.word_hu 
-                      : (currentLanguage === 'en' ? currentNumber.word_en : currentNumber.word_de)
+                      ? (currentLanguage === 'en' ? currentNumber.word_en : currentNumber.word_de)
+                      : currentNumber.word_hu
                     }
                   </strong>
                 </Typography>

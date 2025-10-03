@@ -6,11 +6,13 @@ import MenuBookIcon from '@mui/icons-material/MenuBook';
 import SpellcheckIcon from '@mui/icons-material/Spellcheck';
 import SchoolIcon from '@mui/icons-material/School';
 import NumbersIcon from '@mui/icons-material/Numbers';
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import LanguageSelection from './pages/LanguageSelection';
 import VocabularyPractice from './pages/VocabularyPractice';
 import VerbConjugation from './pages/VerbConjugation';
 import GrammarGuide from './pages/GrammarGuide';
 import NumbersPractice from './pages/NumbersPractice';
+import MinigameWordMatch from './pages/MinigameWordMatch';
 import Footer from './components/Footer';
 
 const theme = createTheme({
@@ -24,7 +26,7 @@ const theme = createTheme({
   },
 });
 
-type Page = 'language' | 'menu' | 'vocabulary' | 'verbs' | 'grammar' | 'numbers';
+type Page = 'language' | 'menu' | 'vocabulary' | 'verbs' | 'grammar' | 'numbers' | 'minigame';
 type Language = 'en' | 'de';
 
 function App() {
@@ -47,7 +49,8 @@ function App() {
       vocabulary: 'Practice Vocabulary',
       verbs: 'Practice Verb Conjugation',
       numbers: 'Practice Numbers',
-      grammar: 'Grammar Guide'
+      grammar: 'Grammar Guide',
+      minigame: 'Word Match Minigame'
     },
     de: {
       title: 'Magyul',
@@ -55,7 +58,8 @@ function App() {
       vocabulary: 'Vokabeln üben',
       verbs: 'Verbkonjugation üben',
       numbers: 'Zahlen üben',
-      grammar: 'Grammatik Leitfaden'
+      grammar: 'Grammatik Leitfaden',
+      minigame: 'Wort-Zuordnungs-Minispiel'
     }
   };
 
@@ -183,6 +187,28 @@ function App() {
                     variant="contained"
                     size="large"
                     fullWidth
+                    onClick={() => setCurrentPage('minigame')}
+                    startIcon={<SportsEsportsIcon />}
+                    sx={{
+                      py: 2.5,
+                      fontSize: '1.1rem',
+                      fontWeight: 600,
+                      background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+                      boxShadow: '0 4px 15px rgba(245, 87, 108, 0.4)',
+                      '&:hover': {
+                        background: 'linear-gradient(135deg, #e080e8 0%, #e04858 100%)',
+                        boxShadow: '0 6px 20px rgba(245, 87, 108, 0.6)',
+                        transform: 'translateY(-2px)',
+                      },
+                      transition: 'all 0.3s ease',
+                    }}
+                  >
+                    {t.minigame}
+                  </Button>
+                  <Button
+                    variant="contained"
+                    size="large"
+                    fullWidth
                     onClick={() => setCurrentPage('grammar')}
                     startIcon={<SchoolIcon />}
                     sx={{
@@ -219,6 +245,10 @@ function App() {
 
       {currentPage === 'numbers' && (
         <NumbersPractice language={selectedLanguage} onBack={handleBackToMenu} />
+      )}
+
+      {currentPage === 'minigame' && (
+        <MinigameWordMatch language={selectedLanguage} onBack={handleBackToMenu} />
       )}
 
       {currentPage === 'grammar' && (

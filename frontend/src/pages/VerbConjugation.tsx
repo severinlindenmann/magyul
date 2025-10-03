@@ -312,7 +312,7 @@ const VerbConjugation: React.FC<Props> = ({ language, onBack }) => {
               fontStyle: 'italic',
               mb: 1.5
             }}>
-              ({exercise.verb.meaning_de})
+              ({currentLanguage === 'en' ? exercise.verb.meaning_en : exercise.verb.meaning_de})
             </Typography>
             
             {/* Verb Type Indicator */}

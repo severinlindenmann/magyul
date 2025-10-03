@@ -1,8 +1,5 @@
-import { db } from '../db/database';
-
 // Local storage keys for progress tracking
 const PROGRESS_KEY = 'magyul_progress';
-const SETTINGS_KEY = 'magyul_settings';
 
 // Types for our local data
 interface VocabularyWord {
@@ -26,6 +23,14 @@ interface Verb {
   };
 }
 
+interface NumberWord {
+  id: number;
+  number: number;
+  word_hu: string;
+  word_en: string;
+  word_de: string;
+}
+
 interface UserProgress {
   wordId: number;
   exerciseType: string;
@@ -38,13 +43,24 @@ interface UserProgress {
   totalAnswers: number;
 }
 
-// Mock network connectivity
-const isOnline = navigator.onLine;
+// Session-based word cycling for smart repetition
+interface WordCycleState {
+  wordId: number;
+  skipCount: number; // How many times to skip this word
+  wrongCount: number; // Track consecutive wrong answers
+}
 
 class ApiService {
   private static vocabularyData: VocabularyWord[] = [];
   private static verbData: Verb[] = [];
+  private static numbersData: NumberWord[] = [];
   private static initialized = false;
+  
+  // Session-based cycling (resets on page refresh)
+  private static vocabularyCycle: WordCycleState[] = [];
+  private static verbCycle: WordCycleState[] = [];
+  private static vocabularyUsedInSession: Set<number> = new Set();
+  private static verbUsedInSession: Set<number> = new Set();
 
   // Initialize data from JSON files
   static async initialize() {
@@ -53,16 +69,45 @@ class ApiService {
     try {
       // Load vocabulary data
       const vocabResponse = await fetch('/data/vocabulary.json');
-      this.vocabularyData = await vocabResponse.json();
+      if (!vocabResponse.ok) {
+        throw new Error(`Failed to fetch vocabulary: ${vocabResponse.status}`);
+      }
+      const vocabText = await vocabResponse.text();
+      if (!vocabText || vocabText.trim() === '') {
+        throw new Error('Vocabulary data is empty');
+      }
+      this.vocabularyData = JSON.parse(vocabText);
       
       // Load verb data
       const verbResponse = await fetch('/data/verbs.json');
-      this.verbData = await verbResponse.json();
+      if (!verbResponse.ok) {
+        throw new Error(`Failed to fetch verbs: ${verbResponse.status}`);
+      }
+      const verbText = await verbResponse.text();
+      if (!verbText || verbText.trim() === '') {
+        throw new Error('Verb data is empty');
+      }
+      this.verbData = JSON.parse(verbText);
+      
+      // Load numbers data
+      const numbersResponse = await fetch('/data/numbers.json');
+      if (!numbersResponse.ok) {
+        throw new Error(`Failed to fetch numbers: ${numbersResponse.status}`);
+      }
+      const numbersText = await numbersResponse.text();
+      if (!numbersText || numbersText.trim() === '') {
+        throw new Error('Numbers data is empty');
+      }
+      this.numbersData = JSON.parse(numbersText);
       
       this.initialized = true;
       console.log('ApiService initialized with local data');
     } catch (error) {
       console.error('Failed to initialize local data:', error);
+      // Initialize with empty arrays to prevent crashes
+      if (!this.vocabularyData) this.vocabularyData = [];
+      if (!this.verbData) this.verbData = [];
+      if (!this.numbersData) this.numbersData = [];
     }
   }
 
@@ -135,6 +180,58 @@ class ApiService {
     return progress;
   }
 
+  // Smart word cycling methods
+  static markWordResult(wordId: number, isCorrect: boolean, type: 'vocabulary' | 'verb') {
+    const cycle = type === 'vocabulary' ? this.vocabularyCycle : this.verbCycle;
+    const used = type === 'vocabulary' ? this.vocabularyUsedInSession : this.verbUsedInSession;
+    
+    used.add(wordId);
+    
+    let state = cycle.find(s => s.wordId === wordId);
+    if (!state) {
+      state = { wordId, skipCount: 0, wrongCount: 0 };
+      cycle.push(state);
+    }
+    
+    if (isCorrect) {
+      // Correct answer: skip this word for the rest of the cycle
+      state.skipCount = Math.max(cycle.length, 5);
+      state.wrongCount = 0;
+    } else {
+      // Wrong answer: bring back after 3 steps
+      state.skipCount = 3;
+      state.wrongCount++;
+    }
+  }
+  
+  static getAvailableWords(type: 'vocabulary' | 'verb'): number[] {
+    const data = type === 'vocabulary' ? this.vocabularyData : this.verbData;
+    const cycle = type === 'vocabulary' ? this.vocabularyCycle : this.verbCycle;
+    const used = type === 'vocabulary' ? this.vocabularyUsedInSession : this.verbUsedInSession;
+    
+    // Decrease skip counts
+    cycle.forEach(state => {
+      if (state.skipCount > 0) state.skipCount--;
+    });
+    
+    // Get words that can be shown (skipCount === 0)
+    const availableIds = new Set(data.map(w => w.id));
+    cycle.forEach(state => {
+      if (state.skipCount > 0) {
+        availableIds.delete(state.wordId);
+      }
+    });
+    
+    // If all words used and no available words, reset the cycle (start new round)
+    if (availableIds.size === 0 && used.size >= data.length) {
+      cycle.length = 0;
+      used.clear();
+      return data.map(w => w.id);
+    }
+    
+    return Array.from(availableIds);
+  }
+
   // Vocabulary API methods
   static async getVocabularyExercise() {
     await this.initialize();
@@ -143,8 +240,18 @@ class ApiService {
       throw new Error('No vocabulary data available');
     }
 
-    // Pick a random word
-    const word = this.vocabularyData[Math.floor(Math.random() * this.vocabularyData.length)];
+    // Get available word IDs with smart cycling
+    const availableIds = this.getAvailableWords('vocabulary');
+    const availableWords = this.vocabularyData.filter(w => availableIds.includes(w.id));
+    
+    if (availableWords.length === 0) {
+      // Fallback to any word if cycling logic fails
+      const word = this.vocabularyData[Math.floor(Math.random() * this.vocabularyData.length)];
+      return { word };
+    }
+
+    // Pick a random word from available words
+    const word = availableWords[Math.floor(Math.random() * availableWords.length)];
     
     // Generate different exercise types
     const exerciseTypes = ['hu_to_de', 'de_to_hu'];
@@ -227,7 +334,14 @@ class ApiService {
       throw new Error('No verb data available');
     }
 
-    const verb = this.verbData[Math.floor(Math.random() * this.verbData.length)];
+    // Get available verb IDs with smart cycling
+    const availableIds = this.getAvailableWords('verb');
+    const availableVerbs = this.verbData.filter(v => availableIds.includes(v.id));
+    
+    const verb = availableVerbs.length > 0
+      ? availableVerbs[Math.floor(Math.random() * availableVerbs.length)]
+      : this.verbData[Math.floor(Math.random() * this.verbData.length)];
+    
     const tenses = ['present', 'past', 'future'];
     const persons = ['en', 'te', 'o', 'mi', 'ti', 'ok'];
     
@@ -319,7 +433,7 @@ class ApiService {
     const now = new Date();
     const dueItems = [];
     
-    for (const [key, progress] of Object.entries(allProgress)) {
+    for (const progress of Object.values(allProgress)) {
       const nextReview = new Date(progress.nextReviewDate);
       if (nextReview <= now) {
         const word = this.vocabularyData.find(w => w.id === progress.wordId);
@@ -372,3 +486,5 @@ export const checkVocabularyAnswer = (wordId: number, userAnswer: string) => {
   return userAnswer.trim().toLowerCase() === word.word_de.trim().toLowerCase();
 };
 export const getConjugationExercise = () => ApiService.getConjugationExercise();
+export const markWordResult = (wordId: number, isCorrect: boolean, type: 'vocabulary' | 'verb') => 
+  ApiService.markWordResult(wordId, isCorrect, type);

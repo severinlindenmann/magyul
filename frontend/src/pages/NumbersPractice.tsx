@@ -1,13 +1,19 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Container, Box, Typography, TextField, Button, Card, CardContent, Chip, Alert, LinearProgress, ToggleButton, ToggleButtonGroup } from '@mui/material';
+import { Container, Box, Typography, TextField, Button, Card, CardContent, Alert, LinearProgress, ToggleButton, ToggleButtonGroup } from '@mui/material';
 import SwapHorizIcon from '@mui/icons-material/SwapHoriz';
 import LanguageIcon from '@mui/icons-material/Language';
-import { getVocabularyExercise, markWordResult } from '../services/api';
-
 
 interface Props {
   language: 'en' | 'de';
   onBack: () => void;
+}
+
+interface NumberData {
+  id: number;
+  number: number;
+  word_hu: string;
+  word_en: string;
+  word_de: string;
 }
 
 // Helper function to normalize Hungarian text (remove accents and convert to lowercase)
@@ -30,12 +36,13 @@ const normalizeHungarian = (text: string): string => {
 const normalizeGerman = (text: string): string => {
   return text
     .toLowerCase()
-    .replace(/ß/g, 'ss')  // Replace ß with ss for Swiss German compatibility
+    .replace(/ß/g, 'ss')
     .trim();
 };
 
-const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
-  const [exercise, setExercise] = useState<any>(null);
+const NumbersPractice: React.FC<Props> = ({ language, onBack }) => {
+  const [numbers, setNumbers] = useState<NumberData[]>([]);
+  const [currentNumber, setCurrentNumber] = useState<NumberData | null>(null);
   const [answer, setAnswer] = useState('');
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -47,8 +54,8 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
 
   const translations = {
     en: {
-      title: 'Vocabulary Practice',
-      translate: 'Translate this word:',
+      title: 'Numbers Practice',
+      translate: 'Translate this number:',
       translateReverse: 'Write in Hungarian:',
       yourAnswer: 'Your answer',
       check: 'Check',
@@ -64,8 +71,8 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
       normalMode: 'Normal Mode'
     },
     de: {
-      title: 'Vokabel Übung',
-      translate: 'Übersetze dieses Wort:',
+      title: 'Zahlen Übung',
+      translate: 'Übersetze diese Zahl:',
       translateReverse: 'Schreibe auf Ungarisch:',
       yourAnswer: 'Deine Antwort',
       check: 'Prüfen',
@@ -84,31 +91,49 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
 
   const t = translations[currentLanguage];
 
+  const loadNumbers = async () => {
+    try {
+      const response = await fetch('/data/numbers.json');
+      const data = await response.json();
+      setNumbers(data);
+      return data;
+    } catch (error) {
+      console.error('Error loading numbers:', error);
+      return [];
+    }
+  };
+
+  const getRandomNumber = (numbersData: NumberData[]) => {
+    const randomIndex = Math.floor(Math.random() * numbersData.length);
+    return numbersData[randomIndex];
+  };
+
   const loadExercise = async () => {
     setLoading(true);
-    const ex = await getVocabularyExercise();
-    setExercise(ex);
+    let numbersData = numbers;
+    if (numbersData.length === 0) {
+      numbersData = await loadNumbers();
+    }
+    const randomNumber = getRandomNumber(numbersData);
+    setCurrentNumber(randomNumber);
     setAnswer('');
     setShowResult(false);
     setLoading(false);
   };
 
   const handleCheck = useCallback(() => {
-    if (!exercise || !answer.trim()) return;
+    if (!currentNumber || !answer.trim()) return;
     
-    // In reverse mode: show English/German word, user writes Hungarian
-    // In normal mode: show Hungarian word, user writes English/German
     let correctWord: string;
     let normalizedAnswer: string;
     let normalizedCorrect: string;
     
     if (reverseMode) {
-      correctWord = exercise.word.word_hu;
+      correctWord = currentNumber.word_hu;
       normalizedAnswer = normalizeHungarian(answer);
       normalizedCorrect = normalizeHungarian(correctWord);
     } else {
-      correctWord = currentLanguage === 'en' ? exercise.word.word_en : exercise.word.word_de;
-      // For German, use Swiss German normalization; for English and Hungarian, use Hungarian normalization
+      correctWord = currentLanguage === 'en' ? currentNumber.word_en : currentNumber.word_de;
       if (currentLanguage === 'de') {
         normalizedAnswer = normalizeGerman(answer);
         normalizedCorrect = normalizeGerman(correctWord);
@@ -122,17 +147,12 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
     setIsCorrect(result);
     setShowResult(true);
     
-    // Mark the word result for smart cycling
-    if (exercise?.word?.id) {
-      markWordResult(exercise.word.id, result, 'vocabulary');
-    }
-    
     if (result) {
       setCorrectCount(prev => prev + 1);
     } else {
       setWrongCount(prev => prev + 1);
     }
-  }, [exercise, answer, reverseMode, currentLanguage]);
+  }, [currentNumber, answer, reverseMode, currentLanguage]);
 
   const handleNext = useCallback(() => {
     loadExercise();
@@ -154,7 +174,6 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
           handleNext();
         }
       }
-      // Allow Tab to go to next word after correct answer
       if (e.key === 'Tab' && showResult && isCorrect) {
         e.preventDefault();
         handleNext();
@@ -175,14 +194,8 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
     );
   }
 
-  if (!exercise) {
-    return (
-      <Container maxWidth="sm">
-        <Box sx={{ mt: 4 }}>
-          <Typography>Loading...</Typography>
-        </Box>
-      </Container>
-    );
+  if (!currentNumber) {
+    return null;
   }
 
   return (
@@ -195,8 +208,8 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
         py: 2,
       }}
     >
-      <Container maxWidth="sm" sx={{ px: { xs: 1, sm: 3 } }}>
-      <Box sx={{ mt: { xs: 2, sm: 4 }, mb: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: { xs: 1, sm: 2 } }}>
+    <Container maxWidth="sm" sx={{ px: { xs: 1, sm: 3 } }}>
+      <Box sx={{ mt: { xs: 2, sm: 4 }, mb: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Button 
           variant="contained" 
           onClick={onBack} 
@@ -207,48 +220,46 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
             fontWeight: 600,
             '&:hover': {
               backgroundColor: '#ffffff',
-            },
+            }
           }}
         >
           ← {t.back}
         </Button>
-        
-        <Box sx={{ display: 'flex', gap: { xs: 1, sm: 2 }, alignItems: 'center' }}>
-          {/* Language Switcher */}
-          <ToggleButtonGroup
-            value={currentLanguage}
-            exclusive
-            onChange={(e, newLang) => newLang && setCurrentLanguage(newLang)}
-            size="small"
-            sx={{
-              backgroundColor: 'rgba(255, 255, 255, 0.95)',
-              '& .MuiToggleButton-root': {
-                color: '#667eea',
-                fontWeight: 600,
-                borderColor: 'rgba(102, 126, 234, 0.3)',
-                '&.Mui-selected': {
-                  backgroundColor: '#667eea',
-                  color: '#ffffff',
-                  '&:hover': {
-                    backgroundColor: '#5568d3',
-                  },
-                },
+
+        {/* Language Switcher */}
+        <ToggleButtonGroup
+          value={currentLanguage}
+          exclusive
+          onChange={(e, newLang) => newLang && setCurrentLanguage(newLang)}
+          size="small"
+          sx={{
+            backgroundColor: 'rgba(255, 255, 255, 0.95)',
+            borderRadius: 1,
+            '& .MuiToggleButton-root': {
+              color: '#667eea',
+              borderColor: 'rgba(102, 126, 234, 0.3)',
+              '&.Mui-selected': {
+                backgroundColor: '#667eea',
+                color: '#ffffff',
                 '&:hover': {
-                  backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                },
+                  backgroundColor: '#5568d3',
+                }
               },
-            }}
-          >
-            <ToggleButton value="en" sx={{ px: { xs: 1, sm: 2 } }}>
-              <LanguageIcon sx={{ mr: 0.5, fontSize: '1rem' }} />
-              EN
-            </ToggleButton>
-            <ToggleButton value="de" sx={{ px: { xs: 1, sm: 2 } }}>
-              <LanguageIcon sx={{ mr: 0.5, fontSize: '1rem' }} />
-              DE
+              '&:hover': {
+                backgroundColor: 'rgba(102, 126, 234, 0.1)',
+              }
+            }
+          }}
+        >
+          <ToggleButton value="en" sx={{ px: { xs: 1, sm: 2 } }}>
+            <LanguageIcon sx={{ mr: 0.5, fontSize: '1rem' }} />
+            EN
+          </ToggleButton>
+          <ToggleButton value="de" sx={{ px: { xs: 1, sm: 2 } }}>
+            <LanguageIcon sx={{ mr: 0.5, fontSize: '1rem' }} />
+            DE
           </ToggleButton>
         </ToggleButtonGroup>
-        </Box>
       </Box>
 
       <Box sx={{ 
@@ -277,17 +288,22 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
             <Typography variant="body2" color="text.secondary" gutterBottom>
               {reverseMode ? t.translateReverse : t.translate}
             </Typography>
-            <Typography variant="h4" sx={{ my: 2, fontSize: { xs: '1.75rem', sm: '2.125rem' } }}>
+            <Typography variant="h2" sx={{ 
+              my: 2, 
+              fontSize: { xs: '3rem', sm: '4rem' },
+              fontWeight: 800,
+              color: '#667eea',
+              textAlign: 'center'
+            }}>
               {reverseMode 
-                ? (currentLanguage === 'en' ? exercise.word.word_en : exercise.word.word_de)
-                : exercise.word.word_hu
+                ? (currentLanguage === 'en' ? currentNumber.word_en : currentNumber.word_de)
+                : currentNumber.number
               }
             </Typography>
-            {exercise.word.category && (
-              <Chip 
-                label={currentLanguage === 'en' ? exercise.word.category_en : exercise.word.category_de} 
-                size="small" 
-              />
+            {!reverseMode && (
+              <Typography variant="h6" sx={{ textAlign: 'center', color: 'text.secondary', fontStyle: 'italic' }}>
+                {currentNumber.word_hu}
+              </Typography>
             )}
           </Box>
 
@@ -308,8 +324,8 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
                 <Typography variant="body2">
                   {t.correctAnswer} <strong>
                     {reverseMode 
-                      ? exercise.word.word_hu 
-                      : (currentLanguage === 'en' ? exercise.word.word_en : exercise.word.word_de)
+                      ? currentNumber.word_hu 
+                      : (currentLanguage === 'en' ? currentNumber.word_en : currentNumber.word_de)
                     }
                   </strong>
                 </Typography>
@@ -395,4 +411,4 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
   );
 };
 
-export default VocabularyPractice;
+export default NumbersPractice;

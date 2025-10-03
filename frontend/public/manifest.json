@@ -1,7 +1,7 @@
 {
   "short_name": "Magyul",
-  "name": "Magyul - Hungarian Language Learning",
-  "description": "Learn Hungarian vocabulary and verb conjugation with spaced repetition",
+  "name": "Magyul - Learn Hungarian Language",
+  "description": "Master Hungarian with interactive vocabulary practice, verb conjugations, and comprehensive grammar guides. Free language learning app with offline support.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,23 +9,42 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "favicon-16x16.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "16x16"
     },
     {
-      "src": "logo512.png",
+      "src": "favicon-32x32.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "32x32"
+    },
+    {
+      "src": "android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#d32f2f",
+  "theme_color": "#1976d2",
   "background_color": "#ffffff",
   "orientation": "portrait-primary",
-  "categories": ["education", "productivity"],
+  "categories": ["education", "productivity", "languages"],
   "lang": "en",
   "scope": "/",
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "screenshots": []
 }

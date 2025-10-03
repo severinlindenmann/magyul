@@ -6,62 +6,66 @@
     "category": "irregular",
     "conjugations": {
       "present": {
-        "en": "vagyok",
+        "én": "vagyok",
         "te": "vagy",
-        "o": "van",
+        "ő": "van",
         "mi": "vagyunk",
         "ti": "vagytok",
-        "ok": "vannak"
+        "ők": "vannak"
       },
       "past": {
-        "en": "voltam",
+        "én": "voltam",
         "te": "voltál",
-        "o": "volt",
+        "ő": "volt",
         "mi": "voltunk",
         "ti": "voltatok",
-        "ok": "voltak"
+        "ők": "voltak"
       },
       "future": {
-        "en": "leszek",
+        "én": "leszek",
         "te": "leszel",
-        "o": "lesz",
+        "ő": "lesz",
         "mi": "leszünk",
         "ti": "lesztek",
-        "ok": "lesznek"
+        "ők": "lesznek"
       }
-    }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
   },
   {
     "id": 2,
     "infinitive": "menni",
     "meaning_de": "gehen",
-    "category": "regular",
+    "category": "irregular",
     "conjugations": {
       "present": {
-        "en": "megyek",
+        "én": "megyek",
         "te": "mész",
-        "o": "megy",
+        "ő": "megy",
         "mi": "megyünk",
         "ti": "mentek",
-        "ok": "mennek"
+        "ők": "mennek"
       },
       "past": {
-        "en": "mentem",
+        "én": "mentem",
         "te": "mentél",
-        "o": "ment",
+        "ő": "ment",
         "mi": "mentünk",
         "ti": "mentetek",
-        "ok": "mentek"
+        "ők": "mentek"
       },
       "future": {
-        "en": "fogok menni",
+        "én": "fogok menni",
         "te": "fogsz menni",
-        "o": "fog menni",
+        "ő": "fog menni",
         "mi": "fogunk menni",
         "ti": "fogtok menni",
-        "ok": "fognak menni"
+        "ők": "fognak menni"
       }
-    }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
   },
   {
     "id": 3,
@@ -70,30 +74,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "csinálok",
+        "én": "csinálok",
         "te": "csinálsz",
-        "o": "csinál",
+        "ő": "csinál",
         "mi": "csinálunk",
         "ti": "csináltok",
-        "ok": "csinálnak"
+        "ők": "csinálnak"
       },
       "past": {
-        "en": "csináltam",
+        "én": "csináltam",
         "te": "csináltál",
-        "o": "csinált",
+        "ő": "csinált",
         "mi": "csináltunk",
         "ti": "csináltatok",
-        "ok": "csináltak"
+        "ők": "csináltak"
       },
       "future": {
-        "en": "fogok csinálni",
+        "én": "fogok csinálni",
         "te": "fogsz csinálni",
-        "o": "fog csinálni",
+        "ő": "fog csinálni",
         "mi": "fogunk csinálni",
         "ti": "fogtok csinálni",
-        "ok": "fognak csinálni"
+        "ők": "fognak csinálni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 4,
@@ -102,30 +108,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "látok",
+        "én": "látok",
         "te": "látsz",
-        "o": "lát",
+        "ő": "lát",
         "mi": "látunk",
         "ti": "láttok",
-        "ok": "látnak"
+        "ők": "látnak"
       },
       "past": {
-        "en": "láttam",
+        "én": "láttam",
         "te": "láttál",
-        "o": "látott",
+        "ő": "látott",
         "mi": "láttunk",
         "ti": "láttatok",
-        "ok": "láttak"
+        "ők": "láttak"
       },
       "future": {
-        "en": "fogok látni",
+        "én": "fogok látni",
         "te": "fogsz látni",
-        "o": "fog látni",
+        "ő": "fog látni",
         "mi": "fogunk látni",
         "ti": "fogtok látni",
-        "ok": "fognak látni"
+        "ők": "fognak látni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 5,
@@ -134,30 +142,32 @@
     "category": "irregular",
     "conjugations": {
       "present": {
-        "en": "tudok",
+        "én": "tudok",
         "te": "tudsz",
-        "o": "tud",
+        "ő": "tud",
         "mi": "tudunk",
         "ti": "tudtok",
-        "ok": "tudnak"
+        "ők": "tudnak"
       },
       "past": {
-        "en": "tudtam",
+        "én": "tudtam",
         "te": "tudtál",
-        "o": "tudott",
+        "ő": "tudott",
         "mi": "tudtunk",
         "ti": "tudtatok",
-        "ok": "tudtak"
+        "ők": "tudtak"
       },
       "future": {
-        "en": "fogok tudni",
+        "én": "fogok tudni",
         "te": "fogsz tudni",
-        "o": "fog tudni",
+        "ő": "fog tudni",
         "mi": "fogunk tudni",
         "ti": "fogtok tudni",
-        "ok": "fognak tudni"
+        "ők": "fognak tudni"
       }
-    }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
   },
   {
     "id": 6,
@@ -166,30 +176,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "szeretek",
+        "én": "szeretek",
         "te": "szeretsz",
-        "o": "szeret",
+        "ő": "szeret",
         "mi": "szeretünk",
         "ti": "szerettek",
-        "ok": "szeretnek"
+        "ők": "szeretnek"
       },
       "past": {
-        "en": "szerettem",
+        "én": "szerettem",
         "te": "szerettél",
-        "o": "szeretett",
+        "ő": "szeretett",
         "mi": "szerettünk",
         "ti": "szerettetek",
-        "ok": "szerettek"
+        "ők": "szerettek"
       },
       "future": {
-        "en": "fogok szeretni",
+        "én": "fogok szeretni",
         "te": "fogsz szeretni",
-        "o": "fog szeretni",
+        "ő": "fog szeretni",
         "mi": "fogunk szeretni",
         "ti": "fogtok szeretni",
-        "ok": "fognak szeretni"
+        "ők": "fognak szeretni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 7,
@@ -198,30 +210,32 @@
     "category": "irregular",
     "conjugations": {
       "present": {
-        "en": "veszek",
+        "én": "veszek",
         "te": "veszel",
-        "o": "vesz",
+        "ő": "vesz",
         "mi": "veszünk",
         "ti": "vesztek",
-        "ok": "vesznek"
+        "ők": "vesznek"
       },
       "past": {
-        "en": "vettem",
+        "én": "vettem",
         "te": "vettél",
-        "o": "vett",
+        "ő": "vett",
         "mi": "vettünk",
         "ti": "vettetek",
-        "ok": "vettek"
+        "ők": "vettek"
       },
       "future": {
-        "en": "fogok venni",
+        "én": "fogok venni",
         "te": "fogsz venni",
-        "o": "fog venni",
+        "ő": "fog venni",
         "mi": "fogunk venni",
         "ti": "fogtok venni",
-        "ok": "fognak venni"
+        "ők": "fognak venni"
       }
-    }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
   },
   {
     "id": 8,
@@ -230,30 +244,32 @@
     "category": "irregular",
     "conjugations": {
       "present": {
-        "en": "eszem",
+        "én": "eszem",
         "te": "eszel",
-        "o": "eszik",
+        "ő": "eszik",
         "mi": "eszünk",
         "ti": "esztek",
-        "ok": "esznek"
+        "ők": "esznek"
       },
       "past": {
-        "en": "ettem",
+        "én": "ettem",
         "te": "ettél",
-        "o": "evett",
+        "ő": "evett",
         "mi": "ettünk",
         "ti": "ettetek",
-        "ok": "ettek"
+        "ők": "ettek"
       },
       "future": {
-        "en": "fogok enni",
+        "én": "fogok enni",
         "te": "fogsz enni",
-        "o": "fog enni",
+        "ő": "fog enni",
         "mi": "fogunk enni",
         "ti": "fogtok enni",
-        "ok": "fognak enni"
+        "ők": "fognak enni"
       }
-    }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
   },
   {
     "id": 9,
@@ -262,30 +278,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "beszélek",
+        "én": "beszélek",
         "te": "beszélsz",
-        "o": "beszél",
+        "ő": "beszél",
         "mi": "beszélünk",
         "ti": "beszéltek",
-        "ok": "beszélnek"
+        "ők": "beszélnek"
       },
       "past": {
-        "en": "beszéltem",
+        "én": "beszéltem",
         "te": "beszéltél",
-        "o": "beszélt",
+        "ő": "beszélt",
         "mi": "beszéltünk",
         "ti": "beszéltetek",
-        "ok": "beszéltek"
+        "ők": "beszéltek"
       },
       "future": {
-        "en": "fogok beszélni",
+        "én": "fogok beszélni",
         "te": "fogsz beszélni",
-        "o": "fog beszélni",
+        "ő": "fog beszélni",
         "mi": "fogunk beszélni",
         "ti": "fogtok beszélni",
-        "ok": "fognak beszélni"
+        "ők": "fognak beszélni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 10,
@@ -294,30 +312,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "dolgozom",
+        "én": "dolgozom",
         "te": "dolgozol",
-        "o": "dolgozik",
+        "ő": "dolgozik",
         "mi": "dolgozunk",
         "ti": "dolgoztok",
-        "ok": "dolgoznak"
+        "ők": "dolgoznak"
       },
       "past": {
-        "en": "dolgoztam",
+        "én": "dolgoztam",
         "te": "dolgoztál",
-        "o": "dolgozott",
+        "ő": "dolgozott",
         "mi": "dolgoztunk",
         "ti": "dolgoztatok",
-        "ok": "dolgoztak"
+        "ők": "dolgoztak"
       },
       "future": {
-        "en": "fogok dolgozni",
+        "én": "fogok dolgozni",
         "te": "fogsz dolgozni",
-        "o": "fog dolgozni",
+        "ő": "fog dolgozni",
         "mi": "fogunk dolgozni",
         "ti": "fogtok dolgozni",
-        "ok": "fognak dolgozni"
+        "ők": "fognak dolgozni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 11,
@@ -326,30 +346,32 @@
     "category": "irregular",
     "conjugations": {
       "present": {
-        "en": "iszom",
+        "én": "iszom",
         "te": "iszol",
-        "o": "iszik",
+        "ő": "iszik",
         "mi": "iszunk",
         "ti": "isztok",
-        "ok": "isznak"
+        "ők": "isznak"
       },
       "past": {
-        "en": "ittam",
+        "én": "ittam",
         "te": "ittál",
-        "o": "ivott",
+        "ő": "ivott",
         "mi": "ittunk",
         "ti": "ittatok",
-        "ok": "ittak"
+        "ők": "ittak"
       },
       "future": {
-        "en": "fogok inni",
+        "én": "fogok inni",
         "te": "fogsz inni",
-        "o": "fog inni",
+        "ő": "fog inni",
         "mi": "fogunk inni",
         "ti": "fogtok inni",
-        "ok": "fognak inni"
+        "ők": "fognak inni"
       }
-    }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
   },
   {
     "id": 12,
@@ -358,30 +380,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "alszom",
+        "én": "alszom",
         "te": "alszol",
-        "o": "alszik",
+        "ő": "alszik",
         "mi": "alszunk",
-        "ti": "alusztok",
-        "ok": "alusznak"
+        "ti": "alsztok",
+        "ők": "alszanak"
       },
       "past": {
-        "en": "aludtam",
+        "én": "aludtam",
         "te": "aludtál",
-        "o": "aludt",
+        "ő": "aludt",
         "mi": "aludtunk",
         "ti": "aludtatok",
-        "ok": "aludtak"
+        "ők": "aludtak"
       },
       "future": {
-        "en": "fogok aludni",
+        "én": "fogok aludni",
         "te": "fogsz aludni",
-        "o": "fog aludni",
+        "ő": "fog aludni",
         "mi": "fogunk aludni",
         "ti": "fogtok aludni",
-        "ok": "fognak aludni"
+        "ők": "fognak aludni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 13,
@@ -390,30 +414,32 @@
     "category": "irregular",
     "conjugations": {
       "present": {
-        "en": "jövök",
+        "én": "jövök",
         "te": "jössz",
-        "o": "jön",
+        "ő": "jön",
         "mi": "jövünk",
         "ti": "jöttök",
-        "ok": "jönnek"
+        "ők": "jönnek"
       },
       "past": {
-        "en": "jöttem",
+        "én": "jöttem",
         "te": "jöttél",
-        "o": "jött",
+        "ő": "jött",
         "mi": "jöttünk",
         "ti": "jöttetek",
-        "ok": "jöttek"
+        "ők": "jöttek"
       },
       "future": {
-        "en": "fogok jönni",
+        "én": "fogok jönni",
         "te": "fogsz jönni",
-        "o": "fog jönni",
+        "ő": "fog jönni",
         "mi": "fogunk jönni",
         "ti": "fogtok jönni",
-        "ok": "fognak jönni"
+        "ők": "fognak jönni"
       }
-    }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
   },
   {
     "id": 14,
@@ -422,30 +448,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "írok",
+        "én": "írok",
         "te": "írsz",
-        "o": "ír",
+        "ő": "ír",
         "mi": "írunk",
         "ti": "írtok",
-        "ok": "írnak"
+        "ők": "írnak"
       },
       "past": {
-        "en": "írtam",
+        "én": "írtam",
         "te": "írtál",
-        "o": "írt",
+        "ő": "írt",
         "mi": "írtunk",
         "ti": "írtatok",
-        "ok": "írtak"
+        "ők": "írtak"
       },
       "future": {
-        "en": "fogok írni",
+        "én": "fogok írni",
         "te": "fogsz írni",
-        "o": "fog írni",
+        "ő": "fog írni",
         "mi": "fogunk írni",
         "ti": "fogtok írni",
-        "ok": "fognak írni"
+        "ők": "fognak írni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 15,
@@ -454,30 +482,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "olvasok",
+        "én": "olvasok",
         "te": "olvasol",
-        "o": "olvas",
+        "ő": "olvas",
         "mi": "olvasunk",
         "ti": "olvastok",
-        "ok": "olvasnak"
+        "ők": "olvasnak"
       },
       "past": {
-        "en": "olvastam",
+        "én": "olvastam",
         "te": "olvastál",
-        "o": "olvasott",
+        "ő": "olvasott",
         "mi": "olvastunk",
         "ti": "olvastatok",
-        "ok": "olvastak"
+        "ők": "olvastak"
       },
       "future": {
-        "en": "fogok olvasni",
+        "én": "fogok olvasni",
         "te": "fogsz olvasni",
-        "o": "fog olvasni",
+        "ő": "fog olvasni",
         "mi": "fogunk olvasni",
         "ti": "fogtok olvasni",
-        "ok": "fognak olvasni"
+        "ők": "fognak olvasni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 16,
@@ -486,30 +516,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "tanulok",
+        "én": "tanulok",
         "te": "tanulsz",
-        "o": "tanul",
+        "ő": "tanul",
         "mi": "tanulunk",
         "ti": "tanultok",
-        "ok": "tanulnak"
+        "ők": "tanulnak"
       },
       "past": {
-        "en": "tanultam",
+        "én": "tanultam",
         "te": "tanultál",
-        "o": "tanult",
+        "ő": "tanult",
         "mi": "tanultunk",
         "ti": "tanultatok",
-        "ok": "tanultak"
+        "ők": "tanultak"
       },
       "future": {
-        "en": "fogok tanulni",
+        "én": "fogok tanulni",
         "te": "fogsz tanulni",
-        "o": "fog tanulni",
+        "ő": "fog tanulni",
         "mi": "fogunk tanulni",
         "ti": "fogtok tanulni",
-        "ok": "fognak tanulni"
+        "ők": "fognak tanulni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 17,
@@ -518,30 +550,32 @@
     "category": "irregular",
     "conjugations": {
       "present": {
-        "en": "adok",
+        "én": "adok",
         "te": "adsz",
-        "o": "ad",
+        "ő": "ad",
         "mi": "adunk",
         "ti": "adtok",
-        "ok": "adnak"
+        "ők": "adnak"
       },
       "past": {
-        "en": "adtam",
+        "én": "adtam",
         "te": "adtál",
-        "o": "adott",
+        "ő": "adott",
         "mi": "adtunk",
         "ti": "adtatok",
-        "ok": "adtak"
+        "ők": "adtak"
       },
       "future": {
-        "en": "fogok adni",
+        "én": "fogok adni",
         "te": "fogsz adni",
-        "o": "fog adni",
+        "ő": "fog adni",
         "mi": "fogunk adni",
         "ti": "fogtok adni",
-        "ok": "fognak adni"
+        "ők": "fognak adni"
       }
-    }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
   },
   {
     "id": 18,
@@ -550,30 +584,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "kapok",
+        "én": "kapok",
         "te": "kapsz",
-        "o": "kap",
+        "ő": "kap",
         "mi": "kapunk",
         "ti": "kaptok",
-        "ok": "kapnak"
+        "ők": "kapnak"
       },
       "past": {
-        "en": "kaptam",
+        "én": "kaptam",
         "te": "kaptál",
-        "o": "kapott",
+        "ő": "kapott",
         "mi": "kaptunk",
         "ti": "kaptatok",
-        "ok": "kaptak"
+        "ők": "kaptak"
       },
       "future": {
-        "en": "fogok kapni",
+        "én": "fogok kapni",
         "te": "fogsz kapni",
-        "o": "fog kapni",
+        "ő": "fog kapni",
         "mi": "fogunk kapni",
         "ti": "fogtok kapni",
-        "ok": "fognak kapni"
+        "ők": "fognak kapni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 19,
@@ -582,30 +618,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "mondok",
+        "én": "mondok",
         "te": "mondasz",
-        "o": "mond",
+        "ő": "mond",
         "mi": "mondunk",
         "ti": "mondotok",
-        "ok": "mondanak"
+        "ők": "mondanak"
       },
       "past": {
-        "en": "mondtam",
+        "én": "mondtam",
         "te": "mondtál",
-        "o": "mondott",
+        "ő": "mondott",
         "mi": "mondtunk",
         "ti": "mondtatok",
-        "ok": "mondtak"
+        "ők": "mondtak"
       },
       "future": {
-        "en": "fogok mondani",
+        "én": "fogok mondani",
         "te": "fogsz mondani",
-        "o": "fog mondani",
+        "ő": "fog mondani",
         "mi": "fogunk mondani",
         "ti": "fogtok mondani",
-        "ok": "fognak mondani"
+        "ők": "fognak mondani"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 20,
@@ -614,30 +652,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "hallok",
+        "én": "hallok",
         "te": "hallasz",
-        "o": "hall",
+        "ő": "hall",
         "mi": "hallunk",
         "ti": "hallotok",
-        "ok": "hallanak"
+        "ők": "hallanak"
       },
       "past": {
-        "en": "hallottam",
+        "én": "hallottam",
         "te": "hallottál",
-        "o": "hallott",
+        "ő": "hallott",
         "mi": "hallottunk",
         "ti": "hallottatok",
-        "ok": "hallottak"
+        "ők": "hallottak"
       },
       "future": {
-        "en": "fogok hallani",
+        "én": "fogok hallani",
         "te": "fogsz hallani",
-        "o": "fog hallani",
+        "ő": "fog hallani",
         "mi": "fogunk hallani",
         "ti": "fogtok hallani",
-        "ok": "fognak hallani"
+        "ők": "fognak hallani"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 21,
@@ -646,30 +686,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "értek",
+        "én": "értek",
         "te": "értesz",
-        "o": "ért",
+        "ő": "ért",
         "mi": "értünk",
         "ti": "értetek",
-        "ok": "értenek"
+        "ők": "értenek"
       },
       "past": {
-        "en": "értettem",
+        "én": "értettem",
         "te": "értettél",
-        "o": "értett",
+        "ő": "értett",
         "mi": "értettünk",
         "ti": "értettetek",
-        "ok": "értettek"
+        "ők": "értettek"
       },
       "future": {
-        "en": "fogok érteni",
+        "én": "fogok érteni",
         "te": "fogsz érteni",
-        "o": "fog érteni",
+        "ő": "fog érteni",
         "mi": "fogunk érteni",
         "ti": "fogtok érteni",
-        "ok": "fognak érteni"
+        "ők": "fognak érteni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 22,
@@ -678,30 +720,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "élek",
+        "én": "élek",
         "te": "élsz",
-        "o": "él",
+        "ő": "él",
         "mi": "élünk",
         "ti": "éltek",
-        "ok": "élnek"
+        "ők": "élnek"
       },
       "past": {
-        "en": "éltem",
+        "én": "éltem",
         "te": "éltél",
-        "o": "élt",
+        "ő": "élt",
         "mi": "éltünk",
         "ti": "éltetek",
-        "ok": "éltek"
+        "ők": "éltek"
       },
       "future": {
-        "en": "fogok élni",
+        "én": "fogok élni",
         "te": "fogsz élni",
-        "o": "fog élni",
+        "ő": "fog élni",
         "mi": "fogunk élni",
         "ti": "fogtok élni",
-        "ok": "fognak élni"
+        "ők": "fognak élni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 23,
@@ -710,30 +754,32 @@
     "category": "irregular",
     "conjugations": {
       "present": {
-        "en": "akarok",
+        "én": "akarok",
         "te": "akarsz",
-        "o": "akar",
+        "ő": "akar",
         "mi": "akarunk",
         "ti": "akartok",
-        "ok": "akarnak"
+        "ők": "akarnak"
       },
       "past": {
-        "en": "akartam",
+        "én": "akartam",
         "te": "akartál",
-        "o": "akart",
+        "ő": "akart",
         "mi": "akartunk",
         "ti": "akartatok",
-        "ok": "akartak"
+        "ők": "akartak"
       },
       "future": {
-        "en": "fogok akarni",
+        "én": "fogok akarni",
         "te": "fogsz akarni",
-        "o": "fog akarni",
+        "ő": "fog akarni",
         "mi": "fogunk akarni",
         "ti": "fogtok akarni",
-        "ok": "fognak akarni"
+        "ők": "fognak akarni"
       }
-    }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
   },
   {
     "id": 24,
@@ -742,30 +788,32 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "en": "találok",
+        "én": "találok",
         "te": "találsz",
-        "o": "talál",
+        "ő": "talál",
         "mi": "találunk",
         "ti": "találtok",
-        "ok": "találnak"
+        "ők": "találnak"
       },
       "past": {
-        "en": "találtam",
+        "én": "találtam",
         "te": "találtál",
-        "o": "talált",
+        "ő": "talált",
         "mi": "találtunk",
         "ti": "találtatok",
-        "ok": "találtak"
+        "ők": "találtak"
       },
       "future": {
-        "en": "fogok találni",
+        "én": "fogok találni",
         "te": "fogsz találni",
-        "o": "fog találni",
+        "ő": "fog találni",
         "mi": "fogunk találni",
         "ti": "fogtok találni",
-        "ok": "fognak találni"
+        "ők": "fognak találni"
       }
-    }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   },
   {
     "id": 25,
@@ -774,29 +822,2581 @@
     "category": "irregular",
     "conjugations": {
       "present": {
-        "en": "hiszek",
+        "én": "hiszek",
         "te": "hiszel",
-        "o": "hisz",
+        "ő": "hisz",
         "mi": "hiszünk",
         "ti": "hisztek",
-        "ok": "hisznek"
+        "ők": "hisznek"
       },
       "past": {
-        "en": "hittem",
+        "én": "hittem",
         "te": "hittél",
-        "o": "hitt",
+        "ő": "hitt",
         "mi": "hittünk",
         "ti": "hittetek",
-        "ok": "hittek"
+        "ők": "hittek"
       },
       "future": {
-        "en": "fogok hinni",
+        "én": "fogok hinni",
         "te": "fogsz hinni",
-        "o": "fog hinni",
+        "ő": "fog hinni",
         "mi": "fogunk hinni",
         "ti": "fogtok hinni",
-        "ok": "fognak hinni"
+        "ők": "fognak hinni"
       }
-    }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 26,
+    "infinitive": "kérni",
+    "meaning_de": "fragen/bitten",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "kérek",
+        "te": "kérsz",
+        "ő": "kér",
+        "mi": "kérünk",
+        "ti": "kértek",
+        "ők": "kérnek"
+      },
+      "past": {
+        "én": "kértem",
+        "te": "kértél",
+        "ő": "kért",
+        "mi": "kértünk",
+        "ti": "kértetek",
+        "ők": "kértek"
+      },
+      "future": {
+        "én": "fogok kérni",
+        "te": "fogsz kérni",
+        "ő": "fog kérni",
+        "mi": "fogunk kérni",
+        "ti": "fogtok kérni",
+        "ők": "fognak kérni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 27,
+    "infinitive": "felelnni",
+    "meaning_de": "antworten",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "felelek",
+        "te": "felelsz",
+        "ő": "felel",
+        "mi": "felelünk",
+        "ti": "feleltek",
+        "ők": "felelnek"
+      },
+      "past": {
+        "én": "feleltem",
+        "te": "feleltél",
+        "ő": "felelt",
+        "mi": "feleltünk",
+        "ti": "feleltetek",
+        "ők": "feleltek"
+      },
+      "future": {
+        "én": "fogok felelnni",
+        "te": "fogsz felelnni",
+        "ő": "fog felelnni",
+        "mi": "fogunk felelnni",
+        "ti": "fogtok felelnni",
+        "ők": "fognak felelnni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 28,
+    "infinitive": "hívni",
+    "meaning_de": "rufen/anrufen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "hívok",
+        "te": "hívsz",
+        "ő": "hív",
+        "mi": "hívunk",
+        "ti": "hívtok",
+        "ők": "hívnak"
+      },
+      "past": {
+        "én": "hívtam",
+        "te": "hívtál",
+        "ő": "hívott",
+        "mi": "hívtunk",
+        "ti": "hívtatok",
+        "ők": "hívtak"
+      },
+      "future": {
+        "én": "fogok hívni",
+        "te": "fogsz hívni",
+        "ő": "fog hívni",
+        "mi": "fogunk hívni",
+        "ti": "fogtok hívni",
+        "ők": "fognak hívni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 29,
+    "infinitive": "nézni",
+    "meaning_de": "schauen/ansehen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "nézek",
+        "te": "nézel",
+        "ő": "néz",
+        "mi": "nézünk",
+        "ti": "néztek",
+        "ők": "néznek"
+      },
+      "past": {
+        "én": "néztem",
+        "te": "néztél",
+        "ő": "nézett",
+        "mi": "néztünk",
+        "ti": "néztetek",
+        "ők": "néztek"
+      },
+      "future": {
+        "én": "fogok nézni",
+        "te": "fogsz nézni",
+        "ő": "fog nézni",
+        "mi": "fogunk nézni",
+        "ti": "fogtok nézni",
+        "ők": "fognak nézni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 30,
+    "infinitive": "keresni",
+    "meaning_de": "suchen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "keresek",
+        "te": "keresel",
+        "ő": "keres",
+        "mi": "keresünk",
+        "ti": "keresitek",
+        "ők": "keresnek"
+      },
+      "past": {
+        "én": "kerestem",
+        "te": "kerestél",
+        "ő": "keresett",
+        "mi": "kerestünk",
+        "ti": "kerestetek",
+        "ők": "kerestek"
+      },
+      "future": {
+        "én": "fogok keresni",
+        "te": "fogsz keresni",
+        "ő": "fog keresni",
+        "mi": "fogunk keresni",
+        "ti": "fogtok keresni",
+        "ők": "fognak keresni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 31,
+    "infinitive": "várni",
+    "meaning_de": "warten",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "várok",
+        "te": "vársz",
+        "ő": "vár",
+        "mi": "várunk",
+        "ti": "vártok",
+        "ők": "várnak"
+      },
+      "past": {
+        "én": "vártam",
+        "te": "vártál",
+        "ő": "várt",
+        "mi": "vártunk",
+        "ti": "vártatok",
+        "ők": "vártak"
+      },
+      "future": {
+        "én": "fogok várni",
+        "te": "fogsz várni",
+        "ő": "fog várni",
+        "mi": "fogunk várni",
+        "ti": "fogtok várni",
+        "ők": "fognak várni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 32,
+    "infinitive": "segíteni",
+    "meaning_de": "helfen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "segítek",
+        "te": "segítesz",
+        "ő": "segít",
+        "mi": "segítünk",
+        "ti": "segítetek",
+        "ők": "segítenek"
+      },
+      "past": {
+        "én": "segítettem",
+        "te": "segítettél",
+        "ő": "segített",
+        "mi": "segítettünk",
+        "ti": "segítettetek",
+        "ők": "segítettek"
+      },
+      "future": {
+        "én": "fogok segíteni",
+        "te": "fogsz segíteni",
+        "ő": "fog segíteni",
+        "mi": "fogunk segíteni",
+        "ti": "fogtok segíteni",
+        "ők": "fognak segíteni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 33,
+    "infinitive": "utazni",
+    "meaning_de": "reisen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "utazom",
+        "te": "utazol",
+        "ő": "utazik",
+        "mi": "utazunk",
+        "ti": "utaztok",
+        "ők": "utaznak"
+      },
+      "past": {
+        "én": "utaztam",
+        "te": "utaztál",
+        "ő": "utazott",
+        "mi": "utaztunk",
+        "ti": "utaztatok",
+        "ők": "utaztak"
+      },
+      "future": {
+        "én": "fogok utazni",
+        "te": "fogsz utazni",
+        "ő": "fog utazni",
+        "mi": "fogunk utazni",
+        "ti": "fogtok utazni",
+        "ők": "fognak utazni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 34,
+    "infinitive": "feküdni",
+    "meaning_de": "liegen",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "fekszem",
+        "te": "fekszel",
+        "ő": "fekszik",
+        "mi": "fekszünk",
+        "ti": "feksztek",
+        "ők": "fekszenek"
+      },
+      "past": {
+        "én": "feküdtem",
+        "te": "feküdtél",
+        "ő": "feküdt",
+        "mi": "feküdtünk",
+        "ti": "feküdtetek",
+        "ők": "feküdtek"
+      },
+      "future": {
+        "én": "fogok feküdni",
+        "te": "fogsz feküdni",
+        "ő": "fog feküdni",
+        "mi": "fogunk feküdni",
+        "ti": "fogtok feküdni",
+        "ők": "fognak feküdni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 35,
+    "infinitive": "állni",
+    "meaning_de": "stehen",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "állok",
+        "te": "állsz",
+        "ő": "áll",
+        "mi": "állunk",
+        "ti": "álltok",
+        "ők": "állnak"
+      },
+      "past": {
+        "én": "álltam",
+        "te": "álltál",
+        "ő": "állt",
+        "mi": "álltunk",
+        "ti": "álltatok",
+        "ők": "álltak"
+      },
+      "future": {
+        "én": "fogok állni",
+        "te": "fogsz állni",
+        "ő": "fog állni",
+        "mi": "fogunk állni",
+        "ti": "fogtok állni",
+        "ők": "fognak állni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 36,
+    "infinitive": "ülni",
+    "meaning_de": "sitzen",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "ülök",
+        "te": "ülsz",
+        "ő": "ül",
+        "mi": "ülünk",
+        "ti": "ültök",
+        "ők": "ülnek"
+      },
+      "past": {
+        "én": "ültem",
+        "te": "ültél",
+        "ő": "ült",
+        "mi": "ültünk",
+        "ti": "ültetek",
+        "ők": "ültek"
+      },
+      "future": {
+        "én": "fogok ülni",
+        "te": "fogsz ülni",
+        "ő": "fog ülni",
+        "mi": "fogunk ülni",
+        "ti": "fogtok ülni",
+        "ők": "fognak ülni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 37,
+    "infinitive": "futni",
+    "meaning_de": "laufen",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "futok",
+        "te": "futsz",
+        "ő": "fut",
+        "mi": "futunk",
+        "ti": "futtok",
+        "ők": "futnak"
+      },
+      "past": {
+        "én": "futottam",
+        "te": "futottál",
+        "ő": "futott",
+        "mi": "futottunk",
+        "ti": "futottatok",
+        "ők": "futottak"
+      },
+      "future": {
+        "én": "fogok futni",
+        "te": "fogsz futni",
+        "ő": "fog futni",
+        "mi": "fogunk futni",
+        "ti": "fogtok futni",
+        "ők": "fognak futni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 38,
+    "infinitive": "ugrani",
+    "meaning_de": "springen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "ugrom",
+        "te": "ugorsz",
+        "ő": "ugrik",
+        "mi": "ugrunk",
+        "ti": "ugrotok",
+        "ők": "ugranak"
+      },
+      "past": {
+        "én": "ugrottam",
+        "te": "ugrottál",
+        "ő": "ugrott",
+        "mi": "ugrottunk",
+        "ti": "ugrottatok",
+        "ők": "ugrottak"
+      },
+      "future": {
+        "én": "fogok ugrani",
+        "te": "fogsz ugrani",
+        "ő": "fog ugrani",
+        "mi": "fogunk ugrani",
+        "ti": "fogtok ugrani",
+        "ők": "fognak ugrani"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 39,
+    "infinitive": "sétálni",
+    "meaning_de": "spazieren",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "sétálok",
+        "te": "sétálsz",
+        "ő": "sétál",
+        "mi": "sétálunk",
+        "ti": "sétáltok",
+        "ők": "sétálnak"
+      },
+      "past": {
+        "én": "sétáltam",
+        "te": "sétáltál",
+        "ő": "sétált",
+        "mi": "sétáltunk",
+        "ti": "sétáltatok",
+        "ők": "sétáltak"
+      },
+      "future": {
+        "én": "fogok sétálni",
+        "te": "fogsz sétálni",
+        "ő": "fog sétálni",
+        "mi": "fogunk sétálni",
+        "ti": "fogtok sétálni",
+        "ők": "fognak sétálni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 40,
+    "infinitive": "énekelni",
+    "meaning_de": "singen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "énekelek",
+        "te": "énekelsz",
+        "ő": "énekel",
+        "mi": "énekelünk",
+        "ti": "énekeltek",
+        "ők": "énekelnek"
+      },
+      "past": {
+        "én": "énekelten",
+        "te": "énekelten",
+        "ő": "énekelten",
+        "mi": "énekelten",
+        "ti": "énekelten",
+        "ők": "énekelten"
+      },
+      "future": {
+        "én": "fogok énekelni",
+        "te": "fogsz énekelni",
+        "ő": "fog énekelni",
+        "mi": "fogunk énekelni",
+        "ti": "fogtok énekelni",
+        "ők": "fognak énekelni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 41,
+    "infinitive": "táncolni",
+    "meaning_de": "tanzen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "táncolok",
+        "te": "táncolsz",
+        "ő": "táncol",
+        "mi": "táncolunk",
+        "ti": "táncoltok",
+        "ők": "táncolnak"
+      },
+      "past": {
+        "én": "táncoltam",
+        "te": "táncoltál",
+        "ő": "táncolt",
+        "mi": "táncoltunk",
+        "ti": "táncoltatok",
+        "ők": "táncoltak"
+      },
+      "future": {
+        "én": "fogok táncolni",
+        "te": "fogsz táncolni",
+        "ő": "fog táncolni",
+        "mi": "fogunk táncolni",
+        "ti": "fogtok táncolni",
+        "ők": "fognak táncolni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 42,
+    "infinitive": "játszani",
+    "meaning_de": "spielen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "játszom",
+        "te": "játszol",
+        "ő": "játszik",
+        "mi": "játszunk",
+        "ti": "játszotok",
+        "ők": "játszanak"
+      },
+      "past": {
+        "én": "játszottam",
+        "te": "játszottál",
+        "ő": "játszott",
+        "mi": "játszottunk",
+        "ti": "játszottatok",
+        "ők": "játszottak"
+      },
+      "future": {
+        "én": "fogok játszani",
+        "te": "fogsz játszani",
+        "ő": "fog játszani",
+        "mi": "fogunk játszani",
+        "ti": "fogtok játszani",
+        "ők": "fognak játszani"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 43,
+    "infinitive": "mosni",
+    "meaning_de": "waschen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "mosok",
+        "te": "mossz",
+        "ő": "mos",
+        "mi": "mossunk",
+        "ti": "mostok",
+        "ők": "mosnak"
+      },
+      "past": {
+        "én": "mostam",
+        "te": "mostál",
+        "ő": "most",
+        "mi": "mostunk",
+        "ti": "mostatok",
+        "ők": "mostak"
+      },
+      "future": {
+        "én": "fogok mosni",
+        "te": "fogsz mosni",
+        "ő": "fog mosni",
+        "mi": "fogunk mosni",
+        "ti": "fogtok mosni",
+        "ők": "fognak mosni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 44,
+    "infinitive": "főzni",
+    "meaning_de": "kochen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "főzök",
+        "te": "főzöl",
+        "ő": "főz",
+        "mi": "főzünk",
+        "ti": "főzitek",
+        "ők": "főznek"
+      },
+      "past": {
+        "én": "főztem",
+        "te": "főztél",
+        "ő": "főzött",
+        "mi": "főztünk",
+        "ti": "főztetek",
+        "ők": "főztek"
+      },
+      "future": {
+        "én": "fogok főzni",
+        "te": "fogsz főzni",
+        "ő": "fog főzni",
+        "mi": "fogunk főzni",
+        "ti": "fogtok főzni",
+        "ők": "fognak főzni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 45,
+    "infinitive": "sütni",
+    "meaning_de": "backen",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "sütök",
+        "te": "sütsz",
+        "ő": "süt",
+        "mi": "sütünk",
+        "ti": "sütök",
+        "ők": "sütnek"
+      },
+      "past": {
+        "én": "süttem",
+        "te": "süttél",
+        "ő": "sütött",
+        "mi": "süttünk",
+        "ti": "süttetek",
+        "ők": "sütöttek"
+      },
+      "future": {
+        "én": "fogok sütni",
+        "te": "fogsz sütni",
+        "ő": "fog sütni",
+        "mi": "fogunk sütni",
+        "ti": "fogtok sütni",
+        "ők": "fognak sütni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 46,
+    "infinitive": "takarítani",
+    "meaning_de": "putzen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "takarítok",
+        "te": "takarítasz",
+        "ő": "takarít",
+        "mi": "takarítunk",
+        "ti": "takarítotok",
+        "ők": "takarítanak"
+      },
+      "past": {
+        "én": "takarítottam",
+        "te": "takarítottál",
+        "ő": "takarított",
+        "mi": "takarítottunk",
+        "ti": "takarítottatok",
+        "ők": "takarítottak"
+      },
+      "future": {
+        "én": "fogok takarítani",
+        "te": "fogsz takarítani",
+        "ő": "fog takarítani",
+        "mi": "fogunk takarítani",
+        "ti": "fogtok takarítani",
+        "ők": "fognak takarítani"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 47,
+    "infinitive": "vasalni",
+    "meaning_de": "bügeln",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "vasalok",
+        "te": "vasalsz",
+        "ő": "vasal",
+        "mi": "vasalunk",
+        "ti": "vasaltok",
+        "ők": "vasalnak"
+      },
+      "past": {
+        "én": "vasaltam",
+        "te": "vasaltál",
+        "ő": "vasalt",
+        "mi": "vasaltunk",
+        "ti": "vasaltatok",
+        "ők": "vasaltak"
+      },
+      "future": {
+        "én": "fogok vasalni",
+        "te": "fogsz vasalni",
+        "ő": "fog vasalni",
+        "mi": "fogunk vasalni",
+        "ti": "fogtok vasalni",
+        "ők": "fognak vasalni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 48,
+    "infinitive": "festeni",
+    "meaning_de": "malen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "festes",
+        "te": "festesz",
+        "ő": "fest",
+        "mi": "festünk",
+        "ti": "festetek",
+        "ők": "festenek"
+      },
+      "past": {
+        "én": "festettem",
+        "te": "festettél",
+        "ő": "festett",
+        "mi": "festettünk",
+        "ti": "festettetek",
+        "ők": "festettek"
+      },
+      "future": {
+        "én": "fogok festeni",
+        "te": "fogsz festeni",
+        "ő": "fog festeni",
+        "mi": "fogunk festeni",
+        "ti": "fogtok festeni",
+        "ők": "fognak festeni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 49,
+    "infinitive": "építeni",
+    "meaning_de": "bauen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "építek",
+        "te": "építesz",
+        "ő": "épít",
+        "mi": "építünk",
+        "ti": "építetek",
+        "ők": "építenek"
+      },
+      "past": {
+        "én": "építettem",
+        "te": "építettél",
+        "ő": "épített",
+        "mi": "építettünk",
+        "ti": "építettetek",
+        "ők": "építettek"
+      },
+      "future": {
+        "én": "fogok építeni",
+        "te": "fogsz építeni",
+        "ő": "fog építeni",
+        "mi": "fogunk építeni",
+        "ti": "fogtok építeni",
+        "ők": "fognak építeni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 50,
+    "infinitive": "javítani",
+    "meaning_de": "reparieren",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "javítok",
+        "te": "javítasz",
+        "ő": "javít",
+        "mi": "javítunk",
+        "ti": "javítotok",
+        "ők": "javítanak"
+      },
+      "past": {
+        "én": "javítottam",
+        "te": "javítottál",
+        "ő": "javított",
+        "mi": "javítottunk",
+        "ti": "javítottatok",
+        "ők": "javítottak"
+      },
+      "future": {
+        "én": "fogok javítani",
+        "te": "fogsz javítani",
+        "ő": "fog javítani",
+        "mi": "fogunk javítani",
+        "ti": "fogtok javítani",
+        "ők": "fognak javítani"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 51,
+    "infinitive": "tanítani",
+    "meaning_de": "unterrichten",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "tanítok",
+        "te": "tanítasz",
+        "ő": "tanít",
+        "mi": "tanítunk",
+        "ti": "tanítotok",
+        "ők": "tanítanak"
+      },
+      "past": {
+        "én": "tanítottam",
+        "te": "tanítottál",
+        "ő": "tanított",
+        "mi": "tanítottunk",
+        "ti": "tanítottatok",
+        "ők": "tanítottak"
+      },
+      "future": {
+        "én": "fogok tanítani",
+        "te": "fogsz tanítani",
+        "ő": "fog tanítani",
+        "mi": "fogunk tanítani",
+        "ti": "fogtok tanítani",
+        "ők": "fognak tanítani"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 52,
+    "infinitive": "gyakorolni",
+    "meaning_de": "üben",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "gyakorlok",
+        "te": "gyakorolsz",
+        "ő": "gyakorol",
+        "mi": "gyakorolunk",
+        "ti": "gyakoroltok",
+        "ők": "gyakorolnak"
+      },
+      "past": {
+        "én": "gyakoroltam",
+        "te": "gyakoroltál",
+        "ő": "gyakorolt",
+        "mi": "gyakoroltunk",
+        "ti": "gyakoroltatok",
+        "ők": "gyakoroltak"
+      },
+      "future": {
+        "én": "fogok gyakorolni",
+        "te": "fogsz gyakorolni",
+        "ő": "fog gyakorolni",
+        "mi": "fogunk gyakorolni",
+        "ti": "fogtok gyakorolni",
+        "ők": "fognak gyakorolni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 53,
+    "infinitive": "vizsgálni",
+    "meaning_de": "untersuchen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "vizsgálok",
+        "te": "vizsgálsz",
+        "ő": "vizsgál",
+        "mi": "vizsgálunk",
+        "ti": "vizsgáltok",
+        "ők": "vizsgálnak"
+      },
+      "past": {
+        "én": "vizsgáltam",
+        "te": "vizsgáltál",
+        "ő": "vizsgált",
+        "mi": "vizsgáltunk",
+        "ti": "vizsgáltatok",
+        "ők": "vizsgáltak"
+      },
+      "future": {
+        "én": "fogok vizsgálni",
+        "te": "fogsz vizsgálni",
+        "ő": "fog vizsgálni",
+        "mi": "fogunk vizsgálni",
+        "ti": "fogtok vizsgálni",
+        "ők": "fognak vizsgálni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 54,
+    "infinitive": "kezelni",
+    "meaning_de": "behandeln",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "kezelek",
+        "te": "kezelsz",
+        "ő": "kezel",
+        "mi": "kezelünk",
+        "ti": "kezeltek",
+        "ők": "kezelnek"
+      },
+      "past": {
+        "én": "kezeltem",
+        "te": "kezeltél",
+        "ő": "kezelt",
+        "mi": "kezeltünk",
+        "ti": "kezeltetek",
+        "ők": "kezeltek"
+      },
+      "future": {
+        "én": "fogok kezelni",
+        "te": "fogsz kezelni",
+        "ő": "fog kezelni",
+        "mi": "fogunk kezelni",
+        "ti": "fogtok kezelni",
+        "ők": "fognak kezelni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 55,
+    "infinitive": "gyógyítani",
+    "meaning_de": "heilen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "gyógyítok",
+        "te": "gyógyítasz",
+        "ő": "gyógyít",
+        "mi": "gyógyítunk",
+        "ti": "gyógyítotok",
+        "ők": "gyógyítanak"
+      },
+      "past": {
+        "én": "gyógyítottam",
+        "te": "gyógyítottál",
+        "ő": "gyógyított",
+        "mi": "gyógyítottunk",
+        "ti": "gyógyítottatok",
+        "ők": "gyógyítottak"
+      },
+      "future": {
+        "én": "fogok gyógyítani",
+        "te": "fogsz gyógyítani",
+        "ő": "fog gyógyítani",
+        "mi": "fogunk gyógyítani",
+        "ti": "fogtok gyógyítani",
+        "ők": "fognak gyógyítani"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 56,
+    "infinitive": "gondolni",
+    "meaning_de": "denken",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "gondolok",
+        "te": "gondolsz",
+        "ő": "gondol",
+        "mi": "gondolunk",
+        "ti": "gondoltok",
+        "ők": "gondolnak"
+      },
+      "past": {
+        "én": "gondoltam",
+        "te": "gondoltál",
+        "ő": "gondolt",
+        "mi": "gondoltunk",
+        "ti": "gondoltatok",
+        "ők": "gondoltak"
+      },
+      "future": {
+        "én": "fogok gondolni",
+        "te": "fogsz gondolni",
+        "ő": "fog gondolni",
+        "mi": "fogunk gondolni",
+        "ti": "fogtok gondolni",
+        "ők": "fognak gondolni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 57,
+    "infinitive": "emlékezni",
+    "meaning_de": "sich erinnern",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "emlékszem",
+        "te": "emlékszel",
+        "ő": "emlékszik",
+        "mi": "emlékszünk",
+        "ti": "emléksztek",
+        "ők": "emlékeznek"
+      },
+      "past": {
+        "én": "emlékeztem",
+        "te": "emlékeztél",
+        "ő": "emlékezett",
+        "mi": "emlékeztünk",
+        "ti": "emlékeztetek",
+        "ők": "emlékeztek"
+      },
+      "future": {
+        "én": "fogok emlékezni",
+        "te": "fogsz emlékezni",
+        "ő": "fog emlékezni",
+        "mi": "fogunk emlékezni",
+        "ti": "fogtok emlékezni",
+        "ők": "fognak emlékezni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 58,
+    "infinitive": "felejteni",
+    "meaning_de": "vergessen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "felejtek",
+        "te": "felejtesz",
+        "ő": "felejti",
+        "mi": "felejtünk",
+        "ti": "felejtitek",
+        "ők": "felejtenek"
+      },
+      "past": {
+        "én": "felejtettem",
+        "te": "felejtettél",
+        "ő": "felejtett",
+        "mi": "felejtettünk",
+        "ti": "felejtettetek",
+        "ők": "felejtettek"
+      },
+      "future": {
+        "én": "fogok felejtni",
+        "te": "fogsz felejtni",
+        "ő": "fog felejtni",
+        "mi": "fogunk felejtni",
+        "ti": "fogtok felejtni",
+        "ők": "fognak felejtni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 59,
+    "infinitive": "álmodni",
+    "meaning_de": "träumen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "álmodom",
+        "te": "álmodsz",
+        "ő": "álmodik",
+        "mi": "álmodunk",
+        "ti": "álmodtok",
+        "ők": "álmodnak"
+      },
+      "past": {
+        "én": "álmodtam",
+        "te": "álmodtál",
+        "ő": "álmodott",
+        "mi": "álmodtunk",
+        "ti": "álmodtatok",
+        "ők": "álmodtak"
+      },
+      "future": {
+        "én": "fogok álmodni",
+        "te": "fogsz álmodni",
+        "ő": "fog álmodni",
+        "mi": "fogunk álmodni",
+        "ti": "fogtok álmodni",
+        "ők": "fognak álmodni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 60,
+    "infinitive": "reménykedni",
+    "meaning_de": "hoffen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "reménykedem",
+        "te": "reménykedsz",
+        "ő": "reménykedik",
+        "mi": "reménykedünk",
+        "ti": "reménykedtek",
+        "ők": "reménykednek"
+      },
+      "past": {
+        "én": "reménykedtem",
+        "te": "reménykedtél",
+        "ő": "reménykedett",
+        "mi": "reménykedtünk",
+        "ti": "reménykedtetek",
+        "ők": "reménykedtek"
+      },
+      "future": {
+        "én": "fogok reménykedni",
+        "te": "fogsz reménykedni",
+        "ő": "fog reménykedni",
+        "mi": "fogunk reménykedni",
+        "ti": "fogtok reménykedni",
+        "ők": "fognak reménykedni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 61,
+    "infinitive": "félelmetes",
+    "meaning_de": "fürchten",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "félek",
+        "te": "félsz",
+        "ő": "fél",
+        "mi": "félünk",
+        "ti": "féltök",
+        "ők": "félnek"
+      },
+      "past": {
+        "én": "féltem",
+        "te": "féltél",
+        "ő": "félt",
+        "mi": "féltünk",
+        "ti": "féltetek",
+        "ők": "féltek"
+      },
+      "future": {
+        "én": "fogok félni",
+        "te": "fogsz félni",
+        "ő": "fog félni",
+        "mi": "fogunk félni",
+        "ti": "fogtok félni",
+        "ők": "fognak félni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 62,
+    "infinitive": "bízni",
+    "meaning_de": "vertrauen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "bízom",
+        "te": "bízsol",
+        "ő": "bízik",
+        "mi": "bízunk",
+        "ti": "bíztok",
+        "ők": "bíznak"
+      },
+      "past": {
+        "én": "bíztam",
+        "te": "bíztál",
+        "ő": "bízott",
+        "mi": "bíztunk",
+        "ti": "bíztatok",
+        "ők": "bíztak"
+      },
+      "future": {
+        "én": "fogok bízni",
+        "te": "fogsz bízni",
+        "ő": "fog bízni",
+        "mi": "fogunk bízni",
+        "ti": "fogtok bízni",
+        "ők": "fognak bízni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 63,
+    "infinitive": "szerencsétlenkedni",
+    "meaning_de": "Pecha haben",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "szerencsétlenkedem",
+        "te": "szerencsétlenkedsz",
+        "ő": "szerencsétlenkedik",
+        "mi": "szerencsétlenkedünk",
+        "ti": "szerencsétlenkedtek",
+        "ők": "szerencsétlenkednek"
+      },
+      "past": {
+        "én": "szerencsétlenkedtem",
+        "te": "szerencsétlenkedtél",
+        "ő": "szerencsétlenkedett",
+        "mi": "szerencsétlenkedtünk",
+        "ti": "szerencsétlenkedtetek",
+        "ők": "szerencsétlenkedtek"
+      },
+      "future": {
+        "én": "fogok szerencsétlenkedni",
+        "te": "fogsz szerencsétlenkedni",
+        "ő": "fog szerencsétlenkedni",
+        "mi": "fogunk szerencsétlenkedni",
+        "ti": "fogtok szerencsétlenkedni",
+        "ők": "fognak szerencsétlenkedni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 64,
+    "infinitive": "örülni",
+    "meaning_de": "sich freuen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "örülök",
+        "te": "örülsz",
+        "ő": "örül",
+        "mi": "örülünk",
+        "ti": "örültök",
+        "ők": "örülnek"
+      },
+      "past": {
+        "én": "örültem",
+        "te": "örültél",
+        "ő": "örült",
+        "mi": "örültünk",
+        "ti": "örültetek",
+        "ők": "örültek"
+      },
+      "future": {
+        "én": "fogok örülni",
+        "te": "fogsz örülni",
+        "ő": "fog örülni",
+        "mi": "fogunk örülni",
+        "ti": "fogtok örülni",
+        "ők": "fognak örülni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 65,
+    "infinitive": "szomorodni",
+    "meaning_de": "traurig werden",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "szomorodom",
+        "te": "szomorodsz",
+        "ő": "szomorodik",
+        "mi": "szomorodunk",
+        "ti": "szomorodtok",
+        "ők": "szomorodnak"
+      },
+      "past": {
+        "én": "szomorodtam",
+        "te": "szomorodtál",
+        "ő": "szomorodott",
+        "mi": "szomorodtunk",
+        "ti": "szomorodtatok",
+        "ők": "szomorodtak"
+      },
+      "future": {
+        "én": "fogok szomorodni",
+        "te": "fogsz szomorodni",
+        "ő": "fog szomorodni",
+        "mi": "fogunk szomorodni",
+        "ti": "fogtok szomorodni",
+        "ők": "fognak szomorodni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 66,
+    "infinitive": "haragudni",
+    "meaning_de": "böse sein",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "haragszom",
+        "te": "haragszol",
+        "ő": "haragszik",
+        "mi": "haragszunk",
+        "ti": "haragsztok",
+        "ők": "haragszanak"
+      },
+      "past": {
+        "én": "haragudtam",
+        "te": "haragudtál",
+        "ő": "haragudott",
+        "mi": "haragudtunk",
+        "ti": "haragudtatok",
+        "ők": "haragudtak"
+      },
+      "future": {
+        "én": "fogok haragudni",
+        "te": "fogsz haragudni",
+        "ő": "fog haragudni",
+        "mi": "fogunk haragudni",
+        "ti": "fogtok haragudni",
+        "ők": "fognak haragudni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 67,
+    "infinitive": "bocsátani",
+    "meaning_de": "verzeihen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "bocsátok",
+        "te": "bocsátasz",
+        "ő": "bocsát",
+        "mi": "bocsátunk",
+        "ti": "bocsátotok",
+        "ők": "bocsátanak"
+      },
+      "past": {
+        "én": "bocsátottam",
+        "te": "bocsátottál",
+        "ő": "bocsátott",
+        "mi": "bocsátottunk",
+        "ti": "bocsátottatok",
+        "ők": "bocsátottak"
+      },
+      "future": {
+        "én": "fogok bocsátani",
+        "te": "fogsz bocsátani",
+        "ő": "fog bocsátani",
+        "mi": "fogunk bocsátani",
+        "ti": "fogtok bocsátani",
+        "ők": "fognak bocsátani"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 68,
+    "infinitive": "köszönni",
+    "meaning_de": "danken/grüßen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "köszönök",
+        "te": "köszönsz",
+        "ő": "köszön",
+        "mi": "köszönünk",
+        "ti": "köszöntök",
+        "ők": "köszönnek"
+      },
+      "past": {
+        "én": "köszöntem",
+        "te": "köszöntél",
+        "ő": "köszönt",
+        "mi": "köszöntünk",
+        "ti": "köszöntetek",
+        "ők": "köszöntek"
+      },
+      "future": {
+        "én": "fogok köszönni",
+        "te": "fogsz köszönni",
+        "ő": "fog köszönni",
+        "mi": "fogunk köszönni",
+        "ti": "fogtok köszönni",
+        "ők": "fognak köszönni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 69,
+    "infinitive": "kérdezni",
+    "meaning_de": "fragen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "kérdezek",
+        "te": "kérdezel",
+        "ő": "kérdez",
+        "mi": "kérdezünk",
+        "ti": "kérdezitek",
+        "ők": "kérdeznek"
+      },
+      "past": {
+        "én": "kérdeztem",
+        "te": "kérdeztél",
+        "ő": "kérdezett",
+        "mi": "kérdeztünk",
+        "ti": "kérdeztetek",
+        "ők": "kérdeztek"
+      },
+      "future": {
+        "én": "fogok kérdezni",
+        "te": "fogsz kérdezni",
+        "ő": "fog kérdezni",
+        "mi": "fogunk kérdezni",
+        "ti": "fogtok kérdezni",
+        "ők": "fognak kérdezni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 70,
+    "infinitive": "válaszolni",
+    "meaning_de": "antworten",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "válaszolok",
+        "te": "válaszolsz",
+        "ő": "válaszol",
+        "mi": "válaszolunk",
+        "ti": "válaszoltok",
+        "ők": "válaszolnak"
+      },
+      "past": {
+        "én": "válaszoltam",
+        "te": "válaszoltál",
+        "ő": "válaszolt",
+        "mi": "válaszoltunk",
+        "ti": "válaszoltatok",
+        "ők": "válaszoltak"
+      },
+      "future": {
+        "én": "fogok válaszolni",
+        "te": "fogsz válaszolni",
+        "ő": "fog válaszolni",
+        "mi": "fogunk válaszolni",
+        "ti": "fogtok válaszolni",
+        "ők": "fognak válaszolni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 71,
+    "infinitive": "mesélni",
+    "meaning_de": "erzählen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "mesélek",
+        "te": "mesélsz",
+        "ő": "mesél",
+        "mi": "mesélünk",
+        "ti": "meséltek",
+        "ők": "mesélnek"
+      },
+      "past": {
+        "én": "meséltem",
+        "te": "meséltél",
+        "ő": "mesélt",
+        "mi": "meséltünk",
+        "ti": "meséltetek",
+        "ők": "meséltek"
+      },
+      "future": {
+        "én": "fogok mesélni",
+        "te": "fogsz mesélni",
+        "ő": "fog mesélni",
+        "mi": "fogunk mesélni",
+        "ti": "fogtok mesélni",
+        "ők": "fognak mesélni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 72,
+    "infinitive": "magyarázni",
+    "meaning_de": "erklären",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "magyarázok",
+        "te": "magyarázol",
+        "ő": "magyaráz",
+        "mi": "magyarázunk",
+        "ti": "magyaráztok",
+        "ők": "magyaráznak"
+      },
+      "past": {
+        "én": "magyaráztam",
+        "te": "magyaráztál",
+        "ő": "magyarázott",
+        "mi": "magyaráztunk",
+        "ti": "magyaráztatok",
+        "ők": "magyaráztak"
+      },
+      "future": {
+        "én": "fogok magyarázni",
+        "te": "fogsz magyarázni",
+        "ő": "fog magyarázni",
+        "mi": "fogunk magyarázni",
+        "ti": "fogtok magyarázni",
+        "ők": "fognak magyarázni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 73,
+    "infinitive": "elmondani",
+    "meaning_de": "erzählen/sagen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "elmondok",
+        "te": "elmondasz",
+        "ő": "elmond",
+        "mi": "elmondunk",
+        "ti": "elmondotok",
+        "ők": "elmondanak"
+      },
+      "past": {
+        "én": "elmondtam",
+        "te": "elmondtál",
+        "ő": "elmondott",
+        "mi": "elmondtunk",
+        "ti": "elmondtatok",
+        "ők": "elmondtak"
+      },
+      "future": {
+        "én": "fogok elmondani",
+        "te": "fogsz elmondani",
+        "ő": "fog elmondani",
+        "mi": "fogunk elmondani",
+        "ti": "fogtok elmondani",
+        "ők": "fognak elmondani"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 74,
+    "infinitive": "megérteni",
+    "meaning_de": "verstehen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "megértek",
+        "te": "megértesz",
+        "ő": "megért",
+        "mi": "megértünk",
+        "ti": "megértetek",
+        "ők": "megértenek"
+      },
+      "past": {
+        "én": "megértettem",
+        "te": "megértettél",
+        "ő": "megértett",
+        "mi": "megértettünk",
+        "ti": "megértettetek",
+        "ők": "megértettek"
+      },
+      "future": {
+        "én": "fogok megérteni",
+        "te": "fogsz megérteni",
+        "ő": "fog megérteni",
+        "mi": "fogunk megérteni",
+        "ti": "fogtok megérteni",
+        "ők": "fognak megérteni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 75,
+    "infinitive": "tanácsolni",
+    "meaning_de": "raten",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "tanácsolok",
+        "te": "tanácsolsz",
+        "ő": "tanácsol",
+        "mi": "tanácsolunk",
+        "ti": "tanácsoltok",
+        "ők": "tanácsolnak"
+      },
+      "past": {
+        "én": "tanácsoltam",
+        "te": "tanácsoltál",
+        "ő": "tanácsolt",
+        "mi": "tanácsoltunk",
+        "ti": "tanácsoltatok",
+        "ők": "tanácsoltak"
+      },
+      "future": {
+        "én": "fogok tanácsolni",
+        "te": "fogsz tanácsolni",
+        "ő": "fog tanácsolni",
+        "mi": "fogunk tanácsolni",
+        "ti": "fogtok tanácsolni",
+        "ők": "fognak tanácsolni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 76,
+    "infinitive": "figyelni",
+    "meaning_de": "aufpassen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "figyelek",
+        "te": "figyelsz",
+        "ő": "figyel",
+        "mi": "figyelünk",
+        "ti": "figyeltek",
+        "ők": "figyelnek"
+      },
+      "past": {
+        "én": "figyeltem",
+        "te": "figyeltél",
+        "ő": "figyelt",
+        "mi": "figyeltünk",
+        "ti": "figyeltetek",
+        "ők": "figyeltek"
+      },
+      "future": {
+        "én": "fogok figyelni",
+        "te": "fogsz figyelni",
+        "ő": "fog figyelni",
+        "mi": "fogunk figyelni",
+        "ti": "fogtok figyelni",
+        "ők": "fognak figyelni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 77,
+    "infinitive": "szokni",
+    "meaning_de": "gewohnt sein",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "szoktam",
+        "te": "szoksz",
+        "ő": "szokott",
+        "mi": "szoktunk",
+        "ti": "szoktatok",
+        "ők": "szoktak"
+      },
+      "past": {
+        "én": "szoktam",
+        "te": "szoktál",
+        "ő": "szokott",
+        "mi": "szoktunk",
+        "ti": "szoktatok",
+        "ők": "szoktak"
+      },
+      "future": {
+        "én": "fogok szokni",
+        "te": "fogsz szokni",
+        "ő": "fog szokni",
+        "mi": "fogunk szokni",
+        "ti": "fogtok szokni",
+        "ők": "fognak szokni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 78,
+    "infinitive": "megszokni",
+    "meaning_de": "sich gewöhnen",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "megszokom",
+        "te": "megszokod",
+        "ő": "megszokik",
+        "mi": "megszokunk",
+        "ti": "megszoktok",
+        "ők": "megszoknak"
+      },
+      "past": {
+        "én": "megszoktam",
+        "te": "megszoktál",
+        "ő": "megszokott",
+        "mi": "megszoktunk",
+        "ti": "megszoktatok",
+        "ők": "megszoktak"
+      },
+      "future": {
+        "én": "fogok megszokni",
+        "te": "fogsz megszokni",
+        "ő": "fog megszokni",
+        "mi": "fogunk megszokni",
+        "ti": "fogtok megszokni",
+        "ők": "fognak megszokni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 79,
+    "infinitive": "tetszeni",
+    "meaning_de": "gefallen",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "tetszem",
+        "te": "tetszel",
+        "ő": "tetszik",
+        "mi": "tetszünk",
+        "ti": "tetsztek",
+        "ők": "tetszenek"
+      },
+      "past": {
+        "én": "tetszettem",
+        "te": "tetszettél",
+        "ő": "tetszett",
+        "mi": "tetszettünk",
+        "ti": "tetszettetek",
+        "ők": "tetsztek"
+      },
+      "future": {
+        "én": "fogok tetszeni",
+        "te": "fogsz tetszeni",
+        "ő": "fog tetszeni",
+        "mi": "fogunk tetszeni",
+        "ti": "fogtok tetszeni",
+        "ők": "fognak tetszeni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 80,
+    "infinitive": "kelleni",
+    "meaning_de": "brauchen/gefallen",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "kellek",
+        "te": "kellesz",
+        "ő": "kell",
+        "mi": "kellünk",
+        "ti": "kelltek",
+        "ők": "kellenek"
+      },
+      "past": {
+        "én": "kellettem",
+        "te": "kellettél",
+        "ő": "kellett",
+        "mi": "kelltünk",
+        "ti": "keltetek",
+        "ők": "keltek"
+      },
+      "future": {
+        "én": "fogok kelni",
+        "te": "fogsz kelni",
+        "ő": "fog kelni",
+        "mi": "fogunk kelni",
+        "ti": "fogtok kelni",
+        "ők": "fognak kelni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 81,
+    "infinitive": "tartani",
+    "meaning_de": "halten",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "tartok",
+        "te": "tartasz",
+        "ő": "tart",
+        "mi": "tartunk",
+        "ti": "tartotok",
+        "ők": "tartanak"
+      },
+      "past": {
+        "én": "tartottam",
+        "te": "tartottál",
+        "ő": "tartott",
+        "mi": "tartottunk",
+        "ti": "tartottatok",
+        "ők": "tartottak"
+      },
+      "future": {
+        "én": "fogok tartani",
+        "te": "fogsz tartani",
+        "ő": "fog tartani",
+        "mi": "fogunk tartani",
+        "ti": "fogtok tartani",
+        "ők": "fognak tartani"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 82,
+    "infinitive": "viselni",
+    "meaning_de": "tragen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "viselek",
+        "te": "viselsz",
+        "ő": "visel",
+        "mi": "viselünk",
+        "ti": "viseltek",
+        "ők": "viselnek"
+      },
+      "past": {
+        "én": "viseltem",
+        "te": "viseltél",
+        "ő": "viselt",
+        "mi": "viseltünk",
+        "ti": "viseltetek",
+        "ők": "viseltek"
+      },
+      "future": {
+        "én": "fogok viselni",
+        "te": "fogsz viselni",
+        "ő": "fog viselni",
+        "mi": "fogunk viselni",
+        "ti": "fogtok viselni",
+        "ők": "fognak viselni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 83,
+    "infinitive": "hordani",
+    "meaning_de": "tragen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "hordok",
+        "te": "hordasz",
+        "ő": "hord",
+        "mi": "hordunk",
+        "ti": "hordotok",
+        "ők": "hordanak"
+      },
+      "past": {
+        "én": "hordtam",
+        "te": "hordtál",
+        "ő": "hordott",
+        "mi": "hordtunk",
+        "ti": "hordtatok",
+        "ők": "hordtak"
+      },
+      "future": {
+        "én": "fogok hordani",
+        "te": "fogsz hordani",
+        "ő": "fog hordani",
+        "mi": "fogunk hordani",
+        "ti": "fogtok hordani",
+        "ők": "fognak hordani"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 84,
+    "infinitive": "venni (felöltözni)",
+    "meaning_de": "anziehen",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "veszek",
+        "te": "veszel",
+        "ő": "vesz",
+        "mi": "veszünk",
+        "ti": "vesztek",
+        "ők": "vesznek"
+      },
+      "past": {
+        "én": "vettem",
+        "te": "vettél",
+        "ő": "vett",
+        "mi": "vettünk",
+        "ti": "vettetek",
+        "ők": "vettek"
+      },
+      "future": {
+        "én": "fogok venni",
+        "te": "fogsz venni",
+        "ő": "fog venni",
+        "mi": "fogunk venni",
+        "ti": "fogtok venni",
+        "ők": "fognak venni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 85,
+    "infinitive": "levenni",
+    "meaning_de": "ausziehen",
+    "category": "irregular",
+    "conjugations": {
+      "present": {
+        "én": "veszek le",
+        "te": "veszel le",
+        "ő": "vesz le",
+        "mi": "veszünk le",
+        "ti": "vesztek le",
+        "ők": "vesznek le"
+      },
+      "past": {
+        "én": "vettem le",
+        "te": "vettél le",
+        "ő": "vett le",
+        "mi": "vettünk le",
+        "ti": "vettetek le",
+        "ők": "vettek le"
+      },
+      "future": {
+        "én": "fogok levenni",
+        "te": "fogsz levenni",
+        "ő": "fog levenni",
+        "mi": "fogunk levenni",
+        "ti": "fogtok levenni",
+        "ők": "fognak levenni"
+      }
+    },
+    "category_en": "Irregular",
+    "category_de": "Unregelmäßig"
+  },
+  {
+    "id": 86,
+    "infinitive": "mosakodni",
+    "meaning_de": "sich waschen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "mosakodom",
+        "te": "mosakodsz",
+        "ő": "mosakodik",
+        "mi": "mosakodunk",
+        "ti": "mosakodtok",
+        "ők": "mosakodnak"
+      },
+      "past": {
+        "én": "mosakodtam",
+        "te": "mosakodtál",
+        "ő": "mosakodott",
+        "mi": "mosakodtunk",
+        "ti": "mosakodtatok",
+        "ők": "mosakodtak"
+      },
+      "future": {
+        "én": "fogok mosakodni",
+        "te": "fogsz mosakodni",
+        "ő": "fog mosakodni",
+        "mi": "fogunk mosakodni",
+        "ti": "fogtok mosakodni",
+        "ők": "fognak mosakodni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 87,
+    "infinitive": "fürdeni",
+    "meaning_de": "baden",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "fürdök",
+        "te": "fürdsz",
+        "ő": "fürdik",
+        "mi": "fürdünk",
+        "ti": "fürdtök",
+        "ők": "fürdenek"
+      },
+      "past": {
+        "én": "fürödtem",
+        "te": "fürödtél",
+        "ő": "fürdött",
+        "mi": "fürödtünk",
+        "ti": "fürödtetek",
+        "ők": "fürödtek"
+      },
+      "future": {
+        "én": "fogok fürdeni",
+        "te": "fogsz fürdeni",
+        "ő": "fog fürdeni",
+        "mi": "fogunk fürdeni",
+        "ti": "fogtok fürdeni",
+        "ők": "fognak fürdeni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 88,
+    "infinitive": "borotválkozni",
+    "meaning_de": "sich rasieren",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "borotválkozom",
+        "te": "borotválkozol",
+        "ő": "borotválkozik",
+        "mi": "borotválkozunk",
+        "ti": "borotválkoztok",
+        "ők": "borotválkoznak"
+      },
+      "past": {
+        "én": "borotválkoztam",
+        "te": "borotválkoztál",
+        "ő": "borotválkozott",
+        "mi": "borotválkoztunk",
+        "ti": "borotválkoztatok",
+        "ők": "borotválkoztak"
+      },
+      "future": {
+        "én": "fogok borotválkozni",
+        "te": "fogsz borotválkozni",
+        "ő": "fog borotválkozni",
+        "mi": "fogunk borotválkozni",
+        "ti": "fogtok borotválkozni",
+        "ők": "fognak borotválkozni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 89,
+    "infinitive": "fésülködni",
+    "meaning_de": "sich kämmen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "fésülködöm",
+        "te": "fésülködsz",
+        "ő": "fésülködik",
+        "mi": "fésülködünk",
+        "ti": "fésülködtek",
+        "ők": "fésülködnek"
+      },
+      "past": {
+        "én": "fésülködtem",
+        "te": "fésülködtél",
+        "ő": "fésülködött",
+        "mi": "fésülködtünk",
+        "ti": "fésülködtetek",
+        "ők": "fésülködtek"
+      },
+      "future": {
+        "én": "fogok fésülködni",
+        "te": "fogsz fésülködni",
+        "ő": "fog fésülködni",
+        "mi": "fogunk fésülködni",
+        "ti": "fogtok fésülködni",
+        "ők": "fognak fésülködni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 90,
+    "infinitive": "sminkelni",
+    "meaning_de": "sich schminken",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "sminkelk",
+        "te": "sminkelsz",
+        "ő": "sminkel",
+        "mi": "sminkelünk",
+        "ti": "sminkeltek",
+        "ők": "sminkelnek"
+      },
+      "past": {
+        "én": "sminkeltem",
+        "te": "sminkeltél",
+        "ő": "sminkelt",
+        "mi": "sminkeltünk",
+        "ti": "sminkeltetek",
+        "ők": "sminkeltek"
+      },
+      "future": {
+        "én": "fogok sminkelni",
+        "te": "fogsz sminkelni",
+        "ő": "fog sminkelni",
+        "mi": "fogunk sminkelni",
+        "ti": "fogtok sminkelni",
+        "ők": "fognak sminkelni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 91,
+    "infinitive": "pihenni",
+    "meaning_de": "sich ausruhen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "pihenek",
+        "te": "pihensz",
+        "ő": "pihen",
+        "mi": "pihenünk",
+        "ti": "pihentek",
+        "ők": "pihennek"
+      },
+      "past": {
+        "én": "pihentem",
+        "te": "pihentél",
+        "ő": "pihent",
+        "mi": "pihentünk",
+        "ti": "pihentetek",
+        "ők": "pihentek"
+      },
+      "future": {
+        "én": "fogok pihenni",
+        "te": "fogsz pihenni",
+        "ő": "fog pihenni",
+        "mi": "fogunk pihenni",
+        "ti": "fogtok pihenni",
+        "ők": "fognak pihenni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 92,
+    "infinitive": "edzeni",
+    "meaning_de": "trainieren",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "edzek",
+        "te": "edzel",
+        "ő": "edz",
+        "mi": "edzünk",
+        "ti": "edztek",
+        "ők": "edznek"
+      },
+      "past": {
+        "én": "edzettem",
+        "te": "edzettél",
+        "ő": "edzett",
+        "mi": "edzettünk",
+        "ti": "edzettetek",
+        "ők": "edztek"
+      },
+      "future": {
+        "én": "fogok edzeni",
+        "te": "fogsz edzeni",
+        "ő": "fog edzeni",
+        "mi": "fogunk edzeni",
+        "ti": "fogtok edzeni",
+        "ők": "fognak edzeni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 93,
+    "infinitive": "sétálgatni",
+    "meaning_de": "spazieren gehen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "sétálgatok",
+        "te": "sétálgatsz",
+        "ő": "sétálgat",
+        "mi": "sétálgatunk",
+        "ti": "sétálgattok",
+        "ők": "sétálgatnak"
+      },
+      "past": {
+        "én": "sétálgattam",
+        "te": "sétálgattál",
+        "ő": "sétálgatott",
+        "mi": "sétálgattunk",
+        "ti": "sétálgattatok",
+        "ők": "sétálgattak"
+      },
+      "future": {
+        "én": "fogok sétálgatni",
+        "te": "fogsz sétálgatni",
+        "ő": "fog sétálgatni",
+        "mi": "fogunk sétálgatni",
+        "ti": "fogtok sétálgatni",
+        "ők": "fognak sétálgatni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 94,
+    "infinitive": "kirándulni",
+    "meaning_de": "wandern",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "kirándulok",
+        "te": "kirándulsz",
+        "ő": "kirándul",
+        "mi": "kirándulunk",
+        "ti": "kirándultok",
+        "ők": "kirándulnak"
+      },
+      "past": {
+        "én": "kirándultam",
+        "te": "kirándultál",
+        "ő": "kirándult",
+        "mi": "kirándultunk",
+        "ti": "kirándultatok",
+        "ők": "kirándultak"
+      },
+      "future": {
+        "én": "fogok kirándulni",
+        "te": "fogsz kirándulni",
+        "ő": "fog kirándulni",
+        "mi": "fogunk kirándulni",
+        "ti": "fogtok kirándulni",
+        "ők": "fognak kirándulni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 95,
+    "infinitive": "vásárolni",
+    "meaning_de": "einkaufen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "vásárolok",
+        "te": "vásárolsz",
+        "ő": "vásárol",
+        "mi": "vásárolunk",
+        "ti": "vásároltok",
+        "ők": "vásárolnak"
+      },
+      "past": {
+        "én": "vásároltam",
+        "te": "vásároltál",
+        "ő": "vásárolt",
+        "mi": "vásároltunk",
+        "ti": "vásároltatok",
+        "ők": "vásároltak"
+      },
+      "future": {
+        "én": "fogok vásárolni",
+        "te": "fogsz vásárolni",
+        "ő": "fog vásárolni",
+        "mi": "fogunk vásárolni",
+        "ti": "fogtok vásárolni",
+        "ők": "fognak vásárolni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 96,
+    "infinitive": "fizetni",
+    "meaning_de": "bezahlen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "fizetek",
+        "te": "fizetsz",
+        "ő": "fizet",
+        "mi": "fizetünk",
+        "ti": "fizettek",
+        "ők": "fizetnek"
+      },
+      "past": {
+        "én": "fizettem",
+        "te": "fizettél",
+        "ő": "fizetett",
+        "mi": "fizettünk",
+        "ti": "fizettetek",
+        "ők": "fizettek"
+      },
+      "future": {
+        "én": "fogok fizetni",
+        "te": "fogsz fizetni",
+        "ő": "fog fizetni",
+        "mi": "fogunk fizetni",
+        "ti": "fogtok fizetni",
+        "ők": "fognak fizetni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 97,
+    "infinitive": "költni",
+    "meaning_de": "ausgeben",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "költök",
+        "te": "költsz",
+        "ő": "költ",
+        "mi": "költünk",
+        "ti": "költök",
+        "ők": "költenek"
+      },
+      "past": {
+        "én": "költöttem",
+        "te": "költöttél",
+        "ő": "költött",
+        "mi": "költöttünk",
+        "ti": "költöttetek",
+        "ők": "költöttek"
+      },
+      "future": {
+        "én": "fogok költni",
+        "te": "fogsz költni",
+        "ő": "fog költni",
+        "mi": "fogunk költni",
+        "ti": "fogtok költni",
+        "ők": "fognak költni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 98,
+    "infinitive": "keresni (pénzt)",
+    "meaning_de": "verdienen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "keresek",
+        "te": "keresel",
+        "ő": "keres",
+        "mi": "keresünk",
+        "ti": "keresitek",
+        "ők": "keresnek"
+      },
+      "past": {
+        "én": "kerestem",
+        "te": "kerestél",
+        "ő": "keresett",
+        "mi": "kerestünk",
+        "ti": "kerestetek",
+        "ők": "kerestek"
+      },
+      "future": {
+        "én": "fogok keresni",
+        "te": "fogsz keresni",
+        "ő": "fog keresni",
+        "mi": "fogunk keresni",
+        "ti": "fogtok keresni",
+        "ők": "fognak keresni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 99,
+    "infinitive": "takarékoskodni",
+    "meaning_de": "sparen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "takarékoskodom",
+        "te": "takarékoskodsz",
+        "ő": "takarékoskodik",
+        "mi": "takarékoskodunk",
+        "ti": "takarékoskodtok",
+        "ők": "takarékoskodnak"
+      },
+      "past": {
+        "én": "takarékoskodtam",
+        "te": "takarékoskodtál",
+        "ő": "takarékoskodott",
+        "mi": "takarékoskodtunk",
+        "ti": "takarékoskodtatok",
+        "ők": "takarékoskodtak"
+      },
+      "future": {
+        "én": "fogok takarékoskodni",
+        "te": "fogsz takarékoskodni",
+        "ő": "fog takarékoskodni",
+        "mi": "fogunk takarékoskodni",
+        "ti": "fogtok takarékoskodni",
+        "ők": "fognak takarékoskodni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
+  },
+  {
+    "id": 100,
+    "infinitive": "adósodni",
+    "meaning_de": "Schulden machen",
+    "category": "regular",
+    "conjugations": {
+      "present": {
+        "én": "adósodom",
+        "te": "adósodsz",
+        "ő": "adósodik",
+        "mi": "adósodunk",
+        "ti": "adósodtok",
+        "ők": "adósodnak"
+      },
+      "past": {
+        "én": "adósodtam",
+        "te": "adósodtál",
+        "ő": "adósodott",
+        "mi": "adósodtunk",
+        "ti": "adósodtatok",
+        "ők": "adósodtak"
+      },
+      "future": {
+        "én": "fogok adósodni",
+        "te": "fogsz adósodni",
+        "ő": "fog adósodni",
+        "mi": "fogunk adósodni",
+        "ti": "fogtok adósodni",
+        "ők": "fognak adósodni"
+      }
+    },
+    "category_en": "Regular",
+    "category_de": "Regelmäßig"
   }
 ]

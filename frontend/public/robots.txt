@@ -1,3 +1,24 @@
-# https://www.robotstxt.org/robotstxt.html
+# Magyul - Hungarian Language Learning App
+# https://magyul.app
+
+# Allow all search engines to crawl the site
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /static/
+Disallow: /data/
+
+# Sitemap location
+Sitemap: https://magyul.app/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Specific directives for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

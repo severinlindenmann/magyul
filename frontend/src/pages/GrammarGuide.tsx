@@ -3,6 +3,7 @@ import { Container, Box, Typography, Button, Card, CardContent, Accordion, Accor
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
+
 interface Props {
   language: 'en' | 'de';
   onBack: () => void;
@@ -137,15 +138,37 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
   const t = translations[language];
 
   return (
-    <Container maxWidth="md">
-      <Box sx={{ mt: 4, mb: 2 }}>
-        <Button variant="outlined" onClick={onBack} startIcon={<ArrowBackIcon />}>
+    <Box
+      sx={{
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        py: 2,
+      }}
+    >
+      <Container maxWidth="md" sx={{ px: { xs: 1, sm: 3 } }}>
+        <Box sx={{ mt: { xs: 2, sm: 4 }, mb: 2 }}>
+        <Button 
+          variant="contained" 
+          onClick={onBack} 
+          startIcon={<ArrowBackIcon />} 
+          size="small"
+          sx={{
+            backgroundColor: 'rgba(255, 255, 255, 0.95)',
+            color: '#667eea',
+            fontWeight: 600,
+            '&:hover': {
+              backgroundColor: '#ffffff',
+            }
+          }}
+        >
           {t.back}
         </Button>
       </Box>
 
-      <Paper elevation={3} sx={{ p: 4, mb: 4, background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
-        <Typography variant="h3" gutterBottom sx={{ color: 'white', fontWeight: 700 }}>
+      <Paper elevation={3} sx={{ p: { xs: 2, sm: 4 }, mb: 4, background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+        <Typography variant="h3" gutterBottom sx={{ color: 'white', fontWeight: 700, fontSize: { xs: '1.75rem', sm: '3rem' } }}>
           {t.title}
         </Typography>
         <Typography variant="h6" sx={{ color: 'rgba(255,255,255,0.9)' }}>
@@ -356,6 +379,7 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
         </AccordionDetails>
       </Accordion>
     </Container>
+    </Box>
   );
 };
 

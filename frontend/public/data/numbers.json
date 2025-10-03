@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1,
+    "number": 1,
+    "word_hu": "egy",
+    "word_en": "one",
+    "word_de": "eins"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "word_hu": "kettő",
+    "word_en": "two",
+    "word_de": "zwei"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "word_hu": "három",
+    "word_en": "three",
+    "word_de": "drei"
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "word_hu": "négy",
+    "word_en": "four",
+    "word_de": "vier"
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "word_hu": "öt",
+    "word_en": "five",
+    "word_de": "fünf"
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "word_hu": "hat",
+    "word_en": "six",
+    "word_de": "sechs"
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "word_hu": "hét",
+    "word_en": "seven",
+    "word_de": "sieben"
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "word_hu": "nyolc",
+    "word_en": "eight",
+    "word_de": "acht"
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "word_hu": "kilenc",
+    "word_en": "nine",
+    "word_de": "neun"
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "word_hu": "tíz",
+    "word_en": "ten",
+    "word_de": "zehn"
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "word_hu": "tizenegy",
+    "word_en": "eleven",
+    "word_de": "elf"
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "word_hu": "tizenkettő",
+    "word_en": "twelve",
+    "word_de": "zwölf"
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "word_hu": "tizenhárom",
+    "word_en": "thirteen",
+    "word_de": "dreizehn"
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "word_hu": "tizennégy",
+    "word_en": "fourteen",
+    "word_de": "vierzehn"
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "word_hu": "tizenöt",
+    "word_en": "fifteen",
+    "word_de": "fünfzehn"
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "word_hu": "tizenhat",
+    "word_en": "sixteen",
+    "word_de": "sechzehn"
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "word_hu": "tizenhét",
+    "word_en": "seventeen",
+    "word_de": "siebzehn"
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "word_hu": "tizennyolc",
+    "word_en": "eighteen",
+    "word_de": "achtzehn"
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "word_hu": "tizenkilenc",
+    "word_en": "nineteen",
+    "word_de": "neunzehn"
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "word_hu": "húsz",
+    "word_en": "twenty",
+    "word_de": "zwanzig"
+  },
+  {
+    "id": 21,
+    "number": 30,
+    "word_hu": "harminc",
+    "word_en": "thirty",
+    "word_de": "dreißig"
+  },
+  {
+    "id": 22,
+    "number": 40,
+    "word_hu": "negyven",
+    "word_en": "forty",
+    "word_de": "vierzig"
+  },
+  {
+    "id": 23,
+    "number": 50,
+    "word_hu": "ötven",
+    "word_en": "fifty",
+    "word_de": "fünfzig"
+  },
+  {
+    "id": 24,
+    "number": 60,
+    "word_hu": "hatvan",
+    "word_en": "sixty",
+    "word_de": "sechzig"
+  },
+  {
+    "id": 25,
+    "number": 70,
+    "word_hu": "hetven",
+    "word_en": "seventy",
+    "word_de": "siebzig"
+  },
+  {
+    "id": 26,
+    "number": 80,
+    "word_hu": "nyolcvan",
+    "word_en": "eighty",
+    "word_de": "achtzig"
+  },
+  {
+    "id": 27,
+    "number": 90,
+    "word_hu": "kilencven",
+    "word_en": "ninety",
+    "word_de": "neunzig"
+  },
+  {
+    "id": 28,
+    "number": 100,
+    "word_hu": "száz",
+    "word_en": "one hundred",
+    "word_de": "hundert"
+  },
+  {
+    "id": 29,
+    "number": 200,
+    "word_hu": "kétszáz",
+    "word_en": "two hundred",
+    "word_de": "zweihundert"
+  },
+  {
+    "id": 30,
+    "number": 500,
+    "word_hu": "ötszáz",
+    "word_en": "five hundred",
+    "word_de": "fünfhundert"
+  },
+  {
+    "id": 31,
+    "number": 1000,
+    "word_hu": "ezer",
+    "word_en": "one thousand",
+    "word_de": "tausend"
+  },
+  {
+    "id": 32,
+    "number": 10000,
+    "word_hu": "tízezer",
+    "word_en": "ten thousand",
+    "word_de": "zehntausend"
+  },
+  {
+    "id": 33,
+    "number": 100000,
+    "word_hu": "százezer",
+    "word_en": "one hundred thousand",
+    "word_de": "hunderttausend"
+  },
+  {
+    "id": 34,
+    "number": 1000000,
+    "word_hu": "egymillió",
+    "word_en": "one million",
+    "word_de": "eine Million"
+  }
+]

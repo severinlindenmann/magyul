@@ -5,10 +5,13 @@ import { Container, Box, Typography, Button, Paper } from '@mui/material';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import SpellcheckIcon from '@mui/icons-material/Spellcheck';
 import SchoolIcon from '@mui/icons-material/School';
+import NumbersIcon from '@mui/icons-material/Numbers';
 import LanguageSelection from './pages/LanguageSelection';
 import VocabularyPractice from './pages/VocabularyPractice';
 import VerbConjugation from './pages/VerbConjugation';
 import GrammarGuide from './pages/GrammarGuide';
+import NumbersPractice from './pages/NumbersPractice';
+import Footer from './components/Footer';
 
 const theme = createTheme({
   palette: {
@@ -21,7 +24,7 @@ const theme = createTheme({
   },
 });
 
-type Page = 'language' | 'menu' | 'vocabulary' | 'verbs' | 'grammar';
+type Page = 'language' | 'menu' | 'vocabulary' | 'verbs' | 'grammar' | 'numbers';
 type Language = 'en' | 'de';
 
 function App() {
@@ -40,14 +43,18 @@ function App() {
   const translations = {
     en: {
       title: 'Magyul',
+      chooseMode: 'Choose your practice mode',
       vocabulary: 'Practice Vocabulary',
       verbs: 'Practice Verb Conjugation',
+      numbers: 'Practice Numbers',
       grammar: 'Grammar Guide'
     },
     de: {
       title: 'Magyul',
+      chooseMode: 'Wähle deinen Übungsmodus',
       vocabulary: 'Vokabeln üben',
       verbs: 'Verbkonjugation üben',
+      numbers: 'Zahlen üben',
       grammar: 'Grammatik Leitfaden'
     }
   };
@@ -67,28 +74,30 @@ function App() {
           sx={{
             minHeight: '100vh',
             display: 'flex',
-            alignItems: 'center',
+            flexDirection: 'column',
             background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
             py: 4,
           }}
         >
-          <Container maxWidth="sm">
+          <Container maxWidth="sm" sx={{ flex: 1, display: 'flex', alignItems: 'center' }}>
             <Paper
               elevation={10}
               sx={{
-                p: 5,
+                width: '100%',
+                p: { xs: 3, sm: 5 },
                 borderRadius: 4,
                 background: 'rgba(255, 255, 255, 0.95)',
                 backdropFilter: 'blur(10px)',
               }}
             >
-              <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 3 }}>
+              <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: { xs: 2, sm: 3 } }}>
                 <Typography
                   variant="h3"
                   component="h1"
                   gutterBottom
                   sx={{
                     fontWeight: 700,
+                    fontSize: { xs: '2rem', sm: '3rem' },
                     background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
                     backgroundClip: 'text',
                     WebkitBackgroundClip: 'text',
@@ -99,11 +108,11 @@ function App() {
                   {t.title}
                 </Typography>
                 
-                <Typography variant="body1" color="text.secondary" textAlign="center" sx={{ mb: 2 }}>
-                  Choose your practice mode
+                <Typography variant="body1" color="text.secondary" textAlign="center" sx={{ mb: { xs: 1, sm: 2 }, fontSize: { xs: '0.95rem', sm: '1rem' } }}>
+                  {t.chooseMode}
                 </Typography>
 
-                <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3, width: '100%', mt: 2 }}>
+                <Box sx={{ display: 'flex', flexDirection: 'column', gap: { xs: 2, sm: 3 }, width: '100%', mt: { xs: 1, sm: 2 } }}>
                   <Button
                     variant="contained"
                     size="large"
@@ -152,6 +161,28 @@ function App() {
                     variant="contained"
                     size="large"
                     fullWidth
+                    onClick={() => setCurrentPage('numbers')}
+                    startIcon={<NumbersIcon />}
+                    sx={{
+                      py: 2.5,
+                      fontSize: '1.1rem',
+                      fontWeight: 600,
+                      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                      boxShadow: '0 4px 15px rgba(102, 126, 234, 0.4)',
+                      '&:hover': {
+                        background: 'linear-gradient(135deg, #5568d3 0%, #6639a3 100%)',
+                        boxShadow: '0 6px 20px rgba(102, 126, 234, 0.6)',
+                        transform: 'translateY(-2px)',
+                      },
+                      transition: 'all 0.3s ease',
+                    }}
+                  >
+                    {t.numbers}
+                  </Button>
+                  <Button
+                    variant="contained"
+                    size="large"
+                    fullWidth
                     onClick={() => setCurrentPage('grammar')}
                     startIcon={<SchoolIcon />}
                     sx={{
@@ -174,6 +205,7 @@ function App() {
               </Box>
             </Paper>
           </Container>
+          <Footer variant="light" />
         </Box>
       )}
 
@@ -183,6 +215,10 @@ function App() {
 
       {currentPage === 'verbs' && (
         <VerbConjugation language={selectedLanguage} onBack={handleBackToMenu} />
+      )}
+
+      {currentPage === 'numbers' && (
+        <NumbersPractice language={selectedLanguage} onBack={handleBackToMenu} />
       )}
 
       {currentPage === 'grammar' && (

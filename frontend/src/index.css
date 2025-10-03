@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Responsive optimization for smaller iPhones (iPhone SE, 12 mini, etc.) */
+@media screen and (max-width: 375px) {
+  /* Reduce base font size on small screens */
+  html {
+    font-size: 14px;
+  }
+  
+  /* Adjust MUI container padding */
+  .MuiContainer-root {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  
+  /* Reduce card padding */
+  .MuiCard-root .MuiCardContent-root {
+    padding: 12px !important;
+  }
+  
+  /* Smaller button padding */
+  .MuiButton-root {
+    padding: 6px 12px !important;
+  }
+  
+  .MuiButton-sizeLarge {
+    padding: 8px 16px !important;
+  }
+  
+  /* Reduce paper padding */
+  .MuiPaper-root {
+    padding: 16px !important;
+  }
+  
+  /* Smaller typography */
+  .MuiTypography-h3 {
+    font-size: 2rem !important;
+  }
+  
+  .MuiTypography-h4 {
+    font-size: 1.75rem !important;
+  }
+  
+  .MuiTypography-h5 {
+    font-size: 1.25rem !important;
+  }
+  
+  .MuiTypography-h6 {
+    font-size: 1rem !important;
+  }
+}
+
+/* Additional optimization for very small screens */
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 13px;
+  }
+}

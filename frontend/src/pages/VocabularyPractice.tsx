@@ -100,25 +100,43 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
     // In normal mode: show Hungarian word, user writes English/German
     let correctWord: string;
     let normalizedAnswer: string;
-    let normalizedCorrect: string;
     
     if (reverseMode) {
       correctWord = exercise.word.word_hu;
       normalizedAnswer = normalizeHungarian(answer);
-      normalizedCorrect = normalizeHungarian(correctWord);
     } else {
       correctWord = currentLanguage === 'en' ? exercise.word.word_en : exercise.word.word_de;
       // For German, use Swiss German normalization; for English and Hungarian, use Hungarian normalization
       if (currentLanguage === 'de') {
         normalizedAnswer = normalizeGerman(answer);
-        normalizedCorrect = normalizeGerman(correctWord);
       } else {
         normalizedAnswer = normalizeHungarian(answer);
-        normalizedCorrect = normalizeHungarian(correctWord);
       }
     }
     
-    const result = normalizedAnswer === normalizedCorrect;
+    // Handle comma-separated alternatives (e.g., "als, wie" - accept either "als" OR "wie")
+    const correctAlternatives = correctWord.split(',').map(alt => alt.trim());
+    let result = false;
+    
+    // Check if the user's answer matches any of the alternatives
+    for (const alternative of correctAlternatives) {
+      let normalizedCorrect: string;
+      if (reverseMode) {
+        normalizedCorrect = normalizeHungarian(alternative);
+      } else {
+        if (currentLanguage === 'de') {
+          normalizedCorrect = normalizeGerman(alternative);
+        } else {
+          normalizedCorrect = normalizeHungarian(alternative);
+        }
+      }
+      
+      if (normalizedAnswer === normalizedCorrect) {
+        result = true;
+        break;
+      }
+    }
+    
     setIsCorrect(result);
     setShowResult(true);
     

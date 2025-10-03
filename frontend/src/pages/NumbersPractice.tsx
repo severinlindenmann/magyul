@@ -126,26 +126,44 @@ const NumbersPractice: React.FC<Props> = ({ language, onBack }) => {
     
     let correctWord: string;
     let normalizedAnswer: string;
-    let normalizedCorrect: string;
     
     if (reverseMode) {
       // Reverse mode: Hungarian -> EN/DE
       correctWord = currentLanguage === 'en' ? currentNumber.word_en : currentNumber.word_de;
       if (currentLanguage === 'de') {
         normalizedAnswer = normalizeGerman(answer);
-        normalizedCorrect = normalizeGerman(correctWord);
       } else {
         normalizedAnswer = answer.toLowerCase().trim();
-        normalizedCorrect = correctWord.toLowerCase().trim();
       }
     } else {
       // Normal mode: Number -> Hungarian
       correctWord = currentNumber.word_hu;
       normalizedAnswer = normalizeHungarian(answer);
-      normalizedCorrect = normalizeHungarian(correctWord);
     }
     
-    const result = normalizedAnswer === normalizedCorrect;
+    // Handle comma-separated alternatives (e.g., "form1, form2" - accept either)
+    const correctAlternatives = correctWord.split(',').map((alt: string) => alt.trim());
+    let result = false;
+    
+    // Check if the user's answer matches any of the alternatives
+    for (const alternative of correctAlternatives) {
+      let normalizedCorrect: string;
+      if (reverseMode) {
+        if (currentLanguage === 'de') {
+          normalizedCorrect = normalizeGerman(alternative);
+        } else {
+          normalizedCorrect = alternative.toLowerCase().trim();
+        }
+      } else {
+        normalizedCorrect = normalizeHungarian(alternative);
+      }
+      
+      if (normalizedAnswer === normalizedCorrect) {
+        result = true;
+        break;
+      }
+    }
+    
     setIsCorrect(result);
     setShowResult(true);
     

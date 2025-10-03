@@ -51,6 +51,9 @@ interface WordCycleState {
 }
 
 class ApiService {
+  // Debug mode - set to true to enable detailed cycle logging
+  private static DEBUG_CYCLE = false;
+  
   private static vocabularyData: VocabularyWord[] = [];
   private static verbData: Verb[] = [];
   private static numbersData: NumberWord[] = [];
@@ -61,14 +64,21 @@ class ApiService {
   private static verbCycle: WordCycleState[] = [];
   private static vocabularyUsedInSession: Set<number> = new Set();
   private static verbUsedInSession: Set<number> = new Set();
+  
+  // Helper method for debug logging
+  private static debugLog(...args: any[]) {
+    if (this.DEBUG_CYCLE) {
+      console.log(...args);
+    }
+  }
 
   // Initialize data from JSON files
   static async initialize() {
     if (this.initialized) return;
     
     try {
-      // Load vocabulary data from multiple files
-      const vocabularyFiles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      // Load vocabulary data from multiple files (1-20)
+      const vocabularyFiles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
       const vocabularyPromises = vocabularyFiles.map(async (fileNum) => {
         const response = await fetch(`/data/vocabulary/${fileNum}.json`);
         if (!response.ok) {
@@ -83,6 +93,8 @@ class ApiService {
       
       const vocabularyChunks = await Promise.all(vocabularyPromises);
       this.vocabularyData = vocabularyChunks.flat();
+      
+      console.log(`Loaded ${this.vocabularyData.length} vocabulary words from ${vocabularyFiles.length} files`);
       
       // Load verb data
       const verbResponse = await fetch('/data/verbs.json');
@@ -191,23 +203,40 @@ class ApiService {
     const cycle = type === 'vocabulary' ? this.vocabularyCycle : this.verbCycle;
     const used = type === 'vocabulary' ? this.vocabularyUsedInSession : this.verbUsedInSession;
     
+    this.debugLog(`[CYCLE] Before markWordResult - wordId: ${wordId}, isCorrect: ${isCorrect}`);
+    this.debugLog('[CYCLE] Current cycle state:', cycle.map(s => ({ id: s.wordId, skip: s.skipCount })));
+    
+    // Decrease skip counts for all other words (except those with infinite skip)
+    // This ensures a word answered wrong comes back after 2 OTHER words are shown
+    cycle.forEach(state => {
+      if (state.wordId !== wordId && state.skipCount > 0 && state.skipCount !== Number.MAX_SAFE_INTEGER) {
+        this.debugLog(`[CYCLE] Decrementing skip count for word ${state.wordId}: ${state.skipCount} -> ${state.skipCount - 1}`);
+        state.skipCount--;
+      }
+    });
+    
     used.add(wordId);
     
     let state = cycle.find(s => s.wordId === wordId);
     if (!state) {
       state = { wordId, skipCount: 0, wrongCount: 0 };
       cycle.push(state);
+      this.debugLog(`[CYCLE] Created new state for word ${wordId}`);
     }
     
     if (isCorrect) {
-      // Correct answer: skip this word for the rest of the cycle
-      state.skipCount = Math.max(cycle.length, 5);
+      // Correct answer: mark to skip for the rest of the session (never bring back)
+      state.skipCount = Number.MAX_SAFE_INTEGER; // Effectively infinite - never show again this session
       state.wrongCount = 0;
+      this.debugLog(`[CYCLE] Word ${wordId} answered CORRECTLY - skipCount set to MAX (never show again)`);
     } else {
-      // Wrong answer: bring back after 3 steps
-      state.skipCount = 3;
+      // Wrong answer: bring back after 2 OTHER words are shown
+      state.skipCount = 2;
       state.wrongCount++;
+      this.debugLog(`[CYCLE] Word ${wordId} answered WRONG - skipCount set to 2 (show after 2 new words)`);
     }
+    
+    this.debugLog('[CYCLE] After markWordResult:', cycle.map(s => ({ id: s.wordId, skip: s.skipCount })));
   }
   
   static getAvailableWords(type: 'vocabulary' | 'verb'): number[] {
@@ -215,24 +244,64 @@ class ApiService {
     const cycle = type === 'vocabulary' ? this.vocabularyCycle : this.verbCycle;
     const used = type === 'vocabulary' ? this.vocabularyUsedInSession : this.verbUsedInSession;
     
-    // Decrease skip counts
-    cycle.forEach(state => {
-      if (state.skipCount > 0) state.skipCount--;
-    });
+    this.debugLog('[CYCLE] getAvailableWords called');
+    this.debugLog('[CYCLE] Current cycle state:', cycle.map(s => ({ id: s.wordId, skip: s.skipCount })));
     
-    // Get words that can be shown (skipCount === 0)
-    const availableIds = new Set(data.map(w => w.id));
+    // First priority: words that need to be retested (skipCount = 0 and wrongCount > 0)
+    const retestWords: number[] = [];
     cycle.forEach(state => {
-      if (state.skipCount > 0) {
-        availableIds.delete(state.wordId);
+      if (state.skipCount === 0 && state.wrongCount > 0) {
+        retestWords.push(state.wordId);
+        this.debugLog(`[CYCLE] Word ${state.wordId} needs RETEST (was answered wrong before)`);
       }
     });
     
+    // If we have words that need retesting, return ONLY those
+    if (retestWords.length > 0) {
+      this.debugLog('[CYCLE] Returning retest words:', retestWords);
+      return retestWords;
+    }
+    
+    // Otherwise, get all available words (skipCount === 0 or not in cycle yet)
+    const availableIds = new Set(data.map(w => w.id));
+    
+    cycle.forEach(state => {
+      if (state.skipCount > 0) {
+        availableIds.delete(state.wordId);
+        this.debugLog(`[CYCLE] Removed word ${state.wordId} (skipCount = ${state.skipCount})`);
+      }
+    });
+    
+    this.debugLog('[CYCLE] Available word IDs (first 20):', Array.from(availableIds).slice(0, 20));
+    this.debugLog('[CYCLE] Total available:', availableIds.size);
+    
     // If all words used and no available words, reset the cycle (start new round)
-    if (availableIds.size === 0 && used.size >= data.length) {
-      cycle.length = 0;
-      used.clear();
-      return data.map(w => w.id);
+    // But preserve correctly answered words (those with MAX_SAFE_INTEGER)
+    if (availableIds.size === 0) {
+      this.debugLog('[CYCLE] No available words - resetting cycle (preserving correct answers)');
+      // Reset only the words that were wrong or not yet tried
+      cycle.forEach(state => {
+        if (state.skipCount !== Number.MAX_SAFE_INTEGER) {
+          state.skipCount = 0;
+        }
+      });
+      
+      // Recalculate available IDs
+      availableIds.clear();
+      data.forEach(w => availableIds.add(w.id));
+      cycle.forEach(state => {
+        if (state.skipCount > 0) {
+          availableIds.delete(state.wordId);
+        }
+      });
+      
+      // If still no words available (all answered correctly), reset everything for a new session
+      if (availableIds.size === 0) {
+        this.debugLog('[CYCLE] All words answered correctly - full reset');
+        cycle.length = 0;
+        used.clear();
+        return data.map(w => w.id);
+      }
     }
     
     return Array.from(availableIds);

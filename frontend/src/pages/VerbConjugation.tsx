@@ -105,8 +105,15 @@ const VerbConjugation: React.FC<Props> = ({ language, onBack }) => {
     const results = answers.map((answer, index) => {
       const correctForm = correctForms[index];
       if (!correctForm) return false;
-      // Normalize both answers to allow for missing accents and case insensitivity
-      return normalizeHungarian(answer) === normalizeHungarian(correctForm);
+      
+      // Handle comma-separated alternatives (e.g., "form1, form2" - accept either)
+      const correctAlternatives = correctForm.split(',').map((alt: string) => alt.trim());
+      const normalizedAnswer = normalizeHungarian(answer);
+      
+      // Check if the user's answer matches any of the alternatives
+      return correctAlternatives.some((alternative: string) => 
+        normalizedAnswer === normalizeHungarian(alternative)
+      );
     });
 
     setValidation(results);

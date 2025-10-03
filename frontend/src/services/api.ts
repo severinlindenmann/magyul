@@ -67,16 +67,22 @@ class ApiService {
     if (this.initialized) return;
     
     try {
-      // Load vocabulary data
-      const vocabResponse = await fetch('/data/vocabulary.json');
-      if (!vocabResponse.ok) {
-        throw new Error(`Failed to fetch vocabulary: ${vocabResponse.status}`);
-      }
-      const vocabText = await vocabResponse.text();
-      if (!vocabText || vocabText.trim() === '') {
-        throw new Error('Vocabulary data is empty');
-      }
-      this.vocabularyData = JSON.parse(vocabText);
+      // Load vocabulary data from multiple files
+      const vocabularyFiles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      const vocabularyPromises = vocabularyFiles.map(async (fileNum) => {
+        const response = await fetch(`/data/vocabulary/${fileNum}.json`);
+        if (!response.ok) {
+          throw new Error(`Failed to fetch vocabulary file ${fileNum}: ${response.status}`);
+        }
+        const text = await response.text();
+        if (!text || text.trim() === '') {
+          throw new Error(`Vocabulary file ${fileNum} is empty`);
+        }
+        return JSON.parse(text);
+      });
+      
+      const vocabularyChunks = await Promise.all(vocabularyPromises);
+      this.vocabularyData = vocabularyChunks.flat();
       
       // Load verb data
       const verbResponse = await fetch('/data/verbs.json');

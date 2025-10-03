@@ -115,7 +115,11 @@ magyul/
 │   ├── public/
 │   │   ├── data/
 │   │   │   ├── verbs.json          # Hungarian verb conjugations
-│   │   │   └── vocabulary.json     # Vocabulary database
+│   │   │   ├── vocabulary/         # Split vocabulary files
+│   │   │   │   ├── 1.json          # Words 1-100
+│   │   │   │   ├── 2.json          # Words 101-200
+│   │   │   │   └── ...             # Up to 10.json
+│   │   │   └── 1000-most-common-hungarian-words.txt
 │   │   └── index.html
 │   ├── src/
 │   │   ├── components/

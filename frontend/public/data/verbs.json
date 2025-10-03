@@ -3,6 +3,7 @@
     "id": 1,
     "infinitive": "lenni",
     "meaning_de": "sein",
+    "meaning_en": "to be",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -37,6 +38,7 @@
     "id": 2,
     "infinitive": "menni",
     "meaning_de": "gehen",
+    "meaning_en": "to go",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -71,6 +73,7 @@
     "id": 3,
     "infinitive": "csinálni",
     "meaning_de": "machen",
+    "meaning_en": "to do/make",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -105,6 +108,7 @@
     "id": 4,
     "infinitive": "látni",
     "meaning_de": "sehen",
+    "meaning_en": "to see",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -139,6 +143,7 @@
     "id": 5,
     "infinitive": "tudni",
     "meaning_de": "wissen/können",
+    "meaning_en": "to know/can",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -173,6 +178,7 @@
     "id": 6,
     "infinitive": "szeretni",
     "meaning_de": "mögen/lieben",
+    "meaning_en": "to like/love",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -207,6 +213,7 @@
     "id": 7,
     "infinitive": "venni",
     "meaning_de": "kaufen/nehmen",
+    "meaning_en": "to buy/take",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -241,6 +248,7 @@
     "id": 8,
     "infinitive": "enni",
     "meaning_de": "essen",
+    "meaning_en": "to eat",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -275,6 +283,7 @@
     "id": 9,
     "infinitive": "beszélni",
     "meaning_de": "sprechen",
+    "meaning_en": "to speak",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -309,6 +318,7 @@
     "id": 10,
     "infinitive": "dolgozni",
     "meaning_de": "arbeiten",
+    "meaning_en": "to work",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -343,6 +353,7 @@
     "id": 11,
     "infinitive": "inni",
     "meaning_de": "trinken",
+    "meaning_en": "to drink",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -377,6 +388,7 @@
     "id": 12,
     "infinitive": "aludni",
     "meaning_de": "schlafen",
+    "meaning_en": "to sleep",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -411,6 +423,7 @@
     "id": 13,
     "infinitive": "jönni",
     "meaning_de": "kommen",
+    "meaning_en": "to come",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -445,6 +458,7 @@
     "id": 14,
     "infinitive": "írni",
     "meaning_de": "schreiben",
+    "meaning_en": "to write",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -479,6 +493,7 @@
     "id": 15,
     "infinitive": "olvasni",
     "meaning_de": "lesen",
+    "meaning_en": "to read",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -513,6 +528,7 @@
     "id": 16,
     "infinitive": "tanulni",
     "meaning_de": "lernen",
+    "meaning_en": "to learn/study",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -547,6 +563,7 @@
     "id": 17,
     "infinitive": "adni",
     "meaning_de": "geben",
+    "meaning_en": "to give",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -581,6 +598,7 @@
     "id": 18,
     "infinitive": "kapni",
     "meaning_de": "bekommen",
+    "meaning_en": "to get/receive",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -615,6 +633,7 @@
     "id": 19,
     "infinitive": "mondani",
     "meaning_de": "sagen",
+    "meaning_en": "to say/tell",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -649,6 +668,7 @@
     "id": 20,
     "infinitive": "hallani",
     "meaning_de": "hören",
+    "meaning_en": "to hear",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -683,6 +703,7 @@
     "id": 21,
     "infinitive": "érteni",
     "meaning_de": "verstehen",
+    "meaning_en": "to understand",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -717,6 +738,7 @@
     "id": 22,
     "infinitive": "élni",
     "meaning_de": "leben",
+    "meaning_en": "to live",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -751,6 +773,7 @@
     "id": 23,
     "infinitive": "akarni",
     "meaning_de": "wollen",
+    "meaning_en": "to want",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -785,6 +808,7 @@
     "id": 24,
     "infinitive": "találni",
     "meaning_de": "finden",
+    "meaning_en": "to find",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -819,6 +843,7 @@
     "id": 25,
     "infinitive": "hinni",
     "meaning_de": "glauben",
+    "meaning_en": "to believe",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -853,6 +878,7 @@
     "id": 26,
     "infinitive": "kérni",
     "meaning_de": "fragen/bitten",
+    "meaning_en": "to ask/request",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -887,6 +913,7 @@
     "id": 27,
     "infinitive": "felelnni",
     "meaning_de": "antworten",
+    "meaning_en": "to answer",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -921,6 +948,7 @@
     "id": 28,
     "infinitive": "hívni",
     "meaning_de": "rufen/anrufen",
+    "meaning_en": "to call",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -955,6 +983,7 @@
     "id": 29,
     "infinitive": "nézni",
     "meaning_de": "schauen/ansehen",
+    "meaning_en": "to look/watch",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -989,6 +1018,7 @@
     "id": 30,
     "infinitive": "keresni",
     "meaning_de": "suchen",
+    "meaning_en": "to search/look for",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1023,6 +1053,7 @@
     "id": 31,
     "infinitive": "várni",
     "meaning_de": "warten",
+    "meaning_en": "to wait",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1057,6 +1088,7 @@
     "id": 32,
     "infinitive": "segíteni",
     "meaning_de": "helfen",
+    "meaning_en": "to help",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1091,6 +1123,7 @@
     "id": 33,
     "infinitive": "utazni",
     "meaning_de": "reisen",
+    "meaning_en": "to travel",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1125,6 +1158,7 @@
     "id": 34,
     "infinitive": "feküdni",
     "meaning_de": "liegen",
+    "meaning_en": "to lie (down)",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -1159,6 +1193,7 @@
     "id": 35,
     "infinitive": "állni",
     "meaning_de": "stehen",
+    "meaning_en": "to stand",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -1193,6 +1228,7 @@
     "id": 36,
     "infinitive": "ülni",
     "meaning_de": "sitzen",
+    "meaning_en": "to sit",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -1227,6 +1263,7 @@
     "id": 37,
     "infinitive": "futni",
     "meaning_de": "laufen",
+    "meaning_en": "to run",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -1261,6 +1298,7 @@
     "id": 38,
     "infinitive": "ugrani",
     "meaning_de": "springen",
+    "meaning_en": "to jump",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1295,6 +1333,7 @@
     "id": 39,
     "infinitive": "sétálni",
     "meaning_de": "spazieren",
+    "meaning_en": "to walk",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1329,6 +1368,7 @@
     "id": 40,
     "infinitive": "énekelni",
     "meaning_de": "singen",
+    "meaning_en": "to sing",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1340,12 +1380,12 @@
         "ők": "énekelnek"
       },
       "past": {
-        "én": "énekelten",
-        "te": "énekelten",
-        "ő": "énekelten",
-        "mi": "énekelten",
-        "ti": "énekelten",
-        "ők": "énekelten"
+        "én": "énekeltem",
+        "te": "énekeltél",
+        "ő": "énekelt",
+        "mi": "énekeltünk",
+        "ti": "énekeltetek",
+        "ők": "énekeltek"
       },
       "future": {
         "én": "fogok énekelni",
@@ -1363,6 +1403,7 @@
     "id": 41,
     "infinitive": "táncolni",
     "meaning_de": "tanzen",
+    "meaning_en": "to dance",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1397,6 +1438,7 @@
     "id": 42,
     "infinitive": "játszani",
     "meaning_de": "spielen",
+    "meaning_en": "to play",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1431,6 +1473,7 @@
     "id": 43,
     "infinitive": "mosni",
     "meaning_de": "waschen",
+    "meaning_en": "to wash",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1465,6 +1508,7 @@
     "id": 44,
     "infinitive": "főzni",
     "meaning_de": "kochen",
+    "meaning_en": "to cook",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1499,6 +1543,7 @@
     "id": 45,
     "infinitive": "sütni",
     "meaning_de": "backen",
+    "meaning_en": "to bake",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -1533,6 +1578,7 @@
     "id": 46,
     "infinitive": "takarítani",
     "meaning_de": "putzen",
+    "meaning_en": "to clean",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1567,6 +1613,7 @@
     "id": 47,
     "infinitive": "vasalni",
     "meaning_de": "bügeln",
+    "meaning_en": "to iron",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1601,11 +1648,12 @@
     "id": 48,
     "infinitive": "festeni",
     "meaning_de": "malen",
+    "meaning_en": "to paint",
     "category": "regular",
     "conjugations": {
       "present": {
-        "én": "festes",
-        "te": "festesz",
+        "én": "festek",
+        "te": "fesztesz",
         "ő": "fest",
         "mi": "festünk",
         "ti": "festetek",
@@ -1635,6 +1683,7 @@
     "id": 49,
     "infinitive": "építeni",
     "meaning_de": "bauen",
+    "meaning_en": "to build",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1669,6 +1718,7 @@
     "id": 50,
     "infinitive": "javítani",
     "meaning_de": "reparieren",
+    "meaning_en": "to repair",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1703,6 +1753,7 @@
     "id": 51,
     "infinitive": "tanítani",
     "meaning_de": "unterrichten",
+    "meaning_en": "to teach",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1737,6 +1788,7 @@
     "id": 52,
     "infinitive": "gyakorolni",
     "meaning_de": "üben",
+    "meaning_en": "to practice",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1771,6 +1823,7 @@
     "id": 53,
     "infinitive": "vizsgálni",
     "meaning_de": "untersuchen",
+    "meaning_en": "to examine",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1805,6 +1858,7 @@
     "id": 54,
     "infinitive": "kezelni",
     "meaning_de": "behandeln",
+    "meaning_en": "to treat/handle",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1839,6 +1893,7 @@
     "id": 55,
     "infinitive": "gyógyítani",
     "meaning_de": "heilen",
+    "meaning_en": "to heal/cure",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1873,6 +1928,7 @@
     "id": 56,
     "infinitive": "gondolni",
     "meaning_de": "denken",
+    "meaning_en": "to think",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1907,6 +1963,7 @@
     "id": 57,
     "infinitive": "emlékezni",
     "meaning_de": "sich erinnern",
+    "meaning_en": "to remember",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -1941,6 +1998,7 @@
     "id": 58,
     "infinitive": "felejteni",
     "meaning_de": "vergessen",
+    "meaning_en": "to forget",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -1975,6 +2033,7 @@
     "id": 59,
     "infinitive": "álmodni",
     "meaning_de": "träumen",
+    "meaning_en": "to dream",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2009,6 +2068,7 @@
     "id": 60,
     "infinitive": "reménykedni",
     "meaning_de": "hoffen",
+    "meaning_en": "to hope",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2043,6 +2103,7 @@
     "id": 61,
     "infinitive": "félelmetes",
     "meaning_de": "fürchten",
+    "meaning_en": "to fear",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2077,11 +2138,12 @@
     "id": 62,
     "infinitive": "bízni",
     "meaning_de": "vertrauen",
+    "meaning_en": "to trust",
     "category": "regular",
     "conjugations": {
       "present": {
         "én": "bízom",
-        "te": "bízsol",
+        "te": "bízol",
         "ő": "bízik",
         "mi": "bízunk",
         "ti": "bíztok",
@@ -2111,6 +2173,7 @@
     "id": 63,
     "infinitive": "szerencsétlenkedni",
     "meaning_de": "Pecha haben",
+    "meaning_en": "to have bad luck",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2145,6 +2208,7 @@
     "id": 64,
     "infinitive": "örülni",
     "meaning_de": "sich freuen",
+    "meaning_en": "to be happy/glad",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2179,6 +2243,7 @@
     "id": 65,
     "infinitive": "szomorodni",
     "meaning_de": "traurig werden",
+    "meaning_en": "to become sad",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2213,6 +2278,7 @@
     "id": 66,
     "infinitive": "haragudni",
     "meaning_de": "böse sein",
+    "meaning_en": "to be angry",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2247,6 +2313,7 @@
     "id": 67,
     "infinitive": "bocsátani",
     "meaning_de": "verzeihen",
+    "meaning_en": "to forgive",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2281,6 +2348,7 @@
     "id": 68,
     "infinitive": "köszönni",
     "meaning_de": "danken/grüßen",
+    "meaning_en": "to thank/greet",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2315,6 +2383,7 @@
     "id": 69,
     "infinitive": "kérdezni",
     "meaning_de": "fragen",
+    "meaning_en": "to ask",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2349,6 +2418,7 @@
     "id": 70,
     "infinitive": "válaszolni",
     "meaning_de": "antworten",
+    "meaning_en": "to answer",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2383,6 +2453,7 @@
     "id": 71,
     "infinitive": "mesélni",
     "meaning_de": "erzählen",
+    "meaning_en": "to tell a story",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2417,6 +2488,7 @@
     "id": 72,
     "infinitive": "magyarázni",
     "meaning_de": "erklären",
+    "meaning_en": "to explain",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2451,6 +2523,7 @@
     "id": 73,
     "infinitive": "elmondani",
     "meaning_de": "erzählen/sagen",
+    "meaning_en": "to tell/say",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2485,6 +2558,7 @@
     "id": 74,
     "infinitive": "megérteni",
     "meaning_de": "verstehen",
+    "meaning_en": "to understand",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2519,6 +2593,7 @@
     "id": 75,
     "infinitive": "tanácsolni",
     "meaning_de": "raten",
+    "meaning_en": "to advise",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2553,6 +2628,7 @@
     "id": 76,
     "infinitive": "figyelni",
     "meaning_de": "aufpassen",
+    "meaning_en": "to pay attention",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2587,6 +2663,7 @@
     "id": 77,
     "infinitive": "szokni",
     "meaning_de": "gewohnt sein",
+    "meaning_en": "to be used to",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -2621,6 +2698,7 @@
     "id": 78,
     "infinitive": "megszokni",
     "meaning_de": "sich gewöhnen",
+    "meaning_en": "to get used to",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -2655,6 +2733,7 @@
     "id": 79,
     "infinitive": "tetszeni",
     "meaning_de": "gefallen",
+    "meaning_en": "to like/please",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -2689,6 +2768,7 @@
     "id": 80,
     "infinitive": "kelleni",
     "meaning_de": "brauchen/gefallen",
+    "meaning_en": "to need/like",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -2703,7 +2783,7 @@
         "én": "kellettem",
         "te": "kellettél",
         "ő": "kellett",
-        "mi": "kelltünk",
+        "mi": "keltünk",
         "ti": "keltetek",
         "ők": "keltek"
       },
@@ -2723,6 +2803,7 @@
     "id": 81,
     "infinitive": "tartani",
     "meaning_de": "halten",
+    "meaning_en": "to hold/keep",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2757,6 +2838,7 @@
     "id": 82,
     "infinitive": "viselni",
     "meaning_de": "tragen",
+    "meaning_en": "to wear",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2791,6 +2873,7 @@
     "id": 83,
     "infinitive": "hordani",
     "meaning_de": "tragen",
+    "meaning_en": "to carry/wear",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2825,6 +2908,7 @@
     "id": 84,
     "infinitive": "venni (felöltözni)",
     "meaning_de": "anziehen",
+    "meaning_en": "to put on (clothes)",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -2859,6 +2943,7 @@
     "id": 85,
     "infinitive": "levenni",
     "meaning_de": "ausziehen",
+    "meaning_en": "to take off (clothes)",
     "category": "irregular",
     "conjugations": {
       "present": {
@@ -2893,6 +2978,7 @@
     "id": 86,
     "infinitive": "mosakodni",
     "meaning_de": "sich waschen",
+    "meaning_en": "to wash oneself",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2927,6 +3013,7 @@
     "id": 87,
     "infinitive": "fürdeni",
     "meaning_de": "baden",
+    "meaning_en": "to bathe",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2961,6 +3048,7 @@
     "id": 88,
     "infinitive": "borotválkozni",
     "meaning_de": "sich rasieren",
+    "meaning_en": "to shave",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -2995,6 +3083,7 @@
     "id": 89,
     "infinitive": "fésülködni",
     "meaning_de": "sich kämmen",
+    "meaning_en": "to comb one's hair",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3029,6 +3118,7 @@
     "id": 90,
     "infinitive": "sminkelni",
     "meaning_de": "sich schminken",
+    "meaning_en": "to put on makeup",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3063,6 +3153,7 @@
     "id": 91,
     "infinitive": "pihenni",
     "meaning_de": "sich ausruhen",
+    "meaning_en": "to rest",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3097,6 +3188,7 @@
     "id": 92,
     "infinitive": "edzeni",
     "meaning_de": "trainieren",
+    "meaning_en": "to exercise/train",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3131,6 +3223,7 @@
     "id": 93,
     "infinitive": "sétálgatni",
     "meaning_de": "spazieren gehen",
+    "meaning_en": "to stroll",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3165,6 +3258,7 @@
     "id": 94,
     "infinitive": "kirándulni",
     "meaning_de": "wandern",
+    "meaning_en": "to go on an excursion",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3199,6 +3293,7 @@
     "id": 95,
     "infinitive": "vásárolni",
     "meaning_de": "einkaufen",
+    "meaning_en": "to shop",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3233,6 +3328,7 @@
     "id": 96,
     "infinitive": "fizetni",
     "meaning_de": "bezahlen",
+    "meaning_en": "to pay",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3267,6 +3363,7 @@
     "id": 97,
     "infinitive": "költni",
     "meaning_de": "ausgeben",
+    "meaning_en": "to spend (money)",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3301,6 +3398,7 @@
     "id": 98,
     "infinitive": "keresni (pénzt)",
     "meaning_de": "verdienen",
+    "meaning_en": "to earn (money)",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3335,6 +3433,7 @@
     "id": 99,
     "infinitive": "takarékoskodni",
     "meaning_de": "sparen",
+    "meaning_en": "to save (money)",
     "category": "regular",
     "conjugations": {
       "present": {
@@ -3369,6 +3468,7 @@
     "id": 100,
     "infinitive": "adósodni",
     "meaning_de": "Schulden machen",
+    "meaning_en": "to get into debt",
     "category": "regular",
     "conjugations": {
       "present": {

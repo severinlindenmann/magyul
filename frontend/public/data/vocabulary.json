@@ -1,0 +1,622 @@
+[
+  {
+    "id": 1,
+    "word_hu": "ház",
+    "word_en": "house",
+    "word_de": "Haus",
+    "category": "family",
+    "example_sentence_hu": "Ez egy nagy ház.",
+    "example_sentence_en": "This is a big house.",
+    "example_sentence_de": "Das ist ein großes Haus."
+  },
+  {
+    "id": 2,
+    "word_hu": "anya",
+    "word_en": "mother",
+    "word_de": "Mutter",
+    "category": "family",
+    "example_sentence_hu": "Az anya főz a konyhában.",
+    "example_sentence_en": "The mother is cooking in the kitchen.",
+    "example_sentence_de": "Die Mutter kocht in der Küche."
+  },
+  {
+    "id": 3,
+    "word_hu": "apa",
+    "word_en": "father",
+    "word_de": "Vater",
+    "category": "family",
+    "example_sentence_hu": "Az apa dolgozik az irodában.",
+    "example_sentence_en": "The father is working in the office.",
+    "example_sentence_de": "Der Vater arbeitet im Büro."
+  },
+  {
+    "id": 4,
+    "word_hu": "gyerek",
+    "word_en": "child",
+    "word_de": "Kind",
+    "category": "family",
+    "example_sentence_hu": "A gyerek játszik a kertben.",
+    "example_sentence_en": "The child is playing in the garden.",
+    "example_sentence_de": "Das Kind spielt im Garten."
+  },
+  {
+    "id": 5,
+    "word_hu": "kenyér",
+    "word_en": "bread",
+    "word_de": "Brot",
+    "category": "food",
+    "example_sentence_hu": "Friss kenyeret veszek a boltban.",
+    "example_sentence_en": "I buy fresh bread at the store.",
+    "example_sentence_de": "Ich kaufe frisches Brot im Laden."
+  },
+  {
+    "id": 6,
+    "word_hu": "víz",
+    "word_en": "water",
+    "word_de": "Wasser",
+    "category": "food",
+    "example_sentence_hu": "Tiszta vizet iszom.",
+    "example_sentence_en": "I drink clean water.",
+    "example_sentence_de": "Ich trinke sauberes Wasser."
+  },
+  {
+    "id": 7,
+    "word_hu": "alma",
+    "word_en": "apple",
+    "word_de": "Apfel",
+    "category": "food",
+    "example_sentence_hu": "Piros almát eszem.",
+    "example_sentence_en": "I eat a red apple.",
+    "example_sentence_de": "Ich esse einen roten Apfel."
+  },
+  {
+    "id": 8,
+    "word_hu": "tej",
+    "word_en": "milk",
+    "word_de": "Milch",
+    "category": "food",
+    "example_sentence_hu": "Friss tejet iszom reggelire.",
+    "example_sentence_en": "I drink fresh milk for breakfast.",
+    "example_sentence_de": "Ich trinke frische Milch zum Frühstück."
+  },
+  {
+    "id": 9,
+    "word_hu": "piros",
+    "word_en": "red",
+    "word_de": "rot",
+    "category": "colors",
+    "example_sentence_hu": "A piros virág szép.",
+    "example_sentence_en": "The red flower is beautiful.",
+    "example_sentence_de": "Die rote Blume ist schön."
+  },
+  {
+    "id": 10,
+    "word_hu": "kék",
+    "word_en": "blue",
+    "word_de": "blau",
+    "category": "colors",
+    "example_sentence_hu": "Az ég kék.",
+    "example_sentence_en": "The sky is blue.",
+    "example_sentence_de": "Der Himmel ist blau."
+  },
+  {
+    "id": 11,
+    "word_hu": "fehér",
+    "word_en": "white",
+    "word_de": "weiß",
+    "category": "colors",
+    "example_sentence_hu": "A hó fehér.",
+    "example_sentence_en": "The snow is white.",
+    "example_sentence_de": "Der Schnee ist weiß."
+  },
+  {
+    "id": 12,
+    "word_hu": "zöld",
+    "word_en": "green",
+    "word_de": "grün",
+    "category": "colors",
+    "example_sentence_hu": "A fű zöld.",
+    "example_sentence_en": "The grass is green.",
+    "example_sentence_de": "Das Gras ist grün."
+  },
+  {
+    "id": 13,
+    "word_hu": "köszönöm",
+    "word_en": "thank you",
+    "word_de": "danke",
+    "category": "common_phrases",
+    "example_sentence_hu": "Köszönöm a segítséget.",
+    "example_sentence_en": "Thank you for the help.",
+    "example_sentence_de": "Danke für die Hilfe."
+  },
+  {
+    "id": 14,
+    "word_hu": "igen",
+    "word_en": "yes",
+    "word_de": "ja",
+    "category": "common_phrases",
+    "example_sentence_hu": "Igen, egyetértek.",
+    "example_sentence_en": "Yes, I agree.",
+    "example_sentence_de": "Ja, ich stimme zu."
+  },
+  {
+    "id": 15,
+    "word_hu": "nem",
+    "word_en": "no",
+    "word_de": "nein",
+    "category": "common_phrases",
+    "example_sentence_hu": "Nem, nem akarom.",
+    "example_sentence_en": "No, I don't want to.",
+    "example_sentence_de": "Nein, ich will nicht."
+  },
+  {
+    "id": 16,
+    "word_hu": "hello",
+    "word_en": "hello",
+    "word_de": "hallo",
+    "category": "common_phrases",
+    "example_sentence_hu": "Hello, hogy vagy?",
+    "example_sentence_en": "Hello, how are you?",
+    "example_sentence_de": "Hallo, wie geht es dir?"
+  },
+  {
+    "id": 17,
+    "word_hu": "egy",
+    "word_en": "one",
+    "word_de": "eins",
+    "category": "numbers",
+    "example_sentence_hu": "Egy könyvet olvasok.",
+    "example_sentence_en": "I am reading one book.",
+    "example_sentence_de": "Ich lese ein Buch."
+  },
+  {
+    "id": 18,
+    "word_hu": "kettő",
+    "word_en": "two",
+    "word_de": "zwei",
+    "category": "numbers",
+    "example_sentence_hu": "Kettő macska játszik.",
+    "example_sentence_en": "Two cats are playing.",
+    "example_sentence_de": "Zwei Katzen spielen."
+  },
+  {
+    "id": 19,
+    "word_hu": "három",
+    "word_en": "three",
+    "word_de": "drei",
+    "category": "numbers",
+    "example_sentence_hu": "Három almát veszek.",
+    "example_sentence_en": "I buy three apples.",
+    "example_sentence_de": "Ich kaufe drei Äpfel."
+  },
+  {
+    "id": 20,
+    "word_hu": "ma",
+    "word_en": "today",
+    "word_de": "heute",
+    "category": "time",
+    "example_sentence_hu": "Ma esik az eső.",
+    "example_sentence_en": "It is raining today.",
+    "example_sentence_de": "Heute regnet es."
+  },
+  {
+    "id": 21,
+    "word_hu": "holnap",
+    "word_en": "tomorrow",
+    "word_de": "morgen",
+    "category": "time",
+    "example_sentence_hu": "Holnap elmegyek a boltba.",
+    "example_sentence_en": "Tomorrow I will go to the store.",
+    "example_sentence_de": "Morgen gehe ich in den Laden."
+  },
+  {
+    "id": 22,
+    "word_hu": "tegnap",
+    "word_en": "yesterday",
+    "word_de": "gestern",
+    "category": "time",
+    "example_sentence_hu": "Tegnap esett a hó.",
+    "example_sentence_en": "It snowed yesterday.",
+    "example_sentence_de": "Gestern hat es geschneit."
+  },
+  {
+    "id": 23,
+    "word_hu": "testvér",
+    "word_en": "sibling",
+    "word_de": "Geschwister",
+    "category": "family",
+    "example_sentence_hu": "A testvérem Budapesten él.",
+    "example_sentence_en": "My sibling lives in Budapest.",
+    "example_sentence_de": "Mein Geschwister lebt in Budapest."
+  },
+  {
+    "id": 24,
+    "word_hu": "nagymama",
+    "word_en": "grandmother",
+    "word_de": "Großmutter",
+    "category": "family",
+    "example_sentence_hu": "A nagymamám süteményt készít.",
+    "example_sentence_en": "My grandmother makes cookies.",
+    "example_sentence_de": "Meine Großmutter macht Kekse."
+  },
+  {
+    "id": 25,
+    "word_hu": "nagypapa",
+    "word_en": "grandfather",
+    "word_de": "Großvater",
+    "category": "family",
+    "example_sentence_hu": "A nagypapám a kertben dolgozik.",
+    "example_sentence_en": "My grandfather works in the garden.",
+    "example_sentence_de": "Mein Großvater arbeitet im Garten."
+  },
+  {
+    "id": 26,
+    "word_hu": "hús",
+    "word_en": "meat",
+    "word_de": "Fleisch",
+    "category": "food",
+    "example_sentence_hu": "Csirkehúst eszem vacsorára.",
+    "example_sentence_en": "I eat chicken meat for dinner.",
+    "example_sentence_de": "Ich esse Hühnerfleisch zum Abendessen."
+  },
+  {
+    "id": 27,
+    "word_hu": "sajt",
+    "word_en": "cheese",
+    "word_de": "Käse",
+    "category": "food",
+    "example_sentence_hu": "A sajt finom.",
+    "example_sentence_en": "The cheese is delicious.",
+    "example_sentence_de": "Der Käse ist lecker."
+  },
+  {
+    "id": 28,
+    "word_hu": "kávé",
+    "word_en": "coffee",
+    "word_de": "Kaffee",
+    "category": "food",
+    "example_sentence_hu": "Reggel kávét iszom.",
+    "example_sentence_en": "I drink coffee in the morning.",
+    "example_sentence_de": "Ich trinke morgens Kaffee."
+  },
+  {
+    "id": 29,
+    "word_hu": "tea",
+    "word_en": "tea",
+    "word_de": "Tee",
+    "category": "food",
+    "example_sentence_hu": "Este teát iszom.",
+    "example_sentence_en": "I drink tea in the evening.",
+    "example_sentence_de": "Ich trinke abends Tee."
+  },
+  {
+    "id": 30,
+    "word_hu": "zöldség",
+    "word_en": "vegetable",
+    "word_de": "Gemüse",
+    "category": "food",
+    "example_sentence_hu": "Friss zöldséget eszem.",
+    "example_sentence_en": "I eat fresh vegetables.",
+    "example_sentence_de": "Ich esse frisches Gemüse."
+  },
+  {
+    "id": 31,
+    "word_hu": "gyümölcs",
+    "word_en": "fruit",
+    "word_de": "Obst",
+    "category": "food",
+    "example_sentence_hu": "A gyümölcs egészséges.",
+    "example_sentence_en": "Fruit is healthy.",
+    "example_sentence_de": "Obst ist gesund."
+  },
+  {
+    "id": 32,
+    "word_hu": "sárga",
+    "word_en": "yellow",
+    "word_de": "gelb",
+    "category": "colors",
+    "example_sentence_hu": "A citrom sárga.",
+    "example_sentence_en": "The lemon is yellow.",
+    "example_sentence_de": "Die Zitrone ist gelb."
+  },
+  {
+    "id": 33,
+    "word_hu": "fekete",
+    "word_en": "black",
+    "word_de": "schwarz",
+    "category": "colors",
+    "example_sentence_hu": "A macska fekete.",
+    "example_sentence_en": "The cat is black.",
+    "example_sentence_de": "Die Katze ist schwarz."
+  },
+  {
+    "id": 34,
+    "word_hu": "barna",
+    "word_en": "brown",
+    "word_de": "braun",
+    "category": "colors",
+    "example_sentence_hu": "A kutya barna.",
+    "example_sentence_en": "The dog is brown.",
+    "example_sentence_de": "Der Hund ist braun."
+  },
+  {
+    "id": 35,
+    "word_hu": "szürke",
+    "word_en": "gray",
+    "word_de": "grau",
+    "category": "colors",
+    "example_sentence_hu": "Az ég szürke.",
+    "example_sentence_en": "The sky is gray.",
+    "example_sentence_de": "Der Himmel ist grau."
+  },
+  {
+    "id": 36,
+    "word_hu": "viszlát",
+    "word_en": "goodbye",
+    "word_de": "auf Wiedersehen",
+    "category": "common_phrases",
+    "example_sentence_hu": "Viszlát, holnap találkozunk!",
+    "example_sentence_en": "Goodbye, see you tomorrow!",
+    "example_sentence_de": "Auf Wiedersehen, bis morgen!"
+  },
+  {
+    "id": 37,
+    "word_hu": "kérem",
+    "word_en": "please",
+    "word_de": "bitte",
+    "category": "common_phrases",
+    "example_sentence_hu": "Segíts, kérem!",
+    "example_sentence_en": "Help me, please!",
+    "example_sentence_de": "Hilf mir, bitte!"
+  },
+  {
+    "id": 38,
+    "word_hu": "bocsánat",
+    "word_en": "sorry",
+    "word_de": "Entschuldigung",
+    "category": "common_phrases",
+    "example_sentence_hu": "Bocsánat, nem értettem.",
+    "example_sentence_en": "Sorry, I didn't understand.",
+    "example_sentence_de": "Entschuldigung, ich habe nicht verstanden."
+  },
+  {
+    "id": 39,
+    "word_hu": "négy",
+    "word_en": "four",
+    "word_de": "vier",
+    "category": "numbers",
+    "example_sentence_hu": "Négy székünk van.",
+    "example_sentence_en": "We have four chairs.",
+    "example_sentence_de": "Wir haben vier Stühle."
+  },
+  {
+    "id": 40,
+    "word_hu": "öt",
+    "word_en": "five",
+    "word_de": "fünf",
+    "category": "numbers",
+    "example_sentence_hu": "Öt ujjam van.",
+    "example_sentence_en": "I have five fingers.",
+    "example_sentence_de": "Ich habe fünf Finger."
+  },
+  {
+    "id": 41,
+    "word_hu": "hat",
+    "word_en": "six",
+    "word_de": "sechs",
+    "category": "numbers",
+    "example_sentence_hu": "Hat órát alszom.",
+    "example_sentence_en": "I sleep six hours.",
+    "example_sentence_de": "Ich schlafe sechs Stunden."
+  },
+  {
+    "id": 42,
+    "word_hu": "hét",
+    "word_en": "seven",
+    "word_de": "sieben",
+    "category": "numbers",
+    "example_sentence_hu": "Hét nap van egy héten.",
+    "example_sentence_en": "There are seven days in a week.",
+    "example_sentence_de": "Es gibt sieben Tage in einer Woche."
+  },
+  {
+    "id": 43,
+    "word_hu": "nyolc",
+    "word_en": "eight",
+    "word_de": "acht",
+    "category": "numbers",
+    "example_sentence_hu": "Nyolc órakor ébredek.",
+    "example_sentence_en": "I wake up at eight o'clock.",
+    "example_sentence_de": "Ich wache um acht Uhr auf."
+  },
+  {
+    "id": 44,
+    "word_hu": "kilenc",
+    "word_en": "nine",
+    "word_de": "neun",
+    "category": "numbers",
+    "example_sentence_hu": "Kilenc könyvet olvasok.",
+    "example_sentence_en": "I read nine books.",
+    "example_sentence_de": "Ich lese neun Bücher."
+  },
+  {
+    "id": 45,
+    "word_hu": "tíz",
+    "word_en": "ten",
+    "word_de": "zehn",
+    "category": "numbers",
+    "example_sentence_hu": "Tíz perc van hátra.",
+    "example_sentence_en": "Ten minutes are left.",
+    "example_sentence_de": "Zehn Minuten sind übrig."
+  },
+  {
+    "id": 46,
+    "word_hu": "reggel",
+    "word_en": "morning",
+    "word_de": "Morgen",
+    "category": "time",
+    "example_sentence_hu": "Reggel elmegyek futni.",
+    "example_sentence_en": "I go running in the morning.",
+    "example_sentence_de": "Ich gehe morgens laufen."
+  },
+  {
+    "id": 47,
+    "word_hu": "este",
+    "word_en": "evening",
+    "word_de": "Abend",
+    "category": "time",
+    "example_sentence_hu": "Este olvasok.",
+    "example_sentence_en": "I read in the evening.",
+    "example_sentence_de": "Ich lese abends."
+  },
+  {
+    "id": 48,
+    "word_hu": "éjszaka",
+    "word_en": "night",
+    "word_de": "Nacht",
+    "category": "time",
+    "example_sentence_hu": "Éjszaka alszom.",
+    "example_sentence_en": "I sleep at night.",
+    "example_sentence_de": "Ich schlafe nachts."
+  },
+  {
+    "id": 49,
+    "word_hu": "kutya",
+    "word_en": "dog",
+    "word_de": "Hund",
+    "category": "animals",
+    "example_sentence_hu": "A kutyám nagy és barátságos.",
+    "example_sentence_en": "My dog is big and friendly.",
+    "example_sentence_de": "Mein Hund ist groß und freundlich."
+  },
+  {
+    "id": 50,
+    "word_hu": "macska",
+    "word_en": "cat",
+    "word_de": "Katze",
+    "category": "animals",
+    "example_sentence_hu": "A macskám szereti az alvást.",
+    "example_sentence_en": "My cat loves sleeping.",
+    "example_sentence_de": "Meine Katze liebt das Schlafen."
+  },
+  {
+    "id": 51,
+    "word_hu": "madár",
+    "word_en": "bird",
+    "word_de": "Vogel",
+    "category": "animals",
+    "example_sentence_hu": "A madár énekel.",
+    "example_sentence_en": "The bird is singing.",
+    "example_sentence_de": "Der Vogel singt."
+  },
+  {
+    "id": 52,
+    "word_hu": "könyv",
+    "word_en": "book",
+    "word_de": "Buch",
+    "category": "objects",
+    "example_sentence_hu": "Érdekes könyvet olvasok.",
+    "example_sentence_en": "I'm reading an interesting book.",
+    "example_sentence_de": "Ich lese ein interessantes Buch."
+  },
+  {
+    "id": 53,
+    "word_hu": "autó",
+    "word_en": "car",
+    "word_de": "Auto",
+    "category": "objects",
+    "example_sentence_hu": "Az autóm piros.",
+    "example_sentence_en": "My car is red.",
+    "example_sentence_de": "Mein Auto ist rot."
+  },
+  {
+    "id": 54,
+    "word_hu": "iskola",
+    "word_en": "school",
+    "word_de": "Schule",
+    "category": "places",
+    "example_sentence_hu": "Az iskolába megyek.",
+    "example_sentence_en": "I'm going to school.",
+    "example_sentence_de": "Ich gehe zur Schule."
+  },
+  {
+    "id": 55,
+    "word_hu": "bolt",
+    "word_en": "shop",
+    "word_de": "Geschäft",
+    "category": "places",
+    "example_sentence_hu": "A boltban vásárolok.",
+    "example_sentence_en": "I shop at the store.",
+    "example_sentence_de": "Ich kaufe im Geschäft ein."
+  },
+  {
+    "id": 56,
+    "word_hu": "park",
+    "word_en": "park",
+    "word_de": "Park",
+    "category": "places",
+    "example_sentence_hu": "A parkban sétálok.",
+    "example_sentence_en": "I walk in the park.",
+    "example_sentence_de": "Ich gehe im Park spazieren."
+  },
+  {
+    "id": 57,
+    "word_hu": "étterem",
+    "word_en": "restaurant",
+    "word_de": "Restaurant",
+    "category": "places",
+    "example_sentence_hu": "Az étteremben eszünk.",
+    "example_sentence_en": "We eat at the restaurant.",
+    "example_sentence_de": "Wir essen im Restaurant."
+  },
+  {
+    "id": 58,
+    "word_hu": "nagy",
+    "word_en": "big",
+    "word_de": "groß",
+    "category": "adjectives",
+    "example_sentence_hu": "Ez egy nagy ház.",
+    "example_sentence_en": "This is a big house.",
+    "example_sentence_de": "Das ist ein großes Haus."
+  },
+  {
+    "id": 59,
+    "word_hu": "kicsi",
+    "word_en": "small",
+    "word_de": "klein",
+    "category": "adjectives",
+    "example_sentence_hu": "A kicsi kutya aranyos.",
+    "example_sentence_en": "The small dog is cute.",
+    "example_sentence_de": "Der kleine Hund ist süß."
+  },
+  {
+    "id": 60,
+    "word_hu": "szép",
+    "word_en": "beautiful",
+    "word_de": "schön",
+    "category": "adjectives",
+    "example_sentence_hu": "Ez egy szép nap.",
+    "example_sentence_en": "This is a beautiful day.",
+    "example_sentence_de": "Das ist ein schöner Tag."
+  },
+  {
+    "id": 61,
+    "word_hu": "jó",
+    "word_en": "good",
+    "word_de": "gut",
+    "category": "adjectives",
+    "example_sentence_hu": "Jó az étel.",
+    "example_sentence_en": "The food is good.",
+    "example_sentence_de": "Das Essen ist gut."
+  },
+  {
+    "id": 62,
+    "word_hu": "rossz",
+    "word_en": "bad",
+    "word_de": "schlecht",
+    "category": "adjectives",
+    "example_sentence_hu": "Rossz az időjárás.",
+    "example_sentence_en": "The weather is bad.",
+    "example_sentence_de": "Das Wetter ist schlecht."
+  }
+]

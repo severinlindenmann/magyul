@@ -9,7 +9,8 @@
     "example_sentence_en": "The faction made an important decision today.",
     "example_sentence_de": "Die Fraktion hat heute eine wichtige Entscheidung getroffen.",
     "category_en": "Politics",
-    "category_de": "Politik"
+    "category_de": "Politik",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 552,
@@ -21,7 +22,8 @@
     "example_sentence_en": "I like to walk in the forest.",
     "example_sentence_de": "Ich gehe gerne im Wald spazieren.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 553,
@@ -33,7 +35,8 @@
     "example_sentence_en": "I will sit down to rest now.",
     "example_sentence_de": "Ich setze mich jetzt hin, um mich auszuruhen.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 554,
@@ -45,7 +48,8 @@
     "example_sentence_en": "I won the competition!",
     "example_sentence_de": "Ich habe den Wettbewerb gewonnen!",
     "category_en": "Sports & Competitions",
-    "category_de": "Sport & Wettbewerbe"
+    "category_de": "Sport & Wettbewerbe",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 555,
@@ -57,7 +61,8 @@
     "example_sentence_en": "I opened the window to get some fresh air.",
     "example_sentence_de": "Ich habe das Fenster geöffnet, um frische Luft hereinzulassen.",
     "category_en": "House",
-    "category_de": "Haus"
+    "category_de": "Haus",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 556,
@@ -69,7 +74,8 @@
     "example_sentence_en": "A new shop opened in the neighborhood today.",
     "example_sentence_de": "Heute hat ein neues Geschäft in der Nachbarschaft eröffnet.",
     "category_en": "Shopping",
-    "category_de": "Einkaufen"
+    "category_de": "Einkaufen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 557,
@@ -81,7 +87,8 @@
     "example_sentence_en": "I love summer because it's warm.",
     "example_sentence_de": "Ich liebe den Sommer, weil es warm ist.",
     "category_en": "Seasons",
-    "category_de": "Jahreszeiten"
+    "category_de": "Jahreszeiten",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 558,
@@ -93,7 +100,8 @@
     "example_sentence_en": "The train arrived on time.",
     "example_sentence_de": "Der Zug ist pünktlich angekommen.",
     "category_en": "Transport",
-    "category_de": "Verkehr"
+    "category_de": "Verkehr",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 559,
@@ -105,7 +113,8 @@
     "example_sentence_en": "Good sleep is important for health.",
     "example_sentence_de": "Guter Schlaf ist wichtig für die Gesundheit.",
     "category_en": "Health",
-    "category_de": "Gesundheit"
+    "category_de": "Gesundheit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 560,
@@ -117,7 +126,8 @@
     "example_sentence_en": "I need to prove that I'm right.",
     "example_sentence_de": "Ich muss beweisen, dass ich recht habe.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 561,
@@ -129,7 +139,8 @@
     "example_sentence_en": "I feel lonely today.",
     "example_sentence_de": "Ich fühle mich heute einsam.",
     "category_en": "Emotions",
-    "category_de": "Gefühle"
+    "category_de": "Gefühle",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 562,
@@ -141,7 +152,8 @@
     "example_sentence_en": "My leg hurts from the long walk.",
     "example_sentence_de": "Mein Bein tut weh vom langen Spaziergang.",
     "category_en": "Body Parts",
-    "category_de": "Körperteile"
+    "category_de": "Körperteile",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 563,
@@ -153,7 +165,8 @@
     "example_sentence_en": "Practice makes perfect.",
     "example_sentence_de": "Übung macht den Meister.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 564,
@@ -165,7 +178,8 @@
     "example_sentence_en": "I painted the wall blue.",
     "example_sentence_de": "Ich habe die Wand blau gestrichen.",
     "category_en": "House",
-    "category_de": "Haus"
+    "category_de": "Haus",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 565,
@@ -177,7 +191,8 @@
     "example_sentence_en": "This dish is very delicious.",
     "example_sentence_de": "Dieses Gericht ist sehr lecker.",
     "category_en": "Food",
-    "category_de": "Essen"
+    "category_de": "Essen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 566,
@@ -189,7 +204,8 @@
     "example_sentence_en": "I need a holder for my phone.",
     "example_sentence_de": "Ich brauche eine Halterung für mein Telefon.",
     "category_en": "Objects",
-    "category_de": "Gegenstände"
+    "category_de": "Gegenstände",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 567,
@@ -201,7 +217,8 @@
     "example_sentence_en": "I would like a coffee.",
     "example_sentence_de": "Ich würde gerne einen Kaffee haben.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 568,
@@ -213,7 +230,8 @@
     "example_sentence_en": "The sky is blue today.",
     "example_sentence_de": "Der Himmel ist heute blau.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 569,
@@ -225,7 +243,8 @@
     "example_sentence_en": "The teacher is writing on the board.",
     "example_sentence_de": "Der Lehrer schreibt an die Tafel.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 570,
@@ -237,7 +256,8 @@
     "example_sentence_en": "I was very happy to meet you.",
     "example_sentence_de": "Ich war sehr froh, dich zu treffen.",
     "category_en": "Emotions",
-    "category_de": "Gefühle"
+    "category_de": "Gefühle",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 571,
@@ -249,7 +269,8 @@
     "example_sentence_en": "I like skiing in winter.",
     "example_sentence_de": "Ich gehe gerne im Winter Ski fahren.",
     "category_en": "Seasons",
-    "category_de": "Jahreszeiten"
+    "category_de": "Jahreszeiten",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 572,
@@ -261,7 +282,8 @@
     "example_sentence_en": "I sat in the park yesterday.",
     "example_sentence_de": "Ich saß gestern im Park.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 573,
@@ -273,7 +295,8 @@
     "example_sentence_en": "This is a written letter.",
     "example_sentence_de": "Das ist ein geschriebener Brief.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 574,
@@ -285,7 +308,8 @@
     "example_sentence_en": "I saw a wild animal in the forest.",
     "example_sentence_de": "Ich habe ein wildes Tier im Wald gesehen.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 575,
@@ -297,7 +321,8 @@
     "example_sentence_en": "This tool is very useful.",
     "example_sentence_de": "Dieses Werkzeug ist sehr nützlich.",
     "category_en": "Objects",
-    "category_de": "Gegenstände"
+    "category_de": "Gegenstände",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 576,
@@ -309,7 +334,8 @@
     "example_sentence_en": "I held your hand.",
     "example_sentence_de": "Ich hielt deine Hand.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 577,
@@ -321,7 +347,8 @@
     "example_sentence_en": "Would you like a glass of water?",
     "example_sentence_de": "Möchtest du ein Glas Wasser?",
     "category_en": "Objects",
-    "category_de": "Gegenstände"
+    "category_de": "Gegenstände",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 578,
@@ -333,7 +360,8 @@
     "example_sentence_en": "The grass is green.",
     "example_sentence_de": "Das Gras ist grün.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 579,
@@ -345,7 +373,8 @@
     "example_sentence_en": "The cow is grazing in the field.",
     "example_sentence_de": "Die Kuh grast auf der Wiese.",
     "category_en": "Animals",
-    "category_de": "Tiere"
+    "category_de": "Tiere",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 580,
@@ -357,7 +386,8 @@
     "example_sentence_en": "I work a lot.",
     "example_sentence_de": "Ich arbeite viel.",
     "category_en": "Jobs",
-    "category_de": "Beruf"
+    "category_de": "Beruf",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 581,
@@ -369,7 +399,8 @@
     "example_sentence_en": "I live happily.",
     "example_sentence_de": "Ich lebe glücklich.",
     "category_en": "Life",
-    "category_de": "Leben"
+    "category_de": "Leben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 582,
@@ -381,7 +412,8 @@
     "example_sentence_en": "I saw a warning sign.",
     "example_sentence_de": "Ich habe ein Warnschild gesehen.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 583,
@@ -393,7 +425,8 @@
     "example_sentence_en": "We are visiting our grandparents today.",
     "example_sentence_de": "Wir besuchen heute unsere Großeltern.",
     "category_en": "Social",
-    "category_de": "Soziales"
+    "category_de": "Soziales",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 584,
@@ -405,7 +438,8 @@
     "example_sentence_en": "I learned a lot in the past.",
     "example_sentence_de": "Ich habe in der Vergangenheit viel gelernt.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 585,
@@ -417,7 +451,8 @@
     "example_sentence_en": "This pillow is very soft.",
     "example_sentence_de": "Dieses Kissen ist sehr weich.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 586,
@@ -429,7 +464,8 @@
     "example_sentence_en": "It was just a joke.",
     "example_sentence_de": "Das war nur ein Scherz.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 587,
@@ -441,7 +477,8 @@
     "example_sentence_en": "It's a bright day today.",
     "example_sentence_de": "Heute ist ein heller Tag.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 588,
@@ -453,7 +490,8 @@
     "example_sentence_en": "Gas can be dangerous.",
     "example_sentence_de": "Gas kann gefährlich sein.",
     "category_en": "Science",
-    "category_de": "Wissenschaft"
+    "category_de": "Wissenschaft",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 589,
@@ -465,7 +503,8 @@
     "example_sentence_en": "The weather is nice today.",
     "example_sentence_de": "Das Wetter ist heute schön.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 590,
@@ -477,7 +516,8 @@
     "example_sentence_en": "This is my favorite month.",
     "example_sentence_de": "Das ist mein Lieblingsmonat.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 591,
@@ -489,7 +529,8 @@
     "example_sentence_en": "I won a million forints.",
     "example_sentence_de": "Ich habe eine Million Forint gewonnen.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 592,
@@ -501,7 +542,8 @@
     "example_sentence_en": "I saw a bear at the zoo.",
     "example_sentence_de": "Ich habe einen Bären im Zoo gesehen.",
     "category_en": "Animals",
-    "category_de": "Tiere"
+    "category_de": "Tiere",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 593,
@@ -513,7 +555,8 @@
     "example_sentence_en": "I finished my homework.",
     "example_sentence_de": "Ich habe meine Hausaufgaben beendet.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 594,
@@ -525,7 +568,8 @@
     "example_sentence_en": "I am happy today.",
     "example_sentence_de": "Ich bin heute glücklich.",
     "category_en": "Emotions",
-    "category_de": "Gefühle"
+    "category_de": "Gefühle",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 595,
@@ -537,7 +581,8 @@
     "example_sentence_en": "There is hope for a better future.",
     "example_sentence_de": "Es gibt Hoffnung auf eine bessere Zukunft.",
     "category_en": "Emotions",
-    "category_de": "Gefühle"
+    "category_de": "Gefühle",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 596,
@@ -549,7 +594,8 @@
     "example_sentence_en": "I like to plant flowers.",
     "example_sentence_de": "Ich pflanze gerne Blumen.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 597,
@@ -561,7 +607,8 @@
     "example_sentence_en": "Let's dress the doll!",
     "example_sentence_de": "Lass uns die Puppe anziehen!",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 598,
@@ -573,7 +620,8 @@
     "example_sentence_en": "This is strange.",
     "example_sentence_de": "Das ist seltsam.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 599,
@@ -585,7 +633,8 @@
     "example_sentence_en": "Last weekend was wonderful.",
     "example_sentence_de": "Letztes Wochenende war wunderbar.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 600,
@@ -597,6 +646,7 @@
     "example_sentence_en": "Trade is important in the economy.",
     "example_sentence_de": "Handel ist wichtig für die Wirtschaft.",
     "category_en": "Economy",
-    "category_de": "Wirtschaft"
+    "category_de": "Wirtschaft",
+    "vowel_harmony": "hohe"
   }
 ]

@@ -9,7 +9,8 @@
     "example_sentence_en": "The company has a lot of capital.",
     "example_sentence_de": "Das Unternehmen hat viel Kapital.",
     "category_en": "Economy",
-    "category_de": "Wirtschaft"
+    "category_de": "Wirtschaft",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 752,
@@ -21,7 +22,8 @@
     "example_sentence_en": "It won't rain today.",
     "example_sentence_de": "Es wird heute nicht regnen.",
     "category_en": "Grammar",
-    "category_de": "Grammatik"
+    "category_de": "Grammatik",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 753,
@@ -33,7 +35,8 @@
     "example_sentence_en": "Sit down on the chair!",
     "example_sentence_de": "Setz dich auf den Stuhl!",
     "category_en": "Household",
-    "category_de": "Haushalt"
+    "category_de": "Haushalt",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 754,
@@ -45,7 +48,8 @@
     "example_sentence_en": "Be careful, there's danger!",
     "example_sentence_de": "Vorsicht, es gibt Gefahr!",
     "category_en": "Safety",
-    "category_de": "Sicherheit"
+    "category_de": "Sicherheit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 755,
@@ -57,7 +61,8 @@
     "example_sentence_en": "I like to eat fruit.",
     "example_sentence_de": "Ich esse gerne Obst.",
     "category_en": "Food",
-    "category_de": "Essen"
+    "category_de": "Essen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 756,
@@ -69,7 +74,8 @@
     "example_sentence_en": "He is a very rich person.",
     "example_sentence_de": "Er ist ein sehr reicher Mensch.",
     "category_en": "Economy",
-    "category_de": "Wirtschaft"
+    "category_de": "Wirtschaft",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 757,
@@ -81,7 +87,8 @@
     "example_sentence_en": "This book is thick.",
     "example_sentence_de": "Dieses Buch ist dick.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 758,
@@ -93,7 +100,8 @@
     "example_sentence_en": "The soldier is brave.",
     "example_sentence_de": "Der Soldat ist tapfer.",
     "category_en": "Professions",
-    "category_de": "Berufe"
+    "category_de": "Berufe",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 759,
@@ -105,7 +113,8 @@
     "example_sentence_en": "This is a long process.",
     "example_sentence_de": "Das ist ein langer Prozess.",
     "category_en": "Science",
-    "category_de": "Wissenschaft"
+    "category_de": "Wissenschaft",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 760,
@@ -117,7 +126,8 @@
     "example_sentence_en": "This machine works well.",
     "example_sentence_de": "Diese Maschine funktioniert gut.",
     "category_en": "Technology",
-    "category_de": "Technik"
+    "category_de": "Technik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 761,
@@ -129,7 +139,8 @@
     "example_sentence_en": "Practice makes perfect.",
     "example_sentence_de": "Übung macht den Meister.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 762,
@@ -141,7 +152,8 @@
     "example_sentence_en": "This is in a separate box.",
     "example_sentence_de": "Das ist in einer getrennten Box.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 763,
@@ -153,7 +165,8 @@
     "example_sentence_en": "This task is difficult.",
     "example_sentence_de": "Diese Aufgabe ist schwer.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 764,
@@ -165,7 +178,8 @@
     "example_sentence_en": "The doctor helps the patients.",
     "example_sentence_de": "Der Arzt hilft den Patienten.",
     "category_en": "Professions",
-    "category_de": "Berufe"
+    "category_de": "Berufe",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 765,
@@ -177,7 +191,8 @@
     "example_sentence_en": "Please, give me a glass of water.",
     "example_sentence_de": "Bitte, geben Sie mir ein Glas Wasser.",
     "category_en": "Politeness",
-    "category_de": "Höflichkeit"
+    "category_de": "Höflichkeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 766,
@@ -189,7 +204,8 @@
     "example_sentence_en": "Protection is important.",
     "example_sentence_de": "Schutz ist wichtig.",
     "category_en": "Safety",
-    "category_de": "Sicherheit"
+    "category_de": "Sicherheit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 767,
@@ -201,7 +217,8 @@
     "example_sentence_en": "We meet at noon.",
     "example_sentence_de": "Wir treffen uns um Mittag.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 768,
@@ -213,7 +230,8 @@
     "example_sentence_en": "The harvest is abundant.",
     "example_sentence_de": "Die Ernte ist reichlich.",
     "category_en": "Agriculture",
-    "category_de": "Landwirtschaft"
+    "category_de": "Landwirtschaft",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 769,
@@ -225,7 +243,8 @@
     "example_sentence_en": "This is a modern house.",
     "example_sentence_de": "Das ist ein modernes Haus.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 770,
@@ -237,7 +256,8 @@
     "example_sentence_en": "The battery is dead.",
     "example_sentence_de": "Die Batterie ist leer.",
     "category_en": "Technology",
-    "category_de": "Technik"
+    "category_de": "Technik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 771,
@@ -249,7 +269,8 @@
     "example_sentence_en": "Faith is important in life.",
     "example_sentence_de": "Glaube ist im Leben wichtig.",
     "category_en": "Religion",
-    "category_de": "Religion"
+    "category_de": "Religion",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 772,
@@ -261,7 +282,8 @@
     "example_sentence_en": "The student is studying.",
     "example_sentence_de": "Der Schüler/Student lernt.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 773,
@@ -273,7 +295,8 @@
     "example_sentence_en": "The cat is sleeping in the corner.",
     "example_sentence_de": "Die Katze schläft in der Ecke.",
     "category_en": "Household",
-    "category_de": "Haushalt"
+    "category_de": "Haushalt",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 774,
@@ -285,7 +308,8 @@
     "example_sentence_en": "We'll meet in half an hour.",
     "example_sentence_de": "Wir treffen uns in einer halben Stunde.",
     "category_en": "Mathematics",
-    "category_de": "Mathematik"
+    "category_de": "Mathematik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 775,
@@ -297,7 +321,8 @@
     "example_sentence_en": "The supply is secured.",
     "example_sentence_de": "Die Versorgung ist gesichert.",
     "category_en": "Economy",
-    "category_de": "Wirtschaft"
+    "category_de": "Wirtschaft",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 776,
@@ -309,7 +334,8 @@
     "example_sentence_en": "Whoever needs it, take it.",
     "example_sentence_de": "Wer es braucht, nehme es.",
     "category_en": "Grammar",
-    "category_de": "Grammatik"
+    "category_de": "Grammatik",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 777,
@@ -321,7 +347,8 @@
     "example_sentence_en": "He placed the book on the table.",
     "example_sentence_de": "Er platzierte das Buch auf dem Tisch.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 778,
@@ -333,7 +360,8 @@
     "example_sentence_en": "I bought a beautiful ring.",
     "example_sentence_de": "Ich habe einen schönen Ring gekauft.",
     "category_en": "Jewelry",
-    "category_de": "Schmuck"
+    "category_de": "Schmuck",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 779,
@@ -345,7 +373,8 @@
     "example_sentence_en": "This is a capital letter.",
     "example_sentence_de": "Das ist ein Großbuchstabe.",
     "category_en": "Language",
-    "category_de": "Sprache"
+    "category_de": "Sprache",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 780,
@@ -357,7 +386,8 @@
     "example_sentence_en": "The insect is flying.",
     "example_sentence_de": "Das Insekt fliegt.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 781,
@@ -369,7 +399,8 @@
     "example_sentence_en": "He caught a fish.",
     "example_sentence_de": "Er hat einen Fisch gefangen.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 782,
@@ -381,7 +412,8 @@
     "example_sentence_en": "This is a long period.",
     "example_sentence_de": "Das ist ein langer Zeitraum.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 783,
@@ -393,7 +425,8 @@
     "example_sentence_en": "They show that it's raining.",
     "example_sentence_de": "Sie zeigen, dass es regnet.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 784,
@@ -405,7 +438,8 @@
     "example_sentence_en": "I'm listening to the radio.",
     "example_sentence_de": "Ich höre Radio.",
     "category_en": "Technology",
-    "category_de": "Technik"
+    "category_de": "Technik",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 785,
@@ -417,7 +451,8 @@
     "example_sentence_en": "This is a spoked wheel.",
     "example_sentence_de": "Das ist ein gespeichtes Rad.",
     "category_en": "Technology",
-    "category_de": "Technik"
+    "category_de": "Technik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 786,
@@ -429,7 +464,8 @@
     "example_sentence_en": "The atom is small in size.",
     "example_sentence_de": "Das Atom ist klein.",
     "category_en": "Science",
-    "category_de": "Wissenschaft"
+    "category_de": "Wissenschaft",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 787,
@@ -441,7 +477,8 @@
     "example_sentence_en": "This is a human error.",
     "example_sentence_de": "Das ist ein menschlicher Fehler.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 788,
@@ -453,7 +490,8 @@
     "example_sentence_en": "History is an important subject.",
     "example_sentence_de": "Geschichte ist ein wichtiges Fach.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 789,
@@ -465,7 +503,8 @@
     "example_sentence_en": "This medicine has a good effect.",
     "example_sentence_de": "Dieses Medikament hat eine gute Wirkung.",
     "category_en": "Science",
-    "category_de": "Wissenschaft"
+    "category_de": "Wissenschaft",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 790,
@@ -477,7 +516,8 @@
     "example_sentence_en": "This is an electric device.",
     "example_sentence_de": "Das ist ein elektrisches Gerät.",
     "category_en": "Technology",
-    "category_de": "Technik"
+    "category_de": "Technik",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 791,
@@ -489,7 +529,8 @@
     "example_sentence_en": "The castle stands on the hill.",
     "example_sentence_de": "Die Burg steht auf dem Hügel.",
     "category_en": "Architecture",
-    "category_de": "Architektur"
+    "category_de": "Architektur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 792,
@@ -501,7 +542,8 @@
     "example_sentence_en": "The bone is strong.",
     "example_sentence_de": "Der Knochen ist stark.",
     "category_en": "Human Body",
-    "category_de": "Menschlicher Körper"
+    "category_de": "Menschlicher Körper",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 793,
@@ -513,7 +555,8 @@
     "example_sentence_en": "The train goes on the rails.",
     "example_sentence_de": "Der Zug fährt auf den Schienen.",
     "category_en": "Transport",
-    "category_de": "Verkehr"
+    "category_de": "Verkehr",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 794,
@@ -525,7 +568,8 @@
     "example_sentence_en": "It's hard to imagine.",
     "example_sentence_de": "Es ist schwer, sich vorzustellen.",
     "category_en": "Thinking",
-    "category_de": "Denken"
+    "category_de": "Denken",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 795,
@@ -537,7 +581,8 @@
     "example_sentence_en": "How do you do it?",
     "example_sentence_de": "Wie machst du das?",
     "category_en": "Grammar",
-    "category_de": "Grammatik"
+    "category_de": "Grammatik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 796,
@@ -549,7 +594,8 @@
     "example_sentence_en": "He agrees with you.",
     "example_sentence_de": "Er stimmt dir zu.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 797,
@@ -561,7 +607,8 @@
     "example_sentence_en": "You have to do it like this.",
     "example_sentence_de": "Man muss es so machen.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 798,
@@ -573,7 +620,8 @@
     "example_sentence_en": "This is a tame animal.",
     "example_sentence_de": "Das ist ein zahmes Tier.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 799,
@@ -585,7 +633,8 @@
     "example_sentence_en": "The woman is smiling.",
     "example_sentence_de": "Die Frau lächelt.",
     "category_en": "People",
-    "category_de": "Menschen"
+    "category_de": "Menschen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 800,
@@ -597,6 +646,7 @@
     "example_sentence_en": "The captain steers the ship.",
     "example_sentence_de": "Der Kapitän steuert das Schiff.",
     "category_en": "Professions",
-    "category_de": "Berufe"
+    "category_de": "Berufe",
+    "vowel_harmony": "gemischte"
   }
 ]

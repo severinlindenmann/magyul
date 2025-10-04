@@ -26,6 +26,7 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
       future: 'Future Tense',
       regularVerbs: 'Regular Verbs',
       irregularVerbs: 'Irregular Verbs',
+      verbStems: 'Finding the Verb Stem',
       tips: 'Learning Tips',
       presentDesc: 'Present tense endings vary based on verb type and harmony',
       pastDesc: 'Past tense is formed by adding specific endings to the verb stem',
@@ -74,6 +75,22 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
       
       regularExample: 'Regular Verb Example: "tanulni" (to learn/study)',
       irregularExample: 'Irregular Verb Example: "lenni" (to be)',
+      
+      verbStemsIntro: 'The verb stem is the base form you use for all conjugations. To find it:',
+      verbStemsStep1: 'Remove the infinitive ending -ni',
+      verbStemsStep2: 'What remains is usually your verb stem',
+      verbStemsExamples: 'Examples:',
+      verbStemsExample1: 'tanulni → tanul-',
+      verbStemsExample2: 'dolgozni → dolgoz-',
+      verbStemsExample3: 'olvasni → olvas-',
+      verbStemsExample4: 'írni → ír-',
+      verbStemsNote: 'Note: Some verbs undergo stem changes in certain forms (e.g., linking vowels)',
+      
+      moreVerbExamples: 'More Verb Examples',
+      verbEszik: '"enni" (to eat) - Irregular',
+      verbIszik: '"inni" (to drink) - Irregular',
+      verbMegy: '"menni" (to go) - Irregular',
+      verbJon: '"jönni" (to come) - Irregular',
     },
     de: {
       title: 'Ungarische Verb-Konjugation Leitfaden',
@@ -84,6 +101,7 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
       future: 'Zukunft',
       regularVerbs: 'Regelmäßige Verben',
       irregularVerbs: 'Unregelmäßige Verben',
+      verbStems: 'Den Verbstamm finden',
       tips: 'Lerntipps',
       presentDesc: 'Präsensendungen variieren je nach Verbtyp und Harmonie',
       pastDesc: 'Vergangenheit wird durch Hinzufügen spezifischer Endungen zum Verbstamm gebildet',
@@ -132,6 +150,22 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
       
       regularExample: 'Regelmäßiges Verb Beispiel: "tanulni" (lernen)',
       irregularExample: 'Unregelmäßiges Verb Beispiel: "lenni" (sein)',
+      
+      verbStemsIntro: 'Der Verbstamm ist die Grundform, die du für alle Konjugationen verwendest. So findest du ihn:',
+      verbStemsStep1: 'Entferne die Infinitivendung -ni',
+      verbStemsStep2: 'Was übrig bleibt ist normalerweise dein Verbstamm',
+      verbStemsExamples: 'Beispiele:',
+      verbStemsExample1: 'tanulni → tanul-',
+      verbStemsExample2: 'dolgozni → dolgoz-',
+      verbStemsExample3: 'olvasni → olvas-',
+      verbStemsExample4: 'írni → ír-',
+      verbStemsNote: 'Hinweis: Einige Verben durchlaufen Stammänderungen in bestimmten Formen (z.B. Bindevokal)',
+      
+      moreVerbExamples: 'Weitere Verb-Beispiele',
+      verbEszik: '"enni" (essen) - Unregelmäßig',
+      verbIszik: '"inni" (trinken) - Unregelmäßig',
+      verbMegy: '"menni" (gehen) - Unregelmäßig',
+      verbJon: '"jönni" (kommen) - Unregelmäßig',
     }
   };
 
@@ -294,8 +328,44 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
         </AccordionDetails>
       </Accordion>
 
-      {/* Irregular Verbs */}
+      {/* Verb Stems */}
       <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')} sx={{ mb: 2 }}>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography variant="h5" sx={{ fontWeight: 600 }}>
+            {t.verbStems}
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography paragraph>{t.verbStemsIntro}</Typography>
+          
+          <Box sx={{ mb: 2 }}>
+            <Typography variant="body1" sx={{ mb: 1 }}>
+              <strong>1.</strong> {t.verbStemsStep1}
+            </Typography>
+            <Typography variant="body1" sx={{ mb: 2 }}>
+              <strong>2.</strong> {t.verbStemsStep2}
+            </Typography>
+          </Box>
+
+          <Card variant="outlined" sx={{ mb: 2 }}>
+            <CardContent>
+              <Typography variant="h6" gutterBottom color="primary">{t.verbStemsExamples}</Typography>
+              <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
+                <Typography>• {t.verbStemsExample1}</Typography>
+                <Typography>• {t.verbStemsExample2}</Typography>
+                <Typography>• {t.verbStemsExample3}</Typography>
+                <Typography>• {t.verbStemsExample4}</Typography>
+              </Box>
+              <Typography variant="body2" color="text.secondary" sx={{ mt: 2, fontStyle: 'italic' }}>
+                {t.verbStemsNote}
+              </Typography>
+            </CardContent>
+          </Card>
+        </AccordionDetails>
+      </Accordion>
+
+      {/* Irregular Verbs */}
+      <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')} sx={{ mb: 2 }}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" sx={{ fontWeight: 600 }}>
             {t.irregularVerbs}
@@ -343,7 +413,7 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
       </Accordion>
 
       {/* Learning Tips */}
-      <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')} sx={{ mb: 4 }}>
+      <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')} sx={{ mb: 4 }}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" sx={{ fontWeight: 600 }}>
             {t.tips}

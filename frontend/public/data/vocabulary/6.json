@@ -9,7 +9,8 @@
     "example_sentence_en": "I am reading an interesting book.",
     "example_sentence_de": "Ich lese ein interessantes Buch.",
     "category_en": "Education & Literature",
-    "category_de": "Bildung & Literatur"
+    "category_de": "Bildung & Literatur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 252,
@@ -21,7 +22,8 @@
     "example_sentence_en": "Dad takes me to school every day.",
     "example_sentence_de": "Papa bringt mich jeden Tag zur Schule.",
     "category_en": "Actions & Verbs",
-    "category_de": "Handlungen & Verben"
+    "category_de": "Handlungen & Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 253,
@@ -33,7 +35,8 @@
     "example_sentence_en": "I bought a new phone yesterday.",
     "example_sentence_de": "Ich habe gestern ein neues Handy gekauft.",
     "category_en": "Shopping & Transactions",
-    "category_de": "Einkaufen & Transaktionen"
+    "category_de": "Einkaufen & Transaktionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 254,
@@ -45,7 +48,8 @@
     "example_sentence_en": "Science explains many things.",
     "example_sentence_de": "Die Wissenschaft erklärt vieles.",
     "category_en": "Education & Literature",
-    "category_de": "Bildung & Literatur"
+    "category_de": "Bildung & Literatur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 255,
@@ -57,7 +61,8 @@
     "example_sentence_en": "He has breakfast and eats an apple every day.",
     "example_sentence_de": "Er frühstückt und isst jeden Tag einen Apfel.",
     "category_en": "Food & Drinks",
-    "category_de": "Essen & Trinken"
+    "category_de": "Essen & Trinken",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 256,
@@ -69,7 +74,8 @@
     "example_sentence_en": "My room is clean and tidy.",
     "example_sentence_de": "Mein Zimmer ist sauber und aufgeräumt.",
     "category_en": "Home & Furniture",
-    "category_de": "Zuhause & Möbel"
+    "category_de": "Zuhause & Möbel",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 257,
@@ -81,7 +87,8 @@
     "example_sentence_en": "My best friend always helps me.",
     "example_sentence_de": "Mein bester Freund hilft mir immer.",
     "category_en": "Family & Friends",
-    "category_de": "Familie & Freunde"
+    "category_de": "Familie & Freunde",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 258,
@@ -93,7 +100,8 @@
     "example_sentence_en": "The movie started half an hour ago.",
     "example_sentence_de": "Der Film hat vor einer halben Stunde begonnen.",
     "category_en": "Time & Events",
-    "category_de": "Zeit & Ereignisse"
+    "category_de": "Zeit & Ereignisse",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 259,
@@ -105,7 +113,8 @@
     "example_sentence_en": "You have a very good idea!",
     "example_sentence_de": "Du hast eine sehr gute Idee!",
     "category_en": "Thoughts & Communication",
-    "category_de": "Gedanken & Kommunikation"
+    "category_de": "Gedanken & Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 260,
@@ -117,7 +126,8 @@
     "example_sentence_en": "I like to eat fish.",
     "example_sentence_de": "Ich esse gerne Fisch.",
     "category_en": "Animals & Nature",
-    "category_de": "Tiere & Natur"
+    "category_de": "Tiere & Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 261,
@@ -129,7 +139,8 @@
     "example_sentence_en": "The mountain air is very fresh.",
     "example_sentence_de": "Die Bergluft ist sehr frisch.",
     "category_en": "Nature & Environment",
-    "category_de": "Natur & Umwelt"
+    "category_de": "Natur & Umwelt",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 262,
@@ -141,7 +152,8 @@
     "example_sentence_en": "The bus stops at the next stop.",
     "example_sentence_de": "Der Bus hält an der nächsten Haltestelle.",
     "category_en": "Actions & Verbs",
-    "category_de": "Handlungen & Verben"
+    "category_de": "Handlungen & Verben",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 263,
@@ -153,7 +165,8 @@
     "example_sentence_en": "I saw him once in the park.",
     "example_sentence_de": "Ich habe ihn einmal im Park gesehen.",
     "category_en": "Time & Events",
-    "category_de": "Zeit & Ereignisse"
+    "category_de": "Zeit & Ereignisse",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 264,
@@ -165,7 +178,8 @@
     "example_sentence_en": "This is the base of the project.",
     "example_sentence_de": "Das ist die Grundlage des Projekts.",
     "category_en": "Abstract Concepts",
-    "category_de": "Abstrakte Konzepte"
+    "category_de": "Abstrakte Konzepte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 265,
@@ -177,7 +191,8 @@
     "example_sentence_en": "I can hear the music well.",
     "example_sentence_de": "Ich höre die Musik gut.",
     "category_en": "Senses & Perception",
-    "category_de": "Sinne & Wahrnehmung"
+    "category_de": "Sinne & Wahrnehmung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 266,
@@ -189,7 +204,8 @@
     "example_sentence_en": "The horse runs fast.",
     "example_sentence_de": "Das Pferd läuft schnell.",
     "category_en": "Animals & Nature",
-    "category_de": "Tiere & Natur"
+    "category_de": "Tiere & Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 267,
@@ -201,7 +217,8 @@
     "example_sentence_en": "Please be careful with the knife, don't cut yourself!",
     "example_sentence_de": "Sei bitte vorsichtig mit dem Messer, schneide dich nicht!",
     "category_en": "Actions & Verbs",
-    "category_de": "Handlungen & Verben"
+    "category_de": "Handlungen & Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 268,
@@ -213,7 +230,8 @@
     "example_sentence_en": "Are you sure about it?",
     "example_sentence_de": "Bist du dir sicher?",
     "category_en": "Thoughts & Communication",
-    "category_de": "Gedanken & Kommunikation"
+    "category_de": "Gedanken & Kommunikation",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 269,
@@ -225,7 +243,8 @@
     "example_sentence_en": "My new wristwatch is very beautiful.",
     "example_sentence_de": "Meine neue Armbanduhr ist sehr schön.",
     "category_en": "Accessories & Clothing",
-    "category_de": "Accessoires & Kleidung"
+    "category_de": "Accessoires & Kleidung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 270,
@@ -237,7 +256,8 @@
     "example_sentence_en": "Which color do you like?",
     "example_sentence_de": "Welche Farbe magst du?",
     "category_en": "Descriptions & Appearance",
-    "category_de": "Beschreibungen & Aussehen"
+    "category_de": "Beschreibungen & Aussehen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 271,
@@ -249,7 +269,8 @@
     "example_sentence_en": "He is smiling on his face.",
     "example_sentence_de": "Er lächelt im Gesicht.",
     "category_en": "Body & Health",
-    "category_de": "Körper & Gesundheit"
+    "category_de": "Körper & Gesundheit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 272,
@@ -261,7 +282,8 @@
     "example_sentence_en": "The tree gives shade.",
     "example_sentence_de": "Der Baum spendet Schatten.",
     "category_en": "Nature & Environment",
-    "category_de": "Natur & Umwelt"
+    "category_de": "Natur & Umwelt",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 273,
@@ -273,7 +295,8 @@
     "example_sentence_en": "Mom is cooking now.",
     "example_sentence_de": "Mama kocht jetzt.",
     "category_en": "Food & Drinks",
-    "category_de": "Essen & Trinken"
+    "category_de": "Essen & Trinken",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 274,
@@ -285,7 +308,8 @@
     "example_sentence_en": "The door is open.",
     "example_sentence_de": "Die Tür ist offen.",
     "category_en": "Descriptions & Appearance",
-    "category_de": "Beschreibungen & Aussehen"
+    "category_de": "Beschreibungen & Aussehen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 275,
@@ -297,7 +321,8 @@
     "example_sentence_en": "It seems you are happy.",
     "example_sentence_de": "Es scheint, du bist glücklich.",
     "category_en": "Senses & Perception",
-    "category_de": "Sinne & Wahrnehmung"
+    "category_de": "Sinne & Wahrnehmung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 276,
@@ -309,7 +334,8 @@
     "example_sentence_en": "We like to be together.",
     "example_sentence_de": "Wir sind gerne zusammen.",
     "category_en": "Relationships & Social",
-    "category_de": "Beziehungen & Soziales"
+    "category_de": "Beziehungen & Soziales",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 277,
@@ -321,7 +347,8 @@
     "example_sentence_en": "What is the next step?",
     "example_sentence_de": "Was ist der nächste Schritt?",
     "category_en": "Time & Events",
-    "category_de": "Zeit & Ereignisse"
+    "category_de": "Zeit & Ereignisse",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 278,
@@ -333,7 +360,8 @@
     "example_sentence_en": "The wall is white.",
     "example_sentence_de": "Die Wand ist weiß.",
     "category_en": "Descriptions & Appearance",
-    "category_de": "Beschreibungen & Aussehen"
+    "category_de": "Beschreibungen & Aussehen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 279,
@@ -345,7 +373,8 @@
     "example_sentence_en": "The children are playing in the garden.",
     "example_sentence_de": "Die Kinder spielen im Garten.",
     "category_en": "Family & Friends",
-    "category_de": "Familie & Freunde"
+    "category_de": "Familie & Freunde",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 280,
@@ -357,7 +386,8 @@
     "example_sentence_en": "The movie starts at seven.",
     "example_sentence_de": "Der Film beginnt um sieben.",
     "category_en": "Time & Events",
-    "category_de": "Zeit & Ereignisse"
+    "category_de": "Zeit & Ereignisse",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 281,
@@ -369,7 +399,8 @@
     "example_sentence_en": "He received a gift for his birthday.",
     "example_sentence_de": "Er bekam ein Geschenk zu seinem Geburtstag.",
     "category_en": "Actions & Verbs",
-    "category_de": "Handlungen & Verben"
+    "category_de": "Handlungen & Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 282,
@@ -381,7 +412,8 @@
     "example_sentence_en": "I like to walk in the park.",
     "example_sentence_de": "Ich gehe gerne im Park spazieren.",
     "category_en": "Activities & Hobbies",
-    "category_de": "Aktivitäten & Hobbys"
+    "category_de": "Aktivitäten & Hobbys",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 283,
@@ -393,7 +425,8 @@
     "example_sentence_en": "Please give me an example!",
     "example_sentence_de": "Gib mir bitte ein Beispiel!",
     "category_en": "Education & Literature",
-    "category_de": "Bildung & Literatur"
+    "category_de": "Bildung & Literatur",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 284,
@@ -405,7 +438,8 @@
     "example_sentence_en": "This task is easy.",
     "example_sentence_de": "Diese Aufgabe ist leicht.",
     "category_en": "Descriptions & Appearance",
-    "category_de": "Beschreibungen & Aussehen"
+    "category_de": "Beschreibungen & Aussehen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 285,
@@ -417,7 +451,8 @@
     "example_sentence_en": "I need a piece of paper.",
     "example_sentence_de": "Ich brauche ein Blatt Papier.",
     "category_en": "Objects & Tools",
-    "category_de": "Gegenstände & Werkzeuge"
+    "category_de": "Gegenstände & Werkzeuge",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 286,
@@ -429,7 +464,8 @@
     "example_sentence_en": "We work in a group.",
     "example_sentence_de": "Wir arbeiten in einer Gruppe.",
     "category_en": "Relationships & Social",
-    "category_de": "Beziehungen & Soziales"
+    "category_de": "Beziehungen & Soziales",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 287,
@@ -441,7 +477,8 @@
     "example_sentence_en": "He always smiles.",
     "example_sentence_de": "Er lächelt immer.",
     "category_en": "Time & Events",
-    "category_de": "Zeit & Ereignisse"
+    "category_de": "Zeit & Ereignisse",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 288,
@@ -453,7 +490,8 @@
     "example_sentence_en": "I like to listen to music.",
     "example_sentence_de": "Ich höre gerne Musik.",
     "category_en": "Activities & Hobbies",
-    "category_de": "Aktivitäten & Hobbys"
+    "category_de": "Aktivitäten & Hobbys",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 289,
@@ -465,7 +503,8 @@
     "example_sentence_en": "Those books are mine.",
     "example_sentence_de": "Jene Bücher sind meine.",
     "category_en": "Descriptions & Appearance",
-    "category_de": "Beschreibungen & Aussehen"
+    "category_de": "Beschreibungen & Aussehen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 290,
@@ -477,7 +516,8 @@
     "example_sentence_en": "Both children are smart.",
     "example_sentence_de": "Beide Kinder sind klug.",
     "category_en": "Descriptions & Appearance",
-    "category_de": "Beschreibungen & Aussehen"
+    "category_de": "Beschreibungen & Aussehen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 291,
@@ -489,7 +529,8 @@
     "example_sentence_en": "Did you see any sign?",
     "example_sentence_de": "Hast du ein Zeichen gesehen?",
     "category_en": "Communication & Symbols",
-    "category_de": "Kommunikation & Symbole"
+    "category_de": "Kommunikation & Symbole",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 292,
@@ -501,7 +542,8 @@
     "example_sentence_en": "We meet often.",
     "example_sentence_de": "Wir treffen uns oft.",
     "category_en": "Time & Events",
-    "category_de": "Zeit & Ereignisse"
+    "category_de": "Zeit & Ereignisse",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 293,
@@ -513,7 +555,8 @@
     "example_sentence_en": "I wrote a letter.",
     "example_sentence_de": "Ich habe einen Brief geschrieben.",
     "category_en": "Communication & Symbols",
-    "category_de": "Kommunikation & Symbole"
+    "category_de": "Kommunikation & Symbole",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 294,
@@ -525,7 +568,8 @@
     "example_sentence_en": "I read while I wait for you.",
     "example_sentence_de": "Ich lese, während ich auf dich warte.",
     "category_en": "Time & Events",
-    "category_de": "Zeit & Ereignisse"
+    "category_de": "Zeit & Ereignisse",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 295,
@@ -537,7 +581,8 @@
     "example_sentence_en": "I ran five miles.",
     "example_sentence_de": "Ich bin fünf Meilen gelaufen.",
     "category_en": "Measurements & Units",
-    "category_de": "Maße & Einheiten"
+    "category_de": "Maße & Einheiten",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 296,
@@ -549,7 +594,8 @@
     "example_sentence_en": "The river flows fast.",
     "example_sentence_de": "Der Fluss fließt schnell.",
     "category_en": "Nature & Environment",
-    "category_de": "Natur & Umwelt"
+    "category_de": "Natur & Umwelt",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 297,
@@ -561,7 +607,8 @@
     "example_sentence_en": "The car is red.",
     "example_sentence_de": "Das Auto ist rot.",
     "category_en": "Transportation & Travel",
-    "category_de": "Verkehr & Reisen"
+    "category_de": "Verkehr & Reisen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 298,
@@ -573,7 +620,8 @@
     "example_sentence_en": "My leg hurts.",
     "example_sentence_de": "Mein Bein tut weh.",
     "category_en": "Body & Health",
-    "category_de": "Körper & Gesundheit"
+    "category_de": "Körper & Gesundheit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 299,
@@ -585,7 +633,8 @@
     "example_sentence_en": "Care is important.",
     "example_sentence_de": "Fürsorge ist wichtig.",
     "category_en": "Relationships & Social",
-    "category_de": "Beziehungen & Soziales"
+    "category_de": "Beziehungen & Soziales",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 300,
@@ -597,6 +646,7 @@
     "example_sentence_en": "This is the second time.",
     "example_sentence_de": "Das ist das zweite Mal.",
     "category_en": "Descriptions & Appearance",
-    "category_de": "Beschreibungen & Aussehen"
+    "category_de": "Beschreibungen & Aussehen",
+    "vowel_harmony": "gemischte"
   }
 ]

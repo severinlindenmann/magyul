@@ -9,7 +9,8 @@
     "example_sentence_en": "I don't agree.",
     "example_sentence_de": "Ich stimme nicht zu.",
     "category_en": "Basic Expressions",
-    "category_de": "Grundlegende Ausdrücke"
+    "category_de": "Grundlegende Ausdrücke",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 52,
@@ -21,7 +22,8 @@
     "example_sentence_en": "A tool set.",
     "example_sentence_de": "Ein Werkzeugset.",
     "category_en": "Objects",
-    "category_de": "Objekte"
+    "category_de": "Objekte",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 53,
@@ -33,7 +35,8 @@
     "example_sentence_en": "Three apples.",
     "example_sentence_de": "Drei Äpfel.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 54,
@@ -45,7 +48,8 @@
     "example_sentence_en": "I want this.",
     "example_sentence_de": "Ich will das.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 55,
@@ -57,7 +61,8 @@
     "example_sentence_en": "Fresh air.",
     "example_sentence_de": "Frische Luft.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 56,
@@ -69,7 +74,8 @@
     "example_sentence_en": "I am well.",
     "example_sentence_de": "Mir geht es gut.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 57,
@@ -81,7 +87,8 @@
     "example_sentence_en": "Me too.",
     "example_sentence_de": "Ich auch.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 58,
@@ -93,7 +100,8 @@
     "example_sentence_en": "This is a good game.",
     "example_sentence_de": "Das ist ein gutes Spiel.",
     "category_en": "Entertainment & Hobbies",
-    "category_de": "Unterhaltung & Hobbys"
+    "category_de": "Unterhaltung & Hobbys",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 59,
@@ -105,7 +113,8 @@
     "example_sentence_en": "A small cat.",
     "example_sentence_de": "Eine kleine Katze.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 60,
@@ -117,7 +126,8 @@
     "example_sentence_en": "The end of the story.",
     "example_sentence_de": "Das Ende der Geschichte.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 61,
@@ -129,7 +139,8 @@
     "example_sentence_en": "He puts it on the table.",
     "example_sentence_de": "Er legt es auf den Tisch.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 62,
@@ -141,7 +152,8 @@
     "example_sentence_en": "I am at home.",
     "example_sentence_de": "Ich bin zu Hause.",
     "category_en": "House & Home",
-    "category_de": "Haus & Zuhause"
+    "category_de": "Haus & Zuhause",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 63,
@@ -153,7 +165,8 @@
     "example_sentence_en": "I am reading a book.",
     "example_sentence_de": "Ich lese ein Buch.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 64,
@@ -165,7 +178,8 @@
     "example_sentence_en": "Hand tool.",
     "example_sentence_de": "Handwerkzeug.",
     "category_en": "Objects",
-    "category_de": "Objekte"
+    "category_de": "Objekte",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 65,
@@ -177,7 +191,8 @@
     "example_sentence_en": "He stood at the gate.",
     "example_sentence_de": "Er stand am Tor.",
     "category_en": "House & Home",
-    "category_de": "Haus & Zuhause"
+    "category_de": "Haus & Zuhause",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 66,
@@ -189,7 +204,8 @@
     "example_sentence_en": "A big house.",
     "example_sentence_de": "Ein großes Haus.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 67,
@@ -201,7 +217,8 @@
     "example_sentence_en": "A magic spell.",
     "example_sentence_de": "Ein Zauber.",
     "category_en": "Entertainment & Hobbies",
-    "category_de": "Unterhaltung & Hobbys"
+    "category_de": "Unterhaltung & Hobbys",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 68,
@@ -213,7 +230,8 @@
     "example_sentence_en": "I add it to the list.",
     "example_sentence_de": "Ich füge es zur Liste hinzu.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 69,
@@ -225,7 +243,8 @@
     "example_sentence_en": "I am still here.",
     "example_sentence_de": "Ich bin noch hier.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 70,
@@ -237,7 +256,8 @@
     "example_sentence_en": "He sits on the ground.",
     "example_sentence_de": "Er sitzt auf dem Boden.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 71,
@@ -249,7 +269,8 @@
     "example_sentence_en": "Come here!",
     "example_sentence_de": "Komm her!",
     "category_en": "Location & Direction",
-    "category_de": "Ort & Richtung"
+    "category_de": "Ort & Richtung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 72,
@@ -261,7 +282,8 @@
     "example_sentence_en": "I must go.",
     "example_sentence_de": "Ich muss gehen.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 73,
@@ -273,7 +295,8 @@
     "example_sentence_en": "Great joy.",
     "example_sentence_de": "Große Freude.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 74,
@@ -285,7 +308,8 @@
     "example_sentence_en": "Big mistake.",
     "example_sentence_de": "Großer Fehler.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 75,
@@ -297,7 +321,8 @@
     "example_sentence_en": "So beautiful!",
     "example_sentence_de": "So schön!",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 76,
@@ -309,7 +334,8 @@
     "example_sentence_en": "Follow the road!",
     "example_sentence_de": "Folgen Sie der Straße!",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 77,
@@ -321,7 +347,8 @@
     "example_sentence_en": "The first act.",
     "example_sentence_de": "Der erste Akt.",
     "category_en": "Entertainment & Hobbies",
-    "category_de": "Unterhaltung & Hobbys"
+    "category_de": "Unterhaltung & Hobbys",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 78,
@@ -333,7 +360,8 @@
     "example_sentence_en": "Why are you crying?",
     "example_sentence_de": "Warum weinst du?",
     "category_en": "Question Words",
-    "category_de": "Fragewörter"
+    "category_de": "Fragewörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 79,
@@ -345,7 +373,8 @@
     "example_sentence_en": "He asks for help.",
     "example_sentence_de": "Er bittet um Hilfe.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 80,
@@ -357,7 +386,8 @@
     "example_sentence_en": "Three men.",
     "example_sentence_de": "Drei Männer.",
     "category_en": "People & Relationships",
-    "category_de": "Menschen & Beziehungen"
+    "category_de": "Menschen & Beziehungen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 81,
@@ -369,7 +399,8 @@
     "example_sentence_en": "Big change.",
     "example_sentence_de": "Große Veränderung.",
     "category_en": "Abstract Concepts",
-    "category_de": "Abstrakte Begriffe"
+    "category_de": "Abstrakte Begriffe",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 82,
@@ -381,7 +412,8 @@
     "example_sentence_en": "He went to school.",
     "example_sentence_de": "Er ging zur Schule.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 83,
@@ -393,7 +425,8 @@
     "example_sentence_en": "The light of the sun.",
     "example_sentence_de": "Das Licht der Sonne.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 84,
@@ -405,7 +438,8 @@
     "example_sentence_en": "You are very kind.",
     "example_sentence_de": "Du bist sehr lieb.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 85,
@@ -417,7 +451,8 @@
     "example_sentence_en": "He sits down.",
     "example_sentence_de": "Er setzt sich hin.",
     "category_en": "Location & Direction",
-    "category_de": "Ort & Richtung"
+    "category_de": "Ort & Richtung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 86,
@@ -429,7 +464,8 @@
     "example_sentence_en": "It is needed.",
     "example_sentence_de": "Es wird benötigt.",
     "category_en": "Abstract Concepts",
-    "category_de": "Abstrakte Begriffe"
+    "category_de": "Abstrakte Begriffe",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 87,
@@ -441,7 +477,8 @@
     "example_sentence_en": "A new house.",
     "example_sentence_de": "Ein neues Haus.",
     "category_en": "House & Home",
-    "category_de": "Haus & Zuhause"
+    "category_de": "Haus & Zuhause",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 88,
@@ -453,7 +490,8 @@
     "example_sentence_en": "A beautiful picture.",
     "example_sentence_de": "Ein schönes Bild.",
     "category_en": "Objects",
-    "category_de": "Objekte"
+    "category_de": "Objekte",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 89,
@@ -465,7 +503,8 @@
     "example_sentence_en": "Try it!",
     "example_sentence_de": "Versuch es!",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 90,
@@ -477,7 +516,8 @@
     "example_sentence_en": "We have time.",
     "example_sentence_de": "Wir haben Zeit.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 91,
@@ -489,7 +529,8 @@
     "example_sentence_en": "I try again.",
     "example_sentence_de": "Ich versuche es wieder.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 92,
@@ -501,7 +542,8 @@
     "example_sentence_en": "A wild animal.",
     "example_sentence_de": "Ein wildes Tier.",
     "category_en": "Animals",
-    "category_de": "Tiere"
+    "category_de": "Tiere",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 93,
@@ -513,7 +555,8 @@
     "example_sentence_en": "Exactly ten o'clock.",
     "example_sentence_de": "Genau zehn Uhr.",
     "category_en": "Abstract Concepts",
-    "category_de": "Abstrakte Begriffe"
+    "category_de": "Abstrakte Begriffe",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 94,
@@ -525,7 +568,8 @@
     "example_sentence_en": "My mother.",
     "example_sentence_de": "Meine Mutter.",
     "category_en": "Family",
-    "category_de": "Familie"
+    "category_de": "Familie",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 95,
@@ -537,7 +581,8 @@
     "example_sentence_en": "The world is big.",
     "example_sentence_de": "Die Welt ist groß.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 96,
@@ -549,7 +594,8 @@
     "example_sentence_en": "We are close.",
     "example_sentence_de": "Wir sind nah.",
     "category_en": "Location & Direction",
-    "category_de": "Ort & Richtung"
+    "category_de": "Ort & Richtung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 97,
@@ -561,7 +607,8 @@
     "example_sentence_en": "He builds a house.",
     "example_sentence_de": "Er baut ein Haus.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 98,
@@ -573,7 +620,8 @@
     "example_sentence_en": "Myself.",
     "example_sentence_de": "Ich selbst.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 99,
@@ -585,7 +633,8 @@
     "example_sentence_en": "The Earth is blue.",
     "example_sentence_de": "Die Erde ist blau.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 100,
@@ -597,6 +646,7 @@
     "example_sentence_en": "My father.",
     "example_sentence_de": "Mein Vater.",
     "category_en": "Family",
-    "category_de": "Familie"
+    "category_de": "Familie",
+    "vowel_harmony": "tiefe"
   }
 ]

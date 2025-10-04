@@ -32,7 +32,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-highly"
   },
   {
     "id": 2,
@@ -67,7 +68,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-highly"
   },
   {
     "id": 3,
@@ -102,7 +104,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 4,
@@ -137,7 +140,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 5,
@@ -172,7 +176,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ok-pattern"
   },
   {
     "id": 6,
@@ -207,7 +212,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 7,
@@ -242,7 +248,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-highly"
   },
   {
     "id": 8,
@@ -277,7 +284,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ik"
   },
   {
     "id": 9,
@@ -312,7 +320,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 10,
@@ -347,7 +356,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 11,
@@ -382,7 +392,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ik"
   },
   {
     "id": 12,
@@ -396,7 +407,7 @@
         "te": "alszol",
         "ő": "alszik",
         "mi": "alszunk",
-        "ti": "alsztok",
+  "ti": "alszotok",
         "ők": "alszanak"
       },
       "past": {
@@ -417,7 +428,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 13,
@@ -452,7 +464,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-highly"
   },
   {
     "id": 14,
@@ -487,7 +500,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 15,
@@ -522,7 +536,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 16,
@@ -557,7 +572,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 17,
@@ -592,7 +608,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ok-pattern"
   },
   {
     "id": 18,
@@ -627,7 +644,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 19,
@@ -662,7 +680,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 20,
@@ -697,7 +716,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 21,
@@ -732,7 +752,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 22,
@@ -767,7 +788,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 23,
@@ -802,7 +824,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ok-pattern"
   },
   {
     "id": 24,
@@ -837,7 +860,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 25,
@@ -872,7 +896,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-highly"
   },
   {
     "id": 26,
@@ -907,11 +932,12 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 27,
-    "infinitive": "felelnni",
+  "infinitive": "felelni",
     "meaning_de": "antworten",
     "meaning_en": "to answer",
     "category": "regular",
@@ -933,16 +959,17 @@
         "ők": "feleltek"
       },
       "future": {
-        "én": "fogok felelnni",
-        "te": "fogsz felelnni",
-        "ő": "fog felelnni",
-        "mi": "fogunk felelnni",
-        "ti": "fogtok felelnni",
-        "ők": "fognak felelnni"
+  "én": "fogok felelni",
+  "te": "fogsz felelni",
+  "ő": "fog felelni",
+  "mi": "fogunk felelni",
+  "ti": "fogtok felelni",
+  "ők": "fognak felelni"
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 28,
@@ -977,7 +1004,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 29,
@@ -1012,7 +1040,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 30,
@@ -1047,7 +1076,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 31,
@@ -1082,7 +1112,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 32,
@@ -1117,7 +1148,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 33,
@@ -1152,7 +1184,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 34,
@@ -1187,7 +1220,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ik"
   },
   {
     "id": 35,
@@ -1222,7 +1256,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ok-pattern"
   },
   {
     "id": 36,
@@ -1257,7 +1292,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ok-pattern"
   },
   {
     "id": 37,
@@ -1292,7 +1328,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ok-pattern"
   },
   {
     "id": 38,
@@ -1327,7 +1364,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 39,
@@ -1362,7 +1400,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 40,
@@ -1397,7 +1436,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 41,
@@ -1432,7 +1472,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 42,
@@ -1467,7 +1508,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 43,
@@ -1478,16 +1520,16 @@
     "conjugations": {
       "present": {
         "én": "mosok",
-        "te": "mossz",
+  "te": "mosol",
         "ő": "mos",
-        "mi": "mossunk",
+  "mi": "mosunk",
         "ti": "mostok",
         "ők": "mosnak"
       },
       "past": {
         "én": "mostam",
         "te": "mostál",
-        "ő": "most",
+  "ő": "mosott",
         "mi": "mostunk",
         "ti": "mostatok",
         "ők": "mostak"
@@ -1502,7 +1544,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 44,
@@ -1537,7 +1580,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 45,
@@ -1572,7 +1616,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ok-pattern"
   },
   {
     "id": 46,
@@ -1607,7 +1652,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 47,
@@ -1642,7 +1688,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 48,
@@ -1653,7 +1700,7 @@
     "conjugations": {
       "present": {
         "én": "festek",
-        "te": "fesztesz",
+  "te": "festesz",
         "ő": "fest",
         "mi": "festünk",
         "ti": "festetek",
@@ -1677,7 +1724,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 49,
@@ -1712,7 +1760,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 50,
@@ -1747,7 +1796,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 51,
@@ -1782,7 +1832,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 52,
@@ -1817,7 +1868,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 53,
@@ -1852,7 +1904,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 54,
@@ -1887,7 +1940,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 55,
@@ -1922,7 +1976,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 56,
@@ -1957,7 +2012,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 57,
@@ -1967,12 +2023,12 @@
     "category": "irregular",
     "conjugations": {
       "present": {
-        "én": "emlékszem",
-        "te": "emlékszel",
-        "ő": "emlékszik",
-        "mi": "emlékszünk",
-        "ti": "emléksztek",
-        "ők": "emlékeznek"
+  "én": "emlékszem",
+  "te": "emlékszel",
+  "ő": "emlékszik",
+  "mi": "emlékszünk",
+  "ti": "emlékeztek",
+  "ők": "emlékeznek"
       },
       "past": {
         "én": "emlékeztem",
@@ -1992,7 +2048,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ik"
   },
   {
     "id": 58,
@@ -2004,7 +2061,7 @@
       "present": {
         "én": "felejtek",
         "te": "felejtesz",
-        "ő": "felejti",
+  "ő": "felejt",
         "mi": "felejtünk",
         "ti": "felejtitek",
         "ők": "felejtenek"
@@ -2018,16 +2075,17 @@
         "ők": "felejtettek"
       },
       "future": {
-        "én": "fogok felejtni",
-        "te": "fogsz felejtni",
-        "ő": "fog felejtni",
-        "mi": "fogunk felejtni",
-        "ti": "fogtok felejtni",
-        "ők": "fognak felejtni"
+  "én": "fogok felejteni",
+  "te": "fogsz felejteni",
+  "ő": "fog felejteni",
+  "mi": "fogunk felejteni",
+  "ti": "fogtok felejteni",
+  "ők": "fognak felejteni"
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 59,
@@ -2062,7 +2120,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 60,
@@ -2097,11 +2156,12 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-front"
   },
   {
     "id": 61,
-    "infinitive": "félelmetes",
+  "infinitive": "félni",
     "meaning_de": "fürchten",
     "meaning_en": "to fear",
     "category": "regular",
@@ -2111,7 +2171,7 @@
         "te": "félsz",
         "ő": "fél",
         "mi": "félünk",
-        "ti": "féltök",
+  "ti": "féltek",
         "ők": "félnek"
       },
       "past": {
@@ -2132,7 +2192,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 62,
@@ -2167,12 +2228,13 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-front"
   },
   {
     "id": 63,
     "infinitive": "szerencsétlenkedni",
-    "meaning_de": "Pecha haben",
+  "meaning_de": "Pech haben",
     "meaning_en": "to have bad luck",
     "category": "regular",
     "conjugations": {
@@ -2202,7 +2264,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-front"
   },
   {
     "id": 64,
@@ -2237,7 +2300,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 65,
@@ -2272,7 +2336,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 66,
@@ -2282,12 +2347,12 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "én": "haragszom",
-        "te": "haragszol",
-        "ő": "haragszik",
-        "mi": "haragszunk",
-        "ti": "haragsztok",
-        "ők": "haragszanak"
+  "én": "haragszom",
+  "te": "haragszol",
+  "ő": "haragszik",
+  "mi": "haragszunk",
+  "ti": "haragszotok",
+  "ők": "haragszanak"
       },
       "past": {
         "én": "haragudtam",
@@ -2307,7 +2372,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 67,
@@ -2342,7 +2408,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 68,
@@ -2377,7 +2444,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 69,
@@ -2387,12 +2455,12 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "én": "kérdezek",
-        "te": "kérdezel",
-        "ő": "kérdez",
-        "mi": "kérdezünk",
-        "ti": "kérdezitek",
-        "ők": "kérdeznek"
+  "én": "kérdezek",
+  "te": "kérdezel",
+  "ő": "kérdez",
+  "mi": "kérdezünk",
+  "ti": "kérdeztek",
+  "ők": "kérdeznek"
       },
       "past": {
         "én": "kérdeztem",
@@ -2412,7 +2480,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 70,
@@ -2447,7 +2516,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 71,
@@ -2482,7 +2552,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 72,
@@ -2517,7 +2588,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 73,
@@ -2552,7 +2624,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 74,
@@ -2587,7 +2660,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 75,
@@ -2622,7 +2696,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 76,
@@ -2657,7 +2732,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 77,
@@ -2692,7 +2768,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular"
   },
   {
     "id": 78,
@@ -2727,7 +2804,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ik"
   },
   {
     "id": 79,
@@ -2749,8 +2827,8 @@
         "te": "tetszettél",
         "ő": "tetszett",
         "mi": "tetszettünk",
-        "ti": "tetszettetek",
-        "ők": "tetsztek"
+  "ti": "tetszettetek",
+  "ők": "tetszettek"
       },
       "future": {
         "én": "fogok tetszeni",
@@ -2762,7 +2840,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular-ik"
   },
   {
     "id": 80,
@@ -2797,7 +2876,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular"
   },
   {
     "id": 81,
@@ -2832,7 +2912,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 82,
@@ -2867,7 +2948,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 83,
@@ -2881,7 +2963,7 @@
         "te": "hordasz",
         "ő": "hord",
         "mi": "hordunk",
-        "ti": "hordotok",
+  "ti": "hordtok",
         "ők": "hordanak"
       },
       "past": {
@@ -2902,7 +2984,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 84,
@@ -2937,7 +3020,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular"
   },
   {
     "id": 85,
@@ -2972,7 +3056,8 @@
       }
     },
     "category_en": "Irregular",
-    "category_de": "Unregelmäßig"
+    "category_de": "Unregelmäßig",
+    "conjugation_type": "irregular"
   },
   {
     "id": 86,
@@ -3007,7 +3092,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 87,
@@ -3042,7 +3128,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-front"
   },
   {
     "id": 88,
@@ -3077,7 +3164,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 89,
@@ -3112,7 +3200,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-front"
   },
   {
     "id": 90,
@@ -3122,7 +3211,7 @@
     "category": "regular",
     "conjugations": {
       "present": {
-        "én": "sminkelk",
+  "én": "sminkelek",
         "te": "sminkelsz",
         "ő": "sminkel",
         "mi": "sminkelünk",
@@ -3147,7 +3236,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 91,
@@ -3182,7 +3272,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 92,
@@ -3200,12 +3291,12 @@
         "ők": "edznek"
       },
       "past": {
-        "én": "edzettem",
-        "te": "edzettél",
-        "ő": "edzett",
-        "mi": "edzettünk",
-        "ti": "edzettetek",
-        "ők": "edztek"
+  "én": "edzettem",
+  "te": "edzettél",
+  "ő": "edzett",
+  "mi": "edzettünk",
+  "ti": "edzettetek",
+  "ők": "edzettek"
       },
       "future": {
         "én": "fogok edzeni",
@@ -3217,7 +3308,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 93,
@@ -3252,7 +3344,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 94,
@@ -3287,7 +3380,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 95,
@@ -3322,7 +3416,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "back-vowel"
   },
   {
     "id": 96,
@@ -3357,22 +3452,23 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 97,
-    "infinitive": "költni",
+  "infinitive": "költeni",
     "meaning_de": "ausgeben",
     "meaning_en": "to spend (money)",
     "category": "regular",
     "conjugations": {
       "present": {
-        "én": "költök",
-        "te": "költsz",
-        "ő": "költ",
-        "mi": "költünk",
-        "ti": "költök",
-        "ők": "költenek"
+  "én": "költök",
+  "te": "költesz",
+  "ő": "költ",
+  "mi": "költünk",
+  "ti": "költötök",
+  "ők": "költenek"
       },
       "past": {
         "én": "költöttem",
@@ -3383,16 +3479,17 @@
         "ők": "költöttek"
       },
       "future": {
-        "én": "fogok költni",
-        "te": "fogsz költni",
-        "ő": "fog költni",
-        "mi": "fogunk költni",
-        "ti": "fogtok költni",
-        "ők": "fognak költni"
+  "én": "fogok költeni",
+  "te": "fogsz költeni",
+  "ő": "fog költeni",
+  "mi": "fogunk költeni",
+  "ti": "fogtok költeni",
+  "ők": "fognak költeni"
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 98,
@@ -3427,7 +3524,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "front-vowel"
   },
   {
     "id": 99,
@@ -3462,7 +3560,8 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   },
   {
     "id": 100,
@@ -3497,6 +3596,7 @@
       }
     },
     "category_en": "Regular",
-    "category_de": "Regelmäßig"
+    "category_de": "Regelmäßig",
+    "conjugation_type": "ik-verb-back"
   }
 ]

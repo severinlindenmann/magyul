@@ -9,7 +9,8 @@
     "example_sentence_en": "This will be enough for tonight.",
     "example_sentence_de": "Das wird für heute Abend genug sein.",
     "category_en": "Quantity",
-    "category_de": "Menge/Ausmaß"
+    "category_de": "Menge/Ausmaß",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 302,
@@ -21,7 +22,8 @@
     "example_sentence_en": "This is a simple task.",
     "example_sentence_de": "Das ist eine einfache Aufgabe.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 303,
@@ -33,7 +35,8 @@
     "example_sentence_en": "The girl is playing in the park.",
     "example_sentence_de": "Das Mädchen spielt im Park.",
     "category_en": "Family/People",
-    "category_de": "Familie/Menschen"
+    "category_de": "Familie/Menschen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 304,
@@ -45,7 +48,8 @@
     "example_sentence_en": "This is our usual breakfast.",
     "example_sentence_de": "Das ist unser übliches Frühstück.",
     "category_en": "Routine",
-    "category_de": "Routine/Gewohnheit"
+    "category_de": "Routine/Gewohnheit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 305,
@@ -57,7 +61,8 @@
     "example_sentence_en": "He is still young.",
     "example_sentence_de": "Er ist noch jung.",
     "category_en": "Age",
-    "category_de": "Alter"
+    "category_de": "Alter",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 306,
@@ -69,7 +74,8 @@
     "example_sentence_en": "Everything is ready for the party.",
     "example_sentence_de": "Alles ist für die Party fertig.",
     "category_en": "Status",
-    "category_de": "Zustand"
+    "category_de": "Zustand",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 307,
@@ -81,7 +87,8 @@
     "example_sentence_en": "The bird is flying above the house.",
     "example_sentence_de": "Der Vogel fliegt über dem Haus.",
     "category_en": "Location/Direction",
-    "category_de": "Ort/Richtung"
+    "category_de": "Ort/Richtung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 308,
@@ -93,7 +100,8 @@
     "example_sentence_en": "Have you ever seen this?",
     "example_sentence_de": "Hast du so etwas jemals gesehen?",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 309,
@@ -105,7 +113,8 @@
     "example_sentence_en": "The rose is red.",
     "example_sentence_de": "Die Rose ist rot.",
     "category_en": "Colors",
-    "category_de": "Farben"
+    "category_de": "Farben",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 310,
@@ -117,7 +126,8 @@
     "example_sentence_en": "Make a shopping list!",
     "example_sentence_de": "Mach eine Einkaufsliste!",
     "category_en": "Everyday Objects",
-    "category_de": "Alltagsgegenstände"
+    "category_de": "Alltagsgegenstände",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 311,
@@ -129,7 +139,8 @@
     "example_sentence_en": "Let's meet at the bar!",
     "example_sentence_de": "Lasst uns in der Bar treffen!",
     "category_en": "Places",
-    "category_de": "Orte"
+    "category_de": "Orte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 312,
@@ -141,7 +152,8 @@
     "example_sentence_en": "He feels happy.",
     "example_sentence_de": "Er fühlt sich glücklich.",
     "category_en": "Emotions",
-    "category_de": "Gefühle"
+    "category_de": "Gefühle",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 313,
@@ -153,7 +165,8 @@
     "example_sentence_en": "We had a good conversation.",
     "example_sentence_de": "Wir hatten ein gutes Gespräch.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 314,
@@ -165,7 +178,8 @@
     "example_sentence_en": "I see a bird.",
     "example_sentence_de": "Ich sehe einen Vogel.",
     "category_en": "Animals",
-    "category_de": "Tiere"
+    "category_de": "Tiere",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 315,
@@ -177,7 +191,8 @@
     "example_sentence_en": "It will be over soon.",
     "example_sentence_de": "Es wird bald vorbei sein.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 316,
@@ -189,7 +204,8 @@
     "example_sentence_en": "The body needs rest.",
     "example_sentence_de": "Der Körper braucht Ruhe.",
     "category_en": "Body",
-    "category_de": "Körper"
+    "category_de": "Körper",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 317,
@@ -201,7 +217,8 @@
     "example_sentence_en": "The dog is our friend.",
     "example_sentence_de": "Der Hund ist unser Freund.",
     "category_en": "Animals",
-    "category_de": "Tiere"
+    "category_de": "Tiere",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 318,
@@ -213,7 +230,8 @@
     "example_sentence_en": "The family is having dinner together.",
     "example_sentence_de": "Die Familie isst gemeinsam zu Abend.",
     "category_en": "Family",
-    "category_de": "Familie"
+    "category_de": "Familie",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 319,
@@ -225,7 +243,8 @@
     "example_sentence_en": "I got a direct answer.",
     "example_sentence_de": "Ich habe eine direkte Antwort bekommen.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 320,
@@ -237,7 +256,8 @@
     "example_sentence_en": "What does this mean?",
     "example_sentence_de": "Was bedeutet das?",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 321,
@@ -249,7 +269,8 @@
     "example_sentence_en": "He is leaving the city.",
     "example_sentence_de": "Er verlässt die Stadt.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 322,
@@ -261,7 +282,8 @@
     "example_sentence_en": "This is a beautiful song.",
     "example_sentence_de": "Das ist ein schönes Lied.",
     "category_en": "Music",
-    "category_de": "Musik"
+    "category_de": "Musik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 323,
@@ -273,7 +295,8 @@
     "example_sentence_en": "Measures are needed.",
     "example_sentence_de": "Es werden Maßnahmen benötigt.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 324,
@@ -285,7 +308,8 @@
     "example_sentence_en": "Open the door!",
     "example_sentence_de": "Mach die Tür auf!",
     "category_en": "House",
-    "category_de": "Haus"
+    "category_de": "Haus",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 325,
@@ -297,7 +321,8 @@
     "example_sentence_en": "This product is good.",
     "example_sentence_de": "Dieses Produkt ist gut.",
     "category_en": "Shopping",
-    "category_de": "Einkaufen"
+    "category_de": "Einkaufen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 326,
@@ -309,7 +334,8 @@
     "example_sentence_en": "The car is black.",
     "example_sentence_de": "Das Auto ist schwarz.",
     "category_en": "Colors",
-    "category_de": "Farben"
+    "category_de": "Farben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 327,
@@ -321,7 +347,8 @@
     "example_sentence_en": "This is a short story.",
     "example_sentence_de": "Das ist eine kurze Geschichte.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 328,
@@ -333,7 +360,8 @@
     "example_sentence_en": "Say a number!",
     "example_sentence_de": "Sag eine Zahl!",
     "category_en": "Math/Numbers",
-    "category_de": "Mathe/Zahlen"
+    "category_de": "Mathe/Zahlen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 329,
@@ -345,7 +373,8 @@
     "example_sentence_en": "Which class are you in?",
     "example_sentence_de": "In welche Klasse gehst du?",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 330,
@@ -357,7 +386,8 @@
     "example_sentence_en": "The wind is strong today.",
     "example_sentence_de": "Der Wind ist heute stark.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 331,
@@ -369,7 +399,8 @@
     "example_sentence_en": "I have a question.",
     "example_sentence_de": "Ich habe eine Frage.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 332,
@@ -381,7 +412,8 @@
     "example_sentence_en": "What is happening here?",
     "example_sentence_de": "Was passiert hier?",
     "category_en": "Events",
-    "category_de": "Ereignisse"
+    "category_de": "Ereignisse",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 333,
@@ -393,7 +425,8 @@
     "example_sentence_en": "The glass is full.",
     "example_sentence_de": "Das Glas ist voll.",
     "category_en": "Quantity",
-    "category_de": "Menge/Ausmaß"
+    "category_de": "Menge/Ausmaß",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 334,
@@ -405,7 +438,8 @@
     "example_sentence_en": "The ship has docked.",
     "example_sentence_de": "Das Schiff hat angelegt.",
     "category_en": "Transport",
-    "category_de": "Transport"
+    "category_de": "Transport",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 335,
@@ -417,7 +451,8 @@
     "example_sentence_en": "This is a beautiful area.",
     "example_sentence_de": "Das ist ein schönes Gebiet.",
     "category_en": "Location",
-    "category_de": "Ort"
+    "category_de": "Ort",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 336,
@@ -429,7 +464,8 @@
     "example_sentence_en": "Let's meet in half an hour.",
     "example_sentence_de": "Lasst uns in einer halben Stunde treffen.",
     "category_en": "Math/Numbers",
-    "category_de": "Mathe/Zahlen"
+    "category_de": "Mathe/Zahlen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 337,
@@ -441,7 +477,8 @@
     "example_sentence_en": "I found a beautiful stone.",
     "example_sentence_de": "Ich habe einen schönen Stein gefunden.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 338,
@@ -453,7 +490,8 @@
     "example_sentence_en": "I placed an order.",
     "example_sentence_de": "Ich habe eine Bestellung aufgegeben.",
     "category_en": "Shopping",
-    "category_de": "Einkaufen"
+    "category_de": "Einkaufen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 339,
@@ -465,7 +503,8 @@
     "example_sentence_en": "Let's make a fire!",
     "example_sentence_de": "Lasst uns ein Feuer machen!",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 340,
@@ -477,7 +516,8 @@
     "example_sentence_en": "We are traveling south.",
     "example_sentence_de": "Wir reisen nach Süden.",
     "category_en": "Location/Direction",
-    "category_de": "Ort/Richtung"
+    "category_de": "Ort/Richtung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 341,
@@ -489,7 +529,8 @@
     "example_sentence_en": "We have a problem.",
     "example_sentence_de": "Wir haben ein Problem.",
     "category_en": "Problems",
-    "category_de": "Probleme"
+    "category_de": "Probleme",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 342,
@@ -501,7 +542,8 @@
     "example_sentence_en": "I would like a piece of bread.",
     "example_sentence_de": "Ich hätte gern ein Stück Brot.",
     "category_en": "Everyday Objects",
-    "category_de": "Alltagsgegenstände"
+    "category_de": "Alltagsgegenstände",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 343,
@@ -513,7 +555,8 @@
     "example_sentence_en": "He said this.",
     "example_sentence_de": "Er sagte das.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 344,
@@ -525,7 +568,8 @@
     "example_sentence_en": "He knew the answer.",
     "example_sentence_de": "Er wusste die Antwort.",
     "category_en": "Knowledge",
-    "category_de": "Wissen"
+    "category_de": "Wissen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 345,
@@ -537,7 +581,8 @@
     "example_sentence_en": "He went across the bridge.",
     "example_sentence_de": "Er ging über die Brücke.",
     "category_en": "Location/Direction",
-    "category_de": "Ort/Richtung"
+    "category_de": "Ort/Richtung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 346,
@@ -549,7 +594,8 @@
     "example_sentence_en": "I have been waiting since then.",
     "example_sentence_de": "Ich warte seitdem.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 347,
@@ -561,7 +607,8 @@
     "example_sentence_en": "Put it on the upper shelf.",
     "example_sentence_de": "Leg es auf das obere Regal.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 348,
@@ -573,7 +620,8 @@
     "example_sentence_en": "I worked all day.",
     "example_sentence_de": "Ich habe den ganzen Tag gearbeitet.",
     "category_en": "Quantity",
-    "category_de": "Menge/Ausmaß"
+    "category_de": "Menge/Ausmaß",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 349,
@@ -585,7 +633,8 @@
     "example_sentence_en": "The king is giving a speech.",
     "example_sentence_de": "Der König hält eine Rede.",
     "category_en": "People",
-    "category_de": "Menschen"
+    "category_de": "Menschen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 350,
@@ -597,6 +646,7 @@
     "example_sentence_en": "This is the main street.",
     "example_sentence_de": "Das ist die Hauptstraße.",
     "category_en": "Location",
-    "category_de": "Ort"
+    "category_de": "Ort",
+    "vowel_harmony": "tiefe"
   }
 ]

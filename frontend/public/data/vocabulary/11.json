@@ -9,7 +9,8 @@
     "example_sentence_en": "The conservation of energy is an important physical law.",
     "example_sentence_de": "Die Erhaltung der Energie ist ein wichtiges physikalisches Gesetz.",
     "category_en": "Science & Nature",
-    "category_de": "Wissenschaft & Natur"
+    "category_de": "Wissenschaft & Natur",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 502,
@@ -21,7 +22,8 @@
     "example_sentence_en": "Hunting is regulated in the forest.",
     "example_sentence_de": "Die Jagd ist im Wald geregelt.",
     "category_en": "Nature & Activities",
-    "category_de": "Natur & Aktivitäten"
+    "category_de": "Natur & Aktivitäten",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 503,
@@ -33,7 +35,8 @@
     "example_sentence_en": "It is probable that it will rain today.",
     "example_sentence_de": "Es ist wahrscheinlich, dass es heute regnen wird.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 504,
@@ -45,7 +48,8 @@
     "example_sentence_en": "The bed is very comfortable.",
     "example_sentence_de": "Das Bett ist sehr bequem.",
     "category_en": "Home & Furniture",
-    "category_de": "Zuhause & Möbel"
+    "category_de": "Zuhause & Möbel",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 505,
@@ -57,7 +61,8 @@
     "example_sentence_en": "I get along well with my sibling.",
     "example_sentence_de": "Ich verstehe mich gut mit meinem Geschwister.",
     "category_en": "Family",
-    "category_de": "Familie"
+    "category_de": "Familie",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 506,
@@ -69,7 +74,8 @@
     "example_sentence_en": "I eat eggs for breakfast.",
     "example_sentence_de": "Ich esse morgens Eier zum Frühstück.",
     "category_en": "Food & Drinks",
-    "category_de": "Essen & Getränke"
+    "category_de": "Essen & Getränke",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 507,
@@ -81,7 +87,8 @@
     "example_sentence_en": "The road to the city is long.",
     "example_sentence_de": "Die Straße in die Stadt ist lang.",
     "category_en": "Travel & Places",
-    "category_de": "Reisen & Orte"
+    "category_de": "Reisen & Orte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 508,
@@ -93,7 +100,8 @@
     "example_sentence_en": "The cell is the basis of life.",
     "example_sentence_de": "Die Zelle ist die Grundlage des Lebens.",
     "category_en": "Science & Nature",
-    "category_de": "Wissenschaft & Natur"
+    "category_de": "Wissenschaft & Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 509,
@@ -105,7 +113,8 @@
     "example_sentence_en": "He believes in success.",
     "example_sentence_de": "Er glaubt an Erfolg.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 510,
@@ -117,7 +126,8 @@
     "example_sentence_en": "Maybe we will go to the cinema.",
     "example_sentence_de": "Vielleicht gehen wir ins Kino.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 511,
@@ -129,7 +139,8 @@
     "example_sentence_en": "Please, take this.",
     "example_sentence_de": "Bitte, nehmen Sie das.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 512,
@@ -141,7 +152,8 @@
     "example_sentence_en": "Suddenly, the rain stopped.",
     "example_sentence_de": "Plötzlich hörte der Regen auf.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 513,
@@ -153,7 +165,8 @@
     "example_sentence_en": "I often count in my head.",
     "example_sentence_de": "Ich zähle oft im Kopf.",
     "category_en": "Math & Numbers",
-    "category_de": "Mathe & Zahlen"
+    "category_de": "Mathe & Zahlen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 514,
@@ -165,7 +178,8 @@
     "example_sentence_en": "Space is infinite.",
     "example_sentence_de": "Der Raum ist unendlich.",
     "category_en": "Science & Nature",
-    "category_de": "Wissenschaft & Natur"
+    "category_de": "Wissenschaft & Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 515,
@@ -177,7 +191,8 @@
     "example_sentence_en": "There is no reason to worry.",
     "example_sentence_de": "Es gibt keinen Grund zur Sorge.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 516,
@@ -189,7 +204,8 @@
     "example_sentence_en": "Measure its length!",
     "example_sentence_de": "Miss die Länge!",
     "category_en": "Math & Numbers",
-    "category_de": "Mathe & Zahlen"
+    "category_de": "Mathe & Zahlen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 517,
@@ -201,7 +217,8 @@
     "example_sentence_en": "He represents the company.",
     "example_sentence_de": "Er vertritt die Firma.",
     "category_en": "Society & Work",
-    "category_de": "Gesellschaft & Arbeit"
+    "category_de": "Gesellschaft & Arbeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 518,
@@ -213,7 +230,8 @@
     "example_sentence_en": "I love art.",
     "example_sentence_de": "Ich liebe Kunst.",
     "category_en": "Culture & Art",
-    "category_de": "Kultur & Kunst"
+    "category_de": "Kultur & Kunst",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 519,
@@ -225,7 +243,8 @@
     "example_sentence_en": "This is an interesting topic.",
     "example_sentence_de": "Das ist ein interessantes Thema.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 520,
@@ -237,7 +256,8 @@
     "example_sentence_en": "This area is beautiful.",
     "example_sentence_de": "Dieses Gebiet ist schön.",
     "category_en": "Geography & Places",
-    "category_de": "Geografie & Orte"
+    "category_de": "Geografie & Orte",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 521,
@@ -249,7 +269,8 @@
     "example_sentence_en": "What size are you looking for?",
     "example_sentence_de": "Welche Größe suchst du?",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 522,
@@ -261,7 +282,8 @@
     "example_sentence_en": "The weather changes often.",
     "example_sentence_de": "Das Wetter ändert sich oft.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 523,
@@ -273,7 +295,8 @@
     "example_sentence_en": "Organize your room!",
     "example_sentence_de": "Räume dein Zimmer auf!",
     "category_en": "Home & Activities",
-    "category_de": "Zuhause & Aktivitäten"
+    "category_de": "Zuhause & Aktivitäten",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 524,
@@ -285,7 +308,8 @@
     "example_sentence_en": "He speaks English well.",
     "example_sentence_de": "Er spricht gut Englisch.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 525,
@@ -297,7 +321,8 @@
     "example_sentence_en": "What is your weight?",
     "example_sentence_de": "Wie viel wiegst du?",
     "category_en": "Health & Body",
-    "category_de": "Gesundheit & Körper"
+    "category_de": "Gesundheit & Körper",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 526,
@@ -309,7 +334,8 @@
     "example_sentence_en": "This is a general rule.",
     "example_sentence_de": "Das ist eine allgemeine Regel.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 527,
@@ -321,7 +347,8 @@
     "example_sentence_en": "The ice is cold.",
     "example_sentence_de": "Das Eis ist kalt.",
     "category_en": "Nature & Weather",
-    "category_de": "Natur & Wetter"
+    "category_de": "Natur & Wetter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 528,
@@ -333,7 +360,8 @@
     "example_sentence_en": "I have a question.",
     "example_sentence_de": "Ich habe eine Frage.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 529,
@@ -345,7 +373,8 @@
     "example_sentence_en": "Draw a circle!",
     "example_sentence_de": "Zeichne einen Kreis!",
     "category_en": "Math & Shapes",
-    "category_de": "Mathe & Formen"
+    "category_de": "Mathe & Formen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 530,
@@ -357,7 +386,8 @@
     "example_sentence_en": "A couple is walking in the park.",
     "example_sentence_de": "Ein Paar spaziert im Park.",
     "category_en": "Relationships",
-    "category_de": "Beziehungen"
+    "category_de": "Beziehungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 531,
@@ -369,7 +399,8 @@
     "example_sentence_en": "Among others, I was there too.",
     "example_sentence_de": "Unter anderem war ich auch dort.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 532,
@@ -381,7 +412,8 @@
     "example_sentence_en": "Be careful, there is an abyss!",
     "example_sentence_de": "Vorsicht, dort ist ein Abgrund!",
     "category_en": "Nature & Geography",
-    "category_de": "Natur & Geografie"
+    "category_de": "Natur & Geografie",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 533,
@@ -393,7 +425,8 @@
     "example_sentence_en": "This word has two syllables.",
     "example_sentence_de": "Dieses Wort hat zwei Silben.",
     "category_en": "Language & Grammar",
-    "category_de": "Sprache & Grammatik"
+    "category_de": "Sprache & Grammatik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 534,
@@ -405,7 +438,8 @@
     "example_sentence_en": "He felt happy.",
     "example_sentence_de": "Er fühlte sich glücklich.",
     "category_en": "Emotions",
-    "category_de": "Gefühle"
+    "category_de": "Gefühle",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 535,
@@ -417,7 +451,8 @@
     "example_sentence_en": "This is a big house.",
     "example_sentence_de": "Das ist ein großes Haus.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 536,
@@ -429,7 +464,8 @@
     "example_sentence_en": "We are playing with the ball.",
     "example_sentence_de": "Wir spielen mit dem Ball.",
     "category_en": "Sports & Games",
-    "category_de": "Sport & Spiele"
+    "category_de": "Sport & Spiele",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 537,
@@ -441,7 +477,8 @@
     "example_sentence_en": "I am still waiting for you.",
     "example_sentence_de": "Ich warte noch auf dich.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 538,
@@ -453,7 +490,8 @@
     "example_sentence_en": "The waves are high.",
     "example_sentence_de": "Die Wellen sind hoch.",
     "category_en": "Nature & Weather",
-    "category_de": "Natur & Wetter"
+    "category_de": "Natur & Wetter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 539,
@@ -465,7 +503,8 @@
     "example_sentence_en": "A drop of water fell.",
     "example_sentence_de": "Ein Tropfen Wasser fiel herunter.",
     "category_en": "Nature & Weather",
-    "category_de": "Natur & Wetter"
+    "category_de": "Natur & Wetter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 540,
@@ -477,7 +516,8 @@
     "example_sentence_en": "My heart is beating fast.",
     "example_sentence_de": "Mein Herz schlägt schnell.",
     "category_en": "Health & Body",
-    "category_de": "Gesundheit & Körper"
+    "category_de": "Gesundheit & Körper",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 541,
@@ -489,7 +529,8 @@
     "example_sentence_en": "That is the book which is here.",
     "example_sentence_de": "Das ist das Buch, das hier ist.",
     "category_en": "Grammar",
-    "category_de": "Grammatik"
+    "category_de": "Grammatik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 542,
@@ -501,7 +542,8 @@
     "example_sentence_en": "This is the current situation.",
     "example_sentence_de": "Das ist die aktuelle Situation.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 543,
@@ -513,7 +555,8 @@
     "example_sentence_en": "This box is very heavy.",
     "example_sentence_de": "Diese Kiste ist sehr schwer.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 544,
@@ -525,7 +568,8 @@
     "example_sentence_en": "I love to dance.",
     "example_sentence_de": "Ich liebe es zu tanzen.",
     "category_en": "Culture & Art",
-    "category_de": "Kultur & Kunst"
+    "category_de": "Kultur & Kunst",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 545,
@@ -537,7 +581,8 @@
     "example_sentence_en": "The engine is running loudly.",
     "example_sentence_de": "Der Motor läuft laut.",
     "category_en": "Technology & Vehicles",
-    "category_de": "Technik & Fahrzeuge"
+    "category_de": "Technik & Fahrzeuge",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 546,
@@ -549,7 +594,8 @@
     "example_sentence_en": "I am in a good position.",
     "example_sentence_de": "Ich bin in einer guten Position.",
     "category_en": "Work & Career",
-    "category_de": "Arbeit & Karriere"
+    "category_de": "Arbeit & Karriere",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 547,
@@ -561,7 +607,8 @@
     "example_sentence_en": "My arm hurts.",
     "example_sentence_de": "Mein Arm tut weh.",
     "category_en": "Health & Body",
-    "category_de": "Gesundheit & Körper"
+    "category_de": "Gesundheit & Körper",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 548,
@@ -573,7 +620,8 @@
     "example_sentence_en": "This road is wide.",
     "example_sentence_de": "Diese Straße ist breit.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 549,
@@ -585,7 +633,8 @@
     "example_sentence_en": "The sail flutters in the wind.",
     "example_sentence_de": "Das Segel flattert im Wind.",
     "category_en": "Travel & Vehicles",
-    "category_de": "Reisen & Fahrzeuge"
+    "category_de": "Reisen & Fahrzeuge",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 550,
@@ -597,6 +646,7 @@
     "example_sentence_en": "We are talking about material goods.",
     "example_sentence_de": "Wir sprechen über materielle Güter.",
     "category_en": "Science & Economy",
-    "category_de": "Wissenschaft & Wirtschaft"
+    "category_de": "Wissenschaft & Wirtschaft",
+    "vowel_harmony": "gemischte"
   }
 ]

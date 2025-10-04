@@ -9,7 +9,8 @@
     "example_sentence_en": "My head hurts.",
     "example_sentence_de": "Mein Kopf tut weh.",
     "category_en": "Body Parts",
-    "category_de": "Körperteile"
+    "category_de": "Körperteile",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 202,
@@ -21,7 +22,8 @@
     "example_sentence_en": "The scaffold looks safe.",
     "example_sentence_de": "Das Gerüst sieht sicher aus.",
     "category_en": "Construction",
-    "category_de": "Bauwesen"
+    "category_de": "Bauwesen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 203,
@@ -33,7 +35,8 @@
     "example_sentence_en": "This is my own book.",
     "example_sentence_de": "Das ist mein eigenes Buch.",
     "category_en": "Possessive Words",
-    "category_de": "Besitzanzeigende Wörter"
+    "category_de": "Besitzanzeigende Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 204,
@@ -45,7 +48,8 @@
     "example_sentence_en": "I read half of the page.",
     "example_sentence_de": "Ich habe die Hälfte der Seite gelesen.",
     "category_en": "Reading & Writing",
-    "category_de": "Lesen & Schreiben"
+    "category_de": "Lesen & Schreiben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 205,
@@ -57,7 +61,8 @@
     "example_sentence_en": "I would need a pen.",
     "example_sentence_de": "Ich bräuchte einen Stift.",
     "category_en": "Modal Verbs",
-    "category_de": "Modalverben"
+    "category_de": "Modalverben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 206,
@@ -69,7 +74,8 @@
     "example_sentence_en": "Hungary is a beautiful country.",
     "example_sentence_de": "Ungarn ist ein schönes Land.",
     "category_en": "Geography",
-    "category_de": "Geografie"
+    "category_de": "Geografie",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 207,
@@ -81,7 +87,8 @@
     "example_sentence_en": "I found my keys.",
     "example_sentence_de": "Ich habe meine Schlüssel gefunden.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 208,
@@ -93,7 +100,8 @@
     "example_sentence_en": "Give an answer to the question!",
     "example_sentence_de": "Gib eine Antwort auf die Frage!",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 209,
@@ -105,7 +113,8 @@
     "example_sentence_en": "I like going to school.",
     "example_sentence_de": "Ich gehe gerne zur Schule.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 210,
@@ -117,7 +126,8 @@
     "example_sentence_en": "That woman is my mother.",
     "example_sentence_de": "Diese Frau ist meine Mutter.",
     "category_en": "Family & People",
-    "category_de": "Familie & Menschen"
+    "category_de": "Familie & Menschen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 211,
@@ -129,7 +139,8 @@
     "example_sentence_en": "This is an interesting study.",
     "example_sentence_de": "Das ist eine interessante Studie.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 212,
@@ -141,7 +152,8 @@
     "example_sentence_en": "It's still raining.",
     "example_sentence_de": "Es regnet noch immer.",
     "category_en": "Time Expressions",
-    "category_de": "Zeitangaben"
+    "category_de": "Zeitangaben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 213,
@@ -153,7 +165,8 @@
     "example_sentence_en": "I learn every day.",
     "example_sentence_de": "Ich lerne jeden Tag.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 214,
@@ -165,7 +178,8 @@
     "example_sentence_en": "Do you water the plants?",
     "example_sentence_de": "Gießt du die Pflanzen?",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 215,
@@ -177,7 +191,8 @@
     "example_sentence_en": "They are repairing the roof of the house.",
     "example_sentence_de": "Sie reparieren das Dach des Hauses.",
     "category_en": "House & Home",
-    "category_de": "Haus & Zuhause"
+    "category_de": "Haus & Zuhause",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 216,
@@ -189,7 +204,8 @@
     "example_sentence_en": "The food is delicious.",
     "example_sentence_de": "Das Essen ist lecker.",
     "category_en": "Food & Drink",
-    "category_de": "Essen & Trinken"
+    "category_de": "Essen & Trinken",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 217,
@@ -201,7 +217,8 @@
     "example_sentence_en": "We have a beautiful day.",
     "example_sentence_de": "Wir haben einen schönen Tag.",
     "category_en": "Time Expressions",
-    "category_de": "Zeitangaben"
+    "category_de": "Zeitangaben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 218,
@@ -213,7 +230,8 @@
     "example_sentence_en": "There are four apples on the table.",
     "example_sentence_de": "Es liegen vier Äpfel auf dem Tisch.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 219,
@@ -225,7 +243,8 @@
     "example_sentence_en": "The book is between the two shelves.",
     "example_sentence_de": "Das Buch ist zwischen den beiden Regalen.",
     "category_en": "Prepositions",
-    "category_de": "Präpositionen"
+    "category_de": "Präpositionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 220,
@@ -237,7 +256,8 @@
     "example_sentence_en": "This is a state institution.",
     "example_sentence_de": "Das ist eine staatliche Einrichtung.",
     "category_en": "Society",
-    "category_de": "Gesellschaft"
+    "category_de": "Gesellschaft",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 221,
@@ -249,7 +269,8 @@
     "example_sentence_en": "The movie lasts two hours.",
     "example_sentence_de": "Der Film dauert zwei Stunden.",
     "category_en": "Time Expressions",
-    "category_de": "Zeitangaben"
+    "category_de": "Zeitangaben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 222,
@@ -261,7 +282,8 @@
     "example_sentence_en": "You have beautiful eyes.",
     "example_sentence_de": "Du hast schöne Augen.",
     "category_en": "Body Parts",
-    "category_de": "Körperteile"
+    "category_de": "Körperteile",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 223,
@@ -273,7 +295,8 @@
     "example_sentence_en": "I will never forget you.",
     "example_sentence_de": "Ich werde dich nie vergessen.",
     "category_en": "Time Expressions",
-    "category_de": "Zeitangaben"
+    "category_de": "Zeitangaben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 224,
@@ -285,7 +308,8 @@
     "example_sentence_en": "This is the last task.",
     "example_sentence_de": "Das ist die letzte Aufgabe.",
     "category_en": "Order & Sequence",
-    "category_de": "Reihenfolge"
+    "category_de": "Reihenfolge",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 225,
@@ -297,7 +321,8 @@
     "example_sentence_en": "Be happy!",
     "example_sentence_de": "Sei glücklich!",
     "category_en": "Modal Verbs",
-    "category_de": "Modalverben"
+    "category_de": "Modalverben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 226,
@@ -309,7 +334,8 @@
     "example_sentence_en": "What are your thoughts?",
     "example_sentence_de": "Was sind deine Gedanken?",
     "category_en": "Mind & Thoughts",
-    "category_de": "Gedanken & Geist"
+    "category_de": "Gedanken & Geist",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 227,
@@ -321,7 +347,8 @@
     "example_sentence_en": "Budapest is a beautiful city.",
     "example_sentence_de": "Budapest ist eine schöne Stadt.",
     "category_en": "Geography",
-    "category_de": "Geografie"
+    "category_de": "Geografie",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 228,
@@ -333,7 +360,8 @@
     "example_sentence_en": "The tree is green and leafy.",
     "example_sentence_de": "Der Baum ist grün und belaubt.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 229,
@@ -345,7 +373,8 @@
     "example_sentence_en": "The cross is on top of the church.",
     "example_sentence_de": "Das Kreuz ist auf der Spitze der Kirche.",
     "category_en": "Religion",
-    "category_de": "Religion"
+    "category_de": "Religion",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 230,
@@ -357,7 +386,8 @@
     "example_sentence_en": "This is an economic issue.",
     "example_sentence_de": "Das ist eine wirtschaftliche Frage.",
     "category_en": "Economy",
-    "category_de": "Wirtschaft"
+    "category_de": "Wirtschaft",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 231,
@@ -369,7 +399,8 @@
     "example_sentence_en": "This wood is very hard.",
     "example_sentence_de": "Dieses Holz ist sehr hart.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 232,
@@ -381,7 +412,8 @@
     "example_sentence_en": "The beginning is difficult.",
     "example_sentence_de": "Der Anfang ist schwer.",
     "category_en": "Time Expressions",
-    "category_de": "Zeitangaben"
+    "category_de": "Zeitangaben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 233,
@@ -393,7 +425,8 @@
     "example_sentence_en": "Maybe I will come.",
     "example_sentence_de": "Vielleicht komme ich.",
     "category_en": "Uncertainty",
-    "category_de": "Unsicherheit"
+    "category_de": "Unsicherheit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 234,
@@ -405,7 +438,8 @@
     "example_sentence_en": "Tell me a story!",
     "example_sentence_de": "Erzähl mir eine Geschichte!",
     "category_en": "Literature",
-    "category_de": "Literatur"
+    "category_de": "Literatur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 235,
@@ -417,7 +451,8 @@
     "example_sentence_en": "Be careful with the saw!",
     "example_sentence_de": "Vorsicht mit der Säge!",
     "category_en": "Tools",
-    "category_de": "Werkzeuge"
+    "category_de": "Werkzeuge",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 236,
@@ -429,7 +464,8 @@
     "example_sentence_en": "The city is far away.",
     "example_sentence_de": "Die Stadt ist weit weg.",
     "category_en": "Distance",
-    "category_de": "Entfernung"
+    "category_de": "Entfernung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 237,
@@ -441,7 +477,8 @@
     "example_sentence_en": "I like being at the seaside.",
     "example_sentence_de": "Ich mag es, am Meer zu sein.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 238,
@@ -453,7 +490,8 @@
     "example_sentence_en": "I will call you later.",
     "example_sentence_de": "Ich rufe dich später an.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 239,
@@ -465,7 +503,8 @@
     "example_sentence_en": "Turn left!",
     "example_sentence_de": "Biege links ab!",
     "category_en": "Directions",
-    "category_de": "Richtungen"
+    "category_de": "Richtungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 240,
@@ -477,7 +516,8 @@
     "example_sentence_en": "It's late, sleep well!",
     "example_sentence_de": "Es ist spät, schlaf gut!",
     "category_en": "Time Expressions",
-    "category_de": "Zeitangaben"
+    "category_de": "Zeitangaben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 241,
@@ -489,7 +529,8 @@
     "example_sentence_en": "Run faster!",
     "example_sentence_de": "Lauf schneller!",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 242,
@@ -501,7 +542,8 @@
     "example_sentence_en": "No, thank you.",
     "example_sentence_de": "Nein, danke.",
     "category_en": "Basic Words",
-    "category_de": "Grundwortschatz"
+    "category_de": "Grundwortschatz",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 243,
@@ -513,7 +555,8 @@
     "example_sentence_en": "I read while it's raining.",
     "example_sentence_de": "Ich lese, während es regnet.",
     "category_en": "Time Expressions",
-    "category_de": "Zeitangaben"
+    "category_de": "Zeitangaben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 244,
@@ -525,7 +568,8 @@
     "example_sentence_en": "The press plays an important role.",
     "example_sentence_de": "Die Presse spielt eine wichtige Rolle.",
     "category_en": "Media",
-    "category_de": "Medien"
+    "category_de": "Medien",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 245,
@@ -537,7 +581,8 @@
     "example_sentence_en": "This is a narrow road.",
     "example_sentence_de": "Das ist eine enge Straße.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 246,
@@ -549,7 +594,8 @@
     "example_sentence_en": "The night is quiet.",
     "example_sentence_de": "Die Nacht ist ruhig.",
     "category_en": "Time Expressions",
-    "category_de": "Zeitangaben"
+    "category_de": "Zeitangaben",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 247,
@@ -561,7 +607,8 @@
     "example_sentence_en": "This is a real story.",
     "example_sentence_de": "Das ist eine wahre Geschichte.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 248,
@@ -573,7 +620,8 @@
     "example_sentence_en": "Life is beautiful.",
     "example_sentence_de": "Das Leben ist schön.",
     "category_en": "Philosophy",
-    "category_de": "Philosophie"
+    "category_de": "Philosophie",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 249,
@@ -585,7 +633,8 @@
     "example_sentence_en": "I have little time.",
     "example_sentence_de": "Ich habe wenig Zeit.",
     "category_en": "Quantity",
-    "category_de": "Menge"
+    "category_de": "Menge",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 250,
@@ -597,6 +646,7 @@
     "example_sentence_en": "A northern wind is blowing.",
     "example_sentence_de": "Ein Nordwind weht.",
     "category_en": "Geography",
-    "category_de": "Geografie"
+    "category_de": "Geografie",
+    "vowel_harmony": "gemischte"
   }
 ]

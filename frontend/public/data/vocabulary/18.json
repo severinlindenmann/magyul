@@ -9,7 +9,8 @@
     "example_sentence_en": "The host welcomed the guests.",
     "example_sentence_de": "Der Gastgeber begrüßte die Gäste.",
     "category_en": "People",
-    "category_de": "Menschen"
+    "category_de": "Menschen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 852,
@@ -21,7 +22,8 @@
     "example_sentence_en": "The runners are training on the track.",
     "example_sentence_de": "Die Läufer trainieren auf der Bahn.",
     "category_en": "Sports",
-    "category_de": "Sport"
+    "category_de": "Sport",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 853,
@@ -33,7 +35,8 @@
     "example_sentence_en": "The parent helps the child with homework.",
     "example_sentence_de": "Der Elternteil hilft dem Kind bei den Hausaufgaben.",
     "category_en": "Family",
-    "category_de": "Familie"
+    "category_de": "Familie",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 854,
@@ -45,7 +48,8 @@
     "example_sentence_en": "The children are playing on the shore.",
     "example_sentence_de": "Die Kinder spielen am Ufer.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 855,
@@ -57,7 +61,8 @@
     "example_sentence_en": "The teacher explains division.",
     "example_sentence_de": "Der Lehrer erklärt die Division.",
     "category_en": "Mathematics",
-    "category_de": "Mathematik"
+    "category_de": "Mathematik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 856,
@@ -69,7 +74,8 @@
     "example_sentence_en": "The arch of the bridge shows a beautiful shape.",
     "example_sentence_de": "Der Bogen der Brücke zeigt eine schöne Form.",
     "category_en": "Geometry",
-    "category_de": "Geometrie"
+    "category_de": "Geometrie",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 857,
@@ -81,7 +87,8 @@
     "example_sentence_en": "This material is very strong.",
     "example_sentence_de": "Dieses Material ist sehr stark.",
     "category_en": "Objects",
-    "category_de": "Gegenstände"
+    "category_de": "Gegenstände",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 858,
@@ -93,7 +100,8 @@
     "example_sentence_en": "The new rules favor the young.",
     "example_sentence_de": "Die neuen Regeln bevorzugen die Jungen.",
     "category_en": "Abstract",
-    "category_de": "Abstrakt"
+    "category_de": "Abstrakt",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 859,
@@ -105,7 +113,8 @@
     "example_sentence_en": "This cable connects the two devices.",
     "example_sentence_de": "Dieses Kabel verbindet die beiden Geräte.",
     "category_en": "Technology",
-    "category_de": "Technologie"
+    "category_de": "Technologie",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 860,
@@ -117,7 +126,8 @@
     "example_sentence_en": "The post arrived in the morning.",
     "example_sentence_de": "Die Post kam am Vormittag an.",
     "category_en": "Services",
-    "category_de": "Dienstleistungen"
+    "category_de": "Dienstleistungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 861,
@@ -129,7 +139,8 @@
     "example_sentence_en": "We spent a lot on the vacation.",
     "example_sentence_de": "Wir haben viel für den Urlaub ausgegeben.",
     "category_en": "Finance",
-    "category_de": "Finanzen"
+    "category_de": "Finanzen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 862,
@@ -141,7 +152,8 @@
     "example_sentence_en": "This chord sounds beautiful.",
     "example_sentence_de": "Dieser Akkord klingt wunderschön.",
     "category_en": "Music",
-    "category_de": "Musik"
+    "category_de": "Musik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 863,
@@ -153,7 +165,8 @@
     "example_sentence_en": "This food contains a lot of fat.",
     "example_sentence_de": "Dieses Essen enthält viel Fett.",
     "category_en": "Food",
-    "category_de": "Essen"
+    "category_de": "Essen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 864,
@@ -165,7 +178,8 @@
     "example_sentence_en": "The happy child is smiling.",
     "example_sentence_de": "Das glückliche Kind lächelt.",
     "category_en": "Emotions",
-    "category_de": "Emotionen"
+    "category_de": "Emotionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 865,
@@ -177,7 +191,8 @@
     "example_sentence_en": "This is the original version.",
     "example_sentence_de": "Das ist die Originalversion.",
     "category_en": "Abstract",
-    "category_de": "Abstrakt"
+    "category_de": "Abstrakt",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 866,
@@ -189,7 +204,8 @@
     "example_sentence_en": "I bought some shares.",
     "example_sentence_de": "Ich habe einige Aktien gekauft.",
     "category_en": "Finance",
-    "category_de": "Finanzen"
+    "category_de": "Finanzen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 867,
@@ -201,7 +217,8 @@
     "example_sentence_en": "The station is close to our house.",
     "example_sentence_de": "Der Bahnhof ist in der Nähe unseres Hauses.",
     "category_en": "Travel",
-    "category_de": "Reisen"
+    "category_de": "Reisen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 868,
@@ -213,7 +230,8 @@
     "example_sentence_en": "The father is reading to the child.",
     "example_sentence_de": "Der Vater liest dem Kind vor.",
     "category_en": "Family",
-    "category_de": "Familie"
+    "category_de": "Familie",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 869,
@@ -225,7 +243,8 @@
     "example_sentence_en": "The smell of fresh bread is tempting.",
     "example_sentence_de": "Der Duft von frischem Brot ist verlockend.",
     "category_en": "Food",
-    "category_de": "Essen"
+    "category_de": "Essen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 870,
@@ -237,7 +256,8 @@
     "example_sentence_en": "He won a prize at the competition.",
     "example_sentence_de": "Er hat einen Preis im Wettbewerb gewonnen.",
     "category_en": "Awards",
-    "category_de": "Auszeichnungen"
+    "category_de": "Auszeichnungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 871,
@@ -249,7 +269,8 @@
     "example_sentence_en": "This is the appropriate answer.",
     "example_sentence_de": "Das ist die passende Antwort.",
     "category_en": "Abstract",
-    "category_de": "Abstrakt"
+    "category_de": "Abstrakt",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 872,
@@ -261,7 +282,8 @@
     "example_sentence_en": "We are meeting at the bar tonight.",
     "example_sentence_de": "Wir treffen uns heute Abend in der Bar.",
     "category_en": "Places",
-    "category_de": "Orte"
+    "category_de": "Orte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 873,
@@ -273,7 +295,8 @@
     "example_sentence_en": "The store has a wide offer.",
     "example_sentence_de": "Das Geschäft hat ein großes Angebot.",
     "category_en": "Business",
-    "category_de": "Geschäft"
+    "category_de": "Geschäft",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 874,
@@ -285,7 +308,8 @@
     "example_sentence_en": "This market segment is growing.",
     "example_sentence_de": "Dieses Marktsegment wächst.",
     "category_en": "Abstract",
-    "category_de": "Abstrakt"
+    "category_de": "Abstrakt",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 875,
@@ -297,7 +321,8 @@
     "example_sentence_en": "The slave worked hard.",
     "example_sentence_de": "Der Sklave arbeitete hart.",
     "category_en": "History",
-    "category_de": "Geschichte"
+    "category_de": "Geschichte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 876,
@@ -309,7 +334,8 @@
     "example_sentence_en": "The duck is swimming in the lake.",
     "example_sentence_de": "Die Ente schwimmt im See.",
     "category_en": "Animals",
-    "category_de": "Tiere"
+    "category_de": "Tiere",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 877,
@@ -321,7 +347,8 @@
     "example_sentence_en": "Answer immediately!",
     "example_sentence_de": "Antworte sofort!",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 878,
@@ -333,7 +360,8 @@
     "example_sentence_en": "The market is crowded with people.",
     "example_sentence_de": "Der Markt ist voller Menschen.",
     "category_en": "Business",
-    "category_de": "Geschäft"
+    "category_de": "Geschäft",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 879,
@@ -345,7 +373,8 @@
     "example_sentence_en": "Water boils at 100 degrees.",
     "example_sentence_de": "Wasser kocht bei 100 Grad.",
     "category_en": "Science",
-    "category_de": "Wissenschaft"
+    "category_de": "Wissenschaft",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 880,
@@ -357,7 +386,8 @@
     "example_sentence_en": "The city is being populated quickly.",
     "example_sentence_de": "Die Stadt wird schnell besiedelt.",
     "category_en": "Abstract",
-    "category_de": "Abstrakt"
+    "category_de": "Abstrakt",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 881,
@@ -369,7 +399,8 @@
     "example_sentence_en": "The girl is walking in the park.",
     "example_sentence_de": "Das Mädchen spaziert im Park.",
     "category_en": "People",
-    "category_de": "Menschen"
+    "category_de": "Menschen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 882,
@@ -381,7 +412,8 @@
     "example_sentence_en": "He was kind to me.",
     "example_sentence_de": "Er war nett zu mir.",
     "category_en": "Emotions",
-    "category_de": "Emotionen"
+    "category_de": "Emotionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 883,
@@ -393,7 +425,8 @@
     "example_sentence_en": "The enemy is near.",
     "example_sentence_de": "Der Feind ist nah.",
     "category_en": "Conflict",
-    "category_de": "Konflikt"
+    "category_de": "Konflikt",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 884,
@@ -405,7 +438,8 @@
     "example_sentence_en": "Give an answer!",
     "example_sentence_de": "Gib eine Antwort!",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 885,
@@ -417,7 +451,8 @@
     "example_sentence_en": "I like cold drinks.",
     "example_sentence_de": "Ich mag kalte Getränke.",
     "category_en": "Food",
-    "category_de": "Essen"
+    "category_de": "Essen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 886,
@@ -429,7 +464,8 @@
     "example_sentence_en": "This happens often.",
     "example_sentence_de": "Das kommt oft vor.",
     "category_en": "Abstract",
-    "category_de": "Abstrakt"
+    "category_de": "Abstrakt",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 887,
@@ -441,7 +477,8 @@
     "example_sentence_en": "I need your support.",
     "example_sentence_de": "Ich brauche deine Unterstützung.",
     "category_en": "Abstract",
-    "category_de": "Abstrakt"
+    "category_de": "Abstrakt",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 888,
@@ -453,7 +490,8 @@
     "example_sentence_en": "The speech sounded very interesting.",
     "example_sentence_de": "Die Rede klang sehr interessant.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 889,
@@ -465,7 +503,8 @@
     "example_sentence_en": "I love nature.",
     "example_sentence_de": "Ich liebe die Natur.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 890,
@@ -477,7 +516,8 @@
     "example_sentence_en": "This region is beautiful.",
     "example_sentence_de": "Diese Region ist schön.",
     "category_en": "Geography",
-    "category_de": "Geografie"
+    "category_de": "Geografie",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 891,
@@ -489,7 +529,8 @@
     "example_sentence_en": "The steam forms clouds.",
     "example_sentence_de": "Der Dampf bildet Wolken.",
     "category_en": "Science",
-    "category_de": "Wissenschaft"
+    "category_de": "Wissenschaft",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 892,
@@ -501,7 +542,8 @@
     "example_sentence_en": "Movement is important for health.",
     "example_sentence_de": "Bewegung ist wichtig für die Gesundheit.",
     "category_en": "Abstract",
-    "category_de": "Abstrakt"
+    "category_de": "Abstrakt",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 893,
@@ -513,7 +555,8 @@
     "example_sentence_en": "The road to the city is long.",
     "example_sentence_de": "Die Straße in die Stadt ist lang.",
     "category_en": "Travel",
-    "category_de": "Reisen"
+    "category_de": "Reisen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 894,
@@ -525,7 +568,8 @@
     "example_sentence_en": "This liquid is dangerous.",
     "example_sentence_de": "Diese Flüssigkeit ist gefährlich.",
     "category_en": "Science",
-    "category_de": "Wissenschaft"
+    "category_de": "Wissenschaft",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 895,
@@ -537,7 +581,8 @@
     "example_sentence_en": "The errors are in the log file.",
     "example_sentence_de": "Die Fehler sind in der Logdatei.",
     "category_en": "Technology",
-    "category_de": "Technologie"
+    "category_de": "Technologie",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 896,
@@ -549,7 +594,8 @@
     "example_sentence_en": "The news reported the event.",
     "example_sentence_de": "Die Nachrichten berichteten über das Ereignis.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 897,
@@ -561,7 +607,8 @@
     "example_sentence_en": "I calculated the quotient.",
     "example_sentence_de": "Ich habe den Quotienten berechnet.",
     "category_en": "Mathematics",
-    "category_de": "Mathematik"
+    "category_de": "Mathematik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 898,
@@ -573,7 +620,8 @@
     "example_sentence_en": "Teeth whitening is important.",
     "example_sentence_de": "Zahnaufhellung ist wichtig.",
     "category_en": "Body",
-    "category_de": "Körper"
+    "category_de": "Körper",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 899,
@@ -585,7 +633,8 @@
     "example_sentence_en": "I found a beautiful shell.",
     "example_sentence_de": "Ich habe eine schöne Muschel gefunden.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 900,
@@ -597,6 +646,7 @@
     "example_sentence_en": "My neck hurts.",
     "example_sentence_de": "Mein Hals tut weh.",
     "category_en": "Body",
-    "category_de": "Körper"
+    "category_de": "Körper",
+    "vowel_harmony": "tiefe"
   }
 ]

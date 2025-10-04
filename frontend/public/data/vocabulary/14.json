@@ -9,7 +9,8 @@
     "example_sentence_en": "My ear hurts.",
     "example_sentence_de": "Mein Ohr tut weh.",
     "category_en": "Body Parts",
-    "category_de": "Körperteile"
+    "category_de": "Körperteile",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 652,
@@ -21,7 +22,8 @@
     "example_sentence_en": "I would like another book.",
     "example_sentence_de": "Ich möchte ein anderes Buch.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 653,
@@ -33,7 +35,8 @@
     "example_sentence_en": "I am completely tired.",
     "example_sentence_de": "Ich bin völlig müde.",
     "category_en": "Adverbs",
-    "category_de": "Adverbien"
+    "category_de": "Adverbien",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 654,
@@ -45,7 +48,8 @@
     "example_sentence_en": "The glass broke.",
     "example_sentence_de": "Das Glas ist zerbrochen.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 655,
@@ -57,7 +61,8 @@
     "example_sentence_en": "This is an important case.",
     "example_sentence_de": "Das ist ein wichtiger Fall.",
     "category_en": "Law & Society",
-    "category_de": "Recht & Gesellschaft"
+    "category_de": "Recht & Gesellschaft",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 656,
@@ -69,7 +74,8 @@
     "example_sentence_en": "The middle seat is empty.",
     "example_sentence_de": "Der mittlere Sitz ist frei.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 657,
@@ -81,7 +87,8 @@
     "example_sentence_en": "Don’t kill anyone!",
     "example_sentence_de": "Töte niemanden!",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 658,
@@ -93,7 +100,8 @@
     "example_sentence_en": "The boy is playing football.",
     "example_sentence_de": "Der Junge spielt Fußball.",
     "category_en": "Family & People",
-    "category_de": "Familie & Menschen"
+    "category_de": "Familie & Menschen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 659,
@@ -105,7 +113,8 @@
     "example_sentence_en": "The lake is calm.",
     "example_sentence_de": "Der See ist ruhig.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 660,
@@ -117,7 +126,8 @@
     "example_sentence_en": "Wait a moment!",
     "example_sentence_de": "Warte einen Moment!",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 661,
@@ -129,7 +139,8 @@
     "example_sentence_en": "Play the C major scale.",
     "example_sentence_de": "Spiele die C-Dur-Tonleiter.",
     "category_en": "Music",
-    "category_de": "Musik"
+    "category_de": "Musik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 662,
@@ -141,7 +152,8 @@
     "example_sentence_en": "Don’t be so loud!",
     "example_sentence_de": "Sei nicht so laut!",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 663,
@@ -153,7 +165,8 @@
     "example_sentence_en": "I love spring.",
     "example_sentence_de": "Ich liebe den Frühling.",
     "category_en": "Seasons",
-    "category_de": "Jahreszeiten"
+    "category_de": "Jahreszeiten",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 664,
@@ -165,7 +178,8 @@
     "example_sentence_en": "Keep the door open!",
     "example_sentence_de": "Halten Sie die Tür offen!",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 665,
@@ -177,7 +191,8 @@
     "example_sentence_en": "The child is playing.",
     "example_sentence_de": "Das Kind spielt.",
     "category_en": "Family & People",
-    "category_de": "Familie & Menschen"
+    "category_de": "Familie & Menschen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 666,
@@ -189,7 +204,8 @@
     "example_sentence_en": "Go straight!",
     "example_sentence_de": "Gehen Sie geradeaus!",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 667,
@@ -201,7 +217,8 @@
     "example_sentence_en": "The 'k' is a consonant.",
     "example_sentence_de": "Das 'k' ist ein Konsonant.",
     "category_en": "Grammar",
-    "category_de": "Grammatik"
+    "category_de": "Grammatik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 668,
@@ -213,7 +230,8 @@
     "example_sentence_en": "The Hungarian nation is proud.",
     "example_sentence_de": "Die ungarische Nation ist stolz.",
     "category_en": "Society",
-    "category_de": "Gesellschaft"
+    "category_de": "Gesellschaft",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 669,
@@ -225,7 +243,8 @@
     "example_sentence_en": "Use the dictionary!",
     "example_sentence_de": "Benutze das Wörterbuch!",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 670,
@@ -237,7 +256,8 @@
     "example_sentence_en": "I drink a glass of milk.",
     "example_sentence_de": "Ich trinke ein Glas Milch.",
     "category_en": "Food & Drinks",
-    "category_de": "Essen & Getränke"
+    "category_de": "Essen & Getränke",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 671,
@@ -249,7 +269,8 @@
     "example_sentence_en": "How fast are you going?",
     "example_sentence_de": "Wie schnell fährst du?",
     "category_en": "Physics",
-    "category_de": "Physik"
+    "category_de": "Physik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 672,
@@ -261,7 +282,8 @@
     "example_sentence_en": "This is a good method.",
     "example_sentence_de": "Das ist eine gute Methode.",
     "category_en": "Science",
-    "category_de": "Wissenschaft"
+    "category_de": "Wissenschaft",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 673,
@@ -273,7 +295,8 @@
     "example_sentence_en": "I like to play the organ.",
     "example_sentence_de": "Ich spiele gerne Orgel.",
     "category_en": "Music",
-    "category_de": "Musik"
+    "category_de": "Musik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 674,
@@ -285,7 +308,8 @@
     "example_sentence_en": "Pay the bill!",
     "example_sentence_de": "Bezahle die Rechnung!",
     "category_en": "Economy",
-    "category_de": "Wirtschaft"
+    "category_de": "Wirtschaft",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 675,
@@ -297,7 +321,8 @@
     "example_sentence_en": "How old are you?",
     "example_sentence_de": "Wie alt bist du?",
     "category_en": "Personal Information",
-    "category_de": "Persönliche Informationen"
+    "category_de": "Persönliche Informationen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 676,
@@ -309,7 +334,8 @@
     "example_sentence_en": "This part is important.",
     "example_sentence_de": "Dieser Teil ist wichtig.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 677,
@@ -321,7 +347,8 @@
     "example_sentence_en": "You have nice clothes.",
     "example_sentence_de": "Du hast schöne Kleidung an.",
     "category_en": "Clothing",
-    "category_de": "Kleidung"
+    "category_de": "Kleidung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 678,
@@ -333,7 +360,8 @@
     "example_sentence_en": "Do you see that cloud?",
     "example_sentence_de": "Siehst du diese Wolke?",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 679,
@@ -345,7 +373,8 @@
     "example_sentence_en": "This is a surprise!",
     "example_sentence_de": "Das ist eine Überraschung!",
     "category_en": "Emotions",
-    "category_de": "Gefühle"
+    "category_de": "Gefühle",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 680,
@@ -357,7 +386,8 @@
     "example_sentence_en": "Be quiet!",
     "example_sentence_de": "Sei leise!",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 681,
@@ -369,7 +399,8 @@
     "example_sentence_en": "I found a nice stone.",
     "example_sentence_de": "Ich habe einen schönen Stein gefunden.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 682,
@@ -381,7 +412,8 @@
     "example_sentence_en": "Do you have small change?",
     "example_sentence_de": "Hast du Kleingeld?",
     "category_en": "Economy",
-    "category_de": "Wirtschaft"
+    "category_de": "Wirtschaft",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 683,
@@ -393,7 +425,8 @@
     "example_sentence_en": "I like climbing.",
     "example_sentence_de": "Ich klettere gerne.",
     "category_en": "Sports",
-    "category_de": "Sport"
+    "category_de": "Sport",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 684,
@@ -405,7 +438,8 @@
     "example_sentence_en": "It’s cool today.",
     "example_sentence_de": "Heute ist es kühl.",
     "category_en": "Weather",
-    "category_de": "Wetter"
+    "category_de": "Wetter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 685,
@@ -417,7 +451,8 @@
     "example_sentence_en": "Planning is important.",
     "example_sentence_de": "Planung ist wichtig.",
     "category_en": "Work & Business",
-    "category_de": "Arbeit & Beruf"
+    "category_de": "Arbeit & Beruf",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 686,
@@ -429,7 +464,8 @@
     "example_sentence_en": "Let’s help the poor!",
     "example_sentence_de": "Lasst uns den Armen helfen!",
     "category_en": "Society",
-    "category_de": "Gesellschaft"
+    "category_de": "Gesellschaft",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 687,
@@ -441,7 +477,8 @@
     "example_sentence_en": "There are many people here.",
     "example_sentence_de": "Hier sind viele Menschen.",
     "category_en": "Quantifiers",
-    "category_de": "Mengenangaben"
+    "category_de": "Mengenangaben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 688,
@@ -453,7 +490,8 @@
     "example_sentence_en": "This is an experiment.",
     "example_sentence_de": "Das ist ein Experiment.",
     "category_en": "Science",
-    "category_de": "Wissenschaft"
+    "category_de": "Wissenschaft",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 689,
@@ -465,7 +503,8 @@
     "example_sentence_en": "The lower shelf is empty.",
     "example_sentence_de": "Das untere Regal ist leer.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 690,
@@ -477,7 +516,8 @@
     "example_sentence_en": "I lost the key.",
     "example_sentence_de": "Ich habe den Schlüssel verloren.",
     "category_en": "House & Home",
-    "category_de": "Haus & Zuhause"
+    "category_de": "Haus & Zuhause",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 691,
@@ -489,7 +529,8 @@
     "example_sentence_en": "This is made of iron.",
     "example_sentence_de": "Das ist aus Eisen.",
     "category_en": "Materials",
-    "category_de": "Materialien"
+    "category_de": "Materialien",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 692,
@@ -501,7 +542,8 @@
     "example_sentence_en": "This is the only option.",
     "example_sentence_de": "Das ist die einzige Option.",
     "category_en": "Quantifiers",
-    "category_de": "Mengenangaben"
+    "category_de": "Mengenangaben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 693,
@@ -513,7 +555,8 @@
     "example_sentence_en": "I found a stick.",
     "example_sentence_de": "Ich habe einen Stock gefunden.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 694,
@@ -525,7 +568,8 @@
     "example_sentence_en": "This box is flat.",
     "example_sentence_de": "Diese Schachtel ist flach.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 695,
@@ -537,7 +581,8 @@
     "example_sentence_en": "I am twenty years old.",
     "example_sentence_de": "Ich bin zwanzig Jahre alt.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 696,
@@ -549,7 +594,8 @@
     "example_sentence_en": "The sun burns my skin.",
     "example_sentence_de": "Die Sonne verbrennt meine Haut.",
     "category_en": "Body Parts",
-    "category_de": "Körperteile"
+    "category_de": "Körperteile",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 697,
@@ -561,7 +607,8 @@
     "example_sentence_en": "Smile!",
     "example_sentence_de": "Lächeln!",
     "category_en": "Emotions",
-    "category_de": "Gefühle"
+    "category_de": "Gefühle",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 698,
@@ -573,7 +620,8 @@
     "example_sentence_en": "I have a wrinkle on my forehead.",
     "example_sentence_de": "Ich habe eine Falte auf der Stirn.",
     "category_en": "Body Parts",
-    "category_de": "Körperteile"
+    "category_de": "Körperteile",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 699,
@@ -585,7 +633,8 @@
     "example_sentence_en": "There is a hole in my sock.",
     "example_sentence_de": "In meiner Socke ist ein Loch.",
     "category_en": "Objects",
-    "category_de": "Gegenstände"
+    "category_de": "Gegenstände",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 700,
@@ -597,6 +646,7 @@
     "example_sentence_en": "I like to jump.",
     "example_sentence_de": "Ich springe gerne.",
     "category_en": "Sports",
-    "category_de": "Sport"
+    "category_de": "Sport",
+    "vowel_harmony": "tiefe"
   }
 ]

@@ -9,7 +9,8 @@
     "example_sentence_en": "I study Hungarian every day.",
     "example_sentence_de": "Ich lerne jeden Tag Ungarisch.",
     "category_en": "Quantifiers",
-    "category_de": "Quantifizierer"
+    "category_de": "Quantifizierer",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 152,
@@ -21,7 +22,8 @@
     "example_sentence_en": "The book is there.",
     "example_sentence_de": "Das Buch ist dort.",
     "category_en": "Location",
-    "category_de": "Ort"
+    "category_de": "Ort",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 153,
@@ -33,7 +35,8 @@
     "example_sentence_en": "When I got home, it was raining.",
     "example_sentence_de": "Als ich nach Hause kam, regnete es.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 154,
@@ -45,7 +48,8 @@
     "example_sentence_en": "I'm looking up.",
     "example_sentence_de": "Ich schaue nach oben.",
     "category_en": "Directions",
-    "category_de": "Richtungen"
+    "category_de": "Richtungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 155,
@@ -57,7 +61,8 @@
     "example_sentence_en": "The use of phones is prohibited.",
     "example_sentence_de": "Die Verwendung von Telefonen ist verboten.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 156,
@@ -69,7 +74,8 @@
     "example_sentence_en": "You are very kind.",
     "example_sentence_de": "Sie sind sehr freundlich.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 157,
@@ -81,7 +87,8 @@
     "example_sentence_en": "This road leads to Budapest.",
     "example_sentence_de": "Diese Straße führt nach Budapest.",
     "category_en": "Travel",
-    "category_de": "Reisen"
+    "category_de": "Reisen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 158,
@@ -93,7 +100,8 @@
     "example_sentence_en": "There were about ten people there.",
     "example_sentence_de": "Es waren ungefähr zehn Leute dort.",
     "category_en": "Quantifiers",
-    "category_de": "Quantifizierer"
+    "category_de": "Quantifizierer",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 159,
@@ -105,7 +113,8 @@
     "example_sentence_en": "I have many friends.",
     "example_sentence_de": "Ich habe viele Freunde.",
     "category_en": "Quantifiers",
-    "category_de": "Quantifizierer"
+    "category_de": "Quantifizierer",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 160,
@@ -117,7 +126,8 @@
     "example_sentence_en": "I was still young then.",
     "example_sentence_de": "Ich war damals noch jung.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 161,
@@ -129,7 +139,8 @@
     "example_sentence_en": "I see them in the park.",
     "example_sentence_de": "Ich sehe sie im Park.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 162,
@@ -141,7 +152,8 @@
     "example_sentence_en": "I'm writing a letter to my friend.",
     "example_sentence_de": "Ich schreibe einen Brief an meinen Freund.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 163,
@@ -153,7 +165,8 @@
     "example_sentence_en": "It would be good to go.",
     "example_sentence_de": "Es wäre gut zu gehen.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 164,
@@ -165,7 +178,8 @@
     "example_sentence_en": "This is similar to mine.",
     "example_sentence_de": "Dies ist ähnlich wie meins.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 165,
@@ -177,7 +191,8 @@
     "example_sentence_en": "This is how to do it.",
     "example_sentence_de": "So muss man es machen.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 166,
@@ -189,7 +204,8 @@
     "example_sentence_en": "I'm reading these books.",
     "example_sentence_de": "Ich lese diese Bücher.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 167,
@@ -201,7 +217,8 @@
     "example_sentence_en": "He/She is my sibling.",
     "example_sentence_de": "Er/Sie ist mein Geschwister.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 168,
@@ -213,7 +230,8 @@
     "example_sentence_en": "I had a long journey.",
     "example_sentence_de": "Ich hatte eine lange Reise.",
     "category_en": "Description",
-    "category_de": "Beschreibung"
+    "category_de": "Beschreibung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 169,
@@ -225,7 +243,8 @@
     "example_sentence_en": "He said that he's coming.",
     "example_sentence_de": "Er sagte, dass er kommt.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 170,
@@ -237,7 +256,8 @@
     "example_sentence_en": "This is an important thing.",
     "example_sentence_de": "Das ist eine wichtige Sache.",
     "category_en": "Objects",
-    "category_de": "Objekte"
+    "category_de": "Objekte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 171,
@@ -249,7 +269,8 @@
     "example_sentence_en": "See what I brought!",
     "example_sentence_de": "Sieh, was ich gebracht habe!",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 172,
@@ -261,7 +282,8 @@
     "example_sentence_en": "I gave this to him/her.",
     "example_sentence_de": "Ich habe ihm/ihr das gegeben.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 173,
@@ -273,7 +295,8 @@
     "example_sentence_en": "I have two siblings.",
     "example_sentence_de": "Ich habe zwei Geschwister.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 174,
@@ -285,7 +308,8 @@
     "example_sentence_en": "I have a car.",
     "example_sentence_de": "Ich habe ein Auto.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 175,
@@ -297,7 +321,8 @@
     "example_sentence_en": "I'm watching a movie.",
     "example_sentence_de": "Ich schaue einen Film.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 176,
@@ -309,7 +334,8 @@
     "example_sentence_en": "I need more time.",
     "example_sentence_de": "Ich brauche mehr Zeit.",
     "category_en": "Quantifiers",
-    "category_de": "Quantifizierer"
+    "category_de": "Quantifizierer",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 177,
@@ -321,7 +347,8 @@
     "example_sentence_en": "It's a beautiful day today.",
     "example_sentence_de": "Heute ist ein schöner Tag.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 178,
@@ -333,7 +360,8 @@
     "example_sentence_en": "He/She couldn't come.",
     "example_sentence_de": "Er/Sie konnte nicht kommen.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 179,
@@ -345,7 +373,8 @@
     "example_sentence_en": "I'm going to school.",
     "example_sentence_de": "Ich gehe zur Schule.",
     "category_en": "Movement",
-    "category_de": "Bewegung"
+    "category_de": "Bewegung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 180,
@@ -357,7 +386,8 @@
     "example_sentence_en": "My friend is coming tomorrow.",
     "example_sentence_de": "Mein Freund kommt morgen.",
     "category_en": "Movement",
-    "category_de": "Bewegung"
+    "category_de": "Bewegung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 181,
@@ -369,7 +399,8 @@
     "example_sentence_en": "What did you do yesterday?",
     "example_sentence_de": "Was hast du gestern getan?",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 182,
@@ -381,7 +412,8 @@
     "example_sentence_en": "Give me your phone number!",
     "example_sentence_de": "Gib mir deine Telefonnummer!",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 183,
@@ -393,7 +425,8 @@
     "example_sentence_en": "He/She has a beautiful voice.",
     "example_sentence_de": "Er/Sie hat eine schöne Stimme.",
     "category_en": "Senses",
-    "category_de": "Sinne"
+    "category_de": "Sinne",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 184,
@@ -405,7 +438,8 @@
     "example_sentence_en": "I don't have time.",
     "example_sentence_de": "Ich habe keine Zeit.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 185,
@@ -417,7 +451,8 @@
     "example_sentence_en": "Most people like this.",
     "example_sentence_de": "Die meisten Leute mögen das.",
     "category_en": "Quantifiers",
-    "category_de": "Quantifizierer"
+    "category_de": "Quantifizierer",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 186,
@@ -429,7 +464,8 @@
     "example_sentence_en": "There were many people at the concert.",
     "example_sentence_de": "Es waren viele Leute beim Konzert.",
     "category_en": "People",
-    "category_de": "Menschen"
+    "category_de": "Menschen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 187,
@@ -441,7 +477,8 @@
     "example_sentence_en": "I am Hungarian.",
     "example_sentence_de": "Ich bin ungarisch.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 188,
@@ -453,7 +490,8 @@
     "example_sentence_en": "I went across the bridge.",
     "example_sentence_de": "Ich ging über die Brücke.",
     "category_en": "Directions",
-    "category_de": "Richtungen"
+    "category_de": "Richtungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 189,
@@ -465,7 +503,8 @@
     "example_sentence_en": "He/She knows the answer.",
     "example_sentence_de": "Er/Sie weiß die Antwort.",
     "category_en": "Knowledge",
-    "category_de": "Wissen"
+    "category_de": "Wissen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 190,
@@ -477,7 +516,8 @@
     "example_sentence_en": "I'd like a glass of water.",
     "example_sentence_de": "Ich hätte gerne ein Glas Wasser.",
     "category_en": "Food & Drink",
-    "category_de": "Essen & Trinken"
+    "category_de": "Essen & Trinken",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 191,
@@ -489,7 +529,8 @@
     "example_sentence_en": "Faster than you.",
     "example_sentence_de": "Schneller als du.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 192,
@@ -501,7 +542,8 @@
     "example_sentence_en": "I got a call from him/her.",
     "example_sentence_de": "Ich habe einen Anruf von ihm/ihr bekommen.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 193,
@@ -513,7 +555,8 @@
     "example_sentence_en": "This is my first lesson.",
     "example_sentence_de": "Dies ist meine erste Lektion.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 194,
@@ -525,7 +568,8 @@
     "example_sentence_en": "The person who is standing there is the teacher.",
     "example_sentence_de": "Die Person, die dort steht, ist der Lehrer.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 195,
@@ -537,7 +581,8 @@
     "example_sentence_en": "I may go.",
     "example_sentence_de": "Ich kann vielleicht gehen.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 196,
@@ -549,7 +594,8 @@
     "example_sentence_en": "He/She is going down the stairs.",
     "example_sentence_de": "Er/Sie geht die Treppe hinunter.",
     "category_en": "Directions",
-    "category_de": "Richtungen"
+    "category_de": "Richtungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 197,
@@ -561,7 +607,8 @@
     "example_sentence_en": "It's on the left side.",
     "example_sentence_de": "Es befindet sich auf der linken Seite.",
     "category_en": "Objects",
-    "category_de": "Objekte"
+    "category_de": "Objekte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 198,
@@ -573,7 +620,8 @@
     "example_sentence_en": "I was at home yesterday.",
     "example_sentence_de": "Ich war gestern zu Hause.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 199,
@@ -585,7 +633,8 @@
     "example_sentence_en": "I currently live in Budapest.",
     "example_sentence_de": "Ich wohne derzeit in Budapest.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 200,
@@ -597,6 +646,7 @@
     "example_sentence_en": "I can't find my keys.",
     "example_sentence_de": "Ich kann meine Schlüssel nicht finden.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   }
 ]

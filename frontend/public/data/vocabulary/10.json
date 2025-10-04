@@ -9,7 +9,8 @@
     "example_sentence_en": "I heard the music from the room.",
     "example_sentence_de": "Ich habe die Musik aus dem Zimmer gehört.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 452,
@@ -21,7 +22,8 @@
     "example_sentence_en": "This is the best restaurant in town.",
     "example_sentence_de": "Das ist das beste Restaurant in der Stadt.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 453,
@@ -33,7 +35,8 @@
     "example_sentence_en": "What time is it? It's three o'clock according to my watch.",
     "example_sentence_de": "Wie spät ist es? Laut meiner Uhr ist es drei Uhr.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 454,
@@ -45,7 +48,8 @@
     "example_sentence_en": "Do you write with your right hand?",
     "example_sentence_de": "Schreibst du mit der rechten Hand?",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 455,
@@ -57,7 +61,8 @@
     "example_sentence_en": "Is what you say true?",
     "example_sentence_de": "Ist das, was du sagst, wahr?",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 456,
@@ -69,7 +74,8 @@
     "example_sentence_en": "The cat is sleeping under the table.",
     "example_sentence_de": "Die Katze schläft unter dem Tisch.",
     "category_en": "Prepositions",
-    "category_de": "Präpositionen"
+    "category_de": "Präpositionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 457,
@@ -81,7 +87,8 @@
     "example_sentence_en": "There were a hundred people at the party.",
     "example_sentence_de": "Es waren hundert Menschen auf der Party.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 458,
@@ -93,7 +100,8 @@
     "example_sentence_en": "I have five apples.",
     "example_sentence_de": "Ich habe fünf Äpfel.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 459,
@@ -105,7 +113,8 @@
     "example_sentence_en": "Do you remember yesterday?",
     "example_sentence_de": "Erinnerst du dich an gestern?",
     "category_en": "Memory",
-    "category_de": "Erinnerung"
+    "category_de": "Erinnerung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 460,
@@ -117,7 +126,8 @@
     "example_sentence_en": "I take a step forward.",
     "example_sentence_de": "Ich mache einen Schritt nach vorne.",
     "category_en": "Movement",
-    "category_de": "Bewegung"
+    "category_de": "Bewegung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 461,
@@ -129,7 +139,8 @@
     "example_sentence_en": "I am an early riser.",
     "example_sentence_de": "Ich stehe früh auf.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 462,
@@ -141,7 +152,8 @@
     "example_sentence_en": "Keep the door open!",
     "example_sentence_de": "Halte die Tür offen!",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 463,
@@ -153,7 +165,8 @@
     "example_sentence_en": "The sun sets in the west.",
     "example_sentence_de": "Die Sonne geht im Westen unter.",
     "category_en": "Directions",
-    "category_de": "Richtungen"
+    "category_de": "Richtungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 464,
@@ -165,7 +178,8 @@
     "example_sentence_en": "The ground is wet after the rain.",
     "example_sentence_de": "Der Boden ist nach dem Regen nass.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 465,
@@ -177,7 +191,8 @@
     "example_sentence_en": "I get high interest on my bank account.",
     "example_sentence_de": "Ich bekomme hohe Zinsen auf mein Bankkonto.",
     "category_en": "Finance",
-    "category_de": "Finanzen"
+    "category_de": "Finanzen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 466,
@@ -189,7 +204,8 @@
     "example_sentence_en": "I want to reach a goal.",
     "example_sentence_de": "Ich möchte ein Ziel erreichen.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 467,
@@ -201,7 +217,8 @@
     "example_sentence_en": "This car is very fast.",
     "example_sentence_de": "Dieses Auto ist sehr schnell.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 468,
@@ -213,7 +230,8 @@
     "example_sentence_en": "There is always a verb in a sentence.",
     "example_sentence_de": "In einem Satz gibt es immer ein Verb.",
     "category_en": "Grammar",
-    "category_de": "Grammatik"
+    "category_de": "Grammatik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 469,
@@ -225,7 +243,8 @@
     "example_sentence_en": "I like to sing in the shower.",
     "example_sentence_de": "Ich singe gerne unter der Dusche.",
     "category_en": "Music",
-    "category_de": "Musik"
+    "category_de": "Musik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 470,
@@ -237,7 +256,8 @@
     "example_sentence_en": "Are you listening to the teacher?",
     "example_sentence_de": "Hörst du dem Lehrer zu?",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 471,
@@ -249,7 +269,8 @@
     "example_sentence_en": "I have six dogs.",
     "example_sentence_de": "Ich habe sechs Hunde.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 472,
@@ -261,7 +282,8 @@
     "example_sentence_en": "Let's make a table of the data.",
     "example_sentence_de": "Lasst uns eine Tabelle mit den Daten erstellen.",
     "category_en": "Objects",
-    "category_de": "Gegenstände"
+    "category_de": "Gegenstände",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 473,
@@ -273,7 +295,8 @@
     "example_sentence_en": "I like to travel abroad.",
     "example_sentence_de": "Ich reise gerne ins Ausland.",
     "category_en": "Travel",
-    "category_de": "Reisen"
+    "category_de": "Reisen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 474,
@@ -285,7 +308,8 @@
     "example_sentence_en": "I want less sugar in my coffee.",
     "example_sentence_de": "Ich möchte weniger Zucker in meinem Kaffee.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 475,
@@ -297,7 +321,8 @@
     "example_sentence_en": "I always drink coffee in the morning.",
     "example_sentence_de": "Ich trinke morgens immer Kaffee.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 476,
@@ -309,7 +334,8 @@
     "example_sentence_en": "We leave in ten minutes.",
     "example_sentence_de": "Wir fahren in zehn Minuten los.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 477,
@@ -321,7 +347,8 @@
     "example_sentence_en": "This is a simple task.",
     "example_sentence_de": "Das ist eine einfache Aufgabe.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 478,
@@ -333,7 +360,8 @@
     "example_sentence_en": "I need more time.",
     "example_sentence_de": "Ich brauche mehr Zeit.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 479,
@@ -345,7 +373,8 @@
     "example_sentence_en": "The letter 'a' is a vowel.",
     "example_sentence_de": "Der Buchstabe 'a' ist ein Vokal.",
     "category_en": "Grammar",
-    "category_de": "Grammatik"
+    "category_de": "Grammatik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 480,
@@ -357,7 +386,8 @@
     "example_sentence_en": "I'm going towards the school.",
     "example_sentence_de": "Ich gehe in Richtung Schule.",
     "category_en": "Prepositions",
-    "category_de": "Präpositionen"
+    "category_de": "Präpositionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 481,
@@ -369,7 +399,8 @@
     "example_sentence_en": "The war caused a lot of suffering.",
     "example_sentence_de": "Der Krieg verursachte viel Leid.",
     "category_en": "History",
-    "category_de": "Geschichte"
+    "category_de": "Geschichte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 482,
@@ -381,7 +412,8 @@
     "example_sentence_en": "This is a secular event.",
     "example_sentence_de": "Das ist eine weltliche Veranstaltung.",
     "category_en": "Society",
-    "category_de": "Gesellschaft"
+    "category_de": "Gesellschaft",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 483,
@@ -393,7 +425,8 @@
     "example_sentence_en": "I vote against the law.",
     "example_sentence_de": "Ich stimme gegen das Gesetz.",
     "category_en": "Prepositions",
-    "category_de": "Präpositionen"
+    "category_de": "Präpositionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 484,
@@ -405,7 +438,8 @@
     "example_sentence_en": "This dress has a beautiful pattern.",
     "example_sentence_de": "Dieses Kleid hat ein schönes Muster.",
     "category_en": "Objects",
-    "category_de": "Gegenstände"
+    "category_de": "Gegenstände",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 485,
@@ -417,7 +451,8 @@
     "example_sentence_en": "The train is very slow.",
     "example_sentence_de": "Der Zug ist sehr langsam.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 486,
@@ -429,7 +464,8 @@
     "example_sentence_en": "I live in the center of the city.",
     "example_sentence_de": "Ich wohne im Zentrum der Stadt.",
     "category_en": "Places",
-    "category_de": "Orte"
+    "category_de": "Orte",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 487,
@@ -441,7 +477,8 @@
     "example_sentence_en": "Love conquers all.",
     "example_sentence_de": "Liebe besiegt alles.",
     "category_en": "Emotions",
-    "category_de": "Gefühle"
+    "category_de": "Gefühle",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 488,
@@ -453,7 +490,8 @@
     "example_sentence_en": "Do you know this person?",
     "example_sentence_de": "Kennst du diese Person?",
     "category_en": "People",
-    "category_de": "Menschen"
+    "category_de": "Menschen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 489,
@@ -465,7 +503,8 @@
     "example_sentence_en": "I don't have enough money.",
     "example_sentence_de": "Ich habe nicht genug Geld.",
     "category_en": "Finance",
-    "category_de": "Finanzen"
+    "category_de": "Finanzen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 490,
@@ -477,7 +516,8 @@
     "example_sentence_en": "The waiter serves the guests well.",
     "example_sentence_de": "Der Kellner bedient die Gäste gut.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 491,
@@ -489,7 +529,8 @@
     "example_sentence_en": "The sun appears from behind the clouds.",
     "example_sentence_de": "Die Sonne erscheint hinter den Wolken.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 492,
@@ -501,7 +542,8 @@
     "example_sentence_en": "A long road lies ahead of us.",
     "example_sentence_de": "Ein langer Weg liegt vor uns.",
     "category_en": "Travel",
-    "category_de": "Reisen"
+    "category_de": "Reisen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 493,
@@ -513,7 +555,8 @@
     "example_sentence_en": "I need a map.",
     "example_sentence_de": "Ich brauche eine Karte.",
     "category_en": "Objects",
-    "category_de": "Gegenstände"
+    "category_de": "Gegenstände",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 494,
@@ -525,7 +568,8 @@
     "example_sentence_en": "It will rain today.",
     "example_sentence_de": "Heute wird es regnen.",
     "category_en": "Weather",
-    "category_de": "Wetter"
+    "category_de": "Wetter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 495,
@@ -537,7 +581,8 @@
     "example_sentence_en": "Do you know the rules of the game?",
     "example_sentence_de": "Kennst du die Regeln des Spiels?",
     "category_en": "Society",
-    "category_de": "Gesellschaft"
+    "category_de": "Gesellschaft",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 496,
@@ -549,7 +594,8 @@
     "example_sentence_en": "The government introduced a new law.",
     "example_sentence_de": "Die Regierung hat ein neues Gesetz eingeführt.",
     "category_en": "Politics",
-    "category_de": "Politik"
+    "category_de": "Politik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 497,
@@ -561,7 +607,8 @@
     "example_sentence_en": "Pull the door harder!",
     "example_sentence_de": "Zieh die Tür fester zu!",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 498,
@@ -573,7 +620,8 @@
     "example_sentence_en": "It's cold outside today.",
     "example_sentence_de": "Draußen ist es heute kalt.",
     "category_en": "Weather",
-    "category_de": "Wetter"
+    "category_de": "Wetter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 499,
@@ -585,7 +633,8 @@
     "example_sentence_en": "I receive a notification on my phone.",
     "example_sentence_de": "Ich erhalte eine Benachrichtigung auf meinem Handy.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 500,
@@ -597,6 +646,7 @@
     "example_sentence_en": "Do you hear that strange sound?",
     "example_sentence_de": "Hörst du diesen seltsamen Klang?",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "tiefe"
   }
 ]

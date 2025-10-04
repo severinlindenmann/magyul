@@ -9,7 +9,8 @@
     "example_sentence_en": "My thumb hurts.",
     "example_sentence_de": "Mein Daumen tut weh.",
     "category_en": "Body Parts",
-    "category_de": "Körperteile"
+    "category_de": "Körperteile",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 352,
@@ -21,7 +22,8 @@
     "example_sentence_en": "Rabbits multiply quickly.",
     "example_sentence_de": "Kaninchen vermehren sich schnell.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 353,
@@ -33,7 +35,8 @@
     "example_sentence_en": "We have no problems.",
     "example_sentence_de": "Wir haben keine Probleme.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 354,
@@ -45,7 +48,8 @@
     "example_sentence_en": "I signed up for a language course for the summer.",
     "example_sentence_de": "Ich habe mich für einen Sprachkurs im Sommer angemeldet.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 355,
@@ -57,7 +61,8 @@
     "example_sentence_en": "Stay with me!",
     "example_sentence_de": "Bleib bei mir!",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 356,
@@ -69,7 +74,8 @@
     "example_sentence_en": "The wheel broke.",
     "example_sentence_de": "Das Rad ist kaputt.",
     "category_en": "Transport",
-    "category_de": "Verkehr"
+    "category_de": "Verkehr",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 357,
@@ -81,7 +87,8 @@
     "example_sentence_en": "This is a complete list.",
     "example_sentence_de": "Das ist eine vollständige Liste.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 358,
@@ -93,7 +100,8 @@
     "example_sentence_en": "This requires a lot of strength.",
     "example_sentence_de": "Dafür braucht man viel Kraft.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 359,
@@ -105,7 +113,8 @@
     "example_sentence_en": "Blue is my favorite color.",
     "example_sentence_de": "Blau ist meine Lieblingsfarbe.",
     "category_en": "Colors",
-    "category_de": "Farben"
+    "category_de": "Farben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 360,
@@ -117,7 +126,8 @@
     "example_sentence_en": "Which subject do you like the most?",
     "example_sentence_de": "Welches Fach magst du am liebsten?",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 361,
@@ -129,7 +139,8 @@
     "example_sentence_en": "You decide!",
     "example_sentence_de": "Du entscheidest!",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 362,
@@ -141,7 +152,8 @@
     "example_sentence_en": "The surface of the water is smooth.",
     "example_sentence_de": "Die Oberfläche des Wassers ist glatt.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 363,
@@ -153,7 +165,8 @@
     "example_sentence_en": "This lake is very deep.",
     "example_sentence_de": "Dieser See ist sehr tief.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 364,
@@ -165,7 +178,8 @@
     "example_sentence_en": "The moon is very bright tonight.",
     "example_sentence_de": "Der Mond ist heute Nacht sehr hell.",
     "category_en": "Astronomy",
-    "category_de": "Astronomie"
+    "category_de": "Astronomie",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 365,
@@ -177,7 +191,8 @@
     "example_sentence_en": "I like to vacation on islands.",
     "example_sentence_de": "Ich mag es, auf Inseln Urlaub zu machen.",
     "category_en": "Geography",
-    "category_de": "Geografie"
+    "category_de": "Geografie",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 366,
@@ -189,7 +204,8 @@
     "example_sentence_en": "My leg hurts.",
     "example_sentence_de": "Mein Bein tut weh.",
     "category_en": "Body Parts",
-    "category_de": "Körperteile"
+    "category_de": "Körperteile",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 367,
@@ -201,7 +217,8 @@
     "example_sentence_en": "This is a complex system.",
     "example_sentence_de": "Das ist ein komplexes System.",
     "category_en": "Technology",
-    "category_de": "Technik"
+    "category_de": "Technik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 368,
@@ -213,7 +230,8 @@
     "example_sentence_en": "I'm busy right now.",
     "example_sentence_de": "Ich bin gerade beschäftigt.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 369,
@@ -225,7 +243,8 @@
     "example_sentence_en": "We have a test tomorrow.",
     "example_sentence_de": "Wir schreiben morgen einen Test.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 370,
@@ -237,7 +256,8 @@
     "example_sentence_en": "He set a new record.",
     "example_sentence_de": "Er hat einen neuen Rekord aufgestellt.",
     "category_en": "Sports",
-    "category_de": "Sport"
+    "category_de": "Sport",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 371,
@@ -249,7 +269,8 @@
     "example_sentence_en": "The ship is late.",
     "example_sentence_de": "Das Schiff hat Verspätung.",
     "category_en": "Transport",
-    "category_de": "Verkehr"
+    "category_de": "Verkehr",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 372,
@@ -261,7 +282,8 @@
     "example_sentence_en": "This is a shared project.",
     "example_sentence_de": "Das ist ein gemeinsames Projekt.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 373,
@@ -273,7 +295,8 @@
     "example_sentence_en": "This watch is made of gold.",
     "example_sentence_de": "Diese Uhr ist aus Gold.",
     "category_en": "Materials",
-    "category_de": "Materialien"
+    "category_de": "Materialien",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 374,
@@ -285,7 +308,8 @@
     "example_sentence_en": "Is this possible?",
     "example_sentence_de": "Ist das möglich?",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 375,
@@ -297,7 +321,8 @@
     "example_sentence_en": "The airplane will take off soon.",
     "example_sentence_de": "Das Flugzeug startet bald.",
     "category_en": "Transport",
-    "category_de": "Verkehr"
+    "category_de": "Verkehr",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 376,
@@ -309,7 +334,8 @@
     "example_sentence_en": "I'd like coffee instead of tea.",
     "example_sentence_de": "Ich möchte Kaffee statt Tee.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 377,
@@ -321,7 +347,8 @@
     "example_sentence_en": "The weather is very dry today.",
     "example_sentence_de": "Das Wetter ist heute sehr trocken.",
     "category_en": "Weather",
-    "category_de": "Wetter"
+    "category_de": "Wetter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 378,
@@ -333,7 +360,8 @@
     "example_sentence_en": "This is a real miracle!",
     "example_sentence_de": "Das ist ein echtes Wunder!",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 379,
@@ -345,7 +373,8 @@
     "example_sentence_en": "Laughter is good for you.",
     "example_sentence_de": "Lachen ist gesund.",
     "category_en": "Emotions",
-    "category_de": "Emotionen"
+    "category_de": "Emotionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 380,
@@ -357,7 +386,8 @@
     "example_sentence_en": "I have a thousand forints.",
     "example_sentence_de": "Ich habe tausend Forint.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 381,
@@ -369,7 +399,8 @@
     "example_sentence_en": "He left an hour ago.",
     "example_sentence_de": "Er ist vor einer Stunde gegangen.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 382,
@@ -381,7 +412,8 @@
     "example_sentence_en": "He ran fast.",
     "example_sentence_de": "Er lief schnell.",
     "category_en": "Sports",
-    "category_de": "Sport"
+    "category_de": "Sport",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 383,
@@ -393,7 +425,8 @@
     "example_sentence_en": "Check the homework!",
     "example_sentence_de": "Überprüfe die Hausaufgaben!",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 384,
@@ -405,7 +438,8 @@
     "example_sentence_en": "We like to play games.",
     "example_sentence_de": "Wir spielen gerne Spiele.",
     "category_en": "Entertainment",
-    "category_de": "Unterhaltung"
+    "category_de": "Unterhaltung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 385,
@@ -417,7 +451,8 @@
     "example_sentence_en": "This shape is perfect.",
     "example_sentence_de": "Diese Form ist perfekt.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 386,
@@ -429,7 +464,8 @@
     "example_sentence_en": "We need to equalize the opportunities.",
     "example_sentence_de": "Wir müssen die Chancen angleichen.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 387,
@@ -441,7 +477,8 @@
     "example_sentence_en": "It's very hot today.",
     "example_sentence_de": "Es ist heute sehr heiß.",
     "category_en": "Weather",
-    "category_de": "Wetter"
+    "category_de": "Wetter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 388,
@@ -453,7 +490,8 @@
     "example_sentence_en": "Miss Smith is the teacher.",
     "example_sentence_de": "Fräulein Smith ist die Lehrerin.",
     "category_en": "People",
-    "category_de": "Personen"
+    "category_de": "Personen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 389,
@@ -465,7 +503,8 @@
     "example_sentence_en": "He brought what I asked for.",
     "example_sentence_de": "Er brachte, was ich gebeten habe.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 390,
@@ -477,7 +516,8 @@
     "example_sentence_en": "The heat is unbearable.",
     "example_sentence_de": "Die Hitze ist unerträglich.",
     "category_en": "Weather",
-    "category_de": "Wetter"
+    "category_de": "Wetter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 391,
@@ -489,7 +529,8 @@
     "example_sentence_en": "I like to play in the snow.",
     "example_sentence_de": "Ich spiele gerne im Schnee.",
     "category_en": "Weather",
-    "category_de": "Wetter"
+    "category_de": "Wetter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 392,
@@ -501,7 +542,8 @@
     "example_sentence_en": "The tire is flat.",
     "example_sentence_de": "Der Reifen ist platt.",
     "category_en": "Transport",
-    "category_de": "Verkehr"
+    "category_de": "Verkehr",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 393,
@@ -513,7 +555,8 @@
     "example_sentence_en": "He always brings something delicious.",
     "example_sentence_de": "Er bringt immer etwas Leckeres mit.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 394,
@@ -525,7 +568,8 @@
     "example_sentence_en": "Yes, I would like to go.",
     "example_sentence_de": "Ja, ich würde gerne gehen.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 395,
@@ -537,7 +581,8 @@
     "example_sentence_en": "This is a distant city.",
     "example_sentence_de": "Das ist eine entfernte Stadt.",
     "category_en": "Geography",
-    "category_de": "Geografie"
+    "category_de": "Geografie",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 396,
@@ -549,7 +594,8 @@
     "example_sentence_en": "Fill out this form!",
     "example_sentence_de": "Füllen Sie dieses Formular aus!",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 397,
@@ -561,7 +607,8 @@
     "example_sentence_en": "We are going east.",
     "example_sentence_de": "Wir gehen nach Osten.",
     "category_en": "Geography",
-    "category_de": "Geografie"
+    "category_de": "Geografie",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 398,
@@ -573,7 +620,8 @@
     "example_sentence_en": "Buy blue paint!",
     "example_sentence_de": "Kauf blaue Farbe!",
     "category_en": "Art",
-    "category_de": "Kunst"
+    "category_de": "Kunst",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 399,
@@ -585,7 +633,8 @@
     "example_sentence_en": "Which language are you learning?",
     "example_sentence_de": "Welche Sprache lernst du?",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 400,
@@ -597,6 +646,7 @@
     "example_sentence_en": "I live between Budapest and Vienna.",
     "example_sentence_de": "Ich wohne zwischen Budapest und Wien.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   }
 ]

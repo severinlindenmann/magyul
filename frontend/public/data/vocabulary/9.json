@@ -9,7 +9,8 @@
     "example_sentence_en": "This unit is the basis of the measurement system.",
     "example_sentence_de": "Diese Einheit ist die Grundlage des Messsystems.",
     "category_en": "Mathematics & Science",
-    "category_de": "Mathematik & Naturwissenschaften"
+    "category_de": "Mathematik & Naturwissenschaften",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 402,
@@ -21,7 +22,8 @@
     "example_sentence_en": "His performance was excellent this year.",
     "example_sentence_de": "Seine Leistung war in diesem Jahr hervorragend.",
     "category_en": "Work & Achievement",
-    "category_de": "Arbeit & Leistung"
+    "category_de": "Arbeit & Leistung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 403,
@@ -33,7 +35,8 @@
     "example_sentence_en": "Budapest is a beautiful city.",
     "example_sentence_de": "Budapest ist eine schöne Stadt.",
     "category_en": "Geography & Places",
-    "category_de": "Geografie & Orte"
+    "category_de": "Geografie & Orte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 404,
@@ -45,7 +48,8 @@
     "example_sentence_en": "This is a very fine dish.",
     "example_sentence_de": "Das ist ein sehr feines Gericht.",
     "category_en": "Descriptions & Qualities",
-    "category_de": "Beschreibungen & Eigenschaften"
+    "category_de": "Beschreibungen & Eigenschaften",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 405,
@@ -57,7 +61,8 @@
     "example_sentence_en": "I am certain it will succeed.",
     "example_sentence_de": "Ich bin mir sicher, dass es gelingen wird.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 406,
@@ -69,7 +74,8 @@
     "example_sentence_en": "A fly is flying in the room.",
     "example_sentence_de": "Eine Fliege fliegt im Zimmer.",
     "category_en": "Animals & Insects",
-    "category_de": "Tiere & Insekten"
+    "category_de": "Tiere & Insekten",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 407,
@@ -81,7 +87,8 @@
     "example_sentence_en": "The rain is falling.",
     "example_sentence_de": "Der Regen fällt.",
     "category_en": "Weather & Nature",
-    "category_de": "Wetter & Natur"
+    "category_de": "Wetter & Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 408,
@@ -93,7 +100,8 @@
     "example_sentence_en": "He leads the team.",
     "example_sentence_de": "Er führt das Team an.",
     "category_en": "Actions & Movements",
-    "category_de": "Handlungen & Bewegungen"
+    "category_de": "Handlungen & Bewegungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 409,
@@ -105,7 +113,8 @@
     "example_sentence_en": "I heard a loud shout.",
     "example_sentence_de": "Ich hörte einen lauten Schrei.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 410,
@@ -117,7 +126,8 @@
     "example_sentence_en": "The room is dark.",
     "example_sentence_de": "Das Zimmer ist dunkel.",
     "category_en": "Descriptions & Qualities",
-    "category_de": "Beschreibungen & Eigenschaften"
+    "category_de": "Beschreibungen & Eigenschaften",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 411,
@@ -129,7 +139,8 @@
     "example_sentence_en": "This machine is very efficient.",
     "example_sentence_de": "Diese Maschine ist sehr effizient.",
     "category_en": "Technology & Tools",
-    "category_de": "Technologie & Werkzeuge"
+    "category_de": "Technologie & Werkzeuge",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 412,
@@ -141,7 +152,8 @@
     "example_sentence_en": "I play a musical note on the piano.",
     "example_sentence_de": "Ich spiele eine Note auf dem Klavier.",
     "category_en": "Music & Arts",
-    "category_de": "Musik & Kunst"
+    "category_de": "Musik & Kunst",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 413,
@@ -153,7 +165,8 @@
     "example_sentence_en": "Please wait a moment.",
     "example_sentence_de": "Warten Sie bitte einen Moment.",
     "category_en": "Actions & Movements",
-    "category_de": "Handlungen & Bewegungen"
+    "category_de": "Handlungen & Bewegungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 414,
@@ -165,7 +178,8 @@
     "example_sentence_en": "Do you have a good plan?",
     "example_sentence_de": "Hast du einen guten Plan?",
     "category_en": "Work & Planning",
-    "category_de": "Arbeit & Planung"
+    "category_de": "Arbeit & Planung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 415,
@@ -177,7 +191,8 @@
     "example_sentence_en": "Look at this figure in the book.",
     "example_sentence_de": "Schau dir diese Abbildung im Buch an.",
     "category_en": "Education & Learning",
-    "category_de": "Bildung & Lernen"
+    "category_de": "Bildung & Lernen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 416,
@@ -189,7 +204,8 @@
     "example_sentence_en": "There are many stars in the sky.",
     "example_sentence_de": "Am Himmel sind viele Sterne.",
     "category_en": "Astronomy & Space",
-    "category_de": "Astronomie & Weltraum"
+    "category_de": "Astronomie & Weltraum",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 417,
@@ -201,7 +217,8 @@
     "example_sentence_en": "Put this box away.",
     "example_sentence_de": "Stell diese Kiste weg.",
     "category_en": "Household Items",
-    "category_de": "Haushaltsgegenstände"
+    "category_de": "Haushaltsgegenstände",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 418,
@@ -213,7 +230,8 @@
     "example_sentence_en": "A noun is a part of speech.",
     "example_sentence_de": "Ein Substantiv ist eine Wortart.",
     "category_en": "Grammar & Language",
-    "category_de": "Grammatik & Sprache"
+    "category_de": "Grammatik & Sprache",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 419,
@@ -225,7 +243,8 @@
     "example_sentence_en": "The field is green.",
     "example_sentence_de": "Das Feld ist grün.",
     "category_en": "Geography & Nature",
-    "category_de": "Geografie & Natur"
+    "category_de": "Geografie & Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 420,
@@ -237,7 +256,8 @@
     "example_sentence_en": "I need some rest.",
     "example_sentence_de": "Ich brauche etwas Ruhe.",
     "category_en": "Health & Wellness",
-    "category_de": "Gesundheit & Wohlbefinden"
+    "category_de": "Gesundheit & Wohlbefinden",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 421,
@@ -249,7 +269,8 @@
     "example_sentence_en": "This answer is correct.",
     "example_sentence_de": "Diese Antwort ist richtig.",
     "category_en": "Descriptions & Qualities",
-    "category_de": "Beschreibungen & Eigenschaften"
+    "category_de": "Beschreibungen & Eigenschaften",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 422,
@@ -261,7 +282,8 @@
     "example_sentence_en": "He is capable of solving the problem.",
     "example_sentence_de": "Er ist fähig, das Problem zu lösen.",
     "category_en": "Abilities & Skills",
-    "category_de": "Fähigkeiten & Kompetenzen"
+    "category_de": "Fähigkeiten & Kompetenzen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 423,
@@ -273,7 +295,8 @@
     "example_sentence_en": "Change the font.",
     "example_sentence_de": "Ändere die Schriftart.",
     "category_en": "Technology & Design",
-    "category_de": "Technologie & Design"
+    "category_de": "Technologie & Design",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 424,
@@ -285,7 +308,8 @@
     "example_sentence_en": "Everything is ready for the party.",
     "example_sentence_de": "Alles ist für die Party fertig.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 425,
@@ -297,7 +321,8 @@
     "example_sentence_en": "Beauty is subjective.",
     "example_sentence_de": "Schönheit ist subjektiv.",
     "category_en": "Descriptions & Qualities",
-    "category_de": "Beschreibungen & Eigenschaften"
+    "category_de": "Beschreibungen & Eigenschaften",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 426,
@@ -309,7 +334,8 @@
     "example_sentence_en": "The drive is full.",
     "example_sentence_de": "Das Laufwerk ist voll.",
     "category_en": "Technology & Tools",
-    "category_de": "Technologie & Werkzeuge"
+    "category_de": "Technologie & Werkzeuge",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 427,
@@ -321,7 +347,8 @@
     "example_sentence_en": "He stood there in the doorway.",
     "example_sentence_de": "Er stand dort in der Tür.",
     "category_en": "Actions & Movements",
-    "category_de": "Handlungen & Bewegungen"
+    "category_de": "Handlungen & Bewegungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 428,
@@ -333,7 +360,8 @@
     "example_sentence_en": "This box contains many things.",
     "example_sentence_de": "Diese Kiste enthält viele Dinge.",
     "category_en": "Descriptions & Contents",
-    "category_de": "Beschreibungen & Inhalte"
+    "category_de": "Beschreibungen & Inhalte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 429,
@@ -345,7 +373,8 @@
     "example_sentence_en": "He is first in line.",
     "example_sentence_de": "Er ist der Erste in der Schlange.",
     "category_en": "Order & Sequence",
-    "category_de": "Reihenfolge & Abfolge"
+    "category_de": "Reihenfolge & Abfolge",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 430,
@@ -357,7 +386,8 @@
     "example_sentence_en": "He teaches at school.",
     "example_sentence_de": "Er lehrt in der Schule.",
     "category_en": "Education & Learning",
-    "category_de": "Bildung & Lernen"
+    "category_de": "Bildung & Lernen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 431,
@@ -369,7 +399,8 @@
     "example_sentence_en": "This week is very long.",
     "example_sentence_de": "Diese Woche ist sehr lang.",
     "category_en": "Time & Calendar",
-    "category_de": "Zeit & Kalender"
+    "category_de": "Zeit & Kalender",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 432,
@@ -381,7 +412,8 @@
     "example_sentence_en": "This is the last task.",
     "example_sentence_de": "Das ist die letzte Aufgabe.",
     "category_en": "Order & Sequence",
-    "category_de": "Reihenfolge & Abfolge"
+    "category_de": "Reihenfolge & Abfolge",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 433,
@@ -393,7 +425,8 @@
     "example_sentence_en": "Under the given circumstances, this is the best.",
     "example_sentence_de": "Unter den gegebenen Umständen ist das das Beste.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 434,
@@ -405,7 +438,8 @@
     "example_sentence_en": "The grass is green.",
     "example_sentence_de": "Das Gras ist grün.",
     "category_en": "Colors",
-    "category_de": "Farben"
+    "category_de": "Farben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 435,
@@ -417,7 +451,8 @@
     "example_sentence_en": "Oh, I wouldn't have believed it!",
     "example_sentence_de": "Oh, ich hätte es nicht geglaubt!",
     "category_en": "Communication & Expressions",
-    "category_de": "Kommunikation & Ausdrücke"
+    "category_de": "Kommunikation & Ausdrücke",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 436,
@@ -429,7 +464,8 @@
     "example_sentence_en": "He is very fast.",
     "example_sentence_de": "Er ist sehr schnell.",
     "category_en": "Descriptions & Qualities",
-    "category_de": "Beschreibungen & Eigenschaften"
+    "category_de": "Beschreibungen & Eigenschaften",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 437,
@@ -441,7 +477,8 @@
     "example_sentence_en": "He develops the project.",
     "example_sentence_de": "Er entwickelt das Projekt.",
     "category_en": "Work & Development",
-    "category_de": "Arbeit & Entwicklung"
+    "category_de": "Arbeit & Entwicklung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 438,
@@ -453,7 +490,8 @@
     "example_sentence_en": "The ocean is vast.",
     "example_sentence_de": "Der Ozean ist riesig.",
     "category_en": "Geography & Nature",
-    "category_de": "Geografie & Natur"
+    "category_de": "Geografie & Natur",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 439,
@@ -465,7 +503,8 @@
     "example_sentence_en": "It's warm today.",
     "example_sentence_de": "Es ist heute warm.",
     "category_en": "Weather & Temperature",
-    "category_de": "Wetter & Temperatur"
+    "category_de": "Wetter & Temperatur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 440,
@@ -477,7 +516,8 @@
     "example_sentence_en": "This is free.",
     "example_sentence_de": "Das ist kostenlos.",
     "category_en": "Descriptions & Costs",
-    "category_de": "Beschreibungen & Kosten"
+    "category_de": "Beschreibungen & Kosten",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 441,
@@ -489,7 +529,8 @@
     "example_sentence_en": "Wait a minute.",
     "example_sentence_de": "Warte eine Minute.",
     "category_en": "Time & Duration",
-    "category_de": "Zeit & Dauer"
+    "category_de": "Zeit & Dauer",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 442,
@@ -501,7 +542,8 @@
     "example_sentence_en": "He is a strong man.",
     "example_sentence_de": "Er ist ein starker Mann.",
     "category_en": "Descriptions & Qualities",
-    "category_de": "Beschreibungen & Eigenschaften"
+    "category_de": "Beschreibungen & Eigenschaften",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 443,
@@ -513,7 +555,8 @@
     "example_sentence_en": "This is a special occasion.",
     "example_sentence_de": "Das ist ein besonderer Anlass.",
     "category_en": "Descriptions & Qualities",
-    "category_de": "Beschreibungen & Eigenschaften"
+    "category_de": "Beschreibungen & Eigenschaften",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 444,
@@ -525,7 +568,8 @@
     "example_sentence_en": "The mind is amazing.",
     "example_sentence_de": "Der Verstand ist erstaunlich.",
     "category_en": "Psychology & Mind",
-    "category_de": "Psychologie & Geist"
+    "category_de": "Psychologie & Geist",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 445,
@@ -537,7 +581,8 @@
     "example_sentence_en": "He is standing behind me.",
     "example_sentence_de": "Er steht hinter mir.",
     "category_en": "Location & Position",
-    "category_de": "Ort & Position"
+    "category_de": "Ort & Position",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 446,
@@ -549,7 +594,8 @@
     "example_sentence_en": "The room is light.",
     "example_sentence_de": "Das Zimmer ist hell.",
     "category_en": "Descriptions & Qualities",
-    "category_de": "Beschreibungen & Eigenschaften"
+    "category_de": "Beschreibungen & Eigenschaften",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 447,
@@ -561,7 +607,8 @@
     "example_sentence_en": "The dog wags its tail.",
     "example_sentence_de": "Der Hund wedelt mit dem Schwanz.",
     "category_en": "Animals & Body Parts",
-    "category_de": "Tiere & Körperteile"
+    "category_de": "Tiere & Körperteile",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 448,
@@ -573,7 +620,8 @@
     "example_sentence_en": "This factory produces many products.",
     "example_sentence_de": "Diese Fabrik produziert viele Produkte.",
     "category_en": "Economy & Production",
-    "category_de": "Wirtschaft & Produktion"
+    "category_de": "Wirtschaft & Produktion",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 449,
@@ -585,7 +633,8 @@
     "example_sentence_en": "This is a fact.",
     "example_sentence_de": "Das ist eine Tatsache.",
     "category_en": "Common Words",
-    "category_de": "Häufige Wörter"
+    "category_de": "Häufige Wörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 450,
@@ -597,6 +646,7 @@
     "example_sentence_en": "This is a beautiful place.",
     "example_sentence_de": "Das ist ein schöner Ort.",
     "category_en": "Geography & Places",
-    "category_de": "Geografie & Orte"
+    "category_de": "Geografie & Orte",
+    "vowel_harmony": "hohe"
   }
 ]

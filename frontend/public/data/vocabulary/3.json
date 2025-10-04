@@ -9,7 +9,8 @@
     "example_sentence_en": "You can ask any question.",
     "example_sentence_de": "Du kannst jede Frage stellen.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 102,
@@ -21,7 +22,8 @@
     "example_sentence_en": "I bought a new car.",
     "example_sentence_de": "Ich habe ein neues Auto gekauft.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 103,
@@ -33,7 +35,8 @@
     "example_sentence_en": "Work starts at 8 in the morning.",
     "example_sentence_de": "Die Arbeit beginnt um 8 Uhr morgens.",
     "category_en": "Work & Career",
-    "category_de": "Arbeit & Karriere"
+    "category_de": "Arbeit & Karriere",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 104,
@@ -45,7 +48,8 @@
     "example_sentence_en": "This is the most important part.",
     "example_sentence_de": "Dies ist der wichtigste Teil.",
     "category_en": "General",
-    "category_de": "Allgemein"
+    "category_de": "Allgemein",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 105,
@@ -57,7 +61,8 @@
     "example_sentence_en": "He said that he's coming tomorrow.",
     "example_sentence_de": "Er sagte, dass er morgen kommt.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 106,
@@ -69,7 +74,8 @@
     "example_sentence_en": "You get a gift.",
     "example_sentence_de": "Du bekommst ein Geschenk.",
     "category_en": "Common Verbs",
-    "category_de": "Häufige Verben"
+    "category_de": "Häufige Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 107,
@@ -81,7 +87,8 @@
     "example_sentence_en": "This is a beautiful place.",
     "example_sentence_de": "Dies ist ein schöner Ort.",
     "category_en": "Location & Direction",
-    "category_de": "Ort & Richtung"
+    "category_de": "Ort & Richtung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 108,
@@ -93,7 +100,8 @@
     "example_sentence_en": "This cake was freshly made.",
     "example_sentence_de": "Dieser Kuchen wurde frisch gemacht.",
     "category_en": "Common Verbs",
-    "category_de": "Häufige Verben"
+    "category_de": "Häufige Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 109,
@@ -105,7 +113,8 @@
     "example_sentence_en": "He lives in Budapest.",
     "example_sentence_de": "Er lebt in Budapest.",
     "category_en": "Common Verbs",
-    "category_de": "Häufige Verben"
+    "category_de": "Häufige Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 110,
@@ -117,7 +126,8 @@
     "example_sentence_en": "This is the house where I live.",
     "example_sentence_de": "Das ist das Haus, wo ich wohne.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 111,
@@ -129,7 +139,8 @@
     "example_sentence_en": "We'll meet after lunch.",
     "example_sentence_de": "Wir treffen uns nach dem Mittagessen.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 112,
@@ -141,7 +152,8 @@
     "example_sentence_en": "When are you coming back?",
     "example_sentence_de": "Wann kommst du zurück?",
     "category_en": "Location & Direction",
-    "category_de": "Ort & Richtung"
+    "category_de": "Ort & Richtung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 113,
@@ -153,7 +165,8 @@
     "example_sentence_en": "A small house.",
     "example_sentence_de": "Ein kleines Haus.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 114,
@@ -165,7 +178,8 @@
     "example_sentence_en": "I only need a minute.",
     "example_sentence_de": "Ich brauche nur eine Minute.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 115,
@@ -177,7 +191,8 @@
     "example_sentence_en": "The table is round.",
     "example_sentence_de": "Der Tisch ist rund.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 116,
@@ -189,7 +204,8 @@
     "example_sentence_en": "A young man is standing there.",
     "example_sentence_de": "Ein junger Mann steht dort.",
     "category_en": "Family & People",
-    "category_de": "Familie & Menschen"
+    "category_de": "Familie & Menschen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 117,
@@ -201,7 +217,8 @@
     "example_sentence_en": "I am 25 years old.",
     "example_sentence_de": "Ich bin 25 Jahre alt.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 118,
@@ -213,7 +230,8 @@
     "example_sentence_en": "He came home yesterday.",
     "example_sentence_de": "Er kam gestern nach Hause.",
     "category_en": "Common Verbs",
-    "category_de": "Häufige Verben"
+    "category_de": "Häufige Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 119,
@@ -225,7 +243,8 @@
     "example_sentence_en": "The lecture starts at 10 o'clock.",
     "example_sentence_de": "Die Vorlesung beginnt um 10 Uhr.",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 120,
@@ -237,7 +256,8 @@
     "example_sentence_en": "I walk every day.",
     "example_sentence_de": "Ich gehe jeden Tag spazieren.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 121,
@@ -249,7 +269,8 @@
     "example_sentence_en": "This is a good idea.",
     "example_sentence_de": "Das ist eine gute Idee.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 122,
@@ -261,7 +282,8 @@
     "example_sentence_en": "I don't like this.",
     "example_sentence_de": "Das gefällt mir nicht.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 123,
@@ -273,7 +295,8 @@
     "example_sentence_en": "Can you give me a pen?",
     "example_sentence_de": "Gibst du mir einen Stift?",
     "category_en": "Common Verbs",
-    "category_de": "Häufige Verben"
+    "category_de": "Häufige Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 124,
@@ -285,7 +308,8 @@
     "example_sentence_en": "What is this?",
     "example_sentence_de": "Was ist das?",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 125,
@@ -297,7 +321,8 @@
     "example_sentence_en": "It's under the table.",
     "example_sentence_de": "Es ist unter dem Tisch.",
     "category_en": "Location & Direction",
-    "category_de": "Ort & Richtung"
+    "category_de": "Ort & Richtung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 126,
@@ -309,7 +334,8 @@
     "example_sentence_en": "What's your name?",
     "example_sentence_de": "Wie heißt du?",
     "category_en": "Basic Expressions",
-    "category_de": "Grundlegende Ausdrücke"
+    "category_de": "Grundlegende Ausdrücke",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 127,
@@ -321,7 +347,8 @@
     "example_sentence_en": "I am very tired.",
     "example_sentence_de": "Ich bin sehr müde.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 128,
@@ -333,7 +360,8 @@
     "example_sentence_en": "We walk through the park.",
     "example_sentence_de": "Wir gehen durch den Park.",
     "category_en": "Location & Direction",
-    "category_de": "Ort & Richtung"
+    "category_de": "Ort & Richtung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 129,
@@ -345,7 +373,8 @@
     "example_sentence_en": "Only you are here.",
     "example_sentence_de": "Nur du bist hier.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 130,
@@ -357,7 +386,8 @@
     "example_sentence_en": "Fill out the form.",
     "example_sentence_de": "Fülle das Formular aus.",
     "category_en": "Office & Documents",
-    "category_de": "Büro & Dokumente"
+    "category_de": "Büro & Dokumente",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 131,
@@ -369,7 +399,8 @@
     "example_sentence_en": "Write a sentence!",
     "example_sentence_de": "Schreibe einen Satz!",
     "category_en": "Education",
-    "category_de": "Bildung"
+    "category_de": "Bildung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 132,
@@ -381,7 +412,8 @@
     "example_sentence_en": "Our house is big.",
     "example_sentence_de": "Unser Haus ist groß.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 133,
@@ -393,7 +425,8 @@
     "example_sentence_en": "What do you think about this?",
     "example_sentence_de": "Was denkst du darüber?",
     "category_en": "Common Verbs",
-    "category_de": "Häufige Verben"
+    "category_de": "Häufige Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 134,
@@ -405,7 +438,8 @@
     "example_sentence_en": "Let's say we meet tomorrow.",
     "example_sentence_de": "Sagen wir, wir treffen uns morgen.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 135,
@@ -417,7 +451,8 @@
     "example_sentence_en": "I need help!",
     "example_sentence_de": "Ich brauche Hilfe!",
     "category_en": "Basic Expressions",
-    "category_de": "Grundlegende Ausdrücke"
+    "category_de": "Grundlegende Ausdrücke",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 136,
@@ -429,7 +464,8 @@
     "example_sentence_en": "The building is low.",
     "example_sentence_de": "Das Gebäude ist niedrig.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 137,
@@ -441,7 +477,8 @@
     "example_sentence_en": "Draw a line!",
     "example_sentence_de": "Zeichne eine Linie!",
     "category_en": "General",
-    "category_de": "Allgemein"
+    "category_de": "Allgemein",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 138,
@@ -453,7 +490,8 @@
     "example_sentence_en": "The opinions differ.",
     "example_sentence_de": "Die Meinungen unterscheiden sich.",
     "category_en": "Common Verbs",
-    "category_de": "Häufige Verben"
+    "category_de": "Häufige Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 139,
@@ -465,7 +503,8 @@
     "example_sentence_en": "I, however, think differently.",
     "example_sentence_de": "Ich denke jedoch anders.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 140,
@@ -477,7 +516,8 @@
     "example_sentence_en": "What's the reason?",
     "example_sentence_de": "Was ist der Grund?",
     "category_en": "General",
-    "category_de": "Allgemein"
+    "category_de": "Allgemein",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 141,
@@ -489,7 +529,8 @@
     "example_sentence_en": "This is much better.",
     "example_sentence_de": "Das ist viel besser.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 142,
@@ -501,7 +542,8 @@
     "example_sentence_en": "I am of average height.",
     "example_sentence_de": "Ich bin durchschnittlich groß.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 143,
@@ -513,7 +555,8 @@
     "example_sentence_en": "I'm waiting in front of the house.",
     "example_sentence_de": "Ich warte vor dem Haus.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 144,
@@ -525,7 +568,8 @@
     "example_sentence_en": "Take a step forward!",
     "example_sentence_de": "Mache einen Schritt vorwärts!",
     "category_en": "Movement",
-    "category_de": "Bewegung"
+    "category_de": "Bewegung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 145,
@@ -537,7 +581,8 @@
     "example_sentence_en": "This is the better choice.",
     "example_sentence_de": "Das ist die bessere Wahl.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 146,
@@ -549,7 +594,8 @@
     "example_sentence_en": "The boy is playing.",
     "example_sentence_de": "Der Junge spielt.",
     "category_en": "Family & People",
-    "category_de": "Familie & Menschen"
+    "category_de": "Familie & Menschen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 147,
@@ -561,7 +607,8 @@
     "example_sentence_en": "This is an old book.",
     "example_sentence_de": "Das ist ein altes Buch.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 148,
@@ -573,7 +620,8 @@
     "example_sentence_en": "This is too expensive.",
     "example_sentence_de": "Das ist zu teuer.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 149,
@@ -585,7 +633,8 @@
     "example_sentence_en": "This is the same as the previous one.",
     "example_sentence_de": "Das ist dasselbe wie das vorherige.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 150,
@@ -597,6 +646,7 @@
     "example_sentence_en": "He/She is my friend.",
     "example_sentence_de": "Er/Sie ist mein Freund.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   }
 ]

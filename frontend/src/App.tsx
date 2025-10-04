@@ -7,12 +7,14 @@ import SpellcheckIcon from '@mui/icons-material/Spellcheck';
 import SchoolIcon from '@mui/icons-material/School';
 import NumbersIcon from '@mui/icons-material/Numbers';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import LanguageSelection from './pages/LanguageSelection';
 import VocabularyPractice from './pages/VocabularyPractice';
 import VerbConjugation from './pages/VerbConjugation';
 import GrammarGuide from './pages/GrammarGuide';
 import NumbersPractice from './pages/NumbersPractice';
 import MinigameWordMatch from './pages/MinigameWordMatch';
+import VowelHarmonyPractice from './pages/VowelHarmonyPractice';
 import Footer from './components/Footer';
 
 const theme = createTheme({
@@ -26,7 +28,7 @@ const theme = createTheme({
   },
 });
 
-type Page = 'language' | 'menu' | 'vocabulary' | 'verbs' | 'grammar' | 'numbers' | 'minigame';
+type Page = 'language' | 'menu' | 'vocabulary' | 'verbs' | 'grammar' | 'numbers' | 'minigame' | 'vowelharmony';
 type Language = 'en' | 'de';
 
 function App() {
@@ -50,7 +52,8 @@ function App() {
       verbs: 'Practice Verb Conjugation',
       numbers: 'Practice Numbers',
       grammar: 'Grammar Guide',
-      minigame: 'Word Match Minigame'
+      minigame: 'Word Match Minigame',
+      vowelharmony: 'Vowel Harmony Practice'
     },
     de: {
       title: 'Magyul',
@@ -59,7 +62,8 @@ function App() {
       verbs: 'Verbkonjugation üben',
       numbers: 'Zahlen üben',
       grammar: 'Grammatik Leitfaden',
-      minigame: 'Wort-Zuordnungs-Minispiel'
+      minigame: 'Wort-Zuordnungs-Minispiel',
+      vowelharmony: 'Vokalharmonie üben'
     }
   };
 
@@ -187,6 +191,28 @@ function App() {
                     variant="contained"
                     size="large"
                     fullWidth
+                    onClick={() => setCurrentPage('vowelharmony')}
+                    startIcon={<MusicNoteIcon />}
+                    sx={{
+                      py: 2.5,
+                      fontSize: '1.1rem',
+                      fontWeight: 600,
+                      background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+                      boxShadow: '0 4px 15px rgba(79, 172, 254, 0.4)',
+                      '&:hover': {
+                        background: 'linear-gradient(135deg, #3d98e5 0%, #00d9e5 100%)',
+                        boxShadow: '0 6px 20px rgba(79, 172, 254, 0.6)',
+                        transform: 'translateY(-2px)',
+                      },
+                      transition: 'all 0.3s ease',
+                    }}
+                  >
+                    {t.vowelharmony}
+                  </Button>
+                  <Button
+                    variant="contained"
+                    size="large"
+                    fullWidth
                     onClick={() => setCurrentPage('minigame')}
                     startIcon={<SportsEsportsIcon />}
                     sx={{
@@ -249,6 +275,10 @@ function App() {
 
       {currentPage === 'minigame' && (
         <MinigameWordMatch language={selectedLanguage} onBack={handleBackToMenu} />
+      )}
+
+      {currentPage === 'vowelharmony' && (
+        <VowelHarmonyPractice language={selectedLanguage} onBack={handleBackToMenu} />
       )}
 
       {currentPage === 'grammar' && (

@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Container, Box, Typography, TextField, Button, Card, CardContent, Chip, Alert, LinearProgress, ToggleButton, ToggleButtonGroup } from '@mui/material';
+import { Container, Box, Typography, TextField, Button, Card, CardContent, Chip, Alert, LinearProgress, ToggleButton, ToggleButtonGroup, Autocomplete, Tooltip } from '@mui/material';
 import SwapHorizIcon from '@mui/icons-material/SwapHoriz';
 import LanguageIcon from '@mui/icons-material/Language';
+import ShuffleIcon from '@mui/icons-material/Shuffle';
+import CategoryIcon from '@mui/icons-material/Category';
 import { getVocabularyExercise, markWordResult } from '../services/api';
 
 
@@ -44,6 +46,10 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
   const [loading, setLoading] = useState(true);
   const [currentLanguage, setCurrentLanguage] = useState<'en' | 'de'>(language);
   const [reverseMode, setReverseMode] = useState(false);
+  const [mode, setMode] = useState<'random' | 'category'>('random');
+  const [allWords, setAllWords] = useState<any[]>([]);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [availableCategories, setAvailableCategories] = useState<string[]>([]);
 
   const translations = {
     en: {
@@ -61,7 +67,15 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
       wrongLabel: 'Wrong',
       back: 'Back',
       reverseMode: 'Reverse Mode',
-      normalMode: 'Normal Mode'
+      normalMode: 'Normal Mode',
+      random: 'Random',
+      byCategory: 'By Category',
+      selectCategories: 'Select categories...',
+      noCategoriesSelected: 'Please select at least one category to practice',
+      vowelHarmonyHigh: 'High (Front) Vowels',
+      vowelHarmonyLow: 'Low (Back) Vowels',
+      vowelHarmonyMixed: 'Mixed Vowels',
+      vowelHarmonyInfo: 'Vowel Harmony Type'
     },
     de: {
       title: 'Vokabel Übung',
@@ -78,19 +92,70 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
       wrongLabel: 'Falsch',
       back: 'Zurück',
       reverseMode: 'Umgekehrter Modus',
-      normalMode: 'Normal Modus'
+      normalMode: 'Normal Modus',
+      random: 'Zufällig',
+      byCategory: 'Nach Kategorie',
+      selectCategories: 'Kategorien wählen...',
+      noCategoriesSelected: 'Bitte wähle mindestens eine Kategorie zum Üben aus',
+      vowelHarmonyHigh: 'Hohe (Vordere) Vokale',
+      vowelHarmonyLow: 'Tiefe (Hintere) Vokale',
+      vowelHarmonyMixed: 'Gemischte Vokale',
+      vowelHarmonyInfo: 'Vokalharmonie-Typ'
     }
   };
 
   const t = translations[currentLanguage];
 
+  // Load all vocabulary words and categories on mount
+  useEffect(() => {
+    const loadAllVocabulary = async () => {
+      try {
+        const vocabularyFiles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+        const vocabularyPromises = vocabularyFiles.map(async (fileNum) => {
+          const response = await fetch(`/data/vocabulary/${fileNum}.json`);
+          return response.json();
+        });
+        const vocabularyChunks = await Promise.all(vocabularyPromises);
+        const allVocab = vocabularyChunks.flat();
+        setAllWords(allVocab);
+        
+        // Extract unique categories
+        const categories = Array.from(new Set(allVocab.map((word: any) => word.category)));
+        setAvailableCategories(categories as string[]);
+      } catch (error) {
+        console.error('Error loading vocabulary:', error);
+      }
+    };
+    loadAllVocabulary();
+  }, []);
+
   const loadExercise = async () => {
     setLoading(true);
-    const ex = await getVocabularyExercise();
-    setExercise(ex);
-    setAnswer('');
-    setShowResult(false);
-    setLoading(false);
+    try {
+      if (mode === 'random') {
+        const ex = await getVocabularyExercise();
+        setExercise(ex);
+      } else {
+        // Category mode - filter by selected categories
+        if (selectedCategories.length === 0) {
+          setLoading(false);
+          return;
+        }
+        const filteredWords = allWords.filter(word => 
+          selectedCategories.includes(word.category)
+        );
+        if (filteredWords.length > 0) {
+          const randomWord = filteredWords[Math.floor(Math.random() * filteredWords.length)];
+          setExercise({ word: randomWord });
+        }
+      }
+      setAnswer('');
+      setShowResult(false);
+    } catch (error) {
+      console.error('Error loading exercise:', error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleCheck = useCallback(() => {
@@ -158,9 +223,11 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
   }, []);
 
   useEffect(() => {
-    loadExercise();
+    if (mode === 'random' || (mode === 'category' && selectedCategories.length > 0)) {
+      loadExercise();
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [mode, selectedCategories]);
 
   // Global keyboard handler for Enter and Tab keys
   useEffect(() => {
@@ -269,6 +336,150 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
         </Box>
       </Box>
 
+      {/* Mode Selector: Random vs By Category */}
+      <Box sx={{ mb: { xs: 2, sm: 3 }, display: 'flex', justifyContent: 'center' }}>
+        <ToggleButtonGroup
+          value={mode}
+          exclusive
+          onChange={(e, newMode) => {
+            if (newMode) {
+              setMode(newMode);
+              setAnswer('');
+              setShowResult(false);
+            }
+          }}
+          size="small"
+          sx={{
+            backgroundColor: 'rgba(255, 255, 255, 0.95)',
+            borderRadius: 1,
+            '& .MuiToggleButton-root': {
+              color: '#667eea',
+              borderColor: 'rgba(102, 126, 234, 0.3)',
+              fontWeight: 600,
+              px: { xs: 2, sm: 3 },
+              '&.Mui-selected': {
+                backgroundColor: '#667eea',
+                color: '#ffffff',
+                '&:hover': {
+                  backgroundColor: '#5568d3',
+                }
+              },
+              '&:hover': {
+                backgroundColor: 'rgba(102, 126, 234, 0.1)',
+              }
+            }
+          }}
+        >
+          <ToggleButton value="random">
+            <ShuffleIcon sx={{ mr: 0.5, fontSize: '1.2rem' }} />
+            {t.random}
+          </ToggleButton>
+          <ToggleButton value="category">
+            <CategoryIcon sx={{ mr: 0.5, fontSize: '1.2rem' }} />
+            {t.byCategory}
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </Box>
+
+      {/* Category Selection */}
+      {mode === 'category' && (
+        <Box sx={{ mb: { xs: 2, sm: 3 } }}>
+          <Autocomplete
+            multiple
+            options={availableCategories}
+            getOptionLabel={(option) => {
+              // Get a sample word from this category to display the translated category name
+              const sampleWord = allWords.find(w => w.category === option);
+              return sampleWord 
+                ? (currentLanguage === 'en' ? sampleWord.category_en : sampleWord.category_de) || option
+                : option;
+            }}
+            renderOption={(props, option) => {
+              const sampleWord = allWords.find(w => w.category === option);
+              const displayName = sampleWord 
+                ? (currentLanguage === 'en' ? sampleWord.category_en : sampleWord.category_de) || option
+                : option;
+              return (
+                <li {...props} key={option}>
+                  {displayName}
+                </li>
+              );
+            }}
+            value={selectedCategories}
+            onChange={(event, newValue) => {
+              setSelectedCategories(newValue);
+            }}
+            renderInput={(params) => (
+              <TextField
+                {...params}
+                label={t.selectCategories}
+                variant="outlined"
+                sx={{
+                  backgroundColor: 'white',
+                  borderRadius: 1,
+                  '& .MuiOutlinedInput-root': {
+                    backgroundColor: 'white',
+                  }
+                }}
+              />
+            )}
+            renderTags={(value, getTagProps) =>
+              value.map((option, index) => {
+                const sampleWord = allWords.find(w => w.category === option);
+                const displayName = sampleWord 
+                  ? (currentLanguage === 'en' ? sampleWord.category_en : sampleWord.category_de) || option
+                  : option;
+                const { key, ...tagProps } = getTagProps({ index });
+                return (
+                  <Chip
+                    key={option}
+                    label={displayName}
+                    {...tagProps}
+                    sx={{
+                      backgroundColor: '#667eea',
+                      color: 'white',
+                      '& .MuiChip-deleteIcon': {
+                        color: 'rgba(255, 255, 255, 0.7)',
+                        '&:hover': {
+                          color: 'white',
+                        }
+                      }
+                    }}
+                  />
+                );
+              })
+            }
+            componentsProps={{
+              popper: {
+                sx: {
+                  '& .MuiPaper-root': {
+                    backgroundColor: 'white',
+                    boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                  },
+                  '& .MuiAutocomplete-listbox': {
+                    '& .MuiAutocomplete-option': {
+                      color: '#333',
+                      fontSize: '1rem',
+                      padding: '10px 16px',
+                      '&:hover': {
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                      },
+                      '&[aria-selected="true"]': {
+                        backgroundColor: 'rgba(102, 126, 234, 0.2)',
+                        fontWeight: 600,
+                      },
+                      '&.Mui-focused': {
+                        backgroundColor: 'rgba(102, 126, 234, 0.15)',
+                      }
+                    }
+                  }
+                }
+              }
+            }}
+          />
+        </Box>
+      )}
+
       <Box sx={{ 
         mb: { xs: 2, sm: 3 }, 
         p: { xs: 1.5, sm: 2 }, 
@@ -285,8 +496,20 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
         </Typography>
       </Box>
 
-      <Card>
-        <CardContent sx={{ p: { xs: 2, sm: 3 } }}>
+      {/* Warning if no categories selected in category mode */}
+      {mode === 'category' && selectedCategories.length === 0 ? (
+        <Card>
+          <CardContent sx={{ p: { xs: 2, sm: 3 } }}>
+            <Alert severity="info" sx={{ textAlign: 'center' }}>
+              <Typography variant="body1" sx={{ fontWeight: 600 }}>
+                {t.noCategoriesSelected}
+              </Typography>
+            </Alert>
+          </CardContent>
+        </Card>
+      ) : (
+        <Card>
+          <CardContent sx={{ p: { xs: 2, sm: 3 } }}>
           <Typography variant="h5" gutterBottom sx={{ fontSize: { xs: '1.25rem', sm: '1.5rem' } }}>
             {t.title}
           </Typography>
@@ -302,10 +525,52 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
               }
             </Typography>
             {exercise.word.category && (
-              <Chip 
-                label={currentLanguage === 'en' ? exercise.word.category_en : exercise.word.category_de} 
-                size="small" 
-              />
+              <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
+                <Chip 
+                  label={currentLanguage === 'en' ? exercise.word.category_en : exercise.word.category_de} 
+                  size="small" 
+                  color="primary"
+                  variant="outlined"
+                />
+                {exercise.word.vowel_harmony && (
+                  <Tooltip 
+                    title={
+                      exercise.word.vowel_harmony === 'hohe'
+                        ? (currentLanguage === 'en' 
+                            ? 'High (Front) vowels: e, é, i, í, ö, ő, ü, ű. Suffixes use -e, -ben, -nek, etc.' 
+                            : 'Hohe (Vordere) Vokale: e, é, i, í, ö, ő, ü, ű. Suffixe verwenden -e, -ben, -nek, usw.')
+                        : exercise.word.vowel_harmony === 'tiefe'
+                        ? (currentLanguage === 'en' 
+                            ? 'Low (Back) vowels: a, á, o, ó, u, ú. Suffixes use -a, -ban, -nak, etc.' 
+                            : 'Tiefe (Hintere) Vokale: a, á, o, ó, u, ú. Suffixe verwenden -a, -ban, -nak, usw.')
+                        : (currentLanguage === 'en' 
+                            ? 'Mixed vowels: Contains both front and back vowels. Usually behaves like back vowels.' 
+                            : 'Gemischte Vokale: Enthält vordere und hintere Vokale. Verhält sich meist wie hintere Vokale.')
+                    }
+                    arrow
+                    placement="top"
+                  >
+                    <Chip 
+                      label={
+                        exercise.word.vowel_harmony === 'hohe' 
+                          ? t.vowelHarmonyHigh 
+                          : exercise.word.vowel_harmony === 'tiefe' 
+                          ? t.vowelHarmonyLow 
+                          : t.vowelHarmonyMixed
+                      }
+                      size="small" 
+                      color={
+                        exercise.word.vowel_harmony === 'hohe' 
+                          ? 'success' 
+                          : exercise.word.vowel_harmony === 'tiefe' 
+                          ? 'info' 
+                          : 'warning'
+                      }
+                      variant="outlined"
+                    />
+                  </Tooltip>
+                )}
+              </Box>
             )}
           </Box>
 
@@ -408,6 +673,7 @@ const VocabularyPractice: React.FC<Props> = ({ language, onBack }) => {
           </Box>
         </CardContent>
       </Card>
+      )}
     </Container>
     </Box>
   );

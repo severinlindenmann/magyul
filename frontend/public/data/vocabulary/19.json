@@ -9,7 +9,8 @@
     "example_sentence_en": "Oxygen is essential for life.",
     "example_sentence_de": "Sauerstoff ist für das Leben essenziell.",
     "category_en": "Science & Chemistry",
-    "category_de": "Wissenschaft & Chemie"
+    "category_de": "Wissenschaft & Chemie",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 902,
@@ -21,7 +22,8 @@
     "example_sentence_en": "Do you like sugar in your coffee?",
     "example_sentence_de": "Magst du Zucker in deinem Kaffee?",
     "category_en": "Food & Ingredients",
-    "category_de": "Essen & Zutaten"
+    "category_de": "Essen & Zutaten",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 903,
@@ -33,7 +35,8 @@
     "example_sentence_en": "Death is a natural part of life.",
     "example_sentence_de": "Der Tod ist ein natürlicher Teil des Lebens.",
     "category_en": "Life & Philosophy",
-    "category_de": "Leben & Philosophie"
+    "category_de": "Leben & Philosophie",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 904,
@@ -45,7 +48,8 @@
     "example_sentence_en": "This flower is very beautiful.",
     "example_sentence_de": "Diese Blume ist sehr schön.",
     "category_en": "Descriptions & Aesthetics",
-    "category_de": "Beschreibungen & Ästhetik"
+    "category_de": "Beschreibungen & Ästhetik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 905,
@@ -57,7 +61,8 @@
     "example_sentence_en": "He has great skill in grammar rules.",
     "example_sentence_de": "Er hat große Fähigkeiten in Grammatikregeln.",
     "category_en": "Personal Development & Skills",
-    "category_de": "Persönliche Entwicklung & Fähigkeiten"
+    "category_de": "Persönliche Entwicklung & Fähigkeiten",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 906,
@@ -69,7 +74,8 @@
     "example_sentence_en": "Women play an important role in society.",
     "example_sentence_de": "Frauen spielen eine wichtige Rolle in der Gesellschaft.",
     "category_en": "Society & Gender",
-    "category_de": "Gesellschaft & Geschlecht"
+    "category_de": "Gesellschaft & Geschlecht",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 907,
@@ -81,7 +87,8 @@
     "example_sentence_en": "Summer is my favorite season.",
     "example_sentence_de": "Sommer ist meine Lieblingsjahreszeit.",
     "category_en": "Nature & Time",
-    "category_de": "Natur & Zeit"
+    "category_de": "Natur & Zeit",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 908,
@@ -93,7 +100,8 @@
     "example_sentence_en": "We need to find a solution.",
     "example_sentence_de": "Wir müssen eine Lösung finden.",
     "category_en": "Communication & Problem Solving",
-    "category_de": "Kommunikation & Problemlösung"
+    "category_de": "Kommunikation & Problemlösung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 909,
@@ -105,7 +113,8 @@
     "example_sentence_en": "The magnet attracts iron.",
     "example_sentence_de": "Der Magnet zieht Eisen an.",
     "category_en": "Science & Physics",
-    "category_de": "Wissenschaft & Physik"
+    "category_de": "Wissenschaft & Physik",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 910,
@@ -117,7 +126,8 @@
     "example_sentence_en": "This silver necklace is beautiful.",
     "example_sentence_de": "Diese Silberkette ist wunderschön.",
     "category_en": "Materials & Jewelry",
-    "category_de": "Materialien & Schmuck"
+    "category_de": "Materialien & Schmuck",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 911,
@@ -129,7 +139,8 @@
     "example_sentence_en": "Thank you for your help!",
     "example_sentence_de": "Danke für deine Hilfe!",
     "category_en": "Communication & Politeness",
-    "category_de": "Kommunikation & Höflichkeit"
+    "category_de": "Kommunikation & Höflichkeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 912,
@@ -141,7 +152,8 @@
     "example_sentence_en": "The branches of the tree look strong.",
     "example_sentence_de": "Die Äste des Baumes sehen stark aus.",
     "category_en": "Nature & Plants",
-    "category_de": "Natur & Pflanzen"
+    "category_de": "Natur & Pflanzen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 913,
@@ -153,7 +165,8 @@
     "example_sentence_en": "The match is tomorrow.",
     "example_sentence_de": "Das Spiel ist morgen.",
     "category_en": "Sports & Competitions",
-    "category_de": "Sport & Wettbewerbe"
+    "category_de": "Sport & Wettbewerbe",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 914,
@@ -165,7 +178,8 @@
     "example_sentence_en": "The '-s' is a common suffix.",
     "example_sentence_de": "Das '-s' ist ein häufiges Suffix.",
     "category_en": "Language & Grammar",
-    "category_de": "Sprache & Grammatik"
+    "category_de": "Sprache & Grammatik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 915,
@@ -177,7 +191,8 @@
     "example_sentence_en": "I especially love chocolate.",
     "example_sentence_de": "Ich liebe besonders Schokolade.",
     "category_en": "Descriptions & Emphasis",
-    "category_de": "Beschreibungen & Betonung"
+    "category_de": "Beschreibungen & Betonung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 916,
@@ -189,7 +204,8 @@
     "example_sentence_en": "Add a little salt to the food.",
     "example_sentence_de": "Füge dem Essen etwas Salz hinzu.",
     "category_en": "Actions & Cooking",
-    "category_de": "Handlungen & Kochen"
+    "category_de": "Handlungen & Kochen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 917,
@@ -201,7 +217,8 @@
     "example_sentence_en": "We will meet in half an hour.",
     "example_sentence_de": "Wir treffen uns in einer halben Stunde.",
     "category_en": "Measurements & Time",
-    "category_de": "Maßeinheiten & Zeit"
+    "category_de": "Maßeinheiten & Zeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 918,
@@ -213,7 +230,8 @@
     "example_sentence_en": "This is a huge house.",
     "example_sentence_de": "Das ist ein riesiges Haus.",
     "category_en": "Descriptions & Size",
-    "category_de": "Beschreibungen & Größe"
+    "category_de": "Beschreibungen & Größe",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 919,
@@ -225,7 +243,8 @@
     "example_sentence_en": "Her sister is a doctor.",
     "example_sentence_de": "Ihre Schwester ist Ärztin.",
     "category_en": "Family & Relationships",
-    "category_de": "Familie & Beziehungen"
+    "category_de": "Familie & Beziehungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 920,
@@ -237,7 +256,8 @@
     "example_sentence_en": "Steel is very strong.",
     "example_sentence_de": "Stahl ist sehr stark.",
     "category_en": "Materials & Construction",
-    "category_de": "Materialien & Bauwesen"
+    "category_de": "Materialien & Bauwesen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 921,
@@ -249,7 +269,8 @@
     "example_sentence_en": "We need to discuss this issue.",
     "example_sentence_de": "Wir müssen diese Frage besprechen.",
     "category_en": "Communication & Dialogue",
-    "category_de": "Kommunikation & Dialog"
+    "category_de": "Kommunikation & Dialog",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 922,
@@ -261,7 +282,8 @@
     "example_sentence_en": "Go forward!",
     "example_sentence_de": "Gehe vorwärts!",
     "category_en": "Directions & Movement",
-    "category_de": "Richtungen & Bewegung"
+    "category_de": "Richtungen & Bewegung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 923,
@@ -273,7 +295,8 @@
     "example_sentence_en": "This dress is similar to mine.",
     "example_sentence_de": "Dieses Kleid ist ähnlich wie meins.",
     "category_en": "Descriptions & Comparisons",
-    "category_de": "Beschreibungen & Vergleiche"
+    "category_de": "Beschreibungen & Vergleiche",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 924,
@@ -285,7 +308,8 @@
     "example_sentence_en": "Read the guide!",
     "example_sentence_de": "Lies die Anleitung!",
     "category_en": "Communication & Instructions",
-    "category_de": "Kommunikation & Anleitungen"
+    "category_de": "Kommunikation & Anleitungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 925,
@@ -297,7 +321,8 @@
     "example_sentence_en": "He has a lot of experience.",
     "example_sentence_de": "Er hat viel Erfahrung.",
     "category_en": "Personal Development & Experience",
-    "category_de": "Persönliche Entwicklung & Erfahrung"
+    "category_de": "Persönliche Entwicklung & Erfahrung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 926,
@@ -309,7 +334,8 @@
     "example_sentence_en": "What is the score of the match?",
     "example_sentence_de": "Wie ist der Stand des Spiels?",
     "category_en": "Sports & Results",
-    "category_de": "Sport & Ergebnisse"
+    "category_de": "Sport & Ergebnisse",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 927,
@@ -321,7 +347,8 @@
     "example_sentence_en": "I like to eat apples.",
     "example_sentence_de": "Ich esse gerne Äpfel.",
     "category_en": "Food & Fruits",
-    "category_de": "Essen & Früchte"
+    "category_de": "Essen & Früchte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 928,
@@ -333,7 +360,8 @@
     "example_sentence_en": "I bought a book yesterday.",
     "example_sentence_de": "Ich habe gestern ein Buch gekauft.",
     "category_en": "Economy & Shopping",
-    "category_de": "Wirtschaft & Einkaufen"
+    "category_de": "Wirtschaft & Einkaufen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 929,
@@ -345,7 +373,8 @@
     "example_sentence_en": "He drove a car yesterday.",
     "example_sentence_de": "Er fuhr gestern Auto.",
     "category_en": "Transport & Travel",
-    "category_de": "Transport & Reisen"
+    "category_de": "Transport & Reisen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 930,
@@ -357,7 +386,8 @@
     "example_sentence_en": "The runner is on the track.",
     "example_sentence_de": "Der Läufer ist auf der Strecke.",
     "category_en": "Sports & Athletics",
-    "category_de": "Sport & Leichtathletik"
+    "category_de": "Sport & Leichtathletik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 931,
@@ -369,7 +399,8 @@
     "example_sentence_en": "Put on your coat!",
     "example_sentence_de": "Zieh deinen Mantel an!",
     "category_en": "Clothing & Accessories",
-    "category_de": "Kleidung & Accessoires"
+    "category_de": "Kleidung & Accessoires",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 932,
@@ -381,7 +412,8 @@
     "example_sentence_en": "A large crowd gathered.",
     "example_sentence_de": "Eine große Menge versammelte sich.",
     "category_en": "Society & Gatherings",
-    "category_de": "Gesellschaft & Versammlungen"
+    "category_de": "Gesellschaft & Versammlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 933,
@@ -393,7 +425,8 @@
     "example_sentence_en": "Show your card!",
     "example_sentence_de": "Zeig deine Karte!",
     "category_en": "Objects & Tools",
-    "category_de": "Gegenstände & Werkzeuge"
+    "category_de": "Gegenstände & Werkzeuge",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 934,
@@ -405,7 +438,8 @@
     "example_sentence_en": "This band is very popular.",
     "example_sentence_de": "Diese Band ist sehr beliebt.",
     "category_en": "Music & Entertainment",
-    "category_de": "Musik & Unterhaltung"
+    "category_de": "Musik & Unterhaltung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 935,
@@ -417,7 +451,8 @@
     "example_sentence_en": "The rope looks strong.",
     "example_sentence_de": "Das Seil sieht stark aus.",
     "category_en": "Objects & Tools",
-    "category_de": "Gegenstände & Werkzeuge"
+    "category_de": "Gegenstände & Werkzeuge",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 936,
@@ -429,7 +464,8 @@
     "example_sentence_en": "Sliding can be dangerous.",
     "example_sentence_de": "Rutschen kann gefährlich sein.",
     "category_en": "Activities & Safety",
-    "category_de": "Aktivitäten & Sicherheit"
+    "category_de": "Aktivitäten & Sicherheit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 937,
@@ -441,7 +477,8 @@
     "example_sentence_en": "Let's celebrate the victory!",
     "example_sentence_de": "Lasst uns den Sieg feiern!",
     "category_en": "Sports & Achievements",
-    "category_de": "Sport & Erfolge"
+    "category_de": "Sport & Erfolge",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 938,
@@ -453,7 +490,8 @@
     "example_sentence_en": "You had a beautiful dream.",
     "example_sentence_de": "Du hattest einen schönen Traum.",
     "category_en": "Emotions & Sleep",
-    "category_de": "Emotionen & Schlaf"
+    "category_de": "Emotionen & Schlaf",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 939,
@@ -465,7 +503,8 @@
     "example_sentence_en": "We will meet in the evening.",
     "example_sentence_de": "Wir treffen uns am Abend.",
     "category_en": "Time & Daily Routine",
-    "category_de": "Zeit & Tagesablauf"
+    "category_de": "Zeit & Tagesablauf",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 940,
@@ -477,7 +516,8 @@
     "example_sentence_en": "His condition is improving.",
     "example_sentence_de": "Sein Zustand verbessert sich.",
     "category_en": "Descriptions & Health",
-    "category_de": "Beschreibungen & Gesundheit"
+    "category_de": "Beschreibungen & Gesundheit",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 941,
@@ -489,7 +529,8 @@
     "example_sentence_en": "Are you feeding the dog?",
     "example_sentence_de": "Fütterst du den Hund?",
     "category_en": "Actions & Care",
-    "category_de": "Handlungen & Pflege"
+    "category_de": "Handlungen & Pflege",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 942,
@@ -501,7 +542,8 @@
     "example_sentence_en": "This tool is useful.",
     "example_sentence_de": "Dieses Werkzeug ist nützlich.",
     "category_en": "Objects & Tools",
-    "category_de": "Gegenstände & Werkzeuge"
+    "category_de": "Gegenstände & Werkzeuge",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 943,
@@ -513,7 +555,8 @@
     "example_sentence_en": "This list is complete.",
     "example_sentence_de": "Diese Liste ist vollständig.",
     "category_en": "Descriptions & Completion",
-    "category_de": "Beschreibungen & Vollständigkeit"
+    "category_de": "Beschreibungen & Vollständigkeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 944,
@@ -525,7 +568,8 @@
     "example_sentence_en": "This is a basic rule.",
     "example_sentence_de": "Das ist eine grundlegende Regel.",
     "category_en": "Descriptions & Fundamentals",
-    "category_de": "Beschreibungen & Grundlagen"
+    "category_de": "Beschreibungen & Grundlagen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 945,
@@ -537,7 +581,8 @@
     "example_sentence_en": "This flower smells good.",
     "example_sentence_de": "Diese Blume riecht gut.",
     "category_en": "Senses & Perceptions",
-    "category_de": "Sinne & Wahrnehmungen"
+    "category_de": "Sinne & Wahrnehmungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 946,
@@ -549,7 +594,8 @@
     "example_sentence_en": "The valley is beautiful.",
     "example_sentence_de": "Das Tal ist wunderschön.",
     "category_en": "Nature & Landscapes",
-    "category_de": "Natur & Landschaften"
+    "category_de": "Natur & Landschaften",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 947,
@@ -561,7 +607,8 @@
     "example_sentence_en": "Neither me nor you.",
     "example_sentence_de": "Weder ich noch du.",
     "category_en": "Language & Negation",
-    "category_de": "Sprache & Verneinung"
+    "category_de": "Sprache & Verneinung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 948,
@@ -573,7 +620,8 @@
     "example_sentence_en": "I would like a double portion.",
     "example_sentence_de": "Ich hätte gerne eine doppelte Portion.",
     "category_en": "Measurements & Quantities",
-    "category_de": "Maßeinheiten & Mengen"
+    "category_de": "Maßeinheiten & Mengen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 949,
@@ -585,7 +633,8 @@
     "example_sentence_en": "Take a seat!",
     "example_sentence_de": "Nimm Platz!",
     "category_en": "Objects & Furniture",
-    "category_de": "Gegenstände & Möbel"
+    "category_de": "Gegenstände & Möbel",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 950,
@@ -597,6 +646,7 @@
     "example_sentence_en": "Go further!",
     "example_sentence_de": "Gehe weiter!",
     "category_en": "Directions & Movement",
-    "category_de": "Richtungen & Bewegung"
+    "category_de": "Richtungen & Bewegung",
+    "vowel_harmony": "tiefe"
   }
 ]

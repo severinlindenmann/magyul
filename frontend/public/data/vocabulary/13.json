@@ -9,7 +9,8 @@
     "example_sentence_en": "This melody is very beautiful.",
     "example_sentence_de": "Diese Melodie ist sehr schön.",
     "category_en": "Music",
-    "category_de": "Musik"
+    "category_de": "Musik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 602,
@@ -21,7 +22,8 @@
     "example_sentence_en": "I love to travel to new places.",
     "example_sentence_de": "Ich liebe es, an neue Orte zu reisen.",
     "category_en": "Travel",
-    "category_de": "Reisen"
+    "category_de": "Reisen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 603,
@@ -33,7 +35,8 @@
     "example_sentence_en": "I work in the office every day.",
     "example_sentence_de": "Ich arbeite jeden Tag im Büro.",
     "category_en": "Work",
-    "category_de": "Arbeit"
+    "category_de": "Arbeit",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 604,
@@ -45,7 +48,8 @@
     "example_sentence_en": "I received a letter today.",
     "example_sentence_de": "Ich habe heute einen Brief bekommen.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 605,
@@ -57,7 +61,8 @@
     "example_sentence_en": "There is a long line at the cashier.",
     "example_sentence_de": "Es gibt eine lange Schlange an der Kasse.",
     "category_en": "Daily Life",
-    "category_de": "Alltag"
+    "category_de": "Alltag",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 606,
@@ -69,7 +74,8 @@
     "example_sentence_en": "Don't keep your mouth open!",
     "example_sentence_de": "Halte deinen Mund nicht offen!",
     "category_en": "Body",
-    "category_de": "Körper"
+    "category_de": "Körper",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 607,
@@ -81,7 +87,8 @@
     "example_sentence_en": "Be precise with the time!",
     "example_sentence_de": "Sei pünktlich zur vereinbarten Zeit!",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 608,
@@ -93,7 +100,8 @@
     "example_sentence_en": "This heart is a symbol of love.",
     "example_sentence_de": "Dieses Herz ist ein Symbol der Liebe.",
     "category_en": "Abstract Concepts",
-    "category_de": "Abstrakte Begriffe"
+    "category_de": "Abstrakte Begriffe",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 609,
@@ -105,7 +113,8 @@
     "example_sentence_en": "Many people die in wars.",
     "example_sentence_de": "Viele Menschen sterben in Kriegen.",
     "category_en": "Life Events",
-    "category_de": "Lebensereignisse"
+    "category_de": "Lebensereignisse",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 610,
@@ -117,7 +126,8 @@
     "example_sentence_en": "This is the least important task.",
     "example_sentence_de": "Das ist die am wenigsten wichtige Aufgabe.",
     "category_en": "Adverbs",
-    "category_de": "Adverbien"
+    "category_de": "Adverbien",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 611,
@@ -129,7 +139,8 @@
     "example_sentence_en": "There is no trouble, everything is fine.",
     "example_sentence_de": "Es gibt kein Problem, alles ist in Ordnung.",
     "category_en": "Problems",
-    "category_de": "Probleme"
+    "category_de": "Probleme",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 612,
@@ -141,7 +152,8 @@
     "example_sentence_en": "I heard a loud shout.",
     "example_sentence_de": "Ich hörte einen lauten Schrei.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 613,
@@ -153,7 +165,8 @@
     "example_sentence_en": "Everyone is coming, except Paul.",
     "example_sentence_de": "Alle kommen, außer Paul.",
     "category_en": "Grammar",
-    "category_de": "Grammatik"
+    "category_de": "Grammatik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 614,
@@ -165,7 +178,8 @@
     "example_sentence_en": "He wrote this book.",
     "example_sentence_de": "Er schrieb dieses Buch.",
     "category_en": "Writing",
-    "category_de": "Schreiben"
+    "category_de": "Schreiben",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 615,
@@ -177,7 +191,8 @@
     "example_sentence_en": "The seeds of the flowers are small.",
     "example_sentence_de": "Die Samen der Blumen sind klein.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 616,
@@ -189,7 +204,8 @@
     "example_sentence_en": "The tone of the music is soothing.",
     "example_sentence_de": "Der Ton der Musik ist beruhigend.",
     "category_en": "Music",
-    "category_de": "Musik"
+    "category_de": "Musik",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 617,
@@ -201,7 +217,8 @@
     "example_sentence_en": "I would like to join your team.",
     "example_sentence_de": "Ich würde gerne eurem Team beitreten.",
     "category_en": "Social",
-    "category_de": "Soziales"
+    "category_de": "Soziales",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 618,
@@ -213,7 +230,8 @@
     "example_sentence_en": "What do you suggest for dinner?",
     "example_sentence_de": "Was schlägt du für das Abendessen vor?",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 619,
@@ -225,7 +243,8 @@
     "example_sentence_en": "The room is very clean.",
     "example_sentence_de": "Das Zimmer ist sehr sauber.",
     "category_en": "House",
-    "category_de": "Haushalt"
+    "category_de": "Haushalt",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 620,
@@ -237,7 +256,8 @@
     "example_sentence_en": "We have a short break now.",
     "example_sentence_de": "Wir haben jetzt eine kurze Pause.",
     "category_en": "Work & School",
-    "category_de": "Arbeit & Schule"
+    "category_de": "Arbeit & Schule",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 621,
@@ -249,7 +269,8 @@
     "example_sentence_en": "That lady is very kind.",
     "example_sentence_de": "Diese Dame ist sehr nett.",
     "category_en": "People",
-    "category_de": "Menschen"
+    "category_de": "Menschen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 622,
@@ -261,7 +282,8 @@
     "example_sentence_en": "The children are playing in the yard.",
     "example_sentence_de": "Die Kinder spielen im Hof.",
     "category_en": "House",
-    "category_de": "Haushalt"
+    "category_de": "Haushalt",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 623,
@@ -273,7 +295,8 @@
     "example_sentence_en": "The sun is rising on the horizon.",
     "example_sentence_de": "Die Sonne steigt am Horizont.",
     "category_en": "Movement",
-    "category_de": "Bewegung"
+    "category_de": "Bewegung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 624,
@@ -285,7 +308,8 @@
     "example_sentence_en": "This is a bad idea.",
     "example_sentence_de": "Das ist eine schlechte Idee.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 625,
@@ -297,7 +321,8 @@
     "example_sentence_en": "A strong blow hit the door.",
     "example_sentence_de": "Ein starker Schlag traf die Tür.",
     "category_en": "Actions",
-    "category_de": "Handlungen"
+    "category_de": "Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 626,
@@ -309,7 +334,8 @@
     "example_sentence_en": "Do you want oil for the salad?",
     "example_sentence_de": "Möchtest du Öl für den Salat?",
     "category_en": "Food",
-    "category_de": "Essen"
+    "category_de": "Essen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 627,
@@ -321,7 +347,8 @@
     "example_sentence_en": "Blood is red.",
     "example_sentence_de": "Blut ist rot.",
     "category_en": "Body",
-    "category_de": "Körper"
+    "category_de": "Körper",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 628,
@@ -333,7 +360,8 @@
     "example_sentence_en": "Your touch is warm.",
     "example_sentence_de": "Deine Berührung ist warm.",
     "category_en": "Senses",
-    "category_de": "Sinne"
+    "category_de": "Sinne",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 629,
@@ -345,7 +373,8 @@
     "example_sentence_en": "The tree grew quickly.",
     "example_sentence_de": "Der Baum wuchs schnell.",
     "category_en": "Growth",
-    "category_de": "Wachstum"
+    "category_de": "Wachstum",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 630,
@@ -357,7 +386,8 @@
     "example_sentence_en": "This costs 50 cents.",
     "example_sentence_de": "Das kostet 50 Cent.",
     "category_en": "Money",
-    "category_de": "Geld"
+    "category_de": "Geld",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 631,
@@ -369,7 +399,8 @@
     "example_sentence_en": "I'm making a fruit mix.",
     "example_sentence_de": "Ich mache eine Fruchtmischung.",
     "category_en": "Food",
-    "category_de": "Essen"
+    "category_de": "Essen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 632,
@@ -381,7 +412,8 @@
     "example_sentence_en": "Our team won.",
     "example_sentence_de": "Unser Team hat gewonnen.",
     "category_en": "Sports",
-    "category_de": "Sport"
+    "category_de": "Sport",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 633,
@@ -393,7 +425,8 @@
     "example_sentence_en": "This wire is very strong.",
     "example_sentence_de": "Dieser Draht ist sehr stark.",
     "category_en": "Objects",
-    "category_de": "Gegenstände"
+    "category_de": "Gegenstände",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 634,
@@ -405,7 +438,8 @@
     "example_sentence_en": "What is the cost?",
     "example_sentence_de": "Wie hoch sind die Kosten?",
     "category_en": "Money",
-    "category_de": "Geld"
+    "category_de": "Geld",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 635,
@@ -417,7 +451,8 @@
     "example_sentence_en": "I lost my key.",
     "example_sentence_de": "Ich habe meinen Schlüssel verloren.",
     "category_en": "Problems",
-    "category_de": "Probleme"
+    "category_de": "Probleme",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 636,
@@ -429,7 +464,8 @@
     "example_sentence_en": "I like the brown color.",
     "example_sentence_de": "Ich mag die braune Farbe.",
     "category_en": "Colors",
-    "category_de": "Farben"
+    "category_de": "Farben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 637,
@@ -441,7 +477,8 @@
     "example_sentence_en": "My shoes are starting to wear out.",
     "example_sentence_de": "Meine Schuhe beginnen sich abzutragen.",
     "category_en": "Objects",
-    "category_de": "Gegenstände"
+    "category_de": "Gegenstände",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 638,
@@ -453,7 +490,8 @@
     "example_sentence_en": "I like working in the garden.",
     "example_sentence_de": "Ich arbeite gerne im Garten.",
     "category_en": "Nature",
-    "category_de": "Natur"
+    "category_de": "Natur",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 639,
@@ -465,7 +503,8 @@
     "example_sentence_en": "Two plus two equals four.",
     "example_sentence_de": "Zwei plus zwei ist gleich vier.",
     "category_en": "Math",
-    "category_de": "Mathematik"
+    "category_de": "Mathematik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 640,
@@ -477,7 +516,8 @@
     "example_sentence_en": "He sent me a letter.",
     "example_sentence_de": "Er hat mir einen Brief geschickt.",
     "category_en": "Communication",
-    "category_de": "Kommunikation"
+    "category_de": "Kommunikation",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 641,
@@ -489,7 +529,8 @@
     "example_sentence_en": "It's hard to choose between the two options.",
     "example_sentence_de": "Es ist schwer, zwischen den beiden Optionen zu wählen.",
     "category_en": "Decisions",
-    "category_de": "Entscheidungen"
+    "category_de": "Entscheidungen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 642,
@@ -501,7 +542,8 @@
     "example_sentence_en": "It rained yesterday.",
     "example_sentence_de": "Es hat gestern geregnet.",
     "category_en": "Weather",
-    "category_de": "Wetter"
+    "category_de": "Wetter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 643,
@@ -513,7 +555,8 @@
     "example_sentence_en": "This is the appropriate answer.",
     "example_sentence_de": "Das ist die passende Antwort.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 644,
@@ -525,7 +568,8 @@
     "example_sentence_en": "The river flows quickly.",
     "example_sentence_de": "Der Fluss fließt schnell.",
     "category_en": "Movement",
-    "category_de": "Bewegung"
+    "category_de": "Bewegung",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 645,
@@ -537,7 +581,8 @@
     "example_sentence_en": "I'm going to the market today.",
     "example_sentence_de": "Ich gehe heute auf den Markt.",
     "category_en": "Shopping",
-    "category_de": "Einkaufen"
+    "category_de": "Einkaufen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 646,
@@ -549,7 +594,8 @@
     "example_sentence_en": "I went to the bank.",
     "example_sentence_de": "Ich bin zur Bank gegangen.",
     "category_en": "Money",
-    "category_de": "Geld"
+    "category_de": "Geld",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 647,
@@ -561,7 +607,8 @@
     "example_sentence_en": "I collect stamps.",
     "example_sentence_de": "Ich sammle Briefmarken.",
     "category_en": "Hobbies",
-    "category_de": "Hobbys"
+    "category_de": "Hobbys",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 648,
@@ -573,7 +620,8 @@
     "example_sentence_en": "Everyone is coming, except Paul.",
     "example_sentence_de": "Alle kommen, außer Paul.",
     "category_en": "Grammar",
-    "category_de": "Grammatik"
+    "category_de": "Grammatik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 649,
@@ -585,7 +633,8 @@
     "example_sentence_en": "Controlling the machines is complicated.",
     "example_sentence_de": "Die Steuerung der Maschinen ist kompliziert.",
     "category_en": "Technology",
-    "category_de": "Technik"
+    "category_de": "Technik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 650,
@@ -597,6 +646,7 @@
     "example_sentence_en": "This is a decimal number.",
     "example_sentence_de": "Das ist eine Dezimalzahl.",
     "category_en": "Math",
-    "category_de": "Mathematik"
+    "category_de": "Mathematik",
+    "vowel_harmony": "gemischte"
   }
 ]

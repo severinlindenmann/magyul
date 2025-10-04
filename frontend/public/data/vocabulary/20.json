@@ -9,7 +9,8 @@
     "example_sentence_en": "This building is a large block.",
     "example_sentence_de": "Dieses Gebäude ist ein großer Block.",
     "category_en": "Buildings & Architecture",
-    "category_de": "Gebäude & Architektur"
+    "category_de": "Gebäude & Architektur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 952,
@@ -21,7 +22,8 @@
     "example_sentence_en": "Look at this chart about the data.",
     "example_sentence_de": "Schau dir dieses Diagramm über die Daten an.",
     "category_en": "Science & Data",
-    "category_de": "Wissenschaft & Daten"
+    "category_de": "Wissenschaft & Daten",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 953,
@@ -33,7 +35,8 @@
     "example_sentence_en": "Put on your hat, it's cold.",
     "example_sentence_de": "Setz deinen Hut auf, es ist kalt.",
     "category_en": "Clothing",
-    "category_de": "Kleidung"
+    "category_de": "Kleidung",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 954,
@@ -45,7 +48,8 @@
     "example_sentence_en": "I am selling this book.",
     "example_sentence_de": "Ich verkaufe dieses Buch.",
     "category_en": "Economy & Trade",
-    "category_de": "Wirtschaft & Handel"
+    "category_de": "Wirtschaft & Handel",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 955,
@@ -57,7 +61,8 @@
     "example_sentence_en": "Success is important at work.",
     "example_sentence_de": "Erfolg ist bei der Arbeit wichtig.",
     "category_en": "Society & Achievements",
-    "category_de": "Gesellschaft & Erfolge"
+    "category_de": "Gesellschaft & Erfolge",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 956,
@@ -69,7 +74,8 @@
     "example_sentence_en": "I am in good company.",
     "example_sentence_de": "Ich bin in guter Gesellschaft.",
     "category_en": "Society & Relationships",
-    "category_de": "Gesellschaft & Beziehungen"
+    "category_de": "Gesellschaft & Beziehungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 957,
@@ -81,7 +87,8 @@
     "example_sentence_en": "They deduct the costs.",
     "example_sentence_de": "Sie ziehen die Kosten ab.",
     "category_en": "Economy & Finance",
-    "category_de": "Wirtschaft & Finanzen"
+    "category_de": "Wirtschaft & Finanzen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 958,
@@ -93,7 +100,8 @@
     "example_sentence_en": "This is an important event.",
     "example_sentence_de": "Das ist ein wichtiges Ereignis.",
     "category_en": "Society & Events",
-    "category_de": "Gesellschaft & Ereignisse"
+    "category_de": "Gesellschaft & Ereignisse",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 959,
@@ -105,7 +113,8 @@
     "example_sentence_en": "This is a strange situation.",
     "example_sentence_de": "Das ist eine seltsame Situation.",
     "category_en": "Emotions & Descriptions",
-    "category_de": "Emotionen & Beschreibungen"
+    "category_de": "Emotionen & Beschreibungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 960,
@@ -117,7 +126,8 @@
     "example_sentence_en": "I am going to the shop.",
     "example_sentence_de": "Ich gehe in das Geschäft.",
     "category_en": "Economy & Shopping",
-    "category_de": "Wirtschaft & Einkaufen"
+    "category_de": "Wirtschaft & Einkaufen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 961,
@@ -129,7 +139,8 @@
     "example_sentence_en": "I like swimming.",
     "example_sentence_de": "Ich schwimme gern.",
     "category_en": "Sports & Activities",
-    "category_de": "Sport & Aktivitäten"
+    "category_de": "Sport & Aktivitäten",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 962,
@@ -141,7 +152,8 @@
     "example_sentence_en": "This is an interesting expression.",
     "example_sentence_de": "Das ist ein interessanter Ausdruck.",
     "category_en": "Communication & Language",
-    "category_de": "Kommunikation & Sprache"
+    "category_de": "Kommunikation & Sprache",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 963,
@@ -153,7 +165,8 @@
     "example_sentence_en": "He lives opposite the school.",
     "example_sentence_de": "Er wohnt gegenüber der Schule.",
     "category_en": "Directions & Locations",
-    "category_de": "Richtungen & Orte"
+    "category_de": "Richtungen & Orte",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 964,
@@ -165,7 +178,8 @@
     "example_sentence_en": "My wife is a doctor.",
     "example_sentence_de": "Meine Frau ist Ärztin.",
     "category_en": "Family & Relationships",
-    "category_de": "Familie & Beziehungen"
+    "category_de": "Familie & Beziehungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 965,
@@ -177,7 +191,8 @@
     "example_sentence_en": "I am buying a new shoe.",
     "example_sentence_de": "Ich kaufe einen neuen Schuh.",
     "category_en": "Clothing & Accessories",
-    "category_de": "Kleidung & Accessoires"
+    "category_de": "Kleidung & Accessoires",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 966,
@@ -189,7 +204,8 @@
     "example_sentence_en": "My shoulder hurts.",
     "example_sentence_de": "Meine Schulter tut weh.",
     "category_en": "Body Parts",
-    "category_de": "Körperteile"
+    "category_de": "Körperteile",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 967,
@@ -201,7 +217,8 @@
     "example_sentence_en": "The news spreads quickly.",
     "example_sentence_de": "Die Nachrichten verbreiten sich schnell.",
     "category_en": "Science & Information",
-    "category_de": "Wissenschaft & Information"
+    "category_de": "Wissenschaft & Information",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 968,
@@ -213,7 +230,8 @@
     "example_sentence_en": "We need to take measures.",
     "example_sentence_de": "Wir müssen Maßnahmen ergreifen.",
     "category_en": "Society & Actions",
-    "category_de": "Gesellschaft & Handlungen"
+    "category_de": "Gesellschaft & Handlungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 969,
@@ -225,7 +243,8 @@
     "example_sentence_en": "We are going to camp in the summer.",
     "example_sentence_de": "Wir gehen im Sommer ins Lager.",
     "category_en": "Travel & Nature",
-    "category_de": "Reisen & Natur"
+    "category_de": "Reisen & Natur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 970,
@@ -237,7 +256,8 @@
     "example_sentence_en": "He invented this machine.",
     "example_sentence_de": "Er hat diese Maschine erfunden.",
     "category_en": "Science & Inventions",
-    "category_de": "Wissenschaft & Erfindungen"
+    "category_de": "Wissenschaft & Erfindungen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 971,
@@ -249,7 +269,8 @@
     "example_sentence_en": "This t-shirt is made of cotton.",
     "example_sentence_de": "Dieses T-Shirt ist aus Baumwolle.",
     "category_en": "Materials & Fabrics",
-    "category_de": "Materialien & Stoffe"
+    "category_de": "Materialien & Stoffe",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 972,
@@ -261,7 +282,8 @@
     "example_sentence_en": "Today is my birthday.",
     "example_sentence_de": "Heute ist mein Geburtstag.",
     "category_en": "Family & Life Events",
-    "category_de": "Familie & Lebensereignisse"
+    "category_de": "Familie & Lebensereignisse",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 973,
@@ -273,7 +295,8 @@
     "example_sentence_en": "You determine the time.",
     "example_sentence_de": "Du bestimmst die Zeit.",
     "category_en": "Communication & Decisions",
-    "category_de": "Kommunikation & Entscheidungen"
+    "category_de": "Kommunikation & Entscheidungen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 974,
@@ -285,7 +308,8 @@
     "example_sentence_en": "Please give me a liter of water.",
     "example_sentence_de": "Gib mir bitte einen Liter Wasser.",
     "category_en": "Measurements & Units",
-    "category_de": "Maßeinheiten"
+    "category_de": "Maßeinheiten",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 975,
@@ -297,7 +321,8 @@
     "example_sentence_en": "It is nine o'clock.",
     "example_sentence_de": "Es ist neun Uhr.",
     "category_en": "Numbers & Time",
-    "category_de": "Zahlen & Zeit"
+    "category_de": "Zahlen & Zeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 976,
@@ -309,7 +334,8 @@
     "example_sentence_en": "The truck is big.",
     "example_sentence_de": "Der Lastwagen ist groß.",
     "category_en": "Transport & Vehicles",
-    "category_de": "Transport & Fahrzeuge"
+    "category_de": "Transport & Fahrzeuge",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 977,
@@ -321,7 +347,8 @@
     "example_sentence_en": "There is a lot of noise here.",
     "example_sentence_de": "Hier ist viel Lärm.",
     "category_en": "Environment & Sounds",
-    "category_de": "Umwelt & Geräusche"
+    "category_de": "Umwelt & Geräusche",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 978,
@@ -333,7 +360,8 @@
     "example_sentence_en": "The water level is high.",
     "example_sentence_de": "Der Wasserstand ist hoch.",
     "category_en": "Science & Measurements",
-    "category_de": "Wissenschaft & Messungen"
+    "category_de": "Wissenschaft & Messungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 979,
@@ -345,7 +373,8 @@
     "example_sentence_en": "You have a chance to win.",
     "example_sentence_de": "Du hast eine Chance zu gewinnen.",
     "category_en": "Society & Opportunities",
-    "category_de": "Gesellschaft & Chancen"
+    "category_de": "Gesellschaft & Chancen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 980,
@@ -357,7 +386,8 @@
     "example_sentence_en": "I collect stamps.",
     "example_sentence_de": "Ich sammle Briefmarken.",
     "category_en": "Hobbies & Activities",
-    "category_de": "Hobbys & Aktivitäten"
+    "category_de": "Hobbys & Aktivitäten",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 981,
@@ -369,7 +399,8 @@
     "example_sentence_en": "I am opening a business.",
     "example_sentence_de": "Ich eröffne ein Geschäft.",
     "category_en": "Economy & Business",
-    "category_de": "Wirtschaft & Geschäft"
+    "category_de": "Wirtschaft & Geschäft",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 982,
@@ -381,7 +412,8 @@
     "example_sentence_en": "This section is dangerous.",
     "example_sentence_de": "Dieser Abschnitt ist gefährlich.",
     "category_en": "Directions & Locations",
-    "category_de": "Richtungen & Orte"
+    "category_de": "Richtungen & Orte",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 983,
@@ -393,7 +425,8 @@
     "example_sentence_en": "Throw the ball.",
     "example_sentence_de": "Wirf den Ball.",
     "category_en": "Sports & Actions",
-    "category_de": "Sport & Handlungen"
+    "category_de": "Sport & Handlungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 984,
@@ -405,7 +438,8 @@
     "example_sentence_en": "The sun is shining.",
     "example_sentence_de": "Die Sonne scheint.",
     "category_en": "Nature & Weather",
-    "category_de": "Natur & Wetter"
+    "category_de": "Natur & Wetter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 985,
@@ -417,7 +451,8 @@
     "example_sentence_en": "I am buying a real estate.",
     "example_sentence_de": "Ich kaufe eine Immobilie.",
     "category_en": "Economy & Property",
-    "category_de": "Wirtschaft & Immobilien"
+    "category_de": "Wirtschaft & Immobilien",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 986,
@@ -429,7 +464,8 @@
     "example_sentence_en": "This column is strong.",
     "example_sentence_de": "Diese Säule ist stark.",
     "category_en": "Buildings & Architecture",
-    "category_de": "Gebäude & Architektur"
+    "category_de": "Gebäude & Architektur",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 987,
@@ -441,7 +477,8 @@
     "example_sentence_en": "Water consists of molecules.",
     "example_sentence_de": "Wasser besteht aus Molekülen.",
     "category_en": "Science & Chemistry",
-    "category_de": "Wissenschaft & Chemie"
+    "category_de": "Wissenschaft & Chemie",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 988,
@@ -453,7 +490,8 @@
     "example_sentence_en": "Choose your favorite.",
     "example_sentence_de": "Wähle deinen Favoriten.",
     "category_en": "Communication & Choices",
-    "category_de": "Kommunikation & Entscheidungen"
+    "category_de": "Kommunikation & Entscheidungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 989,
@@ -465,7 +503,8 @@
     "example_sentence_en": "This is a bad idea.",
     "example_sentence_de": "Das ist eine schlechte Idee.",
     "category_en": "Emotions & Opinions",
-    "category_de": "Emotionen & Meinungen"
+    "category_de": "Emotionen & Meinungen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 990,
@@ -477,7 +516,8 @@
     "example_sentence_en": "Gray is a nice color.",
     "example_sentence_de": "Grau ist eine schöne Farbe.",
     "category_en": "Colors & Descriptions",
-    "category_de": "Farben & Beschreibungen"
+    "category_de": "Farben & Beschreibungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 991,
@@ -489,7 +529,8 @@
     "example_sentence_en": "Repetition is important.",
     "example_sentence_de": "Wiederholung ist wichtig.",
     "category_en": "Communication & Learning",
-    "category_de": "Kommunikation & Lernen"
+    "category_de": "Kommunikation & Lernen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 992,
@@ -501,7 +542,8 @@
     "example_sentence_en": "I need help.",
     "example_sentence_de": "Ich brauche Hilfe.",
     "category_en": "Society & Needs",
-    "category_de": "Gesellschaft & Bedürfnisse"
+    "category_de": "Gesellschaft & Bedürfnisse",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 993,
@@ -513,7 +555,8 @@
     "example_sentence_en": "This road is wide.",
     "example_sentence_de": "Diese Straße ist breit.",
     "category_en": "Descriptions & Dimensions",
-    "category_de": "Beschreibungen & Maße"
+    "category_de": "Beschreibungen & Maße",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 994,
@@ -525,7 +568,8 @@
     "example_sentence_en": "Preparation is important.",
     "example_sentence_de": "Vorbereitung ist wichtig.",
     "category_en": "Activities & Planning",
-    "category_de": "Aktivitäten & Planung"
+    "category_de": "Aktivitäten & Planung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 995,
@@ -537,7 +581,8 @@
     "example_sentence_en": "Please pass the salt.",
     "example_sentence_de": "Gib mir bitte das Salz.",
     "category_en": "Food & Cooking",
-    "category_de": "Essen & Kochen"
+    "category_de": "Essen & Kochen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 996,
@@ -549,7 +594,8 @@
     "example_sentence_en": "My nose hurts.",
     "example_sentence_de": "Meine Nase tut weh.",
     "category_en": "Body Parts",
-    "category_de": "Körperteile"
+    "category_de": "Körperteile",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 997,
@@ -561,7 +607,8 @@
     "example_sentence_en": "This word is in plural.",
     "example_sentence_de": "Dieses Wort steht im Plural.",
     "category_en": "Language & Grammar",
-    "category_de": "Sprache & Grammatik"
+    "category_de": "Sprache & Grammatik",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 998,
@@ -573,7 +620,8 @@
     "example_sentence_en": "There is no anger.",
     "example_sentence_de": "Es gibt keinen Ärger.",
     "category_en": "Emotions & Feelings",
-    "category_de": "Emotionen & Gefühle"
+    "category_de": "Emotionen & Gefühle",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 999,
@@ -585,7 +633,8 @@
     "example_sentence_en": "I have a demand.",
     "example_sentence_de": "Ich habe eine Anforderung.",
     "category_en": "Society & Requests",
-    "category_de": "Gesellschaft & Anforderungen"
+    "category_de": "Gesellschaft & Anforderungen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 1000,
@@ -597,6 +646,7 @@
     "example_sentence_en": "Europe is a continent.",
     "example_sentence_de": "Europa ist ein Kontinent.",
     "category_en": "Geography & Nature",
-    "category_de": "Geografie & Natur"
+    "category_de": "Geografie & Natur",
+    "vowel_harmony": "gemischte"
   }
 ]

@@ -9,7 +9,8 @@
     "example_sentence_en": "Faster than you.",
     "example_sentence_de": "Schneller als du.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "example_sentence_en": "Yes, I agree.",
     "example_sentence_de": "Ja, ich stimme zu.",
     "category_en": "Basic Expressions",
-    "category_de": "Grundlegende Ausdrücke"
+    "category_de": "Grundlegende Ausdrücke",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "example_sentence_en": "This book is his.",
     "example_sentence_de": "Dieses Buch ist seins.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "example_sentence_en": "He said that he's coming.",
     "example_sentence_de": "Er sagte, dass er kommt.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "example_sentence_en": "He is my friend.",
     "example_sentence_de": "Er ist mein Freund.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "example_sentence_en": "He was here yesterday.",
     "example_sentence_de": "Er war gestern hier.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "example_sentence_en": "The house is big.",
     "example_sentence_de": "Das Haus ist groß.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "example_sentence_en": "The article about the movie.",
     "example_sentence_de": "Der Artikel über den Film.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "example_sentence_en": "They are here.",
     "example_sentence_de": "Sie sind hier.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
     "example_sentence_en": "I'm going with you.",
     "example_sentence_de": "Ich gehe mit dir.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
     "example_sentence_en": "They are my friends.",
     "example_sentence_de": "Sie sind meine Freunde.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
     "example_sentence_en": "This may be good.",
     "example_sentence_de": "Das kann gut sein.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
     "example_sentence_en": "I read the book and the article.",
     "example_sentence_de": "Ich las das Buch und den Artikel.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
     "example_sentence_en": "One apple.",
     "example_sentence_de": "Ein Apfel.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
     "example_sentence_en": "There is a cat.",
     "example_sentence_de": "Es gibt eine Katze.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
     "example_sentence_en": "I want this.",
     "example_sentence_de": "Ich will dies.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
     "example_sentence_en": "The dog runs.",
     "example_sentence_de": "Der Hund läuft.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
     "example_sentence_en": "The letter was written by him.",
     "example_sentence_de": "Der Brief wurde von ihm geschrieben.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
     "example_sentence_en": "The tea is hot.",
     "example_sentence_de": "Der Tee ist heiß.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
     "example_sentence_en": "I don't understand this word.",
     "example_sentence_de": "Ich verstehe dieses Wort nicht.",
     "category_en": "Language & Communication",
-    "category_de": "Sprache & Kommunikation"
+    "category_de": "Sprache & Kommunikation",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
     "example_sentence_en": "Beautiful, but expensive.",
     "example_sentence_de": "Schön, aber teuer.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
     "example_sentence_en": "What kind of car do you have?",
     "example_sentence_de": "Was für ein Auto hast du?",
     "category_en": "Question Words",
-    "category_de": "Fragewörter"
+    "category_de": "Fragewörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
     "example_sentence_en": "Some people.",
     "example_sentence_de": "Einige Leute.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
     "example_sentence_en": "The table.",
     "example_sentence_de": "Der Tisch.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
     "example_sentence_en": "I said that.",
     "example_sentence_de": "Ich sagte das.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
     "example_sentence_en": "What do you think?",
     "example_sentence_de": "Was denken Sie?",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
     "example_sentence_en": "Tea or coffee?",
     "example_sentence_de": "Tee oder Kaffee?",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
     "example_sentence_en": "The weather was nice.",
     "example_sentence_de": "Das Wetter war schön.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
     "example_sentence_en": "The road is long.",
     "example_sentence_de": "Die Straße ist lang.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
     "example_sentence_en": "The day is warm.",
     "example_sentence_de": "Der Tag ist warm.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
     "example_sentence_en": "I know that you're right.",
     "example_sentence_de": "Ich weiß, dass du Recht hast.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
     "example_sentence_en": "Dog and cat.",
     "example_sentence_de": "Hund und Katze.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
     "example_sentence_en": "A travel agency.",
     "example_sentence_de": "Eine Reiseagentur.",
     "category_en": "Work & Business",
-    "category_de": "Arbeit & Geschäft"
+    "category_de": "Arbeit & Geschäft",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
     "example_sentence_en": "I am here.",
     "example_sentence_de": "Ich bin hier.",
     "category_en": "Location & Direction",
-    "category_de": "Ort & Richtung"
+    "category_de": "Ort & Richtung",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
     "example_sentence_en": "What is this?",
     "example_sentence_de": "Was ist das?",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
     "example_sentence_en": "May I come?",
     "example_sentence_de": "Darf ich kommen?",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
     "example_sentence_en": "Who are you?",
     "example_sentence_de": "Wer bist du?",
     "category_en": "Question Words",
-    "category_de": "Fragewörter"
+    "category_de": "Fragewörter",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
     "example_sentence_en": "Different opinion.",
     "example_sentence_de": "Andere Meinung.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
     "example_sentence_en": "They were here.",
     "example_sentence_de": "Sie waren hier.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
     "example_sentence_en": "The house, which is big.",
     "example_sentence_de": "Das Haus, das groß ist.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
     "example_sentence_en": "What should I do?",
     "example_sentence_de": "Was soll ich tun?",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "gemischte"
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
     "example_sentence_en": "These are the apples.",
     "example_sentence_de": "Dies sind die Äpfel.",
     "category_en": "Pronouns",
-    "category_de": "Pronomen"
+    "category_de": "Pronomen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
     "example_sentence_en": "I don't have time.",
     "example_sentence_de": "Ich habe keine Zeit.",
     "category_en": "Time",
-    "category_de": "Zeit"
+    "category_de": "Zeit",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
     "example_sentence_en": "If it rains, I'll stay inside.",
     "example_sentence_de": "Wenn es regnet, bleibe ich drinnen.",
     "category_en": "Grammar & Conjunctions",
-    "category_de": "Grammatik & Konjunktionen"
+    "category_de": "Grammatik & Konjunktionen",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
     "example_sentence_en": "He will go.",
     "example_sentence_de": "Er wird gehen.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
     "example_sentence_en": "How are you?",
     "example_sentence_de": "Wie geht es dir?",
     "category_en": "Question Words",
-    "category_de": "Fragewörter"
+    "category_de": "Fragewörter",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
     "example_sentence_en": "He said that he's coming.",
     "example_sentence_de": "Er sagte, dass er kommt.",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "tiefe"
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
     "example_sentence_en": "One minute.",
     "example_sentence_de": "Eine Minute.",
     "category_en": "Numbers",
-    "category_de": "Zahlen"
+    "category_de": "Zahlen",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
     "example_sentence_en": "Every day.",
     "example_sentence_de": "Jeden Tag.",
     "category_en": "Adjectives",
-    "category_de": "Adjektive"
+    "category_de": "Adjektive",
+    "vowel_harmony": "hohe"
   },
   {
     "id": 50,
@@ -597,6 +646,7 @@
     "example_sentence_en": "Tell me the truth!",
     "example_sentence_de": "Sag mir die Wahrheit!",
     "category_en": "Verbs",
-    "category_de": "Verben"
+    "category_de": "Verben",
+    "vowel_harmony": "gemischte"
   }
 ]

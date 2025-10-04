@@ -11,6 +11,38 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
+/* Grammar guide responsive adjustments */
+.responsive-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: #fff;
+  margin-bottom: 1rem;
+}
+
+.responsive-table-wrapper table {
+  min-width: 600px; /* allow horizontal scroll on phones instead of squishing */
+}
+
+@media (max-width: 640px) {
+  .responsive-table-wrapper table thead th,
+  .responsive-table-wrapper table thead td {
+    font-size: 0.75rem;
+    padding: 4px 6px;
+  }
+  .responsive-table-wrapper table tbody td {
+    font-size: 0.75rem;
+    padding: 4px 6px;
+  }
+}
+
+/* Optional condensed variant for dense grammar tables */
+.grammar-condensed td, .grammar-condensed th { 
+  padding: 4px 8px !important; 
+}
 }
 
 .App-header {

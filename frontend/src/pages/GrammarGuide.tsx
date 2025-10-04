@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Container, Box, Typography, Button, Card, CardContent, Accordion, AccordionSummary, AccordionDetails, Chip, Paper, Table, TableHead, TableBody, TableRow, TableCell, Switch, FormControlLabel, TextField, Divider, List, ListItemButton, ListItemText } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import CollapsibleSection from '../components/CollapsibleSection';
 
 
 interface Props {
@@ -560,6 +561,7 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
             <Typography variant="body2">• {t.overviewIrregularFocus}</Typography>
           </Box>
           <Typography variant="h6" gutterBottom>{t.overviewTableVerbsTitle}</Typography>
+          <div className="responsive-table-wrapper grammar-condensed">
           <Table size="small" sx={{ mb: 3 }}>
             <TableHead>
               <TableRow>
@@ -614,8 +616,10 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
               </TableRow>
             </TableBody>
           </Table>
+          </div>
           <Typography variant="caption" display="block" sx={{ mb: 3, fontStyle: 'italic' }}>{t.overviewNoteVerbDef}</Typography>
           <Typography variant="h6" gutterBottom>{t.overviewTableCasesTitle}</Typography>
+          <div className="responsive-table-wrapper grammar-condensed">
           <Table size="small" sx={{ mb: 2 }}>
             <TableHead>
               <TableRow>
@@ -652,6 +656,7 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
               </TableRow>
             </TableBody>
           </Table>
+          </div>
           <Typography variant="caption" display="block" sx={{ fontStyle: 'italic' }}>{t.overviewNoteInstrumental}</Typography>
         </AccordionDetails>
       </Accordion>
@@ -673,35 +678,31 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
             <Chip label={t.frontVowels} color="secondary" sx={{ mb: 1 }} />
           </Box>
 
-          <Card variant="outlined" sx={{ mb: 2 }}>
-            <CardContent>
-              <Typography variant="h6" gutterBottom color="primary">{t.presentEndingsBack}</Typography>
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: 1, mb: 2 }}>
-                <Typography><strong>{t.person1sg}:</strong></Typography>
-                <Typography>-ok, -ak</Typography>
-                <Typography><strong>{t.person2sg}:</strong></Typography>
-                <Typography>-sz, -asz, -esz</Typography>
-                <Typography><strong>{t.person3sg}:</strong></Typography>
-                <Typography>(stem only)</Typography>
-                <Typography><strong>{t.person1pl}:</strong></Typography>
-                <Typography>-unk, -ünk</Typography>
-                <Typography><strong>{t.person2pl}:</strong></Typography>
-                <Typography>-tok, -tek, -tök</Typography>
-                <Typography><strong>{t.person3pl}:</strong></Typography>
-                <Typography>-nak, -nek</Typography>
-              </Box>
-              
-              <Typography variant="subtitle2" color="primary" gutterBottom>{t.regularExample}: "tanulni" (to learn)</Typography>
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
-                <Typography>tanulok</Typography>
-                <Typography>tanulunk</Typography>
-                <Typography>tanulsz</Typography>
-                <Typography>tanultok</Typography>
-                <Typography>tanul</Typography>
-                <Typography>tanulnak</Typography>
-              </Box>
-            </CardContent>
-          </Card>
+          <CollapsibleSection title={t.presentEndingsBack} defaultOpen>
+            <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: 1, mb: 2 }}>
+              <Typography><strong>{t.person1sg}:</strong></Typography>
+              <Typography>-ok, -ak</Typography>
+              <Typography><strong>{t.person2sg}:</strong></Typography>
+              <Typography>-sz, -asz, -esz</Typography>
+              <Typography><strong>{t.person3sg}:</strong></Typography>
+              <Typography>(stem only)</Typography>
+              <Typography><strong>{t.person1pl}:</strong></Typography>
+              <Typography>-unk, -ünk</Typography>
+              <Typography><strong>{t.person2pl}:</strong></Typography>
+              <Typography>-tok, -tek, -tök</Typography>
+              <Typography><strong>{t.person3pl}:</strong></Typography>
+              <Typography>-nak, -nek</Typography>
+            </Box>
+            <Typography variant="subtitle2" color="primary" gutterBottom>{t.regularExample}: "tanulni" (to learn)</Typography>
+            <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
+              <Typography>tanulok</Typography>
+              <Typography>tanulunk</Typography>
+              <Typography>tanulsz</Typography>
+              <Typography>tanultok</Typography>
+              <Typography>tanul</Typography>
+              <Typography>tanulnak</Typography>
+            </Box>
+          </CollapsibleSection>
         </AccordionDetails>
   </Accordion>
   </Box>
@@ -717,35 +718,31 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
         <AccordionDetails>
           <Typography paragraph>{t.pastIntro}</Typography>
           
-          <Card variant="outlined" sx={{ mb: 2 }}>
-            <CardContent>
-              <Typography variant="h6" gutterBottom color="primary">{t.pastEndings}</Typography>
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: 1, mb: 2 }}>
-                <Typography><strong>{t.person1sg}:</strong></Typography>
-                <Typography>-tam, -tem</Typography>
-                <Typography><strong>{t.person2sg}:</strong></Typography>
-                <Typography>-tál, -tél</Typography>
-                <Typography><strong>{t.person3sg}:</strong></Typography>
-                <Typography>-t, -tt</Typography>
-                <Typography><strong>{t.person1pl}:</strong></Typography>
-                <Typography>-tunk, -tünk</Typography>
-                <Typography><strong>{t.person2pl}:</strong></Typography>
-                <Typography>-tatok, -tetek</Typography>
-                <Typography><strong>{t.person3pl}:</strong></Typography>
-                <Typography>-tak, -tek</Typography>
-              </Box>
-              
-              <Typography variant="subtitle2" color="primary" gutterBottom>{t.regularExample}: "tanulni" → "tanult-"</Typography>
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
-                <Typography>tanultam</Typography>
-                <Typography>tanultunk</Typography>
-                <Typography>tanultál</Typography>
-                <Typography>tanultatok</Typography>
-                <Typography>tanult</Typography>
-                <Typography>tanultak</Typography>
-              </Box>
-            </CardContent>
-          </Card>
+          <CollapsibleSection title={t.pastEndings}>
+            <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: 1, mb: 2 }}>
+              <Typography><strong>{t.person1sg}:</strong></Typography>
+              <Typography>-tam, -tem</Typography>
+              <Typography><strong>{t.person2sg}:</strong></Typography>
+              <Typography>-tál, -tél</Typography>
+              <Typography><strong>{t.person3sg}:</strong></Typography>
+              <Typography>-t, -tt</Typography>
+              <Typography><strong>{t.person1pl}:</strong></Typography>
+              <Typography>-tunk, -tünk</Typography>
+              <Typography><strong>{t.person2pl}:</strong></Typography>
+              <Typography>-tatok, -tetek</Typography>
+              <Typography><strong>{t.person3pl}:</strong></Typography>
+              <Typography>-tak, -tek</Typography>
+            </Box>
+            <Typography variant="subtitle2" color="primary" gutterBottom>{t.regularExample}: "tanulni" → "tanult-"</Typography>
+            <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
+              <Typography>tanultam</Typography>
+              <Typography>tanultunk</Typography>
+              <Typography>tanultál</Typography>
+              <Typography>tanultatok</Typography>
+              <Typography>tanult</Typography>
+              <Typography>tanultak</Typography>
+            </Box>
+          </CollapsibleSection>
         </AccordionDetails>
   </Accordion>
   </Box>
@@ -762,21 +759,16 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
           <Typography paragraph>{t.futureIntro}</Typography>
           <Typography variant="subtitle1" color="primary" gutterBottom>{t.futurePattern}</Typography>
           
-          <Card variant="outlined" sx={{ mb: 2 }}>
-            <CardContent>
-              <Typography variant="subtitle2" color="primary" gutterBottom>
-                {t.exampleVerb}: "tanulni" (to learn)
-              </Typography>
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
-                <Typography>fogok tanulni</Typography>
-                <Typography>fogunk tanulni</Typography>
-                <Typography>fogsz tanulni</Typography>
-                <Typography>fogtok tanulni</Typography>
-                <Typography>fog tanulni</Typography>
-                <Typography>fognak tanulni</Typography>
-              </Box>
-            </CardContent>
-          </Card>
+          <CollapsibleSection title={`${t.exampleVerb}: tanulni`}>
+            <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
+              <Typography>fogok tanulni</Typography>
+              <Typography>fogunk tanulni</Typography>
+              <Typography>fogsz tanulni</Typography>
+              <Typography>fogtok tanulni</Typography>
+              <Typography>fog tanulni</Typography>
+              <Typography>fognak tanulni</Typography>
+            </Box>
+          </CollapsibleSection>
         </AccordionDetails>
   </Accordion>
   </Box>
@@ -801,20 +793,17 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
             </Typography>
           </Box>
 
-          <Card variant="outlined" sx={{ mb: 2 }}>
-            <CardContent>
-              <Typography variant="h6" gutterBottom color="primary">{t.verbStemsExamples}</Typography>
-              <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
-                <Typography>• {t.verbStemsExample1}</Typography>
-                <Typography>• {t.verbStemsExample2}</Typography>
-                <Typography>• {t.verbStemsExample3}</Typography>
-                <Typography>• {t.verbStemsExample4}</Typography>
-              </Box>
-              <Typography variant="body2" color="text.secondary" sx={{ mt: 2, fontStyle: 'italic' }}>
-                {t.verbStemsNote}
-              </Typography>
-            </CardContent>
-          </Card>
+          <CollapsibleSection title={t.verbStemsExamples} defaultOpen={false}>
+            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
+              <Typography>• {t.verbStemsExample1}</Typography>
+              <Typography>• {t.verbStemsExample2}</Typography>
+              <Typography>• {t.verbStemsExample3}</Typography>
+              <Typography>• {t.verbStemsExample4}</Typography>
+            </Box>
+            <Typography variant="body2" color="text.secondary" sx={{ mt: 2, fontStyle: 'italic' }}>
+              {t.verbStemsNote}
+            </Typography>
+          </CollapsibleSection>
         </AccordionDetails>
   </Accordion>
   </Box>
@@ -828,43 +817,35 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Card variant="outlined" sx={{ mb: 2 }}>
-            <CardContent>
-              <Typography variant="h6" gutterBottom color="error">
-                {t.irregularExample}: "lenni" (to be)
-              </Typography>
-              
-              <Typography variant="subtitle2" gutterBottom>{t.present}:</Typography>
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1, mb: 2 }}>
-                <Typography>vagyok</Typography>
-                <Typography>vagyunk</Typography>
-                <Typography>vagy</Typography>
-                <Typography>vagytok</Typography>
-                <Typography>van</Typography>
-                <Typography>vannak</Typography>
-              </Box>
-
-              <Typography variant="subtitle2" gutterBottom>{t.past}:</Typography>
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1, mb: 2 }}>
-                <Typography>voltam</Typography>
-                <Typography>voltunk</Typography>
-                <Typography>voltál</Typography>
-                <Typography>voltatok</Typography>
-                <Typography>volt</Typography>
-                <Typography>voltak</Typography>
-              </Box>
-
-              <Typography variant="subtitle2" gutterBottom>{t.future}:</Typography>
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
-                <Typography>leszek</Typography>
-                <Typography>leszünk</Typography>
-                <Typography>leszel</Typography>
-                <Typography>lesztek</Typography>
-                <Typography>lesz</Typography>
-                <Typography>lesznek</Typography>
-              </Box>
-            </CardContent>
-          </Card>
+          <CollapsibleSection title={`${t.irregularExample}: lenni`} defaultOpen={false}>
+            <Typography variant="subtitle2" gutterBottom>{t.present}:</Typography>
+            <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1, mb: 2 }}>
+              <Typography>vagyok</Typography>
+              <Typography>vagyunk</Typography>
+              <Typography>vagy</Typography>
+              <Typography>vagytok</Typography>
+              <Typography>van</Typography>
+              <Typography>vannak</Typography>
+            </Box>
+            <Typography variant="subtitle2" gutterBottom>{t.past}:</Typography>
+            <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1, mb: 2 }}>
+              <Typography>voltam</Typography>
+              <Typography>voltunk</Typography>
+              <Typography>voltál</Typography>
+              <Typography>voltatok</Typography>
+              <Typography>volt</Typography>
+              <Typography>voltak</Typography>
+            </Box>
+            <Typography variant="subtitle2" gutterBottom>{t.future}:</Typography>
+            <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, bgcolor: 'grey.100', p: 2, borderRadius: 1 }}>
+              <Typography>leszek</Typography>
+              <Typography>leszünk</Typography>
+              <Typography>leszel</Typography>
+              <Typography>lesztek</Typography>
+              <Typography>lesz</Typography>
+              <Typography>lesznek</Typography>
+            </Box>
+          </CollapsibleSection>
         </AccordionDetails>
   </Accordion>
   </Box>
@@ -880,52 +861,43 @@ const GrammarGuide: React.FC<Props> = ({ language, onBack }) => {
         <AccordionDetails>
           <Typography paragraph>{t.nounHarmonyIntro}</Typography>
 
-          <Card variant="outlined" sx={{ mb: 3 }}>
-            <CardContent>
-              <Typography variant="subtitle1" gutterBottom>{t.quickRuleTitle}</Typography>
-              <ul style={{ marginTop: 0 }}>
-                <li><Typography variant="body2">{t.quickRule1}</Typography></li>
-                <li><Typography variant="body2">{t.quickRule2}</Typography></li>
-                <li><Typography variant="body2">{t.quickRule3}</Typography></li>
-                <li><Typography variant="body2">{t.quickRule4}</Typography></li>
-                <li><Typography variant="body2">{t.quickRule5}</Typography></li>
-              </ul>
-            </CardContent>
-          </Card>
+          <CollapsibleSection title={t.quickRuleTitle} defaultOpen>
+            <ul style={{ marginTop: 0 }}>
+              <li><Typography variant="body2">{t.quickRule1}</Typography></li>
+              <li><Typography variant="body2">{t.quickRule2}</Typography></li>
+              <li><Typography variant="body2">{t.quickRule3}</Typography></li>
+              <li><Typography variant="body2">{t.quickRule4}</Typography></li>
+              <li><Typography variant="body2">{t.quickRule5}</Typography></li>
+            </ul>
+          </CollapsibleSection>
 
-          <Card variant="outlined" sx={{ mb: 3 }}>
-            <CardContent>
-              <Typography variant="h6" gutterBottom>{t.suffixHeader}</Typography>
-              <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: 1 }}>
-                <Typography variant="subtitle2">{t.suffixInessive}</Typography>
-                <Typography>házban / kertben</Typography>
-                <Typography variant="subtitle2">{t.suffixIllative}</Typography>
-                <Typography>házba / kertbe</Typography>
-                <Typography variant="subtitle2">{t.suffixAllative}</Typography>
-                <Typography>házhoz / székhez / könyvhöz</Typography>
-                <Typography variant="subtitle2">{t.suffixSuperessive}</Typography>
-                <Typography>házon, kézen, könyvön, földön</Typography>
-                <Typography variant="subtitle2">{t.suffixSublative}</Typography>
-                <Typography>asztalra / székre</Typography>
-                <Typography variant="subtitle2">{t.suffixDative}</Typography>
-                <Typography>fiúnak / szemnek</Typography>
-                <Typography variant="subtitle2">{t.suffixInstrumental}</Typography>
-                <Typography>kézzel, házzal, kulccsal</Typography>
-                <Typography variant="subtitle2">{t.suffixAccusative}</Typography>
-                <Typography>házat, földet, könyvet</Typography>
-              </Box>
-              <Typography variant="body2" sx={{ mt: 2 }}>{t.noteInstrumental}</Typography>
-              <Typography variant="body2" sx={{ mt: 1 }}>{t.noteSuperessive}</Typography>
-            </CardContent>
-          </Card>
+          <CollapsibleSection title={t.suffixHeader}>
+            <Box sx={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: 1 }}>
+              <Typography variant="subtitle2">{t.suffixInessive}</Typography>
+              <Typography>házban / kertben</Typography>
+              <Typography variant="subtitle2">{t.suffixIllative}</Typography>
+              <Typography>házba / kertbe</Typography>
+              <Typography variant="subtitle2">{t.suffixAllative}</Typography>
+              <Typography>házhoz / székhez / könyvhöz</Typography>
+              <Typography variant="subtitle2">{t.suffixSuperessive}</Typography>
+              <Typography>házon, kézen, könyvön, földön</Typography>
+              <Typography variant="subtitle2">{t.suffixSublative}</Typography>
+              <Typography>asztalra / székre</Typography>
+              <Typography variant="subtitle2">{t.suffixDative}</Typography>
+              <Typography>fiúnak / szemnek</Typography>
+              <Typography variant="subtitle2">{t.suffixInstrumental}</Typography>
+              <Typography>kézzel, házzal, kulccsal</Typography>
+              <Typography variant="subtitle2">{t.suffixAccusative}</Typography>
+              <Typography>házat, földet, könyvet</Typography>
+            </Box>
+            <Typography variant="body2" sx={{ mt: 2 }}>{t.noteInstrumental}</Typography>
+            <Typography variant="body2" sx={{ mt: 1 }}>{t.noteSuperessive}</Typography>
+          </CollapsibleSection>
 
-          <Card variant="outlined">
-            <CardContent>
-              <Typography variant="h6" gutterBottom>{t.examplesTitle}</Typography>
-              <Typography>{t.examplesList}</Typography>
-              <Typography variant="body2" sx={{ mt: 2, fontStyle: 'italic' }}>{t.morePractice}</Typography>
-            </CardContent>
-          </Card>
+          <CollapsibleSection title={t.examplesTitle} defaultOpen={false}>
+            <Typography>{t.examplesList}</Typography>
+            <Typography variant="body2" sx={{ mt: 2, fontStyle: 'italic' }}>{t.morePractice}</Typography>
+          </CollapsibleSection>
         </AccordionDetails>
   </Accordion>
   </Box>

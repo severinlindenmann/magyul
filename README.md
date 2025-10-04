@@ -22,6 +22,7 @@ A modern, interactive web application for learning Hungarian (Magyar) language. 
 - **📖 Grammar Guide**: Comprehensive grammar reference
   - Hungarian language rules and explanations
   - Easy-to-understand examples
+  - Progressive Disclosure (collapsible sections to avoid overload)
 
 - **🌐 Multi-language Support**: 
   - Interface and translations in Hungarian, English, and German
@@ -228,3 +229,24 @@ If you find this project helpful, please give it a ⭐️ on GitHub!
 ---
 
 **Jó tanulást!** (Happy learning!) 🎓
+
+## 🧩 Grammar Guide UX Improvements
+
+To reduce kognitive Überlastung (cognitive overload) in the long grammar page, the app introduces:
+
+1. Collapsible micro-sections (`CollapsibleSection` component) for paradigms (e.g. tense endings, irregular verb forms, suffix lists). Users only open what they need.
+2. Responsive tables wrapped in a scroll container (`responsive-table-wrapper`) so wide paradigms no longer stretch or break the layout on small screens. A condensed padding class `grammar-condensed` keeps dense data readable.
+
+Usage examples:
+
+```tsx
+<div className="responsive-table-wrapper grammar-condensed">
+  <Table size="small">{/* rows */}</Table>
+</div>
+
+<CollapsibleSection title="Past Tense Endings">
+  {/* paradigm content */}
+</CollapsibleSection>
+```
+
+These patterns keep the interface calm and let learners reveal complexity gradually.

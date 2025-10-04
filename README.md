@@ -1,193 +1,182 @@
-# 🇭🇺 Magyul - Hungarian Language Learning App
+<div align="center">
 
-A modern, interactive web application for learning Hungarian (Magyar) language. Built with React, TypeScript, and Material-UI, this app provides an engaging platform for practicing Hungarian vocabulary, verb conjugations, and grammar.
+# 🇭🇺 Magyul – Hungarian Language Learning App
+
+A modern, interactive Progressive Web App for learning Hungarian (Magyar). Built with React + TypeScript + MUI, featuring vocabulary drills, verb conjugation practice, grammar explanations, and offline support.
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://magyul.app)
-[![Firebase](https://img.shields.io/badge/Deployed%20on-Firebase-orange)](https://firebase.google.com/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Firebase](https://img.shields.io/badge/Hosting-Firebase-orange)](https://firebase.google.com/)
+[![Tech React](https://img.shields.io/badge/React-19-61dafb)](https://react.dev/)
+[![MUI](https://img.shields.io/badge/MUI-7-blue)](https://mui.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-contributing)
+
+</div>
+
+---
+
+## � Table of Contents
+
+1. [Features](#-features)
+2. [Live Demo](#-live-demo)
+3. [Tech Stack](#-tech-stack)
+4. [Getting Started](#-getting-started)
+5. [Scripts](#-scripts)
+6. [Project Structure](#-project-structure)
+7. [Architecture & Data Flow](#-architecture--data-flow)
+8. [Offline & PWA Capabilities](#-offline--pwa-capabilities)
+9. [Data Formats](#-data-formats)
+10. [Roadmap](#-roadmap)
+11. [Contributing](#-contributing)
+12. [License](#-license)
+13. [Author](#-about-the-author)
+14. [Support](#-support)
+
+---
 
 ## 🌟 Features
 
-- **📚 Vocabulary Practice**: Learn Hungarian words with translations in English and German
-  - Multiple categories: Family, Food, Colors, Numbers, Time, Animals, Places, Adjectives, and more
-  - Example sentences in Hungarian, English, and German
-  - Interactive flashcard-style learning
+### Core Learning Modules
+- **📚 Vocabulary Practice** – Category-based flashcards with example sentences (Hungarian / English / German)
+- **🔤 Verb Conjugation Trainer** – Present (and extensible to past/future), pronoun-aware inputs (én, te, ő, mi, ti, ők)
+- **📖 Grammar Guide** – Collapsible sections for progressive disclosure of complex rules
+- **🎯 Mini Games** – Word matching / recognition exercises (extensible framework)
 
-- **🔤 Verb Conjugation**: Master Hungarian verb forms
-  - Present, past, and future tenses
-  - Regular and irregular verbs
-  - Personal pronouns (én, te, ő, mi, ti, ők)
-  - 25+ common Hungarian verbs
+### Platform Features
+- **🌐 Multilingual Interface** (HU / EN / DE)
+- **💾 Offline First** via IndexedDB (Dexie) + service worker precaching
+- **⚡ Fast Data Access** using React Query caching strategies
+- **� Installable** as a PWA on desktop & mobile
+- **♻️ Incremental Vocabulary Loading** (split JSON chunks 1–20 for faster initial load)
+- **🔍 Extensible Data Model** for new categories / verb tenses
 
-- **📖 Grammar Guide**: Comprehensive grammar reference
-  - Hungarian language rules and explanations
-  - Easy-to-understand examples
-  - Progressive Disclosure (collapsible sections to avoid overload)
-
-- **🌐 Multi-language Support**: 
-  - Interface and translations in Hungarian, English, and German
-  - Perfect for German and English speakers learning Hungarian
-
-- **💾 Offline Support**: 
-  - IndexedDB storage for offline access
-  - Progressive Web App capabilities
+---
 
 ## 🚀 Live Demo
 
-Visit the live application: **[magyul.app](https://magyul.app)**
+Visit: **https://magyul.app**
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend Framework**: React 19.2.0 with TypeScript
-- **UI Library**: Material-UI (MUI) v7
-- **State Management**: TanStack React Query v5
-- **Database**: IndexedDB (Dexie.js)
-- **HTTP Client**: Axios
-- **Styling**: Emotion CSS-in-JS
-- **Hosting**: Firebase Hosting
-- **Build Tool**: Create React App
+| Layer | Technology |
+|-------|------------|
+| UI | React 19, MUI 7, Emotion |
+| State / Data | TanStack React Query 5, local component state |
+| Persistence | IndexedDB (Dexie) |
+| Networking | Axios (fetching static JSON assets) |
+| Tooling | Create React App (rewired), TypeScript 4.9 |
+| Build Customization | `react-app-rewired` + `customize-cra` |
+| Hosting | Firebase Hosting |
 
-## 📦 Installation
+---
+
+## 📦 Getting Started
 
 ### Prerequisites
+- Node.js >= 16
+- npm (or yarn / pnpm – adjust commands accordingly)
 
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Clone the Repository
-
+### Clone & Install
 ```bash
 git clone https://github.com/severinlindenmann/magyul.git
-cd magyul
-```
-
-### Install Dependencies
-
-```bash
-cd frontend
+cd magyul/frontend
 npm install
 ```
 
-### Run Development Server
-
+### Run Dev Server
 ```bash
 npm start
 ```
+App opens at: http://localhost:3000
 
-The app will open at `http://localhost:3000`
-
-## 🏗️ Build for Production
-
+### Build Production Bundle
 ```bash
-cd frontend
 npm run build
 ```
+Outputs to `frontend/build`.
 
-The production-ready files will be in the `frontend/build` directory.
-
-## 🚀 Deployment
-
-This project is configured for Firebase Hosting.
-
-### Deploy to Firebase
-
+### Deploy (Firebase Hosting)
 ```bash
-# Build the app
 cd frontend
 npm run build
-
-# Deploy to Firebase
 cd ..
 firebase deploy
 ```
 
-### Custom Domain Setup
+---
 
-1. Go to [Firebase Console](https://console.firebase.google.com)
-2. Navigate to Hosting section
-3. Click "Add custom domain"
-4. Follow the DNS configuration instructions
+## 🧾 Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `npm start` | Start development server (CRA with overrides) |
+| `npm run build` | Production build with service worker generation |
+| `npm test` | Run test suite (Jest + Testing Library) |
+| `npm run eject` | Eject CRA configuration (irreversible) |
+
+---
 
 ## 📁 Project Structure
 
 ```
-magyul/
-├── frontend/
-│   ├── public/
-│   │   ├── data/
-│   │   │   ├── verbs.json          # Hungarian verb conjugations
-│   │   │   ├── vocabulary/         # Split vocabulary files
-│   │   │   │   ├── 1.json          # Words 1-100
-│   │   │   │   ├── 2.json          # Words 101-200
-│   │   │   │   └── ...             # Up to 10.json
-│   │   │   └── 1000-most-common-hungarian-words.txt
-│   │   └── index.html
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── Navigation.tsx      # App navigation
-│   │   ├── db/
-│   │   │   └── database.ts         # IndexedDB configuration
-│   │   ├── pages/
-│   │   │   ├── LanguageSelection.tsx
-│   │   │   ├── VocabularyPractice.tsx
-│   │   │   ├── VerbConjugation.tsx
-│   │   │   └── GrammarGuide.tsx
-│   │   ├── services/
-│   │   │   └── api.ts              # API and data services
-│   │   ├── App.tsx
-│   │   └── index.tsx
-│   └── package.json
-├── firebase.json                    # Firebase configuration
-├── .firebaserc                      # Firebase project settings
-└── README.md
+frontend/
+├── public/
+│   └── data/
+│       ├── verbs.json              # Verb base + conjugations
+│       ├── numbers.json            # Number practice data
+│       └── vocabulary/             # Split vocabulary chunks (1–20)
+│           ├── 1.json              # 1–50 (example range)
+│           ├── ...
+│           └── 20.json
+├── src/
+│   ├── components/                 # Reusable UI pieces (Navigation, Footer, etc.)
+│   ├── pages/                      # Feature pages (VocabularyPractice, VerbConjugation, etc.)
+│   ├── db/                         # Dexie schema + seeding
+│   ├── services/                   # Data loaders / helpers
+│   ├── service-worker.ts           # Custom service worker logic
+│   ├── serviceWorkerRegistration.ts
+│   └── App.tsx
+└── config-overrides.js             # CRA overrides (MUI / SW / TS tweaks)
 ```
 
-## 🤝 Contributing
+---
 
-**This is an open-source project!** Contributions, issues, and feature requests are welcome.
+## � Architecture & Data Flow
 
-### How to Contribute
+1. Static JSON assets (vocabulary chunks, verbs, numbers) are fetched on-demand.
+2. Data is normalized & cached in React Query.
+3. Frequently accessed datasets are persisted to IndexedDB for offline reuse.
+4. UI components request data through lightweight service helpers in `services/api.ts`.
+5. Service Worker precaches core shell + selected data files; runtime caching strategies (Workbox) handle others.
 
-1. **Fork the repository**
-2. **Create your feature branch**: `git checkout -b feature/AmazingFeature`
-3. **Commit your changes**: `git commit -m 'Add some AmazingFeature'`
-4. **Push to the branch**: `git push origin feature/AmazingFeature`
-5. **Open a Pull Request**
+### Interaction Diagram (Conceptual)
+```
+[User] → [React Components] → (React Query) ↔ [services/api] → fetch(/public/data/*.json)
+                                  ↓                               ↑
+                              IndexedDB (Dexie) ← Service Worker Cache
+```
 
-### Contribution Ideas
+---
 
-- Add more vocabulary words and categories
-- Add more verb conjugations
-- Implement quiz/test features
-- Add pronunciation guides
-- Improve grammar explanations
-- Add mobile app support
-- Implement user progress tracking
-- Add gamification elements
-- Translations to other languages
+## � Offline & PWA Capabilities
+- Installable manifest & icons
+- Precache app shell + critical assets
+- Runtime caching for vocabulary chunks
+- IndexedDB enables reopening without network
+- Graceful fallback for missing assets
 
-## 📝 License
+Potential future enhancements:
+- Background sync for newly added datasets
+- Versioned data migrations
 
-This project is **open source** and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your own projects.
+---
 
-## 👨‍💻 About the Author
+## 📊 Data Formats
 
-**Severin Lindenmann**
-
-- 🐙 GitHub: [@severinlindenmann](https://github.com/severinlindenmann)
-- 💼 LinkedIn: [@severin-lindenmann](https://www.linkedin.com/in/severin-lindenmann)
-- 📧 Email: [hello@severin.io](mailto:hello@severin.io)
-
-## 🙏 Acknowledgments
-
-- Thanks to all contributors who help improve this project
-- Inspired by the need for accessible Hungarian language learning resources
-- Built with love for language learners worldwide
-
-## 📊 Data Structure
-
-### Vocabulary Format
-
+### Vocabulary Item
 ```json
 {
   "id": 1,
@@ -201,8 +190,7 @@ This project is **open source** and available under the [MIT License](LICENSE). 
 }
 ```
 
-### Verb Format
-
+### Verb Entry
 ```json
 {
   "id": 1,
@@ -222,31 +210,42 @@ This project is **open source** and available under the [MIT License](LICENSE). 
 }
 ```
 
-## 💡 Support
+---
 
-If you find this project helpful, please give it a ⭐️ on GitHub!
+## 🤝 Contributing
+Contributions are very welcome! Feel free to open an issue for discussion before larger changes.
+
+### Workflow
+1. Fork
+2. Create a branch: `feat/my-enhancement`
+3. Commit with conventional style (e.g. `feat: add spaced repetition engine`)
+4. Push & open a Pull Request
+
+### Good First Issues
+- Add new vocabulary category JSON file(s)
+- Extend verb dataset
+- Improve accessibility (ARIA roles, keyboard navigation)
+- Add tests for data loaders / caching
+- Refine grammar explanations with sources
+
+---
+
+## 📝 License
+Released under the MIT License – see [`LICENSE`](LICENSE).
+
+---
+
+## 👨‍💻 About the Author
+**Severin Lindenmann**  
+GitHub: [@severinlindenmann](https://github.com/severinlindenmann)  
+LinkedIn: [@severin-lindenmann](https://www.linkedin.com/in/severin-lindenmann)  
+Email: [hello@severin.io](mailto:hello@severin.io)
+
+---
+
+## 💡 Support
+If this project helps you learn Hungarian, please ⭐ the repo and share it.
 
 ---
 
 **Jó tanulást!** (Happy learning!) 🎓
-
-## 🧩 Grammar Guide UX Improvements
-
-To reduce kognitive Überlastung (cognitive overload) in the long grammar page, the app introduces:
-
-1. Collapsible micro-sections (`CollapsibleSection` component) for paradigms (e.g. tense endings, irregular verb forms, suffix lists). Users only open what they need.
-2. Responsive tables wrapped in a scroll container (`responsive-table-wrapper`) so wide paradigms no longer stretch or break the layout on small screens. A condensed padding class `grammar-condensed` keeps dense data readable.
-
-Usage examples:
-
-```tsx
-<div className="responsive-table-wrapper grammar-condensed">
-  <Table size="small">{/* rows */}</Table>
-</div>
-
-<CollapsibleSection title="Past Tense Endings">
-  {/* paradigm content */}
-</CollapsibleSection>
-```
-
-These patterns keep the interface calm and let learners reveal complexity gradually.
